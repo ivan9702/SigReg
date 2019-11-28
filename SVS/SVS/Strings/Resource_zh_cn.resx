@@ -1,0 +1,282 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="_account" xml:space="preserve">
+    <value>帐号：</value>
+  </data>
+  <data name="_adviceScore" xml:space="preserve">
+    <value>建议分数：</value>
+  </data>
+  <data name="_clearScreen" xml:space="preserve">
+    <value>清除画面</value>
+  </data>
+  <data name="_confirmComplete" xml:space="preserve">
+    <value>确认完成</value>
+  </data>
+  <data name="_connect" xml:space="preserve">
+    <value>请连接优派国际电磁笔显示器</value>
+  </data>
+  <data name="_connectfail" xml:space="preserve">
+    <value>无法连线到资料库。</value>
+  </data>
+  <data name="_costTime" xml:space="preserve">
+    <value>时间：</value>
+  </data>
+  <data name="_delete" xml:space="preserve">
+    <value>删除</value>
+  </data>
+  <data name="_deleteAll" xml:space="preserve">
+    <value>清除资料</value>
+  </data>
+  <data name="_entrollment" xml:space="preserve">
+    <value>注册</value>
+  </data>
+  <data name="_entrollmentTitle" xml:space="preserve">
+    <value>SVS-注册</value>
+  </data>
+  <data name="_exit" xml:space="preserve">
+    <value>离开</value>
+  </data>
+  <data name="_female" xml:space="preserve">
+    <value>女</value>
+  </data>
+  <data name="_inComplete" xml:space="preserve">
+    <value>资料不完全</value>
+  </data>
+  <data name="_info" xml:space="preserve">
+    <value>信息</value>
+  </data>
+  <data name="_login" xml:space="preserve">
+    <value>登入</value>
+  </data>
+  <data name="_loginTitle" xml:space="preserve">
+    <value>SVS-登入系統</value>
+  </data>
+  <data name="_logout" xml:space="preserve">
+    <value>登出</value>
+  </data>
+  <data name="_mainFunction" xml:space="preserve">
+    <value>主功能</value>
+  </data>
+  <data name="_male" xml:space="preserve">
+    <value>男</value>
+  </data>
+  <data name="_newSignature" xml:space="preserve">
+    <value>新笔签名</value>
+  </data>
+  <data name="_no" xml:space="preserve">
+    <value>无</value>
+  </data>
+  <data name="_password" xml:space="preserve">
+    <value>密码：</value>
+  </data>
+  <data name="_personalInformation" xml:space="preserve">
+    <value>个人资料</value>
+  </data>
+  <data name="_relogin" xml:space="preserve">
+    <value>使用者帐号或密码错误,请再试一次。</value>
+  </data>
+  <data name="_reSignatures" xml:space="preserve">
+    <value>建议重新签名笔数</value>
+  </data>
+  <data name="_scoreRange" xml:space="preserve">
+    <value>分数范围：</value>
+  </data>
+  <data name="_sec" xml:space="preserve">
+    <value>秒</value>
+  </data>
+  <data name="_sex" xml:space="preserve">
+    <value>性別：</value>
+  </data>
+  <data name="_signatureScore" xml:space="preserve">
+    <value>签名分数</value>
+  </data>
+  <data name="_signComplete" xml:space="preserve">
+    <value>注册签名完成</value>
+  </data>
+  <data name="_svs" xml:space="preserve">
+    <value>SVS-签名验证系统</value>
+  </data>
+  <data name="_templateConfirm" xml:space="preserve">
+    <value>样板确认</value>
+  </data>
+  <data name="_templateSelection" xml:space="preserve">
+    <value>样板挑选</value>
+  </data>
+  <data name="_trialexpired" xml:space="preserve">
+    <value>产品已过期,请洽询 ViewSonic. 谢谢.</value>
+  </data>
+  <data name="_userName" xml:space="preserve">
+    <value>使用者名称：</value>
+  </data>
+  <data name="_warning" xml:space="preserve">
+    <value>警告</value>
+  </data>
+  <data name="_usererror" xml:space="preserve">
+    <value>此软体限定使用者</value>
+  </data>
+  <data name="_acceleration" xml:space="preserve">
+    <value>加速度</value>
+  </data>
+  <data name="_analysis" xml:space="preserve">
+    <value>签名分析</value>
+  </data>
+  <data name="_currentScore" xml:space="preserve">
+    <value>当前分数：</value>
+  </data>
+  <data name="_fail" xml:space="preserve">
+    <value>未通过</value>
+  </data>
+  <data name="_filename" xml:space="preserve">
+    <value>档案名称：</value>
+  </data>
+  <data name="_loginSuccess" xml:space="preserve">
+    <value>登入成功！</value>
+  </data>
+  <data name="_pass" xml:space="preserve">
+    <value>通过</value>
+  </data>
+  <data name="_pressure" xml:space="preserve">
+    <value>笔压</value>
+  </data>
+  <data name="_shape" xml:space="preserve">
+    <value>外型</value>
+  </data>
+  <data name="_squeezedthrough" xml:space="preserve">
+    <value>勉强通过</value>
+  </data>
+  <data name="_userSignature" xml:space="preserve">
+    <value>使用者签名</value>
+  </data>
+  <data name="_velocity" xml:space="preserve">
+    <value>速度</value>
+  </data>
+  <data name="_verifycost" xml:space="preserve">
+    <value>比对时间</value>
+  </data>
+  <data name="_verification" xml:space="preserve">
+    <value>验证</value>
+  </data>
+  <data name="_createAccountSuccess" xml:space="preserve">
+    <value>成功创建帐户</value>
+  </data>
+  <data name="_signError" xml:space="preserve">
+    <value>签名数据错误！</value>
+  </data>
+</root>

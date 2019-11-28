@@ -1,0 +1,209 @@
+# Chinese, Traditional translation of drupal (6.2)
+# Copyright (c) 2008 by the Chinese, Traditional translation team
+# Generated from files:
+#  path.admin.inc,v 1.7 2008/01/08 10:35:42 goba
+#  path.module,v 1.138.2.1 2008/04/09 21:11:48 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.x)\n"
+"POT-Creation-Date: 2008-05-14 13:25+0800\n"
+"PO-Revision-Date: 2009-08-20 00:23+0800\n"
+"Language-Team: Drupal Taiwan <info@drupaltaiwan.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: charlesc <charles@netivism.com.tw>\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: TAIWAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+
+#: modules/path/path.admin.inc:30
+msgid "Alias"
+msgstr "別名"
+
+#: modules/path/path.admin.inc:54
+msgid "No URL aliases found."
+msgstr "沒有找到任何網址別名"
+
+#: modules/path/path.admin.inc:54
+msgid "No URL aliases available."
+msgstr "沒有可用的URL別名。"
+
+#: modules/path/path.admin.inc:93
+msgid "Existing system path"
+msgstr "現有的系統路徑"
+
+#: modules/path/path.admin.inc:97
+msgid ""
+"Specify the existing path you wish to alias. For example: node/28, forum/1, "
+"taxonomy/term/1+2."
+msgstr ""
+"指定你想要建立別名的系統路徑。例如：node/28、forum/1、taxonomy/term/1+2。"
+
+#: modules/path/path.admin.inc:103
+msgid "Path alias"
+msgstr "路徑別名"
+
+#: modules/path/path.admin.inc:107
+msgid ""
+"Specify an alternative path by which this data can be accessed. For example, "
+"type \"about\" when writing an about page. Use a relative path and don't add "
+"a trailing slash or the URL alias won't work."
+msgstr ""
+"指定你想要用來存取此網頁的網址別名。例如，對於關於我們的網頁，可以使用\"about"
+"\"。請使用相對路徑，後面也不要加上斜線 \"/\"，否則網址別名會無法作用。"
+
+#: modules/path/path.admin.inc:118
+msgid "Update alias"
+msgstr "更新別名"
+
+#: modules/path/path.admin.inc:121
+msgid "Create new alias"
+msgstr "建立新的別名"
+
+#: modules/path/path.admin.inc:139
+msgid "The alias %alias is already in use in this language."
+msgstr "別名 %alias 已經在這個語言中被使用了。"
+
+#: modules/path/path.admin.inc:154
+msgid "The alias has been saved."
+msgstr "別名已儲存。"
+
+#: modules/path/path.admin.inc:167
+msgid "Are you sure you want to delete path alias %title?"
+msgstr "你確定你要刪除此路徑別名 %title 嗎？"
+
+#: modules/path/path.admin.inc:194
+msgid "Filter aliases"
+msgstr "過濾器別名"
+
+#: modules/path/path.module:15
+msgid ""
+"The path module allows you to specify aliases for Drupal URLs. Such aliases "
+"improve readability of URLs for your users and may help internet search "
+"engines to index your content more effectively. More than one alias may be "
+"created for a given page."
+msgstr ""
+"路徑模組，讓你可以為 Drupal網站的網址指定一個別名。透過指定別名，可以提高網址"
+"的可讀性，也可以幫助搜尋引擎更有效地索引你的網站內容。每一個頁面都可以指定一"
+"個或多個別名。"
+
+#: modules/path/path.module:16
+msgid ""
+"<p>Some examples of URL aliases are:</p>\n"
+"<ul>\n"
+"<li>user/login =&gt; login</li>\n"
+"<li>image/tid/16 =&gt; store</li>\n"
+"<li>taxonomy/term/7+19+20+21 =&gt; store/products/whirlygigs</li>\n"
+"<li>node/3 =&gt; contact</li>\n"
+"</ul>\n"
+msgstr ""
+"<p>一些使用URL別名的例子如下：</p>\n"
+"<ul>\n"
+"<li>user/login =&gt; login</li>\n"
+"<li>image/tid/16 =&gt; store</li>\n"
+"<li>taxonomy/term/7+19+20+21 =&gt; store/products/whirlygigs</li>\n"
+"<li>node/3 =&gt; contact</li>\n"
+"</ul>\n"
+
+#: modules/path/path.module:24
+msgid ""
+"The path module enables appropriately permissioned users to specify an "
+"optional alias in all node input and editing forms, and provides an "
+"interface to view and edit all URL aliases. The two permissions related to "
+"URL aliasing are <em>administer url aliases</em> and <em>create url aliases</"
+"em>. "
+msgstr ""
+"path 模組可以讓有權限的使用者在所有的文章輸入與編輯表單中，指定一個選擇性的別"
+"名，顯示且提供一個介面來檢視與編輯所有的網址別名。與網址別名有關的兩個權限"
+"為：<em>管理網址別名</em>以及<em>建立網址別名</em>。"
+
+#: modules/path/path.module:25
+msgid ""
+"This module also provides user-defined mass URL aliasing capabilities, which "
+"is useful if you wish to uniformly use URLs different from the default. For "
+"example, you may want to have your URLs presented in a different language. "
+"Access to the Drupal source code on the web server is required to set up "
+"mass URL aliasing. "
+msgstr ""
+"這個模組也可以停工使用者定義的大量網址別名，如果你希望一致地使用網址的話這會"
+"非常有用。比方說，你會許會想要在不同的與系中顯示不同的網址。要設定大量的網址"
+"別名，需要檢視網站伺服器上的Drupal核心程式碼。"
+
+#: modules/path/path.module:26
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@path"
+"\">Path module</a>."
+msgstr "更多資訊，請見線上手冊項目：<a href=\"@path\">Path 模組</a>."
+
+#: modules/path/path.module:29
+msgid ""
+"Drupal provides complete control over URLs through aliasing, which is often "
+"used to make URLs more readable or easy to remember. For example, the alias "
+"'about' may be mapped onto the post at the system path 'node/1', creating a "
+"more meaningful URL. Each system path can have multiple aliases."
+msgstr ""
+"Drupal對網址別名有完整的控制，網址別名被用來讓網址更容易了解或者容易記憶。比"
+"方說，「about」可以對應到系統路徑為「node/1」的文章，新增一個更有意義的網址。"
+"每個系統路徑都可以具有多個別名。"
+
+#: modules/path/path.module:31
+msgid ""
+"Enter the path you wish to create the alias for, followed by the name of the "
+"new alias."
+msgstr "輸入您要建立別名的路徑，以及新的別名路徑。"
+
+#: modules/path/path.module:82
+msgid "The alias has been deleted."
+msgstr "別名已被刪除。"
+
+#: modules/path/path.module:142
+msgid "The path is already in use."
+msgstr "該路徑已被佔用。"
+
+#: modules/path/path.module:184
+msgid "URL path settings"
+msgstr "網址路徑設定"
+
+#: modules/path/path.module:196
+msgid ""
+"Optionally specify an alternative URL by which this node can be accessed. "
+"For example, type \"about\" when writing an about page. Use a relative path "
+"and don't add a trailing slash or the URL alias won't work."
+msgstr ""
+"可選擇性地指定瀏覽此網頁時的替代用的網址。例如，對於關於我們的網頁，可以使用 "
+"\"about\"。請使用相對路徑，後面也不要加上斜線\"/\"，否則網址別名會無法作用。"
+
+#: modules/path/path.module:211
+msgid "create url aliases"
+msgstr "建立網址別名"
+
+#: modules/path/path.module:211
+msgid "administer url aliases"
+msgstr "管理網址別名"
+
+#: modules/path/path.module:40
+msgid "URL aliases"
+msgstr "網址別名"
+
+#: modules/path/path.module:41
+msgid "Change your site's URL paths by aliasing them."
+msgstr "利用別名（alias）來修改你網站的網址路徑。"
+
+#: modules/path/path.module:47
+msgid "Edit alias"
+msgstr "編輯網址別名"
+
+#: modules/path/path.module:54
+msgid "Delete alias"
+msgstr "刪除網址別名"
+
+#: modules/path/path.module:67
+msgid "Add alias"
+msgstr "增加網址別名"
+
+#: modules/path/path.module:0
+msgid "path"
+msgstr "路徑"

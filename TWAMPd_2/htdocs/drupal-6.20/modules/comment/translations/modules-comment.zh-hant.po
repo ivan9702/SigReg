@@ -1,0 +1,654 @@
+# Chinese, Traditional translation of drupal (6.2)
+# Copyright (c) 2008 by the Chinese, Traditional translation team
+# Generated from files:
+#  comment-folded.tpl.php,v 1.2 2007/08/07 08:39:35 goba
+#  comment.admin.inc,v 1.4 2008/01/08 10:35:41 goba
+#  comment.module,v 1.617.2.1 2008/04/09 21:11:46 goba
+#  comment.pages.inc,v 1.2.2.1 2008/02/07 18:53:38 goba
+#  comment.install,v 1.19 2008/01/16 21:45:30 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.x)\n"
+"POT-Creation-Date: 2008-05-14 13:25+0800\n"
+"PO-Revision-Date: 2009-08-20 00:23+0800\n"
+"Language-Team: Drupal Taiwan <info@drupaltaiwan.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: charlesc <charles@netivism.com.tw>\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: TAIWAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+
+#: modules/comment/comment-folded.tpl.php:20
+msgid "by"
+msgstr "作者："
+
+#: modules/comment/comment.admin.inc:56
+msgid "Posted in"
+msgstr "發表於"
+
+#: modules/comment/comment.admin.inc:86
+msgid "Please select one or more comments to perform the update on."
+msgstr "請選擇要修改的一則或多則回應。"
+
+#: modules/comment/comment.admin.inc:142
+msgid "No comments available."
+msgstr "沒有回應。"
+
+#: modules/comment/comment.admin.inc:183
+msgid ""
+"There do not appear to be any comments to delete or your selected comment "
+"was deleted by another administrator."
+msgstr "並沒有回應可供刪除，或是你所選擇的回應已經被其他的管理者刪除了。"
+
+#: modules/comment/comment.admin.inc:188
+msgid "Are you sure you want to delete these comments and all their children?"
+msgstr "你真的要刪除這些回應及其下的回覆嗎？"
+
+#: modules/comment/comment.admin.inc:190
+msgid "Delete comments"
+msgstr "刪除回應"
+
+#: modules/comment/comment.admin.inc:207
+msgid "The comments have been deleted."
+msgstr "回應已被刪除。"
+
+#: modules/comment/comment.admin.inc:228
+msgid "The comment no longer exists."
+msgstr "該回應已不存在。"
+
+#: modules/comment/comment.admin.inc:245
+msgid "Are you sure you want to delete the comment %title?"
+msgstr "你真的要刪除 %title 這篇回應嗎？"
+
+#: modules/comment/comment.admin.inc:247
+msgid "Any replies to this comment will be lost. This action cannot be undone."
+msgstr "任何對此回應的回覆將消失不見。此操作不可回復！"
+
+#: modules/comment/comment.admin.inc:257
+msgid "The comment and all its replies have been deleted."
+msgstr "回應及其回覆已經全部刪除。"
+
+#: modules/comment/comment.admin.inc:280
+msgid "Cannot delete non-existent comment."
+msgstr "無法刪除現有的回應"
+
+#: modules/comment/comment.admin.inc:286
+msgid "Comment: deleted %subject."
+msgstr "回應：刪除了 %subject 。"
+
+#: modules/comment/comment.module:558,1426
+msgid "Preview comment"
+msgstr "預覽回應"
+
+#: modules/comment/comment.pages.inc:65,105
+msgid "You are not authorized to post comments."
+msgstr "你沒有發表回應的權限。"
+
+#: modules/comment/comment.pages.inc:78,87
+msgid "The comment you are replying to does not exist."
+msgstr "你要回覆的回應並不存在。"
+
+#: modules/comment/comment.pages.inc:98
+msgid "This discussion is closed: you can't post new comments."
+msgstr "對不起，本討論已經關閉：你不能對此文章發表新回應。"
+
+#: modules/comment/comment.pages.inc:102
+msgid "Reply"
+msgstr "回應"
+
+#: modules/comment/comment.pages.inc:111
+msgid "You are not authorized to view comments."
+msgstr "你沒有查閱讀回應的權限。"
+
+#: modules/comment/comment.module:129
+msgid ""
+"The comment module allows visitors to comment on your posts, creating ad hoc "
+"discussion boards. Any <a href=\"@content-type\">content type</a> may have "
+"its <em>Default comment setting</em> set to <em>Read/Write</em> to allow "
+"comments, or <em>Disabled</em>, to prevent comments. Comment display "
+"settings and other controls may also be customized for each content type "
+"(some display settings are customizable by individual users)."
+msgstr ""
+"comment模組可以讓訪客對你的網站文章進行回應，建立特制的討論版。任何<a href="
+"\"@content-type\">內容類型</a> 都可以使用它。<em>預設回應設定</em> 設定為 "
+"<em>閱讀/撰寫</em>以允許回應，或者設定成<em>停用</em>以禁止回應。回應顯示設定"
+"和其他的控制選項也可以這樣為每種內容類型量身訂作()某些顯示設定可以由個別的使"
+"用者自訂)。"
+
+#: modules/comment/comment.module:130
+msgid ""
+"Comment permissions are assigned to user roles, and are used to determine "
+"whether anonymous users (or other roles) are allowed to comment on posts. If "
+"anonymous users are allowed to comment, their individual contact information "
+"may be retained in cookies stored on their local computer for use in later "
+"comment submissions. When a comment has no replies, it may be (optionally) "
+"edited by its author. The comment module uses the same input formats and "
+"HTML tags available when creating other forms of content."
+msgstr ""
+"使用者角色可以被指定回應權限，此權限可以被用來限定匿名訪客使用者(或者其他角"
+"色)是否可以對文章發表回應。如果匿名訪客使用者可以發表回應，他們可以透過留在他"
+"們個人電腦中的cookies而在下一次發表回應時留下個人的連絡資訊。當一篇回應沒有任"
+"何回覆時，它可以(選擇性地)被其作者修改。comment模組在建立其他的內容表單時會使"
+"用同樣的輸入格式以及HTML標簽。"
+
+#: modules/comment/comment.module:131
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@comment"
+"\">Comment module</a>."
+msgstr "更多訊息，請見<a href=\"@comment\">Comment模組</a>的線上手冊條目。"
+
+#: modules/comment/comment.module:134
+msgid ""
+"Below is a list of the latest comments posted to your site. Click on a "
+"subject to see the comment, the author's name to edit the author's user "
+"information, 'edit' to modify the text, and 'delete' to remove their "
+"submission."
+msgstr ""
+"底下是你網站上最新回應的清單。按下標題可以檢視該回應、按下作者姓名可以編輯作"
+"者的使用者資訊，按下「編輯」可以修改文字內容，按下「刪除」可以移除這些回應。"
+
+#: modules/comment/comment.module:136
+msgid ""
+"Below is a list of the comments posted to your site that need approval. To "
+"approve a comment, click on 'edit' and then change its 'moderation status' "
+"to Approved. Click on a subject to see the comment, the author's name to "
+"edit the author's user information, 'edit' to modify the text, and 'delete' "
+"to remove their submission."
+msgstr ""
+"以下是你的網站裡等待審核的回應。要允許發表某篇回應，請點選「編輯」，並將他的"
+"「審核狀態」改為「通過」。點選標題可以閱讀回應，點選作者名字可編輯作者的個人"
+"資訊。點選「編輯」 可以編輯文字，「刪除」 可刪除回應。"
+
+#: modules/comment/comment.module:285,289
+msgid "Recent comments"
+msgstr "最新回應"
+
+#: modules/comment/comment.module:421
+msgid "Jump to the first comment of this posting."
+msgstr "到本文第一則回應。"
+
+#: modules/comment/comment.module:432
+msgid "Jump to the first new comment of this posting."
+msgstr "到本文的最新回應。"
+
+#: modules/comment/comment.module:441,462
+msgid "Add new comment"
+msgstr "增加新的回應"
+
+#: modules/comment/comment.module:443
+msgid "Add a new comment to this page."
+msgstr "針對此文章發表新的回應。"
+
+#: modules/comment/comment.module:464
+msgid "Share your thoughts and opinions related to this posting."
+msgstr "針對本文章分享你的的想法和觀點。"
+
+#: modules/comment/comment.module:493,576
+msgid "Comment settings"
+msgstr "回應設定"
+
+#: modules/comment/comment.module:499
+msgid "Default comment setting"
+msgstr "預設的回應設定"
+
+#: modules/comment/comment.module:501,585
+msgid "Read only"
+msgstr "只能閱讀，不能發表回應"
+
+#: modules/comment/comment.module:501,585
+msgid "Read/Write"
+msgstr "可以發表回應"
+
+#: modules/comment/comment.module:502
+msgid ""
+"Users with the <em>administer comments</em> permission will be able to "
+"override this setting."
+msgstr "具有<em>管理回應</em>權限的使用者，能夠不被此設定限制。"
+
+#: modules/comment/comment.module:506
+msgid "Default display mode"
+msgstr "預設的顯示模式"
+
+#: modules/comment/comment.module:509
+msgid ""
+"The default view for comments. Expanded views display the body of the "
+"comment. Threaded views keep replies together."
+msgstr ""
+"回應的預設顯示模式。在展開模式裡，回應內文將會依序顯示。主題模式則會將同一主"
+"題的回覆顯示在一起。"
+
+#: modules/comment/comment.module:513
+msgid "Default display order"
+msgstr "預設的顯示順序"
+
+#: modules/comment/comment.module:516
+msgid ""
+"The default sorting for new users and anonymous users while viewing "
+"comments. These users may change their view using the comment control panel. "
+"For registered users, this change is remembered as a persistent user "
+"preference."
+msgstr ""
+"新使用者和匿名使用者的預設的顯示回應順序。這些使用者可以透過回應控制面板來改"
+"變顯示順序。對於已註冊的使用者，他們所選擇的顯示設定，會儲存起來供以後使用。"
+
+#: modules/comment/comment.module:520
+msgid "Default comments per page"
+msgstr "每頁預設的回應數量"
+
+#: modules/comment/comment.module:523
+msgid ""
+"Default number of comments for each page: more comments are distributed in "
+"several pages."
+msgstr ""
+"預設情況下每頁顯示的回應數量：如果回應數量超過該設定值，就會以分頁來顯示更多"
+"的回應。"
+
+#: modules/comment/comment.module:527
+msgid "Comment controls"
+msgstr "回應控制"
+
+#: modules/comment/comment.module:530
+msgid "Display above the comments"
+msgstr "顯示在回應的上方"
+
+#: modules/comment/comment.module:531
+msgid "Display below the comments"
+msgstr "顯示在回應的下方"
+
+#: modules/comment/comment.module:532
+msgid "Display above and below the comments"
+msgstr "顯示在回應的上方和下方"
+
+#: modules/comment/comment.module:533
+msgid "Do not display"
+msgstr "不顯示"
+
+#: modules/comment/comment.module:534
+msgid ""
+"Position of the comment controls box. The comment controls let the user "
+"change the default display mode and display order of comments."
+msgstr "回應控制面板的顯示位置。它可以讓使用者改變預設的回應顯示和排序模式。"
+
+#: modules/comment/comment.module:538
+msgid "Anonymous commenting"
+msgstr "匿名使用者回應"
+
+#: modules/comment/comment.module:541
+msgid "Anonymous posters may not enter their contact information"
+msgstr "匿名使用者不可以輸入他們的聯絡資訊。"
+
+#: modules/comment/comment.module:542
+msgid "Anonymous posters may leave their contact information"
+msgstr "匿名使用者可以輸入他們的聯絡資訊。"
+
+#: modules/comment/comment.module:543
+msgid "Anonymous posters must leave their contact information"
+msgstr "匿名使用者必須輸入他們的聯絡資訊。"
+
+#: modules/comment/comment.module:544
+msgid ""
+"This option is enabled when anonymous users have permission to post comments "
+"on the <a href=\"@url\">permissions page</a>."
+msgstr ""
+"該功能只有在你允許匿名使用者可以張貼回應時，才有作用。請參見 <a href=\"@url"
+"\">權限設定</a>。"
+
+#: modules/comment/comment.module:551
+msgid "Comment subject field"
+msgstr "回應的標題欄位"
+
+#: modules/comment/comment.module:554
+msgid "Can users provide a unique subject for their comments?"
+msgstr "使用者能否為他們的回應設定一個標題？"
+
+#: modules/comment/comment.module:561
+msgid ""
+"Forces a user to look at their comment by clicking on a 'Preview' button "
+"before they can actually add the comment"
+msgstr "讓一個使用者在他真的加入了回應之前必須按下「預覽」按鈕來檢查他的回應"
+
+#: modules/comment/comment.module:565
+msgid "Location of comment submission form"
+msgstr "回應填寫表單的位置"
+
+#: modules/comment/comment.module:567
+msgid "Display on separate page"
+msgstr "在獨立的頁面顯示"
+
+#: modules/comment/comment.module:567
+msgid "Display below post or comments"
+msgstr "在文章或回應下方顯示"
+
+#: modules/comment/comment.module:779
+msgid ""
+"Your comment has been queued for moderation by site administrators and will "
+"be published after approval."
+msgstr "你的回應已送出到待審核內容，待管理者審核後才會被發佈。"
+
+#: modules/comment/comment.module:792,791
+msgid ""
+"Comment: unauthorized comment submitted or comment submitted to a closed "
+"post %subject."
+msgstr ""
+"回應：有人發表未經授權的回應，或者有人對一個已經關閉的文章 %subject 發表回"
+"應。"
+
+#: modules/comment/comment.module:815
+msgid "parent"
+msgstr "上層"
+
+#: modules/comment/comment.module:832,844
+msgid "reply"
+msgstr "回應"
+
+#: modules/comment/comment.module:1049
+msgid "Post new comment"
+msgstr "發表新回應"
+
+#: modules/comment/comment.module:1070,1082
+msgid "Publish the selected comments"
+msgstr "發表所選擇的回應"
+
+#: modules/comment/comment.module:1071,1077,1084
+msgid "Delete the selected comments"
+msgstr "刪除所選擇的回應"
+
+#: modules/comment/comment.module:1076,1083
+msgid "Unpublish the selected comments"
+msgstr "隱藏所選擇的回應"
+
+#: modules/comment/comment.module:1193
+msgid "You have to specify a valid author."
+msgstr "你必須指定一個有效的作者。"
+
+#: modules/comment/comment.module:1204
+msgid "The name you used belongs to a registered user."
+msgstr "你輸入的名字屬於本站的一位註冊使用者。請使用其他名字。"
+
+#: modules/comment/comment.module:1209
+msgid "You have to leave your name."
+msgstr "你必須輸入你的名字。"
+
+#: modules/comment/comment.module:1214
+msgid "The e-mail address you specified is not valid."
+msgstr "你輸入了不正確的電子郵件位址。"
+
+#: modules/comment/comment.module:1218
+msgid "You have to leave an e-mail address."
+msgstr "你必須輸入你的電子郵件位址。"
+
+#: modules/comment/comment.module:1223
+msgid ""
+"The URL of your homepage is not valid. Remember that it must be fully "
+"qualified, i.e. of the form <code>http://example.com/directory</code>."
+msgstr ""
+"你所輸入的網址不正確。必須是完整的網址，例如<code>http://example.com/"
+"directory</code>。"
+
+#: modules/comment/comment.module:1279
+msgid "Administration"
+msgstr "管理選項"
+
+#: modules/comment/comment.module:1322,1347,1354
+msgid "Homepage"
+msgstr "網站"
+
+#: modules/comment/comment.module:1528
+msgid "(No subject)"
+msgstr "（無標題）"
+
+#: modules/comment/comment.module:1614
+msgid "!a comments per page"
+msgstr "每頁!a篇回應"
+
+#: modules/comment/comment.module:1641
+msgid ""
+"Select your preferred way to display the comments and click \"Save settings"
+"\" to activate your changes."
+msgstr "選擇你喜歡的顯示回應的模式，並點選\"儲存設定\"，以啟用你所做的改變。"
+
+#: modules/comment/comment.module:1642
+msgid "Comment viewing options"
+msgstr "回應瀏覽選項"
+
+#: modules/comment/comment.module:1795
+msgid ""
+"<a href=\"@login\">Login</a> or <a href=\"@register\">register</a> to post "
+"comments"
+msgstr ""
+"如果想要發表回應，請先<a href=\"@login\">登入</a> 或 <a href=\"@register\">註"
+"冊</a>。"
+
+#: modules/comment/comment.module:1799
+msgid "<a href=\"@login\">Login</a> to post comments"
+msgstr "如果想要發表回應，請先<a href=\"@login\">登入</a>。"
+
+#: modules/comment/comment.module:1827
+msgid "Submitted by !username on @datetime."
+msgstr "由 !username 在 @datetime 發表。"
+
+#: modules/comment/comment.module:1842
+msgid "Flat list - collapsed"
+msgstr "平板式列表—折疊"
+
+#: modules/comment/comment.module:1843
+msgid "Flat list - expanded"
+msgstr "平板式列表—展開"
+
+#: modules/comment/comment.module:1844
+msgid "Threaded list - collapsed"
+msgstr "主題式列表—折疊"
+
+#: modules/comment/comment.module:1845
+msgid "Threaded list - expanded"
+msgstr "主題式列表—展開"
+
+#: modules/comment/comment.module:2001
+msgid "After saving a new comment"
+msgstr "在儲存一篇新的回應之後"
+
+#: modules/comment/comment.module:2004
+msgid "After saving an updated comment"
+msgstr "存入一個更新過的評論之後"
+
+#: modules/comment/comment.module:2007
+msgid "After deleting a comment"
+msgstr "在刪除了一篇回應之後"
+
+#: modules/comment/comment.module:2010
+msgid "When a comment is being viewed by an authenticated user"
+msgstr "在一篇回應被有權限的使用者檢視的時候"
+
+#: modules/comment/comment.module:2023
+msgid "Unpublish comment"
+msgstr "取消發表回應"
+
+#: modules/comment/comment.module:2031
+msgid "Unpublish comment containing keyword(s)"
+msgstr "停止發表包含某些關鍵字的回應"
+
+#: modules/comment/comment.module:2071
+msgid ""
+"The comment will be unpublished if it contains any of the character "
+"sequences above. Use a comma-separated list of character sequences. Example: "
+"funny, bungee jumping, \"Company, Inc.\". Character sequences are case-"
+"sensitive."
+msgstr ""
+"如果回應含有任何上述的字串，它就不會被發表。請用逗號(,)來分隔多個字串。比方"
+"說：有趣, 高空彈跳，\"股份有限公司\"。字串有有大小寫之分。"
+
+#: modules/comment/comment.module:769
+msgid "Comment: added %subject."
+msgstr "回應：加入了 %subject。"
+
+#: modules/comment/comment.module:2059,2099
+msgid "Unpublished comment %subject."
+msgstr "停止發表回應： %subject."
+
+#: modules/comment/comment.module:429
+msgid "1 new comment"
+msgid_plural "@count new comments"
+msgstr[0] "@count篇新回應"
+
+#: modules/comment/comment.module:275
+msgid "access comments"
+msgstr "瀏覽回應"
+
+#: modules/comment/comment.module:275
+msgid "post comments"
+msgstr "發表回應"
+
+#: modules/comment/comment.module:275
+msgid "administer comments"
+msgstr "管理回應"
+
+#: modules/comment/comment.module:275
+msgid "post comments without approval"
+msgstr "直接發表回應，無需審核"
+
+#: modules/comment/comment.module:199
+msgid "List and edit site comments and the comment moderation queue."
+msgstr "列出並編輯網站回應，以及待審核回應的管理。"
+
+#: modules/comment/comment.module:207
+msgid "Published comments"
+msgstr "已發表的回應"
+
+#: modules/comment/comment.module:212
+msgid "Approval queue"
+msgstr "待審核內容"
+
+#: modules/comment/comment.module:220
+msgid "Delete comment"
+msgstr "刪除回應"
+
+#: modules/comment/comment.module:228
+msgid "Edit comment"
+msgstr "編輯回應"
+
+#: modules/comment/comment.module:235
+msgid "Reply to comment"
+msgstr "回覆回應"
+
+#: modules/comment/comment.module:0
+msgid "comment"
+msgstr "回應"
+
+#: modules/comment/comment.install:76
+msgid "Stores comments and associated data."
+msgstr "儲存回應與相關的資料"
+
+#: modules/comment/comment.install:81
+msgid "Primary Key: Unique comment ID."
+msgstr "Primary Key: 獨特的回應ID."
+
+#: modules/comment/comment.install:87
+msgid ""
+"The {comments}.cid to which this comment is a reply. If set to 0, this "
+"comment is not a reply to an existing comment."
+msgstr ""
+"{comments}.cid 是這篇回應的一篇回覆。如果設定為0，這篇回應就不會是任何現有的"
+"回應的回覆。"
+
+#: modules/comment/comment.install:93
+msgid "The {node}.nid to which this comment is a reply."
+msgstr "{node}.nid 是這篇回應的一篇回覆。"
+
+#: modules/comment/comment.install:99
+msgid ""
+"The {users}.uid who authored the comment. If set to 0, this comment was "
+"created by an anonymous user."
+msgstr ""
+"{users}.uid是這篇回應的作者。如果設定為0，這篇回應的作者就會變成匿名訪客。"
+
+#: modules/comment/comment.install:106
+msgid "The comment title."
+msgstr "回應標題"
+
+#: modules/comment/comment.install:112
+msgid "The comment body."
+msgstr "回應內容"
+
+#: modules/comment/comment.install:119
+msgid "The author's host name."
+msgstr "作者的主機名稱"
+
+#: modules/comment/comment.install:125
+msgid ""
+"The time that the comment was created, or last edited by its author, as a "
+"Unix timestamp."
+msgstr "這篇回應的建立時間，或者作者編輯的最新時間，以Unix時計。"
+
+#: modules/comment/comment.install:133
+msgid "The published status of a comment. (0 = Published, 1 = Not Published)"
+msgstr "一篇回應的發表狀態。 (0 = 已發表, 1 = 未發表)"
+
+#: modules/comment/comment.install:140
+msgid "The {filter_formats}.format of the comment body."
+msgstr "回應內容的{filter_formats}.format。"
+
+#: modules/comment/comment.install:146
+msgid "The vancode representation of the comment's place in a thread."
+msgstr "vancode代表這篇回應在討論串之中的位置。"
+
+#: modules/comment/comment.install:152
+msgid ""
+"The comment author's name. Uses {users}.name if the user is logged in, "
+"otherwise uses the value typed into the comment form."
+msgstr ""
+"回應作者的姓名。如果使用者登入的話就使用{users}.name，否則就用回應中所鍵入的"
+"值。"
+
+#: modules/comment/comment.install:158
+msgid ""
+"The comment author's e-mail address from the comment form, if user is "
+"anonymous, and the 'Anonymous users may/must leave their contact "
+"information' setting is turned on."
+msgstr ""
+"若使用者是匿名訪客的話，他在回應表單中填寫的回應作者電子郵件地址，而匿名訪客"
+"使用者可以或是一定要留下他們那些被指定填寫的連絡資訊。"
+
+#: modules/comment/comment.install:164
+msgid ""
+"The comment author's home page address from the comment form, if user is "
+"anonymous, and the 'Anonymous users may/must leave their contact "
+"information' setting is turned on."
+msgstr ""
+"如果使用者是匿名訪客的話，他在表單中填寫的回應作者首頁地址，而匿名訪客使用者"
+"可以或者必須留下這些被指定填寫的連絡資訊。"
+
+#: modules/comment/comment.install:176
+msgid ""
+"Maintains statistics of node and comments posts to show \"new\" and \"updated"
+"\" flags."
+msgstr "保持文章和回應發表時的統計資訊，顯示\"新文章\" 與 \"更新\"標記。"
+
+#: modules/comment/comment.install:183
+msgid "The {node}.nid for which the statistics are compiled."
+msgstr "{node}.nid 的收集統計資訊。"
+
+#: modules/comment/comment.install:189
+msgid ""
+"The Unix timestamp of the last comment that was posted within this node, "
+"from {comments}.timestamp."
+msgstr "是這個文章在{comments}.timestamp 發表後的最新回應的 Unix 時間戳記。"
+
+#: modules/comment/comment.install:195
+msgid ""
+"The name of the latest author to post a comment on this node, from "
+"{comments}.name."
+msgstr "對這篇文章發表最新回應的作者姓名，來自：{comments}.name"
+
+#: modules/comment/comment.install:201
+msgid ""
+"The user ID of the latest author to post a comment on this node, from "
+"{comments}.uid."
+msgstr "對這篇文章發表最新回應的作者使用者識別碼，來自：{comments}.uid."
+
+#: modules/comment/comment.install:208
+msgid "The total number of comments on this node."
+msgstr "這篇文章的回應總數"

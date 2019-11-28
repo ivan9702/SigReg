@@ -1,0 +1,631 @@
+# Chinese, Traditional translation of drupal (6.2)
+# Copyright (c) 2008 by the Chinese, Traditional translation team
+# Generated from files:
+#  taxonomy.admin.inc,v 1.22.2.1 2008/02/07 20:46:57 goba
+#  taxonomy.module,v 1.414.2.1 2008/04/09 21:11:51 goba
+#  taxonomy.install,v 1.7 2008/01/08 07:46:41 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.x)\n"
+"POT-Creation-Date: 2008-05-14 13:25+0800\n"
+"PO-Revision-Date: 2009-08-20 00:23+0800\n"
+"Language-Team: Drupal Taiwan <info@drupaltaiwan.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: charlesc <charles@netivism.com.tw>\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: TAIWAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+
+#: modules/taxonomy/taxonomy.admin.inc:29
+msgid "edit vocabulary"
+msgstr "編輯主分類"
+
+#: modules/taxonomy/taxonomy.admin.inc:30
+msgid "list terms"
+msgstr "列出次分類"
+
+#: modules/taxonomy/taxonomy.admin.inc:31
+msgid "add terms"
+msgstr "新增次分類"
+
+#: modules/taxonomy/taxonomy.admin.inc:85
+msgid "No vocabularies available."
+msgstr "沒有可用的分類。"
+
+#: modules/taxonomy/taxonomy.admin.inc:122
+msgid "Vocabulary name"
+msgstr "主分類名稱"
+
+#: modules/taxonomy/taxonomy.admin.inc:125
+msgid "The name for this vocabulary, e.g., <em>\"Tags\"</em>."
+msgstr "主分類的名稱，例如：「標籤」。"
+
+#: modules/taxonomy/taxonomy.admin.inc:131
+msgid "Description of the vocabulary; can be used by modules."
+msgstr "主分類的說明；可以被模組所使用。"
+
+#: modules/taxonomy/taxonomy.admin.inc:134
+msgid "Help text"
+msgstr "說明文字"
+
+#: modules/taxonomy/taxonomy.admin.inc:137
+msgid ""
+"Instructions to present to the user when selecting terms, e.g., <em>\"Enter "
+"a comma separated list of words\"</em>."
+msgstr ""
+"當使用者選擇次分類時，l所顯示的說明文字。（例如：請輸入用逗號分隔的詞彙）"
+
+#: modules/taxonomy/taxonomy.admin.inc:148
+msgid "Select content types to categorize using this vocabulary."
+msgstr "選擇想要使用此主分類的內容類型。"
+
+#: modules/taxonomy/taxonomy.admin.inc:156
+msgid "Tags"
+msgstr "自由分類"
+
+#: modules/taxonomy/taxonomy.admin.inc:158
+msgid ""
+"Terms are created by users when submitting posts by typing a comma separated "
+"list."
+msgstr "當使用者發表文章時，可以用逗號分隔來輸入次分類。"
+
+#: modules/taxonomy/taxonomy.admin.inc:161
+msgid "Multiple select"
+msgstr "多選"
+
+#: modules/taxonomy/taxonomy.admin.inc:163
+msgid ""
+"Allows posts to have more than one term from this vocabulary (always true "
+"for tags)."
+msgstr "允許內容擁有該主分類裡的多個次分類（自由分類的預設值）。"
+
+#: modules/taxonomy/taxonomy.admin.inc:168
+msgid ""
+"At least one term in this vocabulary must be selected when submitting a post."
+msgstr "在發表文章時，至少必須選擇此主分類裡的一個次分類。"
+
+#: modules/taxonomy/taxonomy.admin.inc:173
+msgid "Vocabularies are displayed in ascending order by weight."
+msgstr "主分類會依照順序值(weight)依序顯示。"
+
+#: modules/taxonomy/taxonomy.admin.inc:202,203
+msgid "Created new vocabulary %name."
+msgstr "建立了新的主分類 %name。"
+
+#: modules/taxonomy/taxonomy.admin.inc:206,207
+msgid "Updated vocabulary %name."
+msgstr "更新了主分類 %name。"
+
+#: modules/taxonomy/taxonomy.admin.inc:254
+msgid "Terms in %vocabulary"
+msgstr "%vocabulary裡的次分類"
+
+#: modules/taxonomy/taxonomy.admin.inc:409
+msgid "No terms available."
+msgstr "沒有次分類."
+
+#: modules/taxonomy/taxonomy.admin.inc:418,445,912
+msgid "Reset to alphabetical"
+msgstr "重設為依字母排序"
+
+#: modules/taxonomy/taxonomy.admin.inc:624
+msgid "Add term to %vocabulary"
+msgstr "把次分類加到%vocabulary"
+
+#: modules/taxonomy/taxonomy.admin.inc:663
+msgid "Term name"
+msgstr "次分類名稱"
+
+#: modules/taxonomy/taxonomy.admin.inc:666
+msgid "The name of this term."
+msgstr "次分類的名稱。例如 \"Linux\"。"
+
+#: modules/taxonomy/taxonomy.admin.inc:672
+msgid ""
+"A description of the term. To be displayed on taxonomy/term pages and RSS "
+"feeds."
+msgstr "次分類的說明，可以顯示在分類頁和 RSS 資訊源裡。"
+
+#: modules/taxonomy/taxonomy.admin.inc:695
+msgid "Parents"
+msgstr "上層"
+
+#: modules/taxonomy/taxonomy.admin.inc:695
+msgid "Parent terms"
+msgstr "上層次分類"
+
+#: modules/taxonomy/taxonomy.admin.inc:696
+msgid "Related terms"
+msgstr "相關次分類"
+
+#: modules/taxonomy/taxonomy.admin.inc:700
+msgid "Synonyms"
+msgstr "同義詞"
+
+#: modules/taxonomy/taxonomy.admin.inc:702
+msgid "Synonyms of this term, one synonym per line."
+msgstr "此次分類的同義詞，一行輸入一個同義詞。"
+
+#: modules/taxonomy/taxonomy.admin.inc:708
+msgid "Terms are displayed in ascending order by weight."
+msgstr "次分類會依照順序值(weight)依序顯示。"
+
+#: modules/taxonomy/taxonomy.admin.inc:739
+msgid "Weight value must be numeric."
+msgstr "順序值必須是數字。"
+
+#: modules/taxonomy/taxonomy.admin.inc:768,769
+msgid "Created new term %term."
+msgstr "建立了新的次分類 %term。"
+
+#: modules/taxonomy/taxonomy.admin.inc:772,773
+msgid "Updated term %term."
+msgstr "已更新%term次分類。"
+
+#: modules/taxonomy/taxonomy.admin.inc:818
+msgid "Set multiple term parents?"
+msgstr "設定次分類的多個上層分類？"
+
+#: modules/taxonomy/taxonomy.admin.inc:819
+msgid ""
+"Adding multiple parents to a term will cause the %vocabulary vocabulary to "
+"look for multiple parents on every term. Because multiple parents are not "
+"supported when using the drag and drop outline interface, drag and drop will "
+"be disabled if you enable this option. If you choose to have multiple "
+"parents, you will only be able to set parents by using the term edit form."
+msgstr ""
+"新增次分類的多個上層分類，會導致%vocabulary主分類去尋找每個次分類的多個上層分"
+"類。因為在使用拖放介面時不支援多個上層分類，所以若你啟用此選項，將關閉拖放功"
+"能。如果你選擇有多個上層選項，你只能在次分類編輯表單設定上層分類。"
+
+#: modules/taxonomy/taxonomy.admin.inc:820
+msgid ""
+"You may re-enable the drag and drop interface at any time by reducing "
+"multiple parents to a single parent for the terms in this vocabulary."
+msgstr ""
+"只要你把次分類的上層分類從多個減少為一個，你就可以在任何時候重新啟用拖放介"
+"面。"
+
+#: modules/taxonomy/taxonomy.admin.inc:821
+msgid "Set multiple parents"
+msgstr "設定多個上層分類"
+
+#: modules/taxonomy/taxonomy.admin.inc:838
+msgid "Are you sure you want to delete the term %title?"
+msgstr "你真的要刪除次分類 %title 嗎？"
+
+#: modules/taxonomy/taxonomy.admin.inc:841
+msgid ""
+"Deleting a term will delete all its children if there are any. This action "
+"cannot be undone."
+msgstr "刪除次分類，將刪除其所有的下層次分類。此操作無法回復！"
+
+#: modules/taxonomy/taxonomy.admin.inc:854,855
+msgid "Deleted term %name."
+msgstr "刪除了次分類 %name。"
+
+#: modules/taxonomy/taxonomy.admin.inc:873
+msgid "Are you sure you want to delete the vocabulary %title?"
+msgstr "你真的要刪除主分類 %title 嗎？"
+
+#: modules/taxonomy/taxonomy.admin.inc:876
+msgid ""
+"Deleting a vocabulary will delete all the terms in it. This action cannot be "
+"undone."
+msgstr "刪除主分類時，也將刪除其中所有的次分類。此操作無法回復！"
+
+#: modules/taxonomy/taxonomy.admin.inc:888,889
+msgid "Deleted vocabulary %name."
+msgstr "刪除主分類 \"%name\" 。"
+
+#: modules/taxonomy/taxonomy.admin.inc:908
+msgid ""
+"Are you sure you want to reset the vocabulary %title to alphabetical order?"
+msgstr "你真的要把主分類%title的順序重設為按字母排列嗎？"
+
+#: modules/taxonomy/taxonomy.admin.inc:911
+msgid ""
+"Resetting a vocabulary will discard all custom ordering and sort items "
+"alphabetically."
+msgstr "重新設定主分類會取消所有自訂順序，重新以字母順序來排序。"
+
+#: modules/taxonomy/taxonomy.admin.inc:923,924
+msgid "Reset vocabulary %name to alphabetical order."
+msgstr "把主分類%name的順序重設為按字母。"
+
+#: modules/taxonomy/taxonomy.module:422
+msgid "- None selected -"
+msgstr "- 尚未選擇 -"
+
+#: modules/taxonomy/taxonomy.module:425
+msgid "- None -"
+msgstr "- 無 -"
+
+#: modules/taxonomy/taxonomy.module:521
+msgid ""
+"A comma-separated list of terms describing this content. Example: funny, "
+"bungee jumping, \"Company, Inc.\"."
+msgstr ""
+"以逗號分隔的次分類，用來描述此內容（例如：有趣,資訊, \"Company, Inc.\"）。"
+
+#: modules/taxonomy/taxonomy.module:552
+msgid "Vocabularies"
+msgstr "主分類"
+
+#: modules/taxonomy/taxonomy.module:639
+msgid "The %name vocabulary can not be modified in this way."
+msgstr "%name  主分類不能以這種方式進行修改."
+
+#: modules/taxonomy/taxonomy.module:1137
+msgid "There are currently no posts in this category."
+msgstr "此分類裡目前沒有文章。"
+
+#: modules/taxonomy/taxonomy.module:1240
+msgid ""
+"The taxonomy module allows you to categorize content using various systems "
+"of classification. Free-tagging vocabularies are created by users on the fly "
+"when they submit posts (as commonly found in blogs and social bookmarking "
+"applications). Controlled vocabularies allow for administrator-defined short "
+"lists of terms as well as complex hierarchies with multiple relationships "
+"between different terms. These methods can be applied to different content "
+"types and combined together to create a powerful and flexible method of "
+"classifying and presenting your content."
+msgstr ""
+"分類模組可以使用不同分類系統來把內容進行分類。自由分類可以讓使用者在發表文章"
+"時自行建立分類（像是部落格和社會性書籤裡常見的 tag 方式）。控制性分類則讓管理"
+"者定義次分類列表，可以有複雜的階層與多重關係存在於各個次分類之間。這些方法可"
+"以運用到不同的內容類型，建立起一個強大且有彈性的內容分類與呈現方式。"
+
+#: modules/taxonomy/taxonomy.module:1241
+msgid ""
+"For example, when creating a recipe site, you might want to classify posts "
+"by both the type of meal and preparation time. A vocabulary for each allows "
+"you to categorize using each criteria independently instead of creating a "
+"tag for every possible combination."
+msgstr ""
+"舉例來說，如果要建立一個食譜網站，你可能會想要餐點類型和準備時間來分類文章。"
+"每一個主分類讓你可以有獨立的分類準則，而不需要替每一種可能的組合建立一個標"
+"籤。"
+
+#: modules/taxonomy/taxonomy.module:1242
+msgid "Type of Meal: <em>Appetizer, Main Course, Salad, Dessert</em>"
+msgstr "餐點類型：主菜、甜點、沙拉、宵夜、下酒菜。"
+
+#: modules/taxonomy/taxonomy.module:1243
+msgid "Preparation Time: <em>0-30mins, 30-60mins, 1-2 hrs, 2hrs+</em>"
+msgstr "準備時間：0-30 分鐘，30-60 分鐘，1-2 小時，2 小時以上。"
+
+#: modules/taxonomy/taxonomy.module:1244
+msgid ""
+"Each taxonomy term (often called a 'category' or 'tag' in other systems) "
+"automatically provides lists of posts and a corresponding RSS feed. These "
+"taxonomy/term URLs can be manipulated to generate AND and OR lists of posts "
+"classified with terms. In our recipe site example, it then becomes easy to "
+"create pages displaying 'Main courses', '30 minute recipes', or '30 minute "
+"main courses and appetizers' by using terms on their own or in combination "
+"with others. There are a significant number of contributed modules which you "
+"to alter and extend the behavior of the core module for both display and "
+"organization of terms."
+msgstr ""
+"每一個次分類詞彙（在其他系統裡常被稱為「分類」、「標籤」）會自動地提供一份文"
+"章列表、以及一個對應的 RSS 資訊源。這些分類詞彙的網址可以使用 AND 和 OR 來產"
+"生分類文章的列表。在我們的食譜網站的例子裡，很容易就可以產生「主菜」、「30 分"
+"鐘」「30 分鐘的主菜和甜點」的分類文章列表。有許多使用者貢獻的模組讓你可以修改"
+"和擴增分類的呈現和組織的功能。"
+
+#: modules/taxonomy/taxonomy.module:1245
+msgid ""
+"Terms can also be organized in parent/child relationships from the admin "
+"interface. An example would be a vocabulary grouping countries under their "
+"parent geo-political regions. The taxonomy module also enables advanced "
+"implementations of hierarchy, for example placing Turkey in both the 'Middle "
+"East' and 'Europe'."
+msgstr ""
+"次分類可以從管理介面裡設定上下層的分類關係。舉例來說，可以設定一個關於國家的"
+"主分類，其次分類的階層是以其所屬的地理-政治區域來做規劃。分類可以使用複雜的階"
+"層，例如土耳其可以歸在「中東」和「歐洲」。"
+
+#: modules/taxonomy/taxonomy.module:1246
+msgid ""
+"The taxonomy module supports the use of both synonyms and related terms, but "
+"does not directly use this functionality. However, optional contributed or "
+"custom modules may make full use of these advanced features."
+msgstr ""
+"分類模組支援同義詞和相關分類，但是並不直接使用此功能。然而，其他使用者貢獻的"
+"模組或客製化模組，可以運用此進階功能。"
+
+#: modules/taxonomy/taxonomy.module:1247
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@taxonomy"
+"\">Taxonomy module</a>."
+msgstr "更多資訊，請參考<a href=\"@taxonomy\">分類模組</a>的線上說明。"
+
+#: modules/taxonomy/taxonomy.module:1250
+msgid ""
+"The taxonomy module allows you to categorize your content using both tags "
+"and administrator defined terms. It is a flexible tool for classifying "
+"content with many advanced features. To begin, create a 'Vocabulary' to hold "
+"one set of terms or tags. You can create one free-tagging vocabulary for "
+"everything, or separate controlled vocabularies to define the various "
+"properties of your content, for example 'Countries' or 'Colors'."
+msgstr ""
+"分類模組讓你可以使用自訂標籤和管理者定義的分類，將你的網站內容進行分類。這是"
+"一個有許多進階功能的、且有彈性的工具，可以分類網站內容。先建立一個主分類，以"
+"含括次分類或標籤。你可以建立一個使用所有事物的自由分類，或是管理者定義的控制"
+"詞彙，以管理你的網站內容，例如「國家」、「顏色」。"
+
+#: modules/taxonomy/taxonomy.module:1251
+msgid ""
+"Use the list below to configure and review the vocabularies defined on your "
+"site, or to list and manage the terms (tags) they contain. A vocabulary may "
+"(optionally) be tied to specific content types as shown in the <em>Type</em> "
+"column and, if so, will be displayed when creating or editing posts of that "
+"type. Multiple vocabularies tied to the same content type will be displayed "
+"in the order shown below. To change the order of a vocabulary, grab a drag-"
+"and-drop handle under the <em>Name</em> column and drag it to a new location "
+"in the list. (Grab a handle by clicking and holding the mouse while hovering "
+"over a handle icon.) Remember that your changes will not be saved until you "
+"click the <em>Save</em> button at the bottom of the page."
+msgstr ""
+"使用下面的列表來設定和檢視你的網站所定義的主分類，或是列出並管理他們所包含的"
+"次分類。一個主分類可以（選擇性地）與特定內容類型結合在一起，如<strong>內容類"
+"型</strong>欄位所示，當新增或編輯該種內容類型的文章時，此主分類就會顯示出來。"
+"多個主分類可以與同一個內容類型結合，並用下面的順序呈現出來。要改變主分類的順"
+"序，可以針對<strong>名稱</strong>欄位進行拖放，把它拖到新的位置上。要記得，除"
+"非你按下<strong>儲存</strong>按鈕，否則這些修改是不會被儲存的。"
+
+#: modules/taxonomy/taxonomy.module:1256
+msgid ""
+"%capital_name is a free-tagging vocabulary. To change the name or "
+"description of a term, click the <em>edit</em> link next to the term."
+msgstr ""
+"%capital_name是一個自由分類的主分類。要改變次分類的名稱或說明，請點選旁邊的"
+"<strong>編輯</strong>連結。"
+
+#: modules/taxonomy/taxonomy.module:1260
+msgid ""
+"%capital_name is a flat vocabulary. You may organize the terms in the %name "
+"vocabulary by using the handles on the left side of the table. To change the "
+"name or description of a term, click the <em>edit</em> link next to the term."
+msgstr ""
+"%capital_name是一個沒有階層的主分類。你可以使用表格左邊的功能來組織%name主分"
+"類裡的次分類的順序。要改變次分類的名稱或說明，請點選旁邊的<strong>編輯</"
+"strong>連結。"
+
+#: modules/taxonomy/taxonomy.module:1262
+msgid ""
+"%capital_name is a single hierarchy vocabulary. You may organize the terms "
+"in the %name vocabulary by using the handles on the left side of the table. "
+"To change the name or description of a term, click the <em>edit</em> link "
+"next to the term."
+msgstr ""
+"%capital_name是一個單層式的主分類。你可以使用表格左邊的功能來組織%name主分類"
+"裡的次分類的順序。要改變次分類的名稱或說明，請點選旁邊的<strong>編輯</strong>"
+"連結。"
+
+#: modules/taxonomy/taxonomy.module:1264
+msgid ""
+"%capital_name is a multiple hierarchy vocabulary. To change the name or "
+"description of a term, click the <em>edit</em> link next to the term. Drag "
+"and drop of multiple hierarchies is not supported, but you can re-enable "
+"drag and drop support by editing each term to include only a single parent."
+msgstr ""
+"%capital_name是一個多階層的主分類。要改變次分類的名稱或說明，請點選旁邊的"
+"<strong>編輯</strong>連結。這裡不支援多個階層的拖放功能，但是你可以在次分類表"
+"單裡把它們設為僅有一個上層分類，就可以重新啟用拖放功能。"
+
+#: modules/taxonomy/taxonomy.module:1267
+msgid ""
+"Define how your vocabulary will be presented to administrators and users, "
+"and which content types to categorize with it. Tags allows users to create "
+"terms when submitting posts by typing a comma separated list. Otherwise "
+"terms are chosen from a select list and can only be created by users with "
+"the \"administer taxonomy\" permission."
+msgstr ""
+"定義你的主分類如何呈現給管理者和使用者，以及要針對哪些內容類型進行分類。自由"
+"分類讓使用者可以在發表文章時自行建立分類，其他方式則是從擁有管理分類權限的管"
+"理者所定義的分類清單中選擇次分類。"
+
+#: modules/taxonomy/taxonomy.module:1306
+msgid "After saving a new term to the database"
+msgstr "將新的次分類儲存到資料庫之後"
+
+#: modules/taxonomy/taxonomy.module:1309
+msgid "After saving an updated term to the database"
+msgstr "將更新的次分類儲存到資料庫之後"
+
+#: modules/taxonomy/taxonomy.module:1312
+msgid "After deleting a term"
+msgstr "在刪除次分類之後"
+
+#: modules/taxonomy/taxonomy.module:13
+msgid "administer taxonomy"
+msgstr "管理分類"
+
+#: modules/taxonomy/taxonomy.module:114
+msgid "Manage tagging, categorization, and classification of your content."
+msgstr "管理你的網站內容的標籤與分類。"
+
+#: modules/taxonomy/taxonomy.module:128
+msgid "Add vocabulary"
+msgstr "新增主分類"
+
+#: modules/taxonomy/taxonomy.module:138
+msgid "Edit vocabulary"
+msgstr "編輯主分類"
+
+#: modules/taxonomy/taxonomy.module:147
+msgid "Edit term"
+msgstr "編輯次分類"
+
+#: modules/taxonomy/taxonomy.module:155
+msgid "Taxonomy term"
+msgstr "分類詞匯"
+
+#: modules/taxonomy/taxonomy.module:164
+msgid "Autocomplete taxonomy"
+msgstr "分類自動完成"
+
+#: modules/taxonomy/taxonomy.module:171
+msgid "List terms"
+msgstr "列出次分類"
+
+#: modules/taxonomy/taxonomy.module:186
+msgid "Add term"
+msgstr "增加次分類"
+
+#: modules/taxonomy/taxonomy.install:9
+msgid "Stores term information."
+msgstr "儲存次分類資訊。"
+
+#: modules/taxonomy/taxonomy.install:15
+msgid "Primary Key: Unique term ID."
+msgstr "Primary Key: Unique term ID."
+
+#: modules/taxonomy/taxonomy.install:22
+msgid "The {vocabulary}.vid of the vocabulary to which the term is assigned."
+msgstr "The {vocabulary}.vid of the vocabulary to which the term is assigned."
+
+#: modules/taxonomy/taxonomy.install:29
+msgid "The term name."
+msgstr "次分類名稱。"
+
+#: modules/taxonomy/taxonomy.install:35
+msgid "A description of the term."
+msgstr "次分類的說明。"
+
+#: modules/taxonomy/taxonomy.install:42
+msgid "The weight of this term in relation to other terms."
+msgstr "此次分類與其他次分類相關的順序值。"
+
+#: modules/taxonomy/taxonomy.install:53
+msgid "Stores the hierarchical relationship between terms."
+msgstr "儲存次分類之間的階層關係。"
+
+#: modules/taxonomy/taxonomy.install:60
+msgid "Primary Key: The {term_data}.tid of the term."
+msgstr "Primary Key: The {term_data}.tid of the term."
+
+#: modules/taxonomy/taxonomy.install:67
+msgid ""
+"Primary Key: The {term_data}.tid of the term's parent. 0 indicates no parent."
+msgstr ""
+"Primary Key: The {term_data}.tid of the term's parent. 0 indicates no parent."
+
+#: modules/taxonomy/taxonomy.install:77
+msgid "Stores the relationship of terms to nodes."
+msgstr "儲存節點與次分類的關係。"
+
+#: modules/taxonomy/taxonomy.install:84
+msgid "Primary Key: The {node}.nid of the node."
+msgstr "Primary Key: The {node}.nid of the node."
+
+#: modules/taxonomy/taxonomy.install:98
+msgid "Primary Key: The {term_data}.tid of a term assigned to the node."
+msgstr "Primary Key: The {term_data}.tid of a term assigned to the node."
+
+#: modules/taxonomy/taxonomy.install:109
+msgid "Stores non-hierarchical relationships between terms."
+msgstr "儲存次分類之間的非階層關係。"
+
+#: modules/taxonomy/taxonomy.install:114
+msgid "Primary Key: Unique term relation ID."
+msgstr "Primary Key: Unique term relation ID."
+
+#: modules/taxonomy/taxonomy.install:121
+msgid "The {term_data}.tid of the first term in a relationship."
+msgstr "The {term_data}.tid of the first term in a relationship."
+
+#: modules/taxonomy/taxonomy.install:128
+msgid "The {term_data}.tid of the second term in a relationship."
+msgstr "The {term_data}.tid of the second term in a relationship."
+
+#: modules/taxonomy/taxonomy.install:141
+msgid "Stores term synonyms."
+msgstr "儲存次分類同義詞。"
+
+#: modules/taxonomy/taxonomy.install:146
+msgid "Primary Key: Unique term synonym ID."
+msgstr "Primary Key: Unique term synonym ID."
+
+#: modules/taxonomy/taxonomy.install:153
+msgid "The {term_data}.tid of the term."
+msgstr "The {term_data}.tid of the term."
+
+#: modules/taxonomy/taxonomy.install:160
+msgid "The name of the synonym."
+msgstr "同義詞的名稱。"
+
+#: modules/taxonomy/taxonomy.install:171
+msgid "Stores vocabulary information."
+msgstr "儲存主分類資訊。"
+
+#: modules/taxonomy/taxonomy.install:177
+msgid "Primary Key: Unique vocabulary ID."
+msgstr "Primary Key: Unique vocabulary ID."
+
+#: modules/taxonomy/taxonomy.install:184
+msgid "Name of the vocabulary."
+msgstr "主分類的名稱。"
+
+#: modules/taxonomy/taxonomy.install:190
+msgid "Description of the vocabulary."
+msgstr "主分類的說明。"
+
+#: modules/taxonomy/taxonomy.install:197
+msgid "Help text to display for the vocabulary."
+msgstr "主分類的說明文字。"
+
+#: modules/taxonomy/taxonomy.install:205
+msgid ""
+"Whether or not related terms are enabled within the vocabulary. (0 = "
+"disabled, 1 = enabled)"
+msgstr "此主分類是否啟用相關次分類功能。（0 = 關閉，1 = 啟用）"
+
+#: modules/taxonomy/taxonomy.install:213
+msgid ""
+"The type of hierarchy allowed within the vocabulary. (0 = disabled, 1 = "
+"single, 2 = multiple)"
+msgstr "此主分類所允許的分類階層類型。（0 = 關閉，1 = 單層， 2 = 多層）"
+
+#: modules/taxonomy/taxonomy.install:221
+msgid ""
+"Whether or not multiple terms from this vocabulary may be assigned to a "
+"node. (0 = disabled, 1 = enabled)"
+msgstr "此主分類是否能允許將多個次分類指派給同一篇文章。（0 = 關閉，1 = 啟用）"
+
+#: modules/taxonomy/taxonomy.install:229
+msgid ""
+"Whether or not terms are required for nodes using this vocabulary. (0 = "
+"disabled, 1 = enabled)"
+msgstr "此主分類是否必須要選取至少一個次分類。（0 = 關閉，1 = 啟用）"
+
+#: modules/taxonomy/taxonomy.install:237
+msgid ""
+"Whether or not free tagging is enabled for the vocabulary. (0 = disabled, 1 "
+"= enabled)"
+msgstr "此主分類是否啟用自由分類功能。（0 = 關閉，1 = 啟用）"
+
+#: modules/taxonomy/taxonomy.install:244
+msgid "The module which created the vocabulary."
+msgstr "建立此主分類的模組。"
+
+#: modules/taxonomy/taxonomy.install:251
+msgid "The weight of the vocabulary in relation to other vocabularies."
+msgstr "此主分類與其他分類相關的順序值。"
+
+#: modules/taxonomy/taxonomy.install:261
+msgid "Stores which node types vocabularies may be used with."
+msgstr "儲存主分類可以應用到的內容類型。"
+
+#: modules/taxonomy/taxonomy.install:268
+msgid "Primary Key: the {vocabulary}.vid of the vocabulary."
+msgstr "Primary Key: the {vocabulary}.vid of the vocabulary."
+
+#: modules/taxonomy/taxonomy.install:275
+msgid "The {node}.type of the node type for which the vocabulary may be used."
+msgstr "The {node}.type of the node type for which the vocabulary may be used."

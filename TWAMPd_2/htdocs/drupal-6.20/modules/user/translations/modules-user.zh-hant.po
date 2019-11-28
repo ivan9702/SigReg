@@ -1,0 +1,1591 @@
+# Chinese, Traditional translation of drupal (6.2)
+# Copyright (c) 2008 by the Chinese, Traditional translation team
+# Generated from files:
+#  user.admin.inc,v 1.18 2008/01/16 22:54:41 goba
+#  user.pages.inc,v 1.11 2008/01/08 10:35:43 goba
+#  user.module,v 1.892.2.2 2008/04/09 21:11:51 goba
+#  user.install,v 1.5 2008/01/08 07:46:41 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.x)\n"
+"POT-Creation-Date: 2008-05-14 13:25+0800\n"
+"PO-Revision-Date: 2009-08-20 00:23+0800\n"
+"Language-Team: Drupal Taiwan <info@drupaltaiwan.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: charlesc <charles@netivism.com.tw>\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: TAIWAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+
+#: modules/user/user.admin.inc:891
+msgid "deny"
+msgstr "拒絕"
+
+#: modules/user/user.admin.inc:43
+msgid "Show only users where"
+msgstr "只顯示在 ... 的使用者"
+
+#: modules/user/user.admin.inc:52
+msgid ""
+"<em>and</em> where <strong>%property</strong> is <strong>%value</strong>"
+msgstr ""
+"<em>and</em> where <strong>%property</strong> is <strong>%value</strong>"
+
+#: modules/user/user.admin.inc:55
+msgid "<strong>%property</strong> is <strong>%value</strong>"
+msgstr "<strong>%property</strong> is <strong>%value</strong>"
+
+#: modules/user/user.admin.inc:138,912
+msgid "Last access"
+msgstr "上次存取"
+
+#: modules/user/user.admin.inc:221
+msgid "No users selected."
+msgstr "沒有選擇使用者。"
+
+#: modules/user/user.admin.inc:233
+msgid "User registration settings"
+msgstr "使用者註冊設定"
+
+#: modules/user/user.admin.inc:234
+msgid "Public registrations"
+msgstr "開放註冊"
+
+#: modules/user/user.admin.inc:234
+msgid "Visitors can create accounts and no administrator approval is required."
+msgstr "使用者可以建立帳號，不需要管理者審核。"
+
+#: modules/user/user.admin.inc:234
+msgid "Visitors can create accounts but administrator approval is required."
+msgstr "使用者可以建立帳號，需要管理者審核。"
+
+#: modules/user/user.admin.inc:235
+msgid "Require e-mail verification when a visitor creates an account"
+msgstr "當使用者建立帳號時，需要進行電子郵件確認。"
+
+#: modules/user/user.admin.inc:235
+msgid ""
+"If this box is checked, new users will be required to validate their e-mail "
+"address prior to logging into the site, and will be assigned a system-"
+"generated password. With it unchecked, users will be logged in immediately "
+"upon registering, and may select their own passwords during registration."
+msgstr ""
+"如果勾選此項目，新使用者需要在登入網站之前先收取確認信，才能夠拿到系統預先產"
+"生的密碼。如果不勾選此項目，使用者可以馬上登入網站，並可以在註冊時設定自己的"
+"密碼。"
+
+#: modules/user/user.admin.inc:236
+msgid "User registration guidelines"
+msgstr "使用者註冊說明"
+
+#: modules/user/user.admin.inc:236
+msgid ""
+"This text is displayed at the top of the user registration form and is "
+"useful for helping or instructing your users."
+msgstr "這段文字會顯示在使用者註冊表單的上方，有助於幫助或指引你的使用者。"
+
+#: modules/user/user.admin.inc:241
+msgid "User e-mail settings"
+msgstr "使用者電子郵件設定"
+
+#: modules/user/user.admin.inc:242
+msgid ""
+"Drupal sends emails whenever new users register on your site, and "
+"optionally, may also notify users after other account actions. Using a "
+"simple set of content templates, notification e-mails can be customized to "
+"fit the specific needs of your site."
+msgstr ""
+"Drupal 會在新使用者註冊時傳送電子郵件，此外，也可以在其他帳號動作發生時通知使"
+"用者。運用一些簡單的內容版型，你可以自訂通知郵件的內容，以符合你的網站的特定"
+"需求。"
+
+#: modules/user/user.admin.inc:246
+msgid "Available variables are:"
+msgstr "可用變數："
+
+#: modules/user/user.admin.inc:250
+msgid "Welcome, new user created by administrator"
+msgstr "歡迎管理者建立的新使用者"
+
+#: modules/user/user.admin.inc:253
+msgid ""
+"Customize welcome e-mail messages sent to new member accounts created by an "
+"administrator."
+msgstr "自訂歡迎郵件的訊息，將寄送給由管理者新增的使用者帳號。"
+
+#: modules/user/user.admin.inc:270
+msgid "Welcome, no approval required"
+msgstr "歡迎不需要審核確認的使用者"
+
+#: modules/user/user.admin.inc:273
+msgid ""
+"Customize welcome e-mail messages sent to new members upon registering, when "
+"no administrator approval is required."
+msgstr "自訂歡迎郵件的訊息，將寄送給新註冊、不需要管理者審核的使用者。"
+
+#: modules/user/user.admin.inc:290
+msgid "Welcome, awaiting administrator approval"
+msgstr "歡迎等待管理者審核的使用者"
+
+#: modules/user/user.admin.inc:293
+msgid ""
+"Customize welcome e-mail messages sent to new members upon registering, when "
+"administrative approval is required."
+msgstr "自訂歡迎郵件的訊息，將寄送給新註冊、需要管理者審核的使用者。"
+
+#: modules/user/user.admin.inc:310
+msgid "Password recovery email"
+msgstr "重設密碼的電子郵件"
+
+#: modules/user/user.admin.inc:313
+msgid "Customize e-mail messages sent to users who request a new password."
+msgstr "自訂重設密碼郵件的訊息，寄給忘記密碼的使用者。"
+
+#: modules/user/user.admin.inc:330
+msgid "Account activation email"
+msgstr "啟用帳號的電子郵件"
+
+#: modules/user/user.admin.inc:333
+msgid ""
+"Enable and customize e-mail messages sent to users upon account activation "
+"(when an administrator activates an account of a user who has already "
+"registered, on a site where administrative approval is required)."
+msgstr ""
+"啟用並自訂當帳號啟動時所要傳送給使用者的電子郵件訊息（當需要管理者審核、啟動"
+"一個已經註冊了的使用者的帳號時）。"
+
+#: modules/user/user.admin.inc:337
+msgid "Notify user when account is activated."
+msgstr "通知使用者其帳號已經啟動。"
+
+#: modules/user/user.admin.inc:355
+msgid "Account blocked email"
+msgstr "封鎖帳號的電子郵件"
+
+#: modules/user/user.admin.inc:358
+msgid ""
+"Enable and customize e-mail messages sent to users when their accounts are "
+"blocked."
+msgstr "啟動並自訂當使用者帳號被封鎖時，要傳送給他的電子郵件訊息。"
+
+#: modules/user/user.admin.inc:362
+msgid "Notify user when account is blocked."
+msgstr "當帳號被封鎖時通知使用者。"
+
+#: modules/user/user.admin.inc:380
+msgid "Account deleted email"
+msgstr "刪除帳號的電子郵件"
+
+#: modules/user/user.admin.inc:383
+msgid ""
+"Enable and customize e-mail messages sent to users when their accounts are "
+"deleted."
+msgstr "啟動並自訂當使用者帳號被刪除時，要傳送給他的電子郵件訊息。"
+
+#: modules/user/user.admin.inc:387
+msgid "Notify user when account is deleted."
+msgstr "當帳號被刪除時通知使用者。"
+
+#: modules/user/user.admin.inc:406
+msgid "Signatures"
+msgstr "簽名檔"
+
+#: modules/user/user.admin.inc:410
+msgid "Signature support"
+msgstr "支援簽名檔"
+
+#: modules/user/user.admin.inc:423
+msgid "Pictures"
+msgstr "圖片"
+
+#: modules/user/user.admin.inc:428
+msgid "Picture support"
+msgstr "圖片支援"
+
+#: modules/user/user.admin.inc:448
+msgid "Picture image path"
+msgstr "圖片儲存路徑"
+
+#: modules/user/user.admin.inc:452
+msgid "Subdirectory in the directory %dir where pictures will be stored."
+msgstr "圖片會儲存在 \"%dir\" 目錄裡的子目錄。"
+
+#: modules/user/user.admin.inc:456
+msgid "Default picture"
+msgstr "預設圖片"
+
+#: modules/user/user.admin.inc:460
+msgid ""
+"URL of picture to display for users with no custom picture selected. Leave "
+"blank for none."
+msgstr "使用者沒有自訂圖片時所顯示的圖片。不設定的話，就不會顯示圖片。"
+
+#: modules/user/user.admin.inc:464
+msgid "Picture maximum dimensions"
+msgstr "圖片的最大尺寸"
+
+#: modules/user/user.admin.inc:468
+msgid "Maximum dimensions for pictures, in pixels."
+msgstr "圖片的最大尺寸，單位為像素。"
+
+#: modules/user/user.admin.inc:472
+msgid "Picture maximum file size"
+msgstr "圖片的最大檔案大小"
+
+#: modules/user/user.admin.inc:476
+msgid "Maximum file size for pictures, in kB."
+msgstr "圖片的最大檔案大小，單位為 KB。"
+
+#: modules/user/user.admin.inc:480
+msgid "Picture guidelines"
+msgstr "圖片上傳說明"
+
+#: modules/user/user.admin.inc:482
+msgid ""
+"This text is displayed at the picture upload form in addition to the default "
+"guidelines. It's useful for helping or instructing your users."
+msgstr "這段文字會顯示在圖片上傳表單裡，有助於幫助或指引你的使用者。"
+
+#: modules/user/user.admin.inc:543
+msgid "Save permissions"
+msgstr "儲存權限"
+
+#: modules/user/user.admin.inc:595
+msgid "Permission"
+msgstr "權限"
+
+#: modules/user/user.admin.inc:624
+msgid "Role name"
+msgstr "角色名稱"
+
+#: modules/user/user.admin.inc:629
+msgid ""
+"The name for this role. Example: \"moderator\", \"editorial board\", \"site "
+"architect\"."
+msgstr "角色的名稱。例如：內容審核者、編輯、網站管理者等。"
+
+#: modules/user/user.admin.inc:637,662,679
+msgid "Save role"
+msgstr "儲存角色"
+
+#: modules/user/user.admin.inc:641,683
+msgid "Delete role"
+msgstr "刪除角色"
+
+#: modules/user/user.admin.inc:652,667,691
+msgid "Add role"
+msgstr "新增角色"
+
+#: modules/user/user.admin.inc:664,669
+msgid "The role name %name already exists. Please choose another role name."
+msgstr "角色名稱 %name  已存在。請輸入另一個名稱。"
+
+#: modules/user/user.admin.inc:674
+msgid "You must specify a valid role name."
+msgstr "你必須指定一個有效的角色名稱。"
+
+#: modules/user/user.admin.inc:681
+msgid "The role has been renamed."
+msgstr "已重新命名角色。"
+
+#: modules/user/user.admin.inc:689
+msgid "The role has been deleted."
+msgstr "已刪除角色。"
+
+#: modules/user/user.admin.inc:693
+msgid "The role has been added."
+msgstr "已新增角色。"
+
+#: modules/user/user.admin.inc:715,737
+msgid "You must enter a mask."
+msgstr "你必須輸入一個篩選條件。"
+
+#: modules/user/user.admin.inc:720
+msgid "The access rule has been added."
+msgstr "已新增存取規則。"
+
+#: modules/user/user.admin.inc:741
+msgid "The access rule has been saved."
+msgstr "存取規則已被儲存。"
+
+#: modules/user/user.admin.inc:748
+msgid "Save rule"
+msgstr "儲存規則"
+
+#: modules/user/user.admin.inc:759,886
+msgid "Access type"
+msgstr "存取類型"
+
+#: modules/user/user.admin.inc:761
+msgid "Allow"
+msgstr "允許"
+
+#: modules/user/user.admin.inc:761
+msgid "Deny"
+msgstr "拒絕"
+
+#: modules/user/user.admin.inc:763
+msgid "Host"
+msgstr "主機"
+
+#: modules/user/user.admin.inc:766,886
+msgid "Rule type"
+msgstr "規則"
+
+#: modules/user/user.admin.inc:772,886
+msgid "Mask"
+msgstr "篩選條件"
+
+#: modules/user/user.admin.inc:776
+msgid "Matches any number of characters, even zero characters"
+msgstr "符合任何數字，包括 0"
+
+#: modules/user/user.admin.inc:776
+msgid "Matches exactly one character."
+msgstr "符合每一個字元。"
+
+#: modules/user/user.admin.inc:786
+msgid "No value entered. Please enter a test string and try again."
+msgstr "沒有輸入任何資訊，請重試一次，並輸入一個測試的字串。"
+
+#: modules/user/user.admin.inc:792
+msgid "Enter a username to check if it will be denied or allowed."
+msgstr "輸入使用者名稱，以檢查是否可以使用。"
+
+#: modules/user/user.admin.inc:794
+msgid "Check username"
+msgstr "檢查使用者名稱"
+
+#: modules/user/user.admin.inc:803
+msgid "Enter an e-mail address to check if it will be denied or allowed."
+msgstr "輸入電子郵件位址，以檢查是否可以使用。"
+
+#: modules/user/user.admin.inc:805
+msgid "Check e-mail"
+msgstr "檢查電子郵件"
+
+#: modules/user/user.admin.inc:814
+msgid ""
+"Enter a hostname or IP address to check if it will be denied or allowed."
+msgstr "請輸入一個主機名稱或者IP地址，以檢查它是否被拒絕或是接受."
+
+#: modules/user/user.admin.inc:816
+msgid "Check hostname"
+msgstr "檢查主機名稱"
+
+#: modules/user/user.admin.inc:827
+msgid "The username %name is not allowed."
+msgstr "使用者名稱 %name 不可使用。"
+
+#: modules/user/user.admin.inc:830
+msgid "The username %name is allowed."
+msgstr "使用者名稱 %name 是可以使用的。"
+
+#: modules/user/user.admin.inc:835
+msgid "The e-mail address %mail is not allowed."
+msgstr "電子郵件位址 %mail 不可使用。"
+
+#: modules/user/user.admin.inc:838
+msgid "The e-mail address %mail is allowed."
+msgstr "電子郵件位址 %mail 是可以使用的。"
+
+#: modules/user/user.admin.inc:843
+msgid "The hostname %host is not allowed."
+msgstr "主機名稱 %host 不可使用。"
+
+#: modules/user/user.admin.inc:846
+msgid "The hostname %host is allowed."
+msgstr "主機名稱 %host  是可以使用的。"
+
+#: modules/user/user.admin.inc:861,888
+msgid "username"
+msgstr "使用者名稱"
+
+#: modules/user/user.admin.inc:861,888
+msgid "e-mail"
+msgstr "電子郵件"
+
+#: modules/user/user.admin.inc:861,888
+msgid "host"
+msgstr "主機"
+
+#: modules/user/user.admin.inc:867
+msgid "Are you sure you want to delete the @type rule for %rule?"
+msgstr "你真的要刪除 %rule 的 @type 規則？"
+
+#: modules/user/user.admin.inc:877
+msgid "The access rule has been deleted."
+msgstr "存取規則已被刪除。"
+
+#: modules/user/user.admin.inc:891
+msgid "allow"
+msgstr "允許"
+
+#: modules/user/user.admin.inc:894
+msgid "There are currently no access rules."
+msgstr "現在沒有存取規則。"
+
+#: modules/user/user.admin.inc:931
+msgid "No users available."
+msgstr "沒有使用者。"
+
+#: modules/user/user.admin.inc:952
+msgid "edit permissions"
+msgstr "編輯權限"
+
+#: modules/user/user.admin.inc:954
+msgid "edit role"
+msgstr "編輯角色"
+
+#: modules/user/user.admin.inc:957
+msgid "locked"
+msgstr "鎖定"
+
+#: modules/user/user.pages.inc:34
+msgid "Username or e-mail address"
+msgstr "使用者名稱或電子郵件位址"
+
+#: modules/user/user.pages.inc:39
+msgid "E-mail new password"
+msgstr "用電子郵件寄送l新的密碼"
+
+#: modules/user/user.pages.inc:56
+msgid "Sorry, %name is not recognized as a user name or an e-mail address."
+msgstr "很抱歉，%name並不是本站的使用者名稱或電子郵件。"
+
+#: modules/user/user.pages.inc:67
+msgid "Further instructions have been sent to your e-mail address."
+msgstr "進一步的說明已經傳送到你的電子郵件信箱裡。"
+
+#: modules/user/user.pages.inc:81
+msgid ""
+"You have already used this one-time login link. It is not necessary to use "
+"this link to login anymore. You are already logged in."
+msgstr ""
+"你在之前已經用過這個一次性的登入連結。你不再需要使用這連結來登入。你已經登入"
+"了。"
+
+#: modules/user/user.pages.inc:92
+msgid ""
+"You have tried to use a one-time login link that has expired. Please request "
+"a new one using the form below."
+msgstr "你試圖使用一個過期的一次性登入連結。請使用下方的表單申請一個新的。"
+
+#: modules/user/user.pages.inc:104
+msgid ""
+"You have just used your one-time login link. It is no longer necessary to "
+"use this link to login. Please change your password."
+msgstr ""
+"你已經使用過你的一次性登入連結。你以後無法使用這個連結來登入。請更改你的密"
+"碼。"
+
+#: modules/user/user.pages.inc:108
+msgid ""
+"<p>This is a one-time login for %user_name and will expire on %"
+"expiration_date.</p><p>Click on this button to login to the site and change "
+"your password.</p>"
+msgstr ""
+"<p>這是%user_name僅能使用一次的登入連結，會在 %expiration_date 失效。</p><p>"
+"請點選此按鈕，以登入網站並更換密碼。</p>"
+
+#: modules/user/user.pages.inc:109
+msgid "This login can be used only once."
+msgstr "此登入連結僅能使用一次。"
+
+#: modules/user/user.pages.inc:116
+msgid ""
+"You have tried to use a one-time login link which has either been used or is "
+"no longer valid. Please request a new one using the form below."
+msgstr ""
+"你試圖使用一個一次性登入連結，但它已經被使用過了、或是不再有效。請使用下方的"
+"表單申請一個新的。"
+
+#: modules/user/user.pages.inc:308
+msgid "Are you sure you want to delete the account %name?"
+msgstr "你真的要刪除 %name 嗎？"
+
+#: modules/user/user.pages.inc:310
+msgid ""
+"All submissions made by this user will be attributed to the anonymous "
+"account. This action cannot be undone."
+msgstr ""
+"刪除使用者後，並不會將該使用者的文章刪除，但會將該使用者的文章作者標註為匿名"
+"使用者。此操作無法回復！"
+
+#: modules/user/user.pages.inc:319
+msgid "%name has been deleted."
+msgstr "已刪除 %name。"
+
+#: modules/user/user.pages.inc:66
+msgid "Password reset instructions mailed to %name at %email."
+msgstr "%name 的密碼重設說明，已發送到 %email。"
+
+#: modules/user/user.pages.inc:98
+msgid "User %name used one-time login link at time %timestamp."
+msgstr "使用者 %name 於 %timestamp 使用了一次性的登入連結。"
+
+#: modules/user/user.pages.inc:134
+msgid "Session closed for %name."
+msgstr "%name 的連線關閉。"
+
+#: modules/user/user.module:379
+msgid "You must enter a username."
+msgstr "你必須輸入使用者名稱。"
+
+#: modules/user/user.module:380
+msgid "The username cannot begin with a space."
+msgstr "使用者名稱不能以空格開頭。"
+
+#: modules/user/user.module:381
+msgid "The username cannot end with a space."
+msgstr "使用者名稱不能以空格結尾。"
+
+#: modules/user/user.module:382
+msgid "The username cannot contain multiple spaces in a row."
+msgstr "使用者名稱不能包括多個空格。"
+
+#: modules/user/user.module:383,394
+msgid "The username contains an illegal character."
+msgstr "使用者名稱包含不合法的字元。"
+
+#: modules/user/user.module:396
+msgid "The username is not a valid authentication ID."
+msgstr "使用者名稱不是一個有效的ID。"
+
+#: modules/user/user.module:397
+msgid "The username %name is too long: it must be %max characters or less."
+msgstr "使用者名稱 %name 過長：請不要超過 %max 個英文字母。"
+
+#: modules/user/user.module:401
+msgid "You must enter an e-mail address."
+msgstr "你必須輸入電子郵件位址。"
+
+#: modules/user/user.module:403
+msgid "The e-mail address %mail is not valid."
+msgstr "電子郵件位址 %mail 不正確。"
+
+#: modules/user/user.module:429
+msgid ""
+"Failed to upload the picture image; the %directory directory doesn't exist "
+"or is not writable."
+msgstr "無法上傳圖片檔案；%directory 目錄不存在，或是無法寫入。"
+
+#: modules/user/user.module:617
+msgid "History"
+msgstr "紀錄"
+
+#: modules/user/user.module:639
+msgid "Account settings"
+msgstr "帳號設定"
+
+#: modules/user/user.module:667
+msgid "Create a new user account."
+msgstr "建立一個新的使用者帳號。"
+
+#: modules/user/user.module:669,920
+msgid "Request new password"
+msgstr "索取新密碼"
+
+#: modules/user/user.module:669
+msgid "Request new password via e-mail."
+msgstr "透過電子郵件索取新密碼"
+
+#: modules/user/user.module:681,728
+msgid "User login"
+msgstr "使用者登入"
+
+#: modules/user/user.module:690,749
+msgid "Who's new"
+msgstr "新會員"
+
+#: modules/user/user.module:693,788
+msgid "Who's online"
+msgstr "線上使用者"
+
+#: modules/user/user.module:700
+msgid "Number of users to display"
+msgstr "要顯示的使用者數量"
+
+#: modules/user/user.module:708
+msgid "User activity"
+msgstr "使用者的活動"
+
+#: modules/user/user.module:708
+msgid ""
+"A user is considered online for this long after they have last viewed a page."
+msgstr "在使用者最近一次瀏覽網頁後多少時間內，仍被視為在線上。"
+
+#: modules/user/user.module:709
+msgid "User list length"
+msgstr "使用者列表的長度"
+
+#: modules/user/user.module:709
+msgid "Maximum number of currently online users to display."
+msgstr "顯示線上使用者的最多數量。"
+
+#: modules/user/user.module:776
+msgid "There is currently %members and %visitors online."
+msgstr "目前共有 %members 和 %visitors 在線上。"
+
+#: modules/user/user.module:779
+msgid "There are currently %members and %visitors online."
+msgstr "目前共有 %members 和 %visitors 在線上。"
+
+#: modules/user/user.module:785
+msgid "Online users"
+msgstr "線上使用者"
+
+#: modules/user/user.module:816
+msgid "@user's picture"
+msgstr "@user's 的頭像"
+
+#: modules/user/user.module:1180,1050
+msgid "My account"
+msgstr "我的帳號"
+
+#: modules/user/user.module:1253
+msgid "Enter your @s username."
+msgstr "輸入你的 @s 使用者名稱"
+
+#: modules/user/user.module:1256
+msgid "Enter the password that accompanies your username."
+msgstr "輸入你的密碼。"
+
+#: modules/user/user.module:1295
+msgid "The username %name has not been activated or is blocked."
+msgstr "使用者 %name 沒有啟用，或是已經被關閉。"
+
+#: modules/user/user.module:1299
+msgid "The name %name is a reserved username."
+msgstr "使用者名稱 %name 已被占用。"
+
+#: modules/user/user.module:1319
+msgid ""
+"Sorry, unrecognized username or password. <a href=\"@password\">Have you "
+"forgotten your password?</a>"
+msgstr ""
+"很抱歉，使用者帳號錯誤，或您輸入的密碼錯誤。<a href=\"@password\">忘記密碼"
+"了？</a>"
+
+#: modules/user/user.module:1425
+msgid "Account information"
+msgstr "帳號資訊"
+
+#: modules/user/user.module:1441
+msgid ""
+"A valid e-mail address. All e-mails from the system will be sent to this "
+"address. The e-mail address is not made public and will only be used if you "
+"wish to receive a new password or wish to receive certain news or "
+"notifications by e-mail."
+msgstr ""
+"一個有效的電子郵件位址。此電子郵件位址位址不會被公開，並且只在你想要申請新的"
+"密碼、或是收到某些新聞或通知時，我們才會用此電子郵件位址寄信給你。"
+
+#: modules/user/user.module:1446
+msgid ""
+"To change the current user password, enter the new password in both fields."
+msgstr "要修改目前的使用者密碼，請分別在兩個欄位裡輸入一樣的新的密碼。"
+
+#: modules/user/user.module:1453
+msgid "Provide a password for the new account in both fields."
+msgstr "為新帳號設定密碼。請輸入兩次密碼。"
+
+#: modules/user/user.module:1463
+msgid "Blocked"
+msgstr "停用"
+
+#: modules/user/user.module:1498
+msgid "Signature settings"
+msgstr "簽名檔設定"
+
+#: modules/user/user.module:1503
+msgid "Signature"
+msgstr "簽名檔"
+
+#: modules/user/user.module:1505
+msgid "Your signature will be publicly displayed at the end of your comments."
+msgstr "你的簽名內容將會自動地顯示在你的回應的後面。"
+
+#: modules/user/user.module:1511
+msgid "Picture"
+msgstr "圖片"
+
+#: modules/user/user.module:1515
+msgid "Delete picture"
+msgstr "刪除圖片"
+
+#: modules/user/user.module:1515
+msgid "Check this box to delete your current picture."
+msgstr "勾選此項目會刪除你目前使用的圖片。"
+
+#: modules/user/user.module:1520
+msgid "Upload picture"
+msgstr "上傳圖片"
+
+#: modules/user/user.module:1520
+msgid ""
+"Your virtual face or picture. Maximum dimensions are %dimensions and the "
+"maximum size is %size kB."
+msgstr "你的虛擬大頭貼或照片。最大尺寸是 %dimensions，大小為%size KB。"
+
+#: modules/user/user.module:1536
+msgid "The name %name is already taken."
+msgstr "使用者名稱 %name 已被占用。"
+
+#: modules/user/user.module:1539
+msgid "The name %name has been denied access."
+msgstr "使用者名稱 %name 被拒絕存取。"
+
+#: modules/user/user.module:1548
+msgid ""
+"The e-mail address %email is already registered. <a href=\"@password\">Have "
+"you forgotten your password?</a>"
+msgstr ""
+"電子郵件位址 %email 已經註冊過了。<a href=\"@password\">忘記密碼了嗎？</a>"
+
+#: modules/user/user.module:1551
+msgid "The e-mail address %email has been denied access."
+msgstr "電子郵件位址 %email 已經被拒絕存取。"
+
+#: modules/user/user.module:1631
+msgid "Account details for !username at !site"
+msgstr "!site 網站裡的 !username 的帳號詳情"
+
+#: modules/user/user.module:1633
+msgid ""
+"!username,\n"
+"\n"
+"Thank you for registering at !site. You may now log in to !login_uri using "
+"the following username and password:\n"
+"\n"
+"username: !username\n"
+"password: !password\n"
+"\n"
+"You may also log in by clicking on this link or copying and pasting it in "
+"your browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once.\n"
+"\n"
+"After logging in, you will be redirected to !edit_uri so you can change your "
+"password.\n"
+"\n"
+"\n"
+"--  !site team"
+msgstr ""
+"!username,\r\n"
+"\r\n"
+"感謝你在 !site 網站註冊。你現在可以使用以下的使用者名稱和密碼登入 !"
+"login_uri：\r\n"
+"\r\n"
+"使用者名稱： !username\r\n"
+"密碼：!password\r\n"
+"\r\n"
+"你也可以點選以下連結、或複製連結並貼到你的瀏覽器網址裡進行登入，這是一次性的"
+"登入連結，只能使用一次：\r\n"
+"\r\n"
+"!login_url\r\n"
+"\r\n"
+"\r\n"
+"在登入後，你會被導入到您的個人帳號介面 !edit_uri ，讓你修改密碼。\r\n"
+"\r\n"
+"\r\n"
+"--  !site  "
+
+#: modules/user/user.module:1635
+msgid "An administrator created an account for you at !site"
+msgstr "!site 的網站管理者幫你建立了一個使用帳號。"
+
+#: modules/user/user.module:1637
+msgid ""
+"!username,\n"
+"\n"
+"A site administrator at !site has created an account for you. You may now "
+"log in to !login_uri using the following username and password:\n"
+"\n"
+"username: !username\n"
+"password: !password\n"
+"\n"
+"You may also log in by clicking on this link or copying and pasting it in "
+"your browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once.\n"
+"\n"
+"After logging in, you will be redirected to !edit_uri so you can change your "
+"password.\n"
+"\n"
+"\n"
+"--  !site team"
+msgstr ""
+"!username,\r\n"
+"\r\n"
+"!site 的網站管理者為你建立了使用者帳號。你現在可以使用以下的使用者名稱和密碼"
+"登入到 !login_uri：\r\n"
+"\r\n"
+"使用者名稱： !username\r\n"
+"密碼：!password\r\n"
+"\r\n"
+"你也可以點選以下連結、或將連結複製並貼到你的瀏覽器網址列，這是一次性的登入連"
+"結，只能使用一次：\r\n"
+"\r\n"
+"!login_url\r\n"
+"\r\n"
+"在登入後，你會被導入到您的個人帳戶介面 !edit_uri，讓你修改密碼。\r\n"
+"\r\n"
+"\r\n"
+"--  !site "
+
+#: modules/user/user.module:1640
+msgid "Account details for !username at !site (pending admin approval)"
+msgstr "!site 網站裡的 !username 的帳號詳情（等待管理者審核）"
+
+#: modules/user/user.module:1642
+msgid ""
+"!username,\n"
+"\n"
+"Thank you for registering at !site. Your application for an account is "
+"currently pending approval. Once it has been approved, you will receive "
+"another e-mail containing information about how to log in, set your "
+"password, and other details.\n"
+"\n"
+"\n"
+"--  !site team"
+msgstr ""
+"!username,\r\n"
+"\r\n"
+"感謝你在本網站（!site）。你的註冊申請現在正在等待核准。當它被審核通過後，你會"
+"收到另一封電子郵件，包含如何登入、重設你的密碼與其他細節的資訊。\r\n"
+"\r\n"
+"\r\n"
+"--  !site team"
+
+#: modules/user/user.module:1644
+msgid ""
+"!username has applied for an account.\n"
+"\n"
+"!edit_uri"
+msgstr ""
+"!username 已經申請了一個帳號。\r\n"
+"\r\n"
+"!edit_uri"
+
+#: modules/user/user.module:1646
+msgid "Replacement login information for !username at !site"
+msgstr "!site 網站上的 !username 的替代登入資訊"
+
+#: modules/user/user.module:1648
+msgid ""
+"!username,\n"
+"\n"
+"A request to reset the password for your account has been made at !site.\n"
+"\n"
+"You may now log in to !uri_brief by clicking on this link or copying and "
+"pasting it in your browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once. It expires after one "
+"day and nothing will happen if it's not used.\n"
+"\n"
+"After logging in, you will be redirected to !edit_uri so you can change your "
+"password."
+msgstr ""
+"!username,\r\n"
+"\r\n"
+"你請求重設 !site 網站上的帳號密碼。\r\n"
+"\r\n"
+"你現在可以點選此連結以登入 !uri_brief，或是把連結複製/貼上到你的瀏覽器裡："
+"\r\n"
+"\r\n"
+"!login_url\r\n"
+"\r\n"
+"這是一個僅能使用一次的登入連結，一天之後就會過期，如果沒有使用此連結，不會發"
+"生任何事情。\r\n"
+"\r\n"
+"當你登入之後，你會被重新導向到 !edit_uri，讓你可以修改密碼。"
+
+#: modules/user/user.module:1650
+msgid "Account details for !username at !site (approved)"
+msgstr "!site 網站的 !username 使用者的帳號詳細資料（已審核通過）"
+
+#: modules/user/user.module:1652
+msgid ""
+"!username,\n"
+"\n"
+"Your account at !site has been activated.\n"
+"\n"
+"You may now log in by clicking on this link or copying and pasting it in "
+"your browser:\n"
+"\n"
+"!login_url\n"
+"\n"
+"This is a one-time login, so it can be used only once.\n"
+"\n"
+"After logging in, you will be redirected to !edit_uri so you can change your "
+"password.\n"
+"\n"
+"Once you have set your own password, you will be able to log in to !"
+"login_uri in the future using:\n"
+"\n"
+"username: !username\n"
+msgstr ""
+"!username,\r\n"
+"\r\n"
+"你在 !site 網站的帳號已經啟用了。\r\n"
+"\r\n"
+"你現在可以點選以下連結，或是複製/貼上到瀏覽器裡：\r\n"
+"\r\n"
+"!login_url\r\n"
+"\r\n"
+"這是一個僅能使用一次的登入連結。\r\n"
+"\r\n"
+"當你登入之後，你會被重新導向到 !edit_uri，讓你可以修改密碼。\r\n"
+"\r\n"
+"一旦你設定好自己的密碼，以後你就可以用你的使用者名稱來登入網站 !login_uri："
+"\r\n"
+"\r\n"
+"使用者名稱：!username\r\n"
+
+#: modules/user/user.module:1654
+msgid "Account details for !username at !site (blocked)"
+msgstr "!site 網站的 !username 使用者的帳號詳細資料（已封鎖）"
+
+#: modules/user/user.module:1656
+msgid ""
+"!username,\n"
+"\n"
+"Your account on !site has been blocked."
+msgstr ""
+"!username,\n"
+"\n"
+"你在 !site 網站的帳號已被封鎖。"
+
+#: modules/user/user.module:1658
+msgid "Account details for !username at !site (deleted)"
+msgstr "!site 網站的 !username 使用者的帳號詳細資料（已刪除）"
+
+#: modules/user/user.module:1660
+msgid ""
+"!username,\n"
+"\n"
+"Your account on !site has been deleted."
+msgstr ""
+"!username,\n"
+"\n"
+"你在 !site 網站的帳號已被刪除。"
+
+#: modules/user/user.module:1720
+msgid "Unblock the selected users"
+msgstr "取消封阻所選擇的使用者"
+
+#: modules/user/user.module:1724
+msgid "Block the selected users"
+msgstr "封阻所選擇的使用者"
+
+#: modules/user/user.module:1728
+msgid "Delete the selected users"
+msgstr "刪除所選擇的使用者"
+
+#: modules/user/user.module:1748
+msgid "Add a role to the selected users"
+msgstr "把角色加入到所選擇的使用者"
+
+#: modules/user/user.module:1751
+msgid "Remove a role from the selected users"
+msgstr "把角色從所選擇的使用者移除"
+
+#: modules/user/user.module:1853
+msgid "Are you sure you want to delete these users?"
+msgstr "你真的要刪除這些使用者？"
+
+#: modules/user/user.module:1863
+msgid "The users have been deleted."
+msgstr "使用者已被刪除。"
+
+#: modules/user/user.module:1877
+msgid ""
+"The user module allows users to register, login, and log out. Users benefit "
+"from being able to sign on because it associates content they create with "
+"their account and allows various permissions to be set for their roles. The "
+"user module supports user roles which establish fine grained permissions "
+"allowing each role to do only what the administrator wants them to. Each "
+"user is assigned to one or more roles. By default there are two roles "
+"<em>anonymous</em> - a user who has not logged in, and <em>authenticated</"
+"em> a user who has signed up and who has been authorized."
+msgstr ""
+"使用者模組讓使用者可以註冊、登入和登出。讓使用者可以註冊成為會員是有好處的，"
+"因為可以把使用者與其所張貼的內容連結起來，並可以提供不同的權限給不同的使用者"
+"角色，讓每個角色僅能進行管理者允許他們執行的動作。預設有兩種角色 -  "
+"<em>anonymous</em> - 未登入的匿名使用者，以及 <em>authenticated</em>  - 已註"
+"冊並登入的使用者。"
+
+#: modules/user/user.module:1878
+msgid ""
+"Users can use their own name or handle and can specify personal "
+"configuration settings through their individual <em>My account</em> page. "
+"Users must authenticate by supplying a local username and password or "
+"through their OpenID, an optional and secure method for logging into many "
+"websites with a single username and password. In some configurations, users "
+"may authenticate using a username and password from another Drupal site, or "
+"through some other site-specific mechanism."
+msgstr ""
+"使用者可以使用他們自己的名字，同時也可以透過他們自己的帳號頁面，調整個人化的"
+"設定。註冊使用者需要設定本站的使用者名稱和密碼，或是透過 OpenID 所提供的帳號"
+"密碼。此外，也可以採用其他 Drupal 網站的使用者名稱和密碼，或是採用特定的機制"
+"來進行認證。"
+
+#: modules/user/user.module:1879
+msgid ""
+"A visitor accessing your website is assigned a unique ID, or session ID, "
+"which is stored in a cookie. The cookie does not contain personal "
+"information, but acts as a key to retrieve information from your site. Users "
+"should have cookies enabled in their web browser when using your site."
+msgstr ""
+"每一個訪客在瀏覽你的網站時，會被分配一個唯一的 ID，就是所謂的 session ID，並"
+"儲存在 cookie 裡。基於安全性的因素，這個 cookie 不會包含個人的資訊，但是可以"
+"做為取得儲存在伺服器上的資訊的一把鑰匙。當瀏覽你的網站時，使用者應該要啟用瀏"
+"覽器的 cookie 支援。"
+
+#: modules/user/user.module:1880
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@user"
+"\">User module</a>."
+msgstr "更多資訊，請參考<a href=\"@user\">使用者模組</a>的線上說明。"
+
+#: modules/user/user.module:1883
+msgid ""
+"Drupal allows users to register, login, log out, maintain user profiles, "
+"etc. Users of the site may not use their own names to post content until "
+"they have signed up for a user account."
+msgstr ""
+"Drupal 讓使用者可以註冊、登入、登出，並維護使用者個人資訊。在註冊成為正式使用"
+"者之前，使用者不能使用自己的名字來發表內容。"
+
+#: modules/user/user.module:1886
+msgid ""
+"This web page allows administrators to register new users. Users' e-mail "
+"addresses and usernames must be unique."
+msgstr ""
+"此頁面讓管理者可以註冊新的使用者。使用者的電子郵件位址和使用者名稱不能重複。"
+
+#: modules/user/user.module:1888
+msgid ""
+"Set up username and e-mail address access rules for new <em>and</em> "
+"existing accounts (currently logged in accounts will not be logged out). If "
+"a username or e-mail address for an account matches any deny rule, but not "
+"an allow rule, then the account will not be allowed to be created or to log "
+"in. A host rule is effective for every page view, not just registrations."
+msgstr ""
+"為新帳號和現有帳號的使用者名稱和電子郵件位址，設定存取規則（目前已登入的帳號"
+"不會被登出）。如果某一個使用者的使用者名稱或電子郵件位址，符合任何拒絕規則，"
+"並且不符合任一條允許規則，將無法建立新帳號，也不被允許登入。這個主機規則是對"
+"每一個頁面有效，而不只是註冊頁面。"
+
+#: modules/user/user.module:1890
+msgid ""
+"Permissions let you control what users can do on your site. Each user role "
+"(defined on the <a href=\"@role\">user roles page</a>) has its own set of "
+"permissions. For example, you could give users classified as \"Administrators"
+"\" permission to \"administer nodes\" but deny this power to ordinary, "
+"\"authenticated\" users. You can use permissions to reveal new features to "
+"privileged users (those with subscriptions, for example). Permissions also "
+"allow trusted users to share the administrative burden of running a busy "
+"site."
+msgstr ""
+"權限可以控制使用者在你的網站上可以做什麼事。 每一個使用者的角色（在 <a href="
+"\"@role\">使用者角色</a>）有他們自己的權限。例如，你可以把一些使用者歸類為 "
+"\"管理者\" ，擁有 \"管理節點\"的權限 ，但是不把這權限給\"註冊使用者\"。你可以"
+"使用權限控制把新功能交給特別的使用者（例如付費使用者）。權限管理讓你可以把管"
+"理的重責大任分配給特定的使用者，以減輕管理者維護大型網站的負擔。"
+
+#: modules/user/user.module:1892
+msgid ""
+"<p>Roles allow you to fine tune the security and administration of Drupal. A "
+"role defines a group of users that have certain privileges as defined in <a "
+"href=\"@permissions\">user permissions</a>. Examples of roles include: "
+"anonymous user, authenticated user, moderator, administrator and so on. In "
+"this area you will define the <em>role names</em> of the various roles. To "
+"delete a role choose \"edit\".</p><p>By default, Drupal comes with two user "
+"roles:</p>\n"
+"      <ul>\n"
+"      <li>Anonymous user: this role is used for users that don't have a user "
+"account or that are not authenticated.</li>\n"
+"      <li>Authenticated user: this role is automatically granted to all "
+"logged in users.</li>\n"
+"      </ul>"
+msgstr ""
+"<p>角色讓你可以調整 Drupal 的安全性和管理權限。一個角色定義了一組擁有特定權限"
+"的使用者，他們的權限在 <a href=\"@permissions\">使用者權限</a> 裡被定義。角色"
+"的範例包括：匿名使用者、註冊使用者、內容審核者、網站管理者等。在這裡，你可以"
+"定義不同角色的 <em>角色名稱</em> 。要刪除一個角色，請先選擇 \"編輯\"。</"
+"p><p>Drupal 預設的兩個角色是：</p>\r\n"
+"      <ul>\r\n"
+"      <li>匿名使用者：沒有註冊或尚未登入的使用者。</li>\r\n"
+"      <li>註冊使用者： 所有登入的使用者，都自動屬於此角色。</li>\r\n"
+"      </ul>"
+
+#: modules/user/user.module:1898
+msgid ""
+"Enter a simple pattern (\"*\" may be used as a wildcard match) to search for "
+"a username or e-mail address. For example, one may search for \"br\" and "
+"Drupal might return \"brian\", \"brad\", and \"brenda@example.com\"."
+msgstr ""
+"輸入關鍵字（可使用萬用字元 \"*\" ），來搜尋使用者名稱。例如，你可以搜尋 \"ch"
+"\"，就可以找到 \"charles\"、 \"charlesc\" 和 \"charleschuang\"。"
+
+#: modules/user/user.module:1935
+msgid "role"
+msgstr "角色"
+
+#: modules/user/user.module:1953
+msgid "permission"
+msgstr "權限"
+
+#: modules/user/user.module:2155
+msgid "Password strength:"
+msgstr "密碼強度："
+
+#: modules/user/user.module:2156
+msgid "Low"
+msgstr "低"
+
+#: modules/user/user.module:2158
+msgid "High"
+msgstr "高"
+
+#: modules/user/user.module:2159
+msgid ""
+"It is recommended to choose a password that contains at least six "
+"characters. It should include numbers, punctuation, and both upper and "
+"lowercase letters."
+msgstr "建議密碼至少要包含 6 個字元。它應該包含數字、字母，並有不同的大小寫。"
+
+#: modules/user/user.module:2160
+msgid "The password does not include enough variation to be secure. Try:"
+msgstr "這密碼太簡單、不安全。請試試："
+
+#: modules/user/user.module:2161
+msgid "Adding both upper and lowercase letters."
+msgstr "增加大寫和小寫的字母。"
+
+#: modules/user/user.module:2162
+msgid "Adding numbers."
+msgstr "請加入數字。"
+
+#: modules/user/user.module:2163
+msgid "Adding punctuation."
+msgstr "請加入英文字母。"
+
+#: modules/user/user.module:2164
+msgid "It is recommended to choose a password different from the username."
+msgstr "建議你設定一個跟使用者名稱不同的密碼。"
+
+#: modules/user/user.module:2167
+msgid "Passwords match:"
+msgstr "密碼符合："
+
+#: modules/user/user.module:2182
+msgid "After a user account has been created"
+msgstr "建立一個使用者帳號之後"
+
+#: modules/user/user.module:2185
+msgid "After a user's profile has been updated"
+msgstr "使用者的個人資訊更新之後"
+
+#: modules/user/user.module:2188
+msgid "After a user has been deleted"
+msgstr "刪除使用者之後"
+
+#: modules/user/user.module:2191
+msgid "After a user has logged in"
+msgstr "使用者登入之後"
+
+#: modules/user/user.module:2194
+msgid "After a user has logged out"
+msgstr "使用者登出之後"
+
+#: modules/user/user.module:2197
+msgid "When a user's profile is being viewed"
+msgstr "當使用者的個人資訊被檢視時"
+
+#: modules/user/user.module:2210
+msgid "Block current user"
+msgstr "封鎖目前的使用者"
+
+#: modules/user/user.module:2216
+msgid "Ban IP address of current user"
+msgstr "封鎖目前使用者 IP 位址"
+
+#: modules/user/user.module:2309
+msgid ""
+"Welcome to Drupal. You are now logged in as user #1, which gives you full "
+"control over your website."
+msgstr ""
+"歡迎來到你的 Drupal 網站。你已經登入為第一號使用者，擁有本網站完整的控制權"
+"限。"
+
+#: modules/user/user.module:2311
+msgid ""
+"</p><p> Your password is <strong>%pass</strong>. You may change your "
+"password below.</p>"
+msgstr "</p><p>你的密碼是 <strong>%pass</strong>。你可以在下方修改密碼</p>"
+
+#: modules/user/user.module:2323
+msgid ""
+"Created a new user account for <a href=\"@url\">%name</a>. No e-mail has "
+"been sent."
+msgstr ""
+"已經為<a href=\"@url\">%name</a>建立一個新的使用帳號。沒有寄送電子郵件通知。"
+
+#: modules/user/user.module:2330
+msgid "Registration successful. You are now logged in."
+msgstr "註冊成功。你已經登入了。"
+
+#: modules/user/user.module:2340
+msgid ""
+"Password and further instructions have been e-mailed to the new user <a href="
+"\"@url\">%name</a>."
+msgstr ""
+"已經將密碼和進一步指引以電子郵件告知新使用者 <a href=\"@url\">%name</a>。"
+
+#: modules/user/user.module:2343
+msgid ""
+"Your password and further instructions have been sent to your e-mail address."
+msgstr "你的密碼和進一步指引已經寄送到你的電子郵件信箱。"
+
+#: modules/user/user.module:2351
+msgid ""
+"Thank you for applying for an account. Your account is currently pending "
+"approval by the site administrator.<br />In the meantime, a welcome message "
+"with further instructions has been sent to your e-mail address."
+msgstr ""
+"謝謝你申請註冊帳號。你的帳號目前正等待網站管理者的審核確認。<br />同時，我們"
+"也寄送一封電子郵件給你。"
+
+#: modules/user/user.module:2388
+msgid "Notify user of new account"
+msgstr "通知使用者有了新帳號。"
+
+#: modules/user/user.module:1320
+msgid "Login attempt failed for %user."
+msgstr "%user 試圖登入失敗。"
+
+#: modules/user/user.module:1357
+msgid "Session opened for %name."
+msgstr "%name 的連線打開。"
+
+#: modules/user/user.module:1406
+msgid "New external user: %name using module %module."
+msgstr "新的外部使用者：%name 使用模組 %module。"
+
+#: modules/user/user.module:1583
+msgid "Deleted user: %name %email."
+msgstr "刪除使用者： %name %email。"
+
+#: modules/user/user.module:2241
+msgid "Blocked user %name."
+msgstr "封鎖使用者%name。"
+
+#: modules/user/user.module:2251
+msgid "Banned IP address %ip"
+msgstr "封鎖 IP 位址 %ip"
+
+#: modules/user/user.module:2305
+msgid "New user: %name (%email)."
+msgstr "新使用者：%name (%email)。"
+
+#: modules/user/user.module:776,779
+msgid "1 guest"
+msgid_plural "@count guests"
+msgstr[0] "1 位訪客"
+msgstr[1] "@count 位訪客"
+
+#: modules/user/user.module:544
+msgid "administer permissions"
+msgstr "管理權限"
+
+#: modules/user/user.module:544
+msgid "administer users"
+msgstr "管理使用者"
+
+#: modules/user/user.module:544
+msgid "access user profiles"
+msgstr "存取使用者個人資訊"
+
+#: modules/user/user.module:544
+msgid "change own username"
+msgstr "改變自己的使用者名稱"
+
+#: modules/user/user.module:887
+msgid "User autocomplete"
+msgstr "使用者自動完成"
+
+#: modules/user/user.module:897
+msgid "User account"
+msgstr "使用者帳號"
+
+#: modules/user/user.module:928
+msgid "Reset password"
+msgstr "重設密碼"
+
+#: modules/user/user.module:938
+msgid "User management"
+msgstr "使用者管理"
+
+#: modules/user/user.module:939
+msgid "Manage your site's users, groups and access to site features."
+msgstr "管理你的網站的使用者、群組，以及網站功能的存取方式。"
+
+#: modules/user/user.module:948
+msgid "List, add, and edit users."
+msgstr "列出、新增和編輯使用者。"
+
+#: modules/user/user.module:960
+msgid "Add user"
+msgstr "新增使用者"
+
+#: modules/user/user.module:967
+msgid "User settings"
+msgstr "使用者設定"
+
+#: modules/user/user.module:968
+msgid ""
+"Configure default behavior of users, including registration requirements, e-"
+"mails, and user pictures."
+msgstr "設定預設的使用者行為，包括註冊需求、電子郵件和使用者照片。"
+
+#: modules/user/user.module:977
+msgid "Permissions"
+msgstr "權限"
+
+#: modules/user/user.module:978
+msgid "Determine access to features by selecting permissions for roles."
+msgstr "藉由勾選角色的權限，決定可以使用哪些功能。"
+
+#: modules/user/user.module:986
+msgid "List, edit, or add user roles."
+msgstr "列出、新增和編輯使用者角色。"
+
+#: modules/user/user.module:993
+msgid "Edit role"
+msgstr "編輯角色"
+
+#: modules/user/user.module:1000
+msgid "Access rules"
+msgstr "存取規則"
+
+#: modules/user/user.module:1001
+msgid ""
+"List and create rules to disallow usernames, e-mail addresses, and IP "
+"addresses."
+msgstr "列出並建立規則，以禁止某些使用者名稱、電子郵件位址和 IP 位址。"
+
+#: modules/user/user.module:1019
+msgid "Check rules"
+msgstr "檢查規則"
+
+#: modules/user/user.module:1026
+msgid "Edit rule"
+msgstr "編輯規則"
+
+#: modules/user/user.module:1033
+msgid "Delete rule"
+msgstr "刪除規則"
+
+#: modules/user/user.module:1042
+msgid "Log out"
+msgstr "登出"
+
+#: modules/user/user.module:1089
+msgid "Account"
+msgstr "帳號"
+
+#: modules/user/user.module:0
+msgid "anonymous user"
+msgstr "匿名使用者"
+
+#: modules/user/user.module:0
+msgid "authenticated user"
+msgstr "已登入使用者"
+
+#: modules/user/user.install:9
+msgid "Stores site access rules."
+msgstr "儲存網站的存取規則。"
+
+#: modules/user/user.install:14
+msgid "Primary Key: Unique access ID."
+msgstr "Primary Key: Unique access ID."
+
+#: modules/user/user.install:21
+msgid "Text mask used for filtering access."
+msgstr "用來過濾存取權限的文字遮罩。"
+
+#: modules/user/user.install:28
+msgid "Type of access rule: name, mail or host."
+msgstr "存取規則的類型：名稱、電子郵件或主機。"
+
+#: modules/user/user.install:35
+msgid "Whether rule is to allow(1) or deny(0) access."
+msgstr "規則是允許(1)或禁止(0)存取權限。"
+
+#: modules/user/user.install:42
+msgid "Stores distributed authentication mapping."
+msgstr "儲存分散式的認證對應。"
+
+#: modules/user/user.install:45
+msgid "Primary Key: Unique authmap ID."
+msgstr "Primary Key: Unique authmap ID."
+
+#: modules/user/user.install:54
+msgid "User's {users}.uid."
+msgstr "使用者的{users}.uid。"
+
+#: modules/user/user.install:61
+msgid "Unique authentication name."
+msgstr "唯一的授權名稱。"
+
+#: modules/user/user.install:68
+msgid "Module which is controlling the authentication."
+msgstr "控制認證的模組。"
+
+#: modules/user/user.install:76
+msgid "Stores permissions for users."
+msgstr "儲存使用者的權限。"
+
+#: modules/user/user.install:81
+msgid "Primary Key: Unique permission ID."
+msgstr "Primary Key: Unique permission ID."
+
+#: modules/user/user.install:88
+msgid "The {role}.rid to which the permissions are assigned."
+msgstr "權限所指派給的 {role}.rid 。"
+
+#: modules/user/user.install:94
+msgid "List of permissions being assigned."
+msgstr "賦予的權限的列表。"
+
+#: modules/user/user.install:101
+msgid "Originally intended for taxonomy-based permissions, but never used."
+msgstr "原本是傾向採用以分類為基礎的權限控制，但從未被使用。"
+
+#: modules/user/user.install:109
+msgid "Stores user roles."
+msgstr "儲存使用者角色。"
+
+#: modules/user/user.install:115
+msgid "Primary Key: Unique role id."
+msgstr "Primary Key: Unique role id."
+
+#: modules/user/user.install:122
+msgid "Unique role name."
+msgstr "唯一的角色名稱。"
+
+#: modules/user/user.install:130
+msgid "Stores user data."
+msgstr "儲存使用者資料。"
+
+#: modules/user/user.install:136
+msgid "Primary Key: Unique user ID."
+msgstr "Primary Key: Unique user ID."
+
+#: modules/user/user.install:143
+msgid "Unique user name."
+msgstr "唯一的使用者名稱。"
+
+#: modules/user/user.install:150
+msgid "User's password (md5 hash)."
+msgstr "使用者的密碼 (md5 hash)。"
+
+#: modules/user/user.install:157
+msgid "User's email address."
+msgstr "使用者的電子郵件位址。"
+
+#: modules/user/user.install:164
+msgid ""
+"Per-user comment display mode (threaded vs. flat), used by the {comment} "
+"module."
+msgstr ""
+"個別使用者的回應顯示模式（串列式 vs. 平板式），由  {comment} 模組所使用。"
+
+#: modules/user/user.install:171
+msgid ""
+"Per-user comment sort order (newest vs. oldest first), used by the {comment} "
+"module."
+msgstr ""
+"個別使用者的回應排序方式（新到舊 vs. 舊到新），由  {comment} 模組所使用。"
+
+#: modules/user/user.install:178
+msgid ""
+"Previously used by the {comment} module for per-user preferences; no longer "
+"used."
+msgstr "之前是由 {comment} 模組針對個別使用者來設定；現在未使用。"
+
+#: modules/user/user.install:185
+msgid "User's default theme."
+msgstr "使用者的預設版型。"
+
+#: modules/user/user.install:192
+msgid "User's signature."
+msgstr "使用者的簽名檔。"
+
+#: modules/user/user.install:198
+msgid "Timestamp for when user was created."
+msgstr "建立使用者的時間的時間戳記。"
+
+#: modules/user/user.install:204
+msgid "Timestamp for previous time user accessed the site."
+msgstr "使用者上次來到本網站的時間戳記。"
+
+#: modules/user/user.install:210
+msgid "Timestamp for user's last login."
+msgstr "使用者最近一次登入的時間戳記。"
+
+#: modules/user/user.install:217
+msgid "Whether the user is active(1) or blocked(0)."
+msgstr "使用者狀態是啟用(1)或封鎖(0)。"
+
+#: modules/user/user.install:223
+msgid "User's timezone."
+msgstr "使用者的時區。"
+
+#: modules/user/user.install:230
+msgid "User's default language."
+msgstr "使用者的預設語系。"
+
+#: modules/user/user.install:237
+msgid "Path to the user's uploaded picture."
+msgstr "使用者上傳圖檔的路徑。"
+
+#: modules/user/user.install:244
+msgid "Email address used for initial account creation."
+msgstr "初始帳號建立所使用的電子郵件位址。"
+
+#: modules/user/user.install:250
+msgid ""
+"A serialized array of name value pairs that are related to the user. Any "
+"form values posted during user edit are stored and are loaded into the $user "
+"object during user_load(). Use of this field is discouraged and it will "
+"likely disappear in a future version of Drupal."
+msgstr ""
+"與使用者相關的序列化陣列。在編輯使用者時所儲存的表單欄位值，都會在 user_load"
+"() 時載入到 $user 物件。我們並不建議使用這欄位，這欄位有可能在未來的 Drupal "
+"版本裡消失不見。"
+
+#: modules/user/user.install:265
+msgid "Maps users to roles."
+msgstr "把使用者對應到角色。"
+
+#: modules/user/user.install:272
+msgid "Primary Key: {users}.uid for user."
+msgstr "Primary Key: {users}.uid for user."
+
+#: modules/user/user.install:279
+msgid "Primary Key: {role}.rid for role."
+msgstr "Primary Key: {role}.rid for role."

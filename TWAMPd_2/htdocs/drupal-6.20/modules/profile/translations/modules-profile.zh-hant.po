@@ -1,0 +1,453 @@
+# Chinese, Traditional translation of drupal (6.2)
+# Copyright (c) 2008 by the Chinese, Traditional translation team
+# Generated from files:
+#  profile.admin.inc,v 1.8 2008/01/21 15:20:43 goba
+#  profile.module,v 1.236.2.1 2008/04/09 21:11:49 goba
+#  profile.install,v 1.12 2007/12/18 12:59:22 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.x)\n"
+"POT-Creation-Date: 2008-05-14 13:25+0800\n"
+"PO-Revision-Date: 2009-08-20 00:23+0800\n"
+"Language-Team: Drupal Taiwan <info@drupaltaiwan.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: charlesc <charles@netivism.com.tw>\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: TAIWAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+
+#: modules/profile/profile.admin.inc:252,259
+msgid "Page title"
+msgstr "頁面標題"
+
+#: modules/profile/profile.admin.inc:55
+msgid "Add new field"
+msgstr "增加新的欄位"
+
+#: modules/profile/profile.admin.inc:82
+msgid "Profile fields have been updated."
+msgstr "個人資訊欄位已更新。"
+
+#: modules/profile/profile.admin.inc:115
+msgid ""
+"No fields in this category. If this category remains empty when saved, it "
+"will be removed."
+msgstr "此分類裡沒有欄位。如果在儲存時此分類還是空的，就會被移除。"
+
+#: modules/profile/profile.admin.inc:144
+msgid "No fields available."
+msgstr "沒有可用的欄位。"
+
+#: modules/profile/profile.admin.inc:178
+msgid "edit %title"
+msgstr "編輯 %title"
+
+#: modules/profile/profile.admin.inc:196
+msgid "add new %type"
+msgstr "增加新的 %type"
+
+#: modules/profile/profile.admin.inc:211
+msgid "Field settings"
+msgstr "欄位設定"
+
+#: modules/profile/profile.admin.inc:217
+msgid ""
+"The category the new field should be part of. Categories are used to group "
+"fields logically. An example category is \"Personal information\"."
+msgstr "新欄位應屬於的分類。分類是用來對欄位進行分組。例如：\"個人資訊\"。"
+
+#: modules/profile/profile.admin.inc:223
+msgid ""
+"The title of the new field. The title will be shown to the user. An example "
+"title is \"Favorite color\"."
+msgstr "新欄位的標題。標題將顯示給使用者看，例如\"喜愛的顏色\"。"
+
+#: modules/profile/profile.admin.inc:227
+msgid "Form name"
+msgstr "表單名稱"
+
+#: modules/profile/profile.admin.inc:229
+msgid ""
+"The name of the field. The form name is not shown to the user but used "
+"internally in the HTML code and URLs.\n"
+"Unless you know what you are doing, it is highly recommended that you prefix "
+"the form name with <code>profile_</code> to avoid name clashes with other "
+"fields. Spaces or any other special characters except dash (-) and "
+"underscore (_) are not allowed. An example name is \"profile_favorite_color"
+"\" or perhaps just \"profile_color\"."
+msgstr ""
+"欄位的名稱。欄位名稱不會顯示給使用者看，而是用在 HTML 程式碼和 URL 裡。除非您"
+"知道您在做什麼，否則我們強烈建議您使用 <code>profile_</code> 作為欄位名稱的前"
+"導字，以避免與其他欄位衝突。除了橫線（-）和底線（_）之外，空格或其他特殊字元"
+"是不被允許的。例如你可以使用 \"profile_favorite_color\" 或 \"profile_color\" "
+"作欄位的名稱。"
+
+#: modules/profile/profile.admin.inc:234
+msgid "Explanation"
+msgstr "說明"
+
+#: modules/profile/profile.admin.inc:236
+msgid ""
+"An optional explanation to go with the new field. The explanation will be "
+"shown to the user."
+msgstr "關於新欄位的說明（選填）。使用者會看到說明。"
+
+#: modules/profile/profile.admin.inc:240
+msgid "Selection options"
+msgstr "選項"
+
+#: modules/profile/profile.admin.inc:242
+msgid ""
+"A list of all options. Put each option on a separate line. Example options "
+"are \"red\", \"blue\", \"green\", etc."
+msgstr "所有選項的列表。每行一個選項。例如：\"紅\"、\"綠\"、 \"藍\"等。"
+
+#: modules/profile/profile.admin.inc:246
+msgid "Visibility"
+msgstr "顯示"
+
+#: modules/profile/profile.admin.inc:248
+msgid ""
+"Hidden profile field, only accessible by administrators, modules and themes."
+msgstr "隱藏的個人資訊欄位，只有管理者、模組和版型可以使用。"
+
+#: modules/profile/profile.admin.inc:248
+msgid "Private field, content only available to privileged users."
+msgstr "保密欄位，只有特定權限的使用者才看得到。"
+
+#: modules/profile/profile.admin.inc:248
+msgid ""
+"Public field, content shown on profile page but not used on member list "
+"pages."
+msgstr "公開欄位，顯示在使用者資訊頁，但不會顯示在會員列表裡。"
+
+#: modules/profile/profile.admin.inc:248
+msgid "Public field, content shown on profile page and on member list pages."
+msgstr "公開欄位，內容會顯示在個人資訊頁和會員列表頁上。"
+
+#: modules/profile/profile.admin.inc:254
+msgid ""
+"To enable browsing this field by value, enter a title for the resulting "
+"page. The word <code>%value</code> will be substituted with the "
+"corresponding value. An example page title is \"People whose favorite color "
+"is %value\". This is only applicable for a public field."
+msgstr ""
+"要啟用透過數值來瀏覽此欄位，請輸入結果頁的標題。<code>%value</code> 會被相應"
+"的數值所取代。一個網頁標題的範例是：\"人們最喜歡的顏色是 %value\"。這只適用於"
+"公開欄位。"
+
+#: modules/profile/profile.admin.inc:261
+msgid ""
+"To enable browsing this field by value, enter a title for the resulting "
+"page. An example page title is \"People who are employed\". This is only "
+"applicable for a public field."
+msgstr ""
+"要啟用透過數值來瀏覽此欄位，請輸入結果頁的標題。例如：被雇用的人。這只適用於"
+"公開欄位。"
+
+#: modules/profile/profile.admin.inc:267
+msgid ""
+"The weights define the order in which the form fields are shown. Lighter "
+"fields \"float up\" towards the top of the category."
+msgstr "順序值定義了表單欄位的顯示順序。數值小的將會顯示在分類的上面。"
+
+#: modules/profile/profile.admin.inc:270
+msgid "Form will auto-complete while user is typing."
+msgstr "表單欄位會在使用者輸入時自動完成。"
+
+#: modules/profile/profile.admin.inc:274
+msgid "The user must enter a value."
+msgstr "使用者必須輸入一個值。"
+
+#: modules/profile/profile.admin.inc:278
+msgid "Visible in user registration form."
+msgstr "顯示在使用者註冊表單。"
+
+#: modules/profile/profile.admin.inc:282
+msgid "Save field"
+msgstr "儲存欄位"
+
+#: modules/profile/profile.admin.inc:293
+msgid ""
+"The specified form name contains one or more illegal characters. Spaces or "
+"any other special characters except dash (-) and underscore (_) are not "
+"allowed."
+msgstr ""
+"表單名稱裡含有一個或一個以上的不合法字元。除了連接號(-)和底線(_)之外的其他特"
+"殊字元和空格字元，都是不允許的。"
+
+#: modules/profile/profile.admin.inc:297
+msgid "The specified form name is reserved for use by Drupal."
+msgstr "你所輸入的表單名稱是 Drupal 的保留名稱。"
+
+#: modules/profile/profile.admin.inc:304
+msgid "The specified category name is reserved for use by Drupal."
+msgstr "所指定分類名稱是 Drupal 的保留名稱。"
+
+#: modules/profile/profile.admin.inc:316
+msgid "The specified title is already in use."
+msgstr "你所輸入的標題已被使用。"
+
+#: modules/profile/profile.admin.inc:319
+msgid "The specified name is already in use."
+msgstr "你所輸入的名稱已被使用。"
+
+#: modules/profile/profile.admin.inc:323
+msgid "A hidden field cannot be required."
+msgstr "隱藏欄位無法設為必填。"
+
+#: modules/profile/profile.admin.inc:326
+msgid "A hidden field cannot be set to visible on the user registration form."
+msgstr "隱藏欄位無法設為顯示在使用者註冊表單。"
+
+#: modules/profile/profile.admin.inc:344
+msgid "The field has been created."
+msgstr "欄位已建立。"
+
+#: modules/profile/profile.admin.inc:350
+msgid "The field has been updated."
+msgstr "欄位已更新。"
+
+#: modules/profile/profile.admin.inc:372
+msgid "Are you sure you want to delete the field %field?"
+msgstr "您真的要刪除欄位 %field 嗎？"
+
+#: modules/profile/profile.admin.inc:373
+msgid ""
+"This action cannot be undone. If users have entered values into this field "
+"in their profile, these entries will also be deleted. If you want to keep "
+"the user-entered data, instead of deleting the field you may wish to <a href="
+"\"@edit-field\">edit this field</a> and change it to a hidden profile field "
+"so that it may only be accessed by administrators."
+msgstr ""
+"這個動作無法恢復。如果使用者曾經在他們個人資訊的欄位裡填寫了資料，這些資料也"
+"都會被刪除。如果你想要保留使用者輸入的資料，你不應該刪除該欄位，而是應該 <a "
+"href=\"@edit-field\">編輯此欄位</a> ，然後把它改為隱藏欄位，這樣就只有管理者"
+"可以存取。"
+
+#: modules/profile/profile.admin.inc:386
+msgid "The field %field has been deleted."
+msgstr "欄位 %field 已經被刪除。"
+
+#: modules/profile/profile.admin.inc:345
+msgid "Profile field %field added under category %category."
+msgstr "個人資訊欄位 %field 已新增到分類 %category。"
+
+#: modules/profile/profile.admin.inc:387
+msgid "Profile field %field deleted."
+msgstr "個人資訊欄位 %field 已經被刪除。"
+
+#: modules/profile/profile.module:35
+msgid ""
+"The profile module allows custom fields (such as country, full name, or age) "
+"to be defined and displayed in the <em>My Account</em> section. This permits "
+"users of a site to share more information about themselves, and can help "
+"community-based sites organize users around specific information."
+msgstr ""
+"個人資訊模組讓你可以為使用者訂定個人資訊欄位（例如國別、真實姓名、年齡..."
+"等），並顯示在個人帳號頁面。這讓網站的使用者可以分享更多關於他們的資訊，同時"
+"也可以幫助以社群為基礎的網站，用這些欄位將使用者進行分類。"
+
+#: modules/profile/profile.module:36
+msgid "The following types of fields can be added to a user profile:"
+msgstr "以下類型的欄位可以增加到使用者個人資訊裡："
+
+#: modules/profile/profile.module:37,545
+msgid "single-line textfield"
+msgstr "單行文字欄位"
+
+#: modules/profile/profile.module:38,546
+msgid "multi-line textfield"
+msgstr "多行文字欄位"
+
+#: modules/profile/profile.module:39,547
+msgid "checkbox"
+msgstr "勾選框"
+
+#: modules/profile/profile.module:40,548
+msgid "list selection"
+msgstr "下拉選單"
+
+#: modules/profile/profile.module:41,549
+msgid "freeform list"
+msgstr "自由列表"
+
+#: modules/profile/profile.module:43,551
+msgid "date"
+msgstr "日期"
+
+#: modules/profile/profile.module:44
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@profile"
+"\">Profile module</a>."
+msgstr "更多資訊，請參考<a href=\"@profile\">個人資訊模組</a>的線上說明。"
+
+#: modules/profile/profile.module:47
+msgid ""
+"This page displays a list of the existing custom profile fields to be "
+"displayed on a user's <em>My Account</em> page. To provide structure, "
+"similar or related fields may be placed inside a category. To add a new "
+"category (or edit an existing one), edit a profile field and provide a new "
+"category name. To change the category of a field or the order of fields "
+"within a category, grab a drag-and-drop handle under the Title column and "
+"drag the field to a new location in the list. (Grab a handle by clicking and "
+"holding the mouse while hovering over a handle icon.) Remember that your "
+"changes will not be saved until you click the <em>Save configuration</em> "
+"button at the bottom of the page."
+msgstr ""
+"本頁列出所有會顯示在使用者的<strong>我的帳號</strong>裡的自訂的個人資訊欄位。"
+"類似或相關的欄位，可以使用分類功能把它們集合在一起。要新增或編輯分類，可以編"
+"輯一個個人資訊欄位，並給它一個新的分類名稱。要改變欄位分類或分類裡的欄位順"
+"序，可以使用拖放的方式把欄位拉到新的位置。要記得按下儲存按鈕，才能夠保存所作"
+"的調整。"
+
+#: modules/profile/profile.module:141
+msgid "Author information"
+msgstr "作者資訊"
+
+#: modules/profile/profile.module:152
+msgid "Link to full user profile"
+msgstr "連結到完整的使用者個人資訊"
+
+#: modules/profile/profile.module:154
+msgid "Profile fields to display"
+msgstr "要顯示的個人資訊欄位"
+
+#: modules/profile/profile.module:157
+msgid ""
+"Select which profile fields you wish to display in the block. Only fields "
+"designated as public in the <a href=\"@profile-admin\">profile field "
+"configuration</a> are available."
+msgstr ""
+"選擇你想要在區塊裡顯示的個人資訊欄位。只有在 <a href=\"@profile-admin\">個人"
+"資訊欄位設定</a> 裡設定為公開的欄位才可以選擇。"
+
+#: modules/profile/profile.module:189
+msgid "View full user profile"
+msgstr "檢視完整的使用者資訊"
+
+#: modules/profile/profile.module:194
+msgid "About %name"
+msgstr "關於 %name"
+
+#: modules/profile/profile.module:337
+msgid ""
+"Put each item on a separate line or separate them by commas. No HTML allowed."
+msgstr "把每一個項目分行或用逗號隔開。不允許使用HTML程式碼。"
+
+#: modules/profile/profile.module:439
+msgid "The value provided for %field is not a valid URL."
+msgstr "%field 的值不是一個正確的URL。"
+
+#: modules/profile/profile.module:444
+msgid "The field %field is required."
+msgstr "必須填寫 %field 欄位。"
+
+#: modules/profile/profile.module:87
+msgid "Profiles"
+msgstr "個人資訊"
+
+#: modules/profile/profile.module:88
+msgid "Create customizable fields for your users."
+msgstr "為你的使用者建立自訂欄位。"
+
+#: modules/profile/profile.module:95
+msgid "Add field"
+msgstr "增加欄位"
+
+#: modules/profile/profile.module:103
+msgid "Profile category autocomplete"
+msgstr "個人資訊分類自動完成"
+
+#: modules/profile/profile.module:110
+msgid "Edit field"
+msgstr "編輯欄位"
+
+#: modules/profile/profile.module:118
+msgid "Delete field"
+msgstr "刪除欄位"
+
+#: modules/profile/profile.module:126
+msgid "Profile autocomplete"
+msgstr "個人資訊自動完成"
+
+#: modules/profile/profile.install:27
+msgid "Stores profile field information."
+msgstr "儲存個人資訊的欄位資料。"
+
+#: modules/profile/profile.install:32
+msgid "Primary Key: Unique profile field ID."
+msgstr "Primary Key: Unique profile field ID."
+
+#: modules/profile/profile.install:38
+msgid "Title of the field shown to the end user."
+msgstr "顯示給使用者看的欄位標題。"
+
+#: modules/profile/profile.install:45
+msgid "Internal name of the field used in the form HTML and URLs."
+msgstr "在表單 HTML 和網址裡所使用的欄位的內部名稱。"
+
+#: modules/profile/profile.install:50
+msgid "Explanation of the field to end users."
+msgstr "提供給使用者看的欄位說明。"
+
+#: modules/profile/profile.install:56
+msgid "Profile category that the field will be grouped under."
+msgstr "欄位所屬的個人資訊分類。"
+
+#: modules/profile/profile.install:62
+msgid "Title of page used for browsing by the field's value"
+msgstr "瀏覽該欄位的資料時所顯示的網頁標題"
+
+#: modules/profile/profile.install:68
+msgid "Type of form field."
+msgstr "表單欄位的類型。"
+
+#: modules/profile/profile.install:75
+msgid "Weight of field in relation to other profile fields."
+msgstr "欄位與其他資料欄位相關的順序值。"
+
+#: modules/profile/profile.install:82
+msgid "Whether the user is required to enter a value. (0 = no, 1 = yes)"
+msgstr "使用者是否必須輸入一個數值（0 = 否，1 = 是）。"
+
+#: modules/profile/profile.install:89
+msgid ""
+"Whether the field is visible in the user registration form. (1 = yes, 0 = no)"
+msgstr "該欄位是否會顯示在使用者註冊表單裡（1 = 是，0 = 否）。"
+
+#: modules/profile/profile.install:96
+msgid ""
+"The level of visibility for the field. (0 = hidden, 1 = private, 2 = public "
+"on profile but not member list pages, 3 = public on profile and list pages)"
+msgstr ""
+"該欄位的方式（0 = 隱藏，1 = 私人資料，2 = 公開在個人資訊頁裡，3 = 公開在個人"
+"資訊頁和會員列表頁裡）。"
+
+#: modules/profile/profile.install:103
+msgid "Whether form auto-completion is enabled. (0 = disabled, 1 = enabled)"
+msgstr "是否啟用表單自動完成功能（0 = 關閉，1 = 啟用）。"
+
+#: modules/profile/profile.install:108
+msgid "List of options to be used in a list selection field."
+msgstr "在列表選擇欄位裡的列表項目。"
+
+#: modules/profile/profile.install:117
+msgid "Stores values for profile fields."
+msgstr "儲存個人資訊欄位的數值。"
+
+#: modules/profile/profile.install:124
+msgid "The {profile_fields}.fid of the field."
+msgstr "The {profile_fields}.fid of the field."
+
+#: modules/profile/profile.install:131
+msgid "The {users}.uid of the profile user."
+msgstr "The {users}.uid of the profile user."
+
+#: modules/profile/profile.install:136
+msgid "The value for the field."
+msgstr "欄位的數值。"

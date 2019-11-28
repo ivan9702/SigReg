@@ -1,0 +1,458 @@
+# Chinese, Traditional translation of drupal (6.2)
+# Copyright (c) 2008 by the Chinese, Traditional translation team
+# Generated from files:
+#  update.compare.inc,v 1.8 2008/02/03 19:34:02 goba
+#  update.fetch.inc,v 1.7.2.1 2008/04/09 18:36:58 goba
+#  update.report.inc,v 1.10.2.1 2008/02/05 09:59:21 goba
+#  update.settings.inc,v 1.3 2007/10/20 21:57:50 goba
+#  update.module,v 1.17 2008/01/30 10:14:42 goba
+#  update.install,v 1.4 2008/02/03 18:38:14 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.x)\n"
+"POT-Creation-Date: 2008-05-14 13:25+0800\n"
+"PO-Revision-Date: 2009-08-20 00:23+0800\n"
+"Language-Team: Drupal Taiwan <info@drupaltaiwan.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: charlesc <charles@netivism.com.tw>\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: TAIWAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+
+#: modules/update/update.compare.inc:155
+msgid "Unknown"
+msgstr "未知"
+
+#: modules/update/update.compare.inc:258
+msgid "Project not secure"
+msgstr "不安全的專案"
+
+#: modules/update/update.compare.inc:259
+msgid ""
+"This project has been labeled insecure by the Drupal security team, and is "
+"no longer available for download. Immediately disabling everything included "
+"by this project is strongly recommended!"
+msgstr ""
+"此專案已被 Drupal 資安小組標示為不安全，不再提供下載。強烈建議你立刻關閉/移除"
+"此專案。"
+
+#: modules/update/update.compare.inc:270
+msgid "Project revoked"
+msgstr "撤銷的專案"
+
+#: modules/update/update.compare.inc:271
+msgid ""
+"This project has been revoked, and is no longer available for download. "
+"Disabling everything included by this project is strongly recommended!"
+msgstr "此專案已被撤銷，不再提供下載。強烈建議你立刻關閉/移除此專案。"
+
+#: modules/update/update.compare.inc:281
+msgid "Project not supported"
+msgstr "不支援的專案"
+
+#: modules/update/update.compare.inc:282
+msgid ""
+"This project is no longer supported, and is no longer available for "
+"download. Disabling everything included by this project is strongly "
+"recommended!"
+msgstr "此專案已不再被支援，不再提供下載。強烈建議你立刻關閉/移除此專案。"
+
+#: modules/update/update.compare.inc:348,497,546
+msgid "No available releases found"
+msgstr "找不到可用的更新"
+
+#: modules/update/update.compare.inc:365
+msgid "Release revoked"
+msgstr "撤銷的版本"
+
+#: modules/update/update.compare.inc:366
+msgid ""
+"Your currently installed release has been revoked, and is no longer "
+"available for download. Disabling everything included in this release or "
+"upgrading is strongly recommended!"
+msgstr ""
+"你目前所安裝的版本已經被撤銷，不再提供下載。強烈建議你立刻關閉/移除此專案。"
+
+#: modules/update/update.compare.inc:377
+msgid "Release not supported"
+msgstr "不支援的發佈版本"
+
+#: modules/update/update.compare.inc:378
+msgid ""
+"Your currently installed release is now unsupported, and is no longer "
+"available for download. Disabling everything included in this release or "
+"upgrading is strongly recommended!"
+msgstr ""
+"你目前所安裝的版本已經不再提供支援，也不再提供下載。強烈建議你立刻關閉/移除此"
+"專案。"
+
+#: modules/update/update.compare.inc:529
+msgid "Unknown release date"
+msgstr "未知的發佈日期"
+
+#: modules/update/update.compare.inc:541
+msgid "Invalid info"
+msgstr "無效的資訊"
+
+#: modules/update/update.fetch.inc:14,57
+msgid "Fetched information about all available new releases and updates."
+msgstr "已取得所有新版本與更新的資訊。"
+
+#: modules/update/update.fetch.inc:17,61
+msgid ""
+"Unable to fetch any information about available new releases and updates."
+msgstr "無法取得關於新版本和更新程式的資訊。"
+
+#: modules/update/update.report.inc:30
+msgid "Last checked: @time ago"
+msgstr "最近檢查時間：@time 前"
+
+#: modules/update/update.report.inc:30
+msgid "Last checked: never"
+msgstr "最近檢查時間：從未"
+
+#: modules/update/update.report.inc:31
+msgid "Check manually"
+msgstr "手動檢查"
+
+#: modules/update/update.report.inc:48
+msgid "ok"
+msgstr "ok"
+
+#: modules/update/update.report.inc:70
+msgid "Security update required!"
+msgstr "需要安全性更新！"
+
+#: modules/update/update.report.inc:76
+msgid "Not supported!"
+msgstr "不支援！"
+
+#: modules/update/update.report.inc:79
+msgid "Update available"
+msgstr "可用的更新"
+
+#: modules/update/update.report.inc:137
+msgid "Recommended version:"
+msgstr "建議版本："
+
+#: modules/update/update.report.inc:143
+msgid "Security update:"
+msgstr "安全性更新："
+
+#: modules/update/update.report.inc:149
+msgid "Latest version:"
+msgstr "最新版本："
+
+#: modules/update/update.report.inc:155
+msgid "Development version:"
+msgstr "開發版本："
+
+#: modules/update/update.report.inc:161
+msgid "Also available:"
+msgstr "也提供："
+
+#: modules/update/update.report.inc:181
+msgid "Includes: %includes"
+msgstr "包括：%includes"
+
+#: modules/update/update.report.inc:196
+msgid "Drupal core"
+msgstr "Drupal 核心"
+
+#: modules/update/update.report.inc:199
+msgid "Disabled modules"
+msgstr "未啟用的模組"
+
+#: modules/update/update.report.inc:200
+msgid "Disabled themes"
+msgstr "未啟用的版型"
+
+#: modules/update/update.report.inc:229
+msgid "Download"
+msgstr "下載"
+
+#: modules/update/update.report.inc:233
+msgid "Release notes"
+msgstr "發佈註記"
+
+#: modules/update/update.settings.inc:18
+msgid "E-mail addresses to notify when updates are available"
+msgstr "當有更新檔案時要通知的電子郵件位址"
+
+#: modules/update/update.settings.inc:21
+msgid ""
+"Whenever your site checks for available updates and finds new releases, it "
+"can notify a list of users via e-mail. Put each address on a separate line. "
+"If blank, no e-mails will be sent."
+msgstr ""
+"當你的網站檢查更新程式並發現有新的版本時，它可以透過電子郵件通知特定的使用"
+"者。請每行輸入一個電子郵件位置。如果不填寫，將不會寄送電子郵件。"
+
+#: modules/update/update.settings.inc:26
+msgid "Check for updates"
+msgstr "檢查更新"
+
+#: modules/update/update.settings.inc:29
+msgid "Daily"
+msgstr "每天"
+
+#: modules/update/update.settings.inc:30
+msgid "Weekly"
+msgstr "每周"
+
+#: modules/update/update.settings.inc:32
+msgid ""
+"Select how frequently you want to automatically check for new releases of "
+"your currently installed modules and themes."
+msgstr "設定你希望多久自動檢查一次目前安裝的模組和版型的更新版本。"
+
+#: modules/update/update.settings.inc:37
+msgid "Notification threshold"
+msgstr "通知門檻"
+
+#: modules/update/update.settings.inc:40
+msgid "All newer versions"
+msgstr "所有新版本"
+
+#: modules/update/update.settings.inc:41
+msgid "Only security updates"
+msgstr "只有安全性更新"
+
+#: modules/update/update.settings.inc:43
+msgid ""
+"If there are updates available of Drupal core or any of your installed "
+"modules and themes, your site will print an error message on the <a href="
+"\"@status_report\">status report</a>, the <a href=\"@modules_page\">modules "
+"page</a>, and the <a href=\"@themes_page\">themes page</a>. You can choose "
+"to only see these error messages if a security update is available, or to be "
+"notified about any newer versions."
+msgstr ""
+"如果有 Drupal 核心程式或任何所安裝的模組和版型的更新資訊，你的網站會在<a "
+"href=\"@status_report\">狀態報告</a>、<a href=\"@modules_page\">模組管理</"
+"a>、<a href=\"@themes_page\">版型管理</a>裡顯示錯誤訊息。你可以選擇只有在安全"
+"性更新出現時才顯示此訊息，或是在任何新版本出現時就顯示。"
+
+#: modules/update/update.settings.inc:80
+msgid "%email is not a valid e-mail address."
+msgstr "%email 是無效的電子郵件位址。"
+
+#: modules/update/update.settings.inc:83
+msgid "%emails are not valid e-mail addresses."
+msgstr "%emails 是無效的電子郵件位址。"
+
+#: modules/update/update.module:61
+msgid ""
+"Here you can find information about available updates for your installed "
+"modules and themes. Note that each module or theme is part of a \"project\", "
+"which may or may not have the same name, and might include multiple modules "
+"or themes within it."
+msgstr ""
+"在這裡你可以找到關於所安裝的版型和模組的更新資訊。請注意，每一個模組或版型都"
+"是「專案」的一部分，可能會同時包括多個模組或版型。"
+
+#: modules/update/update.module:62
+msgid ""
+"To extend the functionality or to change the look of your site, a number of "
+"contributed <a href=\"@modules\">modules</a> and <a href=\"@themes\">themes</"
+"a> are available."
+msgstr ""
+"為了擴充功能或改變網站的外觀，有許多由使用者所貢獻的<a href=\"@modules\">版型"
+"</a>和<a href=\"@themes\">模組</a>。"
+
+#: modules/update/update.module:79
+msgid ""
+"See the <a href=\"@available_updates\">available updates</a> page for "
+"information on installed modules and themes with new versions released."
+msgstr ""
+"請參考<a href=\"@available_updates\">更新資訊</a>網頁，以取得有關版型和模組的"
+"新版資訊。"
+
+#: modules/update/update.module:87
+msgid ""
+"The Update status module periodically checks for new versions of your site's "
+"software (including contributed modules and themes), and alerts you to "
+"available updates."
+msgstr ""
+"更新狀態模組會定期檢查你的網站軟體的新版本（包括所有模組和版型），並通知你有"
+"可使用的更新版本。"
+
+#: modules/update/update.module:88
+msgid ""
+"The <a href=\"@update-report\">report of available updates</a> will alert "
+"you when new releases are available for download. You may configure options "
+"for update checking frequency and notifications at the <a href=\"@update-"
+"settings\">Update status module settings page</a>."
+msgstr ""
+"<a href=\"@update-report\">可使用的更新程式報表</a>會在有新程式可以下載時通知"
+"你。你可以在<a href=\"@update-settings\">更新狀態模組設定</a>裡設定定期檢查更"
+"新的時間與通知的方式。"
+
+#: modules/update/update.module:89
+msgid ""
+"Please note that in order to provide this information, anonymous usage "
+"statistics are sent to drupal.org. If desired, you may disable the Update "
+"status module from the <a href=\"@modules\">module administration page</a>."
+msgstr ""
+"請注意，為了要提供這些資訊，將會傳送未記名的使用統計到 drupal.org。如果不想這"
+"樣的話，你可以在<a href=\"@modules\">模組管理</a>裡關閉更新狀態模組。"
+
+#: modules/update/update.module:90
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@update"
+"\">Update status module</a>."
+msgstr ""
+"更多資訊，請查閱設定與客製化手冊的 <a href=\"@update\">更新狀態模組</a>。"
+
+#: modules/update/update.module:211,243
+msgid "Drupal core update status"
+msgstr "Drupal 核心更新狀態"
+
+#: modules/update/update.module:212
+msgid "No update data available"
+msgstr "沒有可用的更新資料"
+
+#: modules/update/update.module:246
+msgid "Module and theme update status"
+msgstr "模組和版型更新狀態"
+
+#: modules/update/update.module:256
+msgid "Not secure!"
+msgstr "不安全！"
+
+#: modules/update/update.module:262
+msgid "Unsupported release"
+msgstr "不支援的發佈版本"
+
+#: modules/update/update.module:270
+msgid "Can not determine status"
+msgstr "無法判定狀態"
+
+#: modules/update/update.module:277
+msgid "(version @version available)"
+msgstr "（可使用的版本：@version）"
+
+#: modules/update/update.module:314
+msgid ""
+"No information is available about potential new releases for currently "
+"installed modules and themes. To check for updates, you may need to <a href="
+"\"@run_cron\">run cron</a> or you can <a href=\"@check_manually\">check "
+"manually</a>. Please note that checking for available updates can take a "
+"long time, so please be patient."
+msgstr ""
+"目前沒有模組與版型的相關更新資訊。要檢查更新資訊，你可能需要執行 <a href="
+"\"@run_cron\">cron</a>，或是<a href=\"@check_manually\">手動檢查</a>。"
+
+#: modules/update/update.module:415
+msgid "New release(s) available for !site_name"
+msgstr "!site_name 有新發佈的版本可用"
+
+#: modules/update/update.module:419
+msgid "See the available updates page for more information:"
+msgstr "請檢視可使用的更新程式網頁，以取得更多的資訊："
+
+#: modules/update/update.module:448
+msgid ""
+"There is a security update available for your version of Drupal. To ensure "
+"the security of your server, you should update immediately!"
+msgstr ""
+"你的 Drupal 網站有一個安全性更新可以使用。為了確保你的伺服器的安全，你應該馬"
+"上進行更新。"
+
+#: modules/update/update.module:451
+msgid ""
+"There are security updates available for one or more of your modules or "
+"themes. To ensure the security of your server, you should update immediately!"
+msgstr ""
+"你的 Drupal 網站有一些安全性更新可以使用。為了確保你的伺服器的安全，你應該馬"
+"上進行更新。"
+
+#: modules/update/update.module:457
+msgid ""
+"Your version of Drupal has been revoked and is no longer available for "
+"download. Upgrading is strongly recommended!"
+msgstr "你的 Drupal 版本已經過時、不再提供下載。強烈建議你進行升級。"
+
+#: modules/update/update.module:460
+msgid ""
+"The installed version of at least one of your modules or themes has been "
+"revoked and is no longer available for download. Upgrading or disabling is "
+"strongly recommended!"
+msgstr ""
+"你所安裝的模組或版型的版本已經過時、不再提供下載。強烈建議你進行升級、或是關"
+"閉過時的模組或版型。"
+
+#: modules/update/update.module:466
+msgid ""
+"Your version of Drupal is no longer supported. Upgrading is strongly "
+"recommended!"
+msgstr "你的 Drupal 版本已經不再提供支援。強烈建議你進行升級。"
+
+#: modules/update/update.module:469
+msgid ""
+"The installed version of at least one of your modules or themes is no longer "
+"supported. Upgrading or disabling is strongly recommended! Please see the "
+"project homepage for more details."
+msgstr ""
+"你所安裝的模組或版型的版本已經不再提供支援。強烈建議你進行升級、或是關閉過時"
+"的模組或版型。請參考專案網頁以取得更多的資訊。"
+
+#: modules/update/update.module:475
+msgid ""
+"There are updates available for your version of Drupal. To ensure the proper "
+"functioning of your site, you should update as soon as possible."
+msgstr ""
+"你所安裝的 Drupal 版本有更新程式可使用。要確保你的網站的正常運作，你應該立刻"
+"更新你的網站。"
+
+#: modules/update/update.module:478
+msgid ""
+"There are updates available for one or more of your modules or themes. To "
+"ensure the proper functioning of your site, you should update as soon as "
+"possible."
+msgstr ""
+"你所安裝的版型或模組有更新程式可使用。要確保你的網站的正常運作，你應該立刻更"
+"新你的網站。"
+
+#: modules/update/update.module:485
+msgid ""
+"There was a problem determining the status of available updates for your "
+"version of Drupal."
+msgstr "無法判斷你的 Drupal 網站可以使用的更新程式的狀態。"
+
+#: modules/update/update.module:488
+msgid ""
+"There was a problem determining the status of available updates for one or "
+"more of your modules or themes."
+msgstr "無法判斷你所安裝的模組和版型可以使用的更新程式的狀態。"
+
+#: modules/update/update.module:494
+msgid ""
+"See the <a href=\"@available_updates\">available updates</a> page for more "
+"information."
+msgstr ""
+"請參考<a href=\"@available_updates\">可使用的更新程式</a>網頁以取得更多的資"
+"訊。"
+
+#: modules/update/update.module:120
+msgid "Available updates"
+msgstr "可用的更新"
+
+#: modules/update/update.module:121
+msgid ""
+"Get a status report about available updates for your installed modules and "
+"themes."
+msgstr "取得有關你所安裝的模組和版型的更新資訊的狀態報告。"
+
+#: modules/update/update.module:143
+msgid "Manual update check"
+msgstr "手動更新檢查"
+
+#: modules/update/update.install:39
+msgid ""
+"Cache table for the Update module to store information about available "
+"releases, fetched from central server."
+msgstr "更新狀態模組用來儲存可使用的更新程式的快取資料表。"

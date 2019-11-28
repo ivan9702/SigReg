@@ -1,0 +1,728 @@
+# Chinese, Traditional translation of drupal (6.2)
+# Copyright (c) 2008 by the Chinese, Traditional translation team
+# Generated from files:
+#  filter.admin.inc,v 1.8.2.1 2008/02/12 14:25:34 goba
+#  filter.pages.inc,v 1.2 2007/11/10 17:41:18 dries
+#  filter.module,v 1.204.2.1 2008/04/09 21:11:47 goba
+#  filter.install,v 1.5 2007/12/18 12:59:21 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.x)\n"
+"POT-Creation-Date: 2008-05-14 13:25+0800\n"
+"PO-Revision-Date: 2009-08-20 00:23+0800\n"
+"Language-Team: Drupal Taiwan <info@drupaltaiwan.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: charlesc <charles@netivism.com.tw>\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: TAIWAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+
+#: modules/filter/filter.admin.inc:33
+msgid "All roles may use default format"
+msgstr "所有角色都可以使用預設格式"
+
+#: modules/filter/filter.admin.inc:33
+msgid "No roles may use this format"
+msgstr "沒有角色可使用此格式"
+
+#: modules/filter/filter.admin.inc:38
+msgid "Set default format"
+msgstr "設定預設格式"
+
+#: modules/filter/filter.admin.inc:45
+msgid "Default format updated."
+msgstr "已更新預設格式。"
+
+#: modules/filter/filter.admin.inc:97
+msgid "All roles for the default format must be enabled and cannot be changed."
+msgstr "預設格式的所有角色的必須啟用，且不能改變。"
+
+#: modules/filter/filter.admin.inc:104
+msgid "Specify a unique name for this filter format."
+msgstr "為此過濾格式指定一個獨特的名稱。"
+
+#: modules/filter/filter.admin.inc:111
+msgid ""
+"Choose which roles may use this filter format. Note that roles with the "
+"\"administer filters\" permission can always use all the filter formats."
+msgstr ""
+"選擇可以使用這個過濾格式的角色。要注意的是，擁有「管理過濾器」權限的角色，將"
+"可以使用所有過濾格式。"
+
+#: modules/filter/filter.admin.inc:130
+msgid "Filters"
+msgstr "過濾器"
+
+#: modules/filter/filter.admin.inc:131
+msgid "Choose the filters that will be used in this filter format."
+msgstr "選擇這個過濾格式所使用的過濾器。"
+
+#: modules/filter/filter.admin.inc:149
+msgid "No guidelines available."
+msgstr "沒有說明指引。"
+
+#: modules/filter/filter.admin.inc:151
+msgid ""
+"These are the guidelines that users will see for posting in this input "
+"format. They are automatically generated from the filter settings."
+msgstr ""
+"這些是使用者可以看到關於以此種輸入格式發文的說明指引。是由過濾器設定自動產"
+"生。"
+
+#: modules/filter/filter.admin.inc:168
+msgid ""
+"Filter format names need to be unique. A format named %name already exists."
+msgstr "過濾格式的名稱不能與其他重複。現在已經有一個叫做 %name 的過濾格式了。"
+
+#: modules/filter/filter.admin.inc:187
+msgid "Added input format %format."
+msgstr "新增輸入格式 %format。"
+
+#: modules/filter/filter.admin.inc:190
+msgid "The input format settings have been updated."
+msgstr "已更新輸入格式設定。"
+
+#: modules/filter/filter.admin.inc:252
+msgid "Are you sure you want to delete the input format %format?"
+msgstr "你真的要刪除 %format 輸入格式嗎？"
+
+#: modules/filter/filter.admin.inc:252
+msgid ""
+"If you have any content left in this input format, it will be switched to "
+"the default input format. This action cannot be undone."
+msgstr ""
+"如果有任何使用此輸入格式的內容存在，它將會被轉換為預設的輸入格式。此動作不可"
+"回復！"
+
+#: modules/filter/filter.admin.inc:255
+msgid "The default format cannot be deleted."
+msgstr "你不能刪除預設格式 。"
+
+#: modules/filter/filter.admin.inc:278
+msgid "Deleted input format %format."
+msgstr "刪除輸入格式 %format。"
+
+#: modules/filter/filter.admin.inc:289
+msgid "Configure %format"
+msgstr "設定 %format"
+
+#: modules/filter/filter.admin.inc:312
+msgid "No settings are available."
+msgstr "沒有可用的設定。"
+
+#: modules/filter/filter.admin.inc:330
+msgid "Rearrange %format"
+msgstr "重新調整 %format"
+
+#: modules/filter/filter.admin.inc:391
+msgid "The filter ordering has been saved."
+msgstr "已儲存過濾器的順序。"
+
+#: modules/filter/filter.pages.inc:35
+msgid "input formats"
+msgstr "輸入格式"
+
+#: modules/filter/filter.module:23
+msgid ""
+"The filter module allows administrators to configure text input formats for "
+"use on your site. An input format defines the HTML tags, codes, and other "
+"input allowed in both content and comments, and is a key feature in guarding "
+"against potentially damaging input from malicious users. Two input formats "
+"included by default are <em>Filtered HTML</em> (which allows only an "
+"administrator-approved subset of HTML tags) and <em>Full HTML</em> (which "
+"allows the full set of HTML tags). Additional input formats may be created "
+"by an administrator."
+msgstr ""
+"過濾器模組允許管理者設定網站內容的文字輸入格式。 輸入格式定義了內容和回應裡可"
+"使用的 HTML 標籤、程式碼或其他輸入模式，是防止惡意使用者入侵的重要功能。預設"
+"有兩種輸入格式：過濾 HTML（只允許管理者指定的 HTML 標籤）和完整 HTML（允許使"
+"用所有 HTML 標籤）。管理者可以建立新的輸入格式。"
+
+#: modules/filter/filter.module:24
+msgid ""
+"Each input format uses filters to manipulate text, and most input formats "
+"apply several different filters to text in a specific order. Each filter is "
+"designed for a specific purpose, and generally either adds, removes or "
+"transforms elements within user-entered text before it is displayed. A "
+"filter does not change the actual content of a post, but instead, modifies "
+"it temporarily before it is displayed. A filter may remove unapproved HTML "
+"tags, for instance, while another automatically adds HTML to make links "
+"referenced in text clickable."
+msgstr ""
+"每個輸入格式都使用過濾器來處理文字，並以其特定的順序來同時運用多種過濾器。每"
+"一個過濾器都有其特定用途，讓使用者輸入的文字在呈現出來之前，會被新增、移除或"
+"轉換。過濾器並不會改變實際上所輸入的文字，而是在顯示時暫時地改變他們。舉例來"
+"說，某個過濾器會移除不被允許的 HTML 標籤，另一個過濾器則會把網址資料自動變為"
+"可以點選的連結。"
+
+#: modules/filter/filter.module:25
+msgid ""
+"Users can choose between the available input formats when creating or "
+"editing content. Administrators can configure which input formats are "
+"available to which user roles, as well as choose a default input format."
+msgstr ""
+"使用者在建立或編輯內容時，可以選擇可用的輸入格式。管理者可以設定哪些使用者角"
+"色可以使用哪些輸入格式，並選擇一個預設的輸入格式。"
+
+#: modules/filter/filter.module:26
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@filter"
+"\">Filter module</a>."
+msgstr "更多資訊，請參考<a href=\"@filter\">過濾器模組</a>的線上說明。"
+
+#: modules/filter/filter.module:29
+msgid ""
+"<em>Input formats</em> define a way of processing user-supplied text in "
+"Drupal. Each input format uses filters to manipulate text, and most input "
+"formats apply several different filters to text, in a specific order. Each "
+"filter is designed to accomplish a specific purpose, and generally either "
+"removes elements from or adds elements to text before it is displayed. Users "
+"can choose between the available input formats when submitting content."
+msgstr ""
+"<strong>輸入格式</strong>在 Drupal 裡定義了一種處理使用者所輸入的文字的方法。"
+"每個輸入格式都使用過濾器來處理文字，大部分的輸入格式都以其特定順序來同時運用"
+"多個過濾器。每個過濾器都被設計用來處理特定目的，通常是在文字顯示前新增或刪除"
+"某些元件。使用者可以在送出內容時，選擇他可以使用的輸入格式。"
+
+#: modules/filter/filter.module:30
+msgid ""
+"Use the list below to configure which input formats are available to which "
+"roles, as well as choose a default input format (used for imported content, "
+"for example). The default format is always available to users. All input "
+"formats are available to users in a role with the \"administer filters\" "
+"permission."
+msgstr ""
+"你可以在下方設定哪些角色可以使用哪些輸入格式，並選擇一種預設的輸入格式（例"
+"如，用於匯入的內容）。所有使用者都可以使用預設的格式。擁有「管理過濾器」權限"
+"的角色的使用者，可以使用所有輸入格式。"
+
+#: modules/filter/filter.module:33
+msgid ""
+"Every <em>filter</em> performs one particular change on the user input, for "
+"example stripping out malicious HTML or making URLs clickable. Choose which "
+"filters you want to apply to text in this input format. If you notice some "
+"filters are causing conflicts in the output, you can <a href=\"@rearrange"
+"\">rearrange them</a>."
+msgstr ""
+"每個<strong>過濾器</strong>都會執行一種對使用者輸入的特定轉換，例如去除惡意"
+"的 HTML 程式碼，或讓網址可以直接被點選。在輸入格式裡選擇你想要運用的輸入格"
+"式。如果你發現一些過濾器彼此產生了衝突，可以<a href=\"@rearrange\">重新排列</"
+"a>它們的順序。"
+
+#: modules/filter/filter.module:35
+msgid ""
+"If you cannot find the settings for a certain filter, make sure you have "
+"enabled it on the <a href=\"@url\">view tab</a> first."
+msgstr ""
+"如果你不能找到某個過濾器的設定，請確認你已經在 <a href=\"@url\">過濾器列表</"
+"a> 裡將它啟用。"
+
+#: modules/filter/filter.module:37
+msgid ""
+"Because of the flexible filtering system, you might encounter a situation "
+"where one filter prevents another from doing its job. For example: a word in "
+"an URL gets converted into a glossary term, before the URL can be converted "
+"to a clickable link. When this happens, rearrange the order of the filters."
+msgstr ""
+"你可能會碰到某個過濾器與另一個過濾器產生衝突的情況，例如網址在轉換為可點選的"
+"連結之前，裡面的一個字就先轉換成某個詞彙。當發現這種狀況時，你需要重新排列過"
+"濾器的執行先後順序。"
+
+#: modules/filter/filter.module:180,182
+msgid "Allowed HTML tags: @tags"
+msgstr "可使用的 HTML 標籤：@tags"
+
+#: modules/filter/filter.module:187
+msgid ""
+"<p>This site allows HTML content. While learning all of HTML may feel "
+"intimidating, learning how to use a very small number of the most basic HTML "
+"\"tags\" is very easy. This table provides examples for each tag that is "
+"enabled on this site.</p>\n"
+"<p>For more information see W3C's <a href=\"http://www.w3.org/TR/html/"
+"\">HTML Specifications</a> or use your favorite search engine to find other "
+"sites that explain HTML.</p>"
+msgstr ""
+"<p>本網站允許使用 HTML 標籤。雖然學習 HTML 可能滿困難，但學習如何使用一小部份"
+"常用的 HTML \"標籤\" 其實是很容易的。這個表格提供了本站可使用的 HTML 標籤的範"
+"例。</p> <p>想瞭解更多資訊，請參考 W3C 的 <a href=\"http://www.w3.org/TR/"
+"html/\">HTML 規格表</a> ，或使用你偏好的搜尋引擎，搜尋其他關於 HTML 的訊息。"
+"</p>"
+
+#: modules/filter/filter.module:191
+msgid "Anchors are used to make links to other pages."
+msgstr "錨點（anchor），用來製作通往其他頁面的連結。"
+
+#: modules/filter/filter.module:192
+msgid ""
+"By default line break tags are automatically added, so use this tag to add "
+"additional ones. Use of this tag is different because it is not used with an "
+"open/close pair like all the others. Use the extra \" /\" inside the tag to "
+"maintain XHTML 1.0 compatibility"
+msgstr ""
+"在預設情況下，系統會自動加上換行符號，你可使用此標籤以多增加一行。這個標籤的"
+"用法跟其他 HTML 標籤不太一樣，它不使用成對的開始/結束標記。另外，在標籤內加上"
+"一個 \"/\" ，則可相容於 XHTML1.0。"
+
+#: modules/filter/filter.module:192
+msgid "Text with <br />line break"
+msgstr "使用 <br /> 換行"
+
+#: modules/filter/filter.module:193
+msgid ""
+"By default paragraph tags are automatically added, so use this tag to add "
+"additional ones."
+msgstr "在預設情況下會自動加上段落標籤。如果要再追加一個段落可使用此標籤。"
+
+#: modules/filter/filter.module:193
+msgid "Paragraph one."
+msgstr "第一段。"
+
+#: modules/filter/filter.module:193
+msgid "Paragraph two."
+msgstr "第二段。"
+
+#: modules/filter/filter.module:194
+msgid "Strong"
+msgstr "粗體"
+
+#: modules/filter/filter.module:195
+msgid "Emphasized"
+msgstr "強調"
+
+#: modules/filter/filter.module:196
+msgid "Cited"
+msgstr "引用"
+
+#: modules/filter/filter.module:197
+msgid "Coded text used to show programming source code"
+msgstr "編碼文字，用來顯示程式的原始碼。"
+
+#: modules/filter/filter.module:197
+msgid "Coded"
+msgstr "編碼"
+
+#: modules/filter/filter.module:198
+msgid "Bolded"
+msgstr "粗體"
+
+#: modules/filter/filter.module:199
+msgid "Underlined"
+msgstr "底線"
+
+#: modules/filter/filter.module:200
+msgid "Italicized"
+msgstr "斜體"
+
+#: modules/filter/filter.module:201
+msgid "Superscripted"
+msgstr "上標"
+
+#: modules/filter/filter.module:201
+msgid "<sup>Super</sup>scripted"
+msgstr "<sup>上標</sup> 文字"
+
+#: modules/filter/filter.module:202
+msgid "Subscripted"
+msgstr "下標"
+
+#: modules/filter/filter.module:202
+msgid "<sub>Sub</sub>scripted"
+msgstr "<sub>下標</sub> 文字"
+
+#: modules/filter/filter.module:203
+msgid "Preformatted"
+msgstr "預先格式化"
+
+#: modules/filter/filter.module:204
+msgid "Abbreviation"
+msgstr "縮寫"
+
+#: modules/filter/filter.module:204
+msgid "<abbr title=\"Abbreviation\">Abbrev.</abbr>"
+msgstr "<abbr title=\"英文縮寫\">Abbrev.</abbr>"
+
+#: modules/filter/filter.module:205
+msgid "Acronym"
+msgstr "字頭語"
+
+#: modules/filter/filter.module:205
+msgid "<acronym title=\"Three-Letter Acronym\">TLA</acronym>"
+msgstr "<acronym title=\"三字母縮寫\">TLA</acronym>"
+
+#: modules/filter/filter.module:206
+msgid "Block quoted"
+msgstr "區塊引言"
+
+#: modules/filter/filter.module:207
+msgid "Quoted inline"
+msgstr "行內引言"
+
+#: modules/filter/filter.module:209
+msgid "Table"
+msgstr "表格"
+
+#: modules/filter/filter.module:209
+msgid "Table header"
+msgstr "表格的表頭"
+
+#: modules/filter/filter.module:209
+msgid "Table cell"
+msgstr "表格的單格"
+
+#: modules/filter/filter.module:211
+msgid "Deleted"
+msgstr "刪除"
+
+#: modules/filter/filter.module:212
+msgid "Inserted"
+msgstr "插入"
+
+#: modules/filter/filter.module:214
+msgid "Ordered list - use the &lt;li&gt; to begin each list item"
+msgstr "順序列表- 使用 &lt;li&gt; 來開始每個項目"
+
+#: modules/filter/filter.module:214,215
+msgid "First item"
+msgstr "第一個項目"
+
+#: modules/filter/filter.module:214,215
+msgid "Second item"
+msgstr "第二個項目"
+
+#: modules/filter/filter.module:215
+msgid "Unordered list - use the &lt;li&gt; to begin each list item"
+msgstr "無序列表——使用 &lt;li&gt; 開始每個項目"
+
+#: modules/filter/filter.module:218
+msgid ""
+"Definition lists are similar to other HTML lists. &lt;dl&gt; begins the "
+"definition list, &lt;dt&gt; begins the definition term and &lt;dd&gt; begins "
+"the definition description."
+msgstr ""
+"定義列表與其他 HTML列表類似。以 &lt;dl&gt; 開始定義列表，以 &lt;dt&gt; 開始定"
+"義列表項目，以 &lt;dd&gt; 開始定義說明。"
+
+#: modules/filter/filter.module:218
+msgid "First term"
+msgstr "第一個詞彙"
+
+#: modules/filter/filter.module:218
+msgid "First definition"
+msgstr "第一個定義"
+
+#: modules/filter/filter.module:218
+msgid "Second term"
+msgstr "第二個詞彙"
+
+#: modules/filter/filter.module:218
+msgid "Second definition"
+msgstr "第二個定義"
+
+#: modules/filter/filter.module:221
+msgid "Subtitle"
+msgstr "副標題"
+
+#: modules/filter/filter.module:222
+msgid "Subtitle three"
+msgstr "副標題三"
+
+#: modules/filter/filter.module:223
+msgid "Subtitle four"
+msgstr "副標題四"
+
+#: modules/filter/filter.module:224
+msgid "Subtitle five"
+msgstr "副標題五"
+
+#: modules/filter/filter.module:225
+msgid "Subtitle six"
+msgstr "副標題六"
+
+#: modules/filter/filter.module:227
+msgid "Tag Description"
+msgstr "標籤說明"
+
+#: modules/filter/filter.module:227,256
+msgid "You Type"
+msgstr "您輸入"
+
+#: modules/filter/filter.module:227,256
+msgid "You Get"
+msgstr "您得到"
+
+#: modules/filter/filter.module:241
+msgid "No help provided for tag %tag."
+msgstr "目前沒有標籤 %tag 的說明。"
+
+#: modules/filter/filter.module:247
+msgid ""
+"<p>Most unusual characters can be directly entered without any problems.</"
+"p>\n"
+"<p>If you do encounter problems, try using HTML character entities. A common "
+"example looks like &amp;amp; for an ampersand &amp; character. For a full "
+"list of entities see HTML's <a href=\"http://www.w3.org/TR/html4/sgml/"
+"entities.html\">entities</a> page. Some of the available characters include:"
+"</p>"
+msgstr ""
+"<p>大多數特殊字元都可以直接輸入，不會有問題。</p>\n"
+"<p>但如果你碰到問題，可以嘗試使用 HTML character entities。一個通常的例子是"
+"用 &amp;amp;代表一個「和」符號 (&amp;)。 完整的字元列表，請參見W3C的 <a href="
+"\"http://www.w3.org/TR/html4/sgml/entities.html\">HTML character entities</"
+"a>。一些可用字元包括：</p>"
+
+#: modules/filter/filter.module:251
+msgid "Ampersand"
+msgstr "和"
+
+#: modules/filter/filter.module:252
+msgid "Greater than"
+msgstr "大於"
+
+#: modules/filter/filter.module:253
+msgid "Less than"
+msgstr "小於"
+
+#: modules/filter/filter.module:254
+msgid "Quotation mark"
+msgstr "引號"
+
+#: modules/filter/filter.module:256
+msgid "Character Description"
+msgstr "字元說明"
+
+#: modules/filter/filter.module:270
+msgid "No HTML tags allowed"
+msgstr "不允許使用 HTML 標籤。"
+
+#: modules/filter/filter.module:278
+msgid "Lines and paragraphs break automatically."
+msgstr "自動斷行和分段。"
+
+#: modules/filter/filter.module:280
+msgid ""
+"Lines and paragraphs are automatically recognized. The &lt;br /&gt; line "
+"break, &lt;p&gt; paragraph and &lt;/p&gt; close paragraph tags are inserted "
+"automatically. If paragraphs are not recognized simply add a couple blank "
+"lines."
+msgstr ""
+"會自動識別行與段。會自動插入 &lt;br /&gt;分行、&lt;p&gt; 段落開始以及lt;/"
+"p&gt;段落結束標記。 如果沒有自動分段，你可以手動插入兩個空行。"
+
+#: modules/filter/filter.module:284
+msgid "Web page addresses and e-mail addresses turn into links automatically."
+msgstr "自動將網址與電子郵件位址轉變為連結。"
+
+#: modules/filter/filter.module:488
+msgid "Input format"
+msgstr "輸入格式"
+
+#: modules/filter/filter.module:608,659
+msgid "HTML filter"
+msgstr "HTML 過濾器"
+
+#: modules/filter/filter.module:608
+msgid "Line break converter"
+msgstr "換行轉換器"
+
+#: modules/filter/filter.module:608,719
+msgid "URL filter"
+msgstr "網址過濾器"
+
+#: modules/filter/filter.module:608
+msgid "HTML corrector"
+msgstr "HTML 修正器"
+
+#: modules/filter/filter.module:613
+msgid ""
+"Allows you to restrict whether users can post HTML and which tags to filter "
+"out. It will also remove harmful content such as JavaScript events, "
+"JavaScript URLs and CSS styles from those tags that are not removed."
+msgstr ""
+"讓你可以限制使用者是否能使用 HTML 標籤、以輯要過濾哪些標籤。它也會移除可能有"
+"害的內容，例如 JavaScript 事件、JavaScript 網址、CSS 樣式等等。"
+
+#: modules/filter/filter.module:615
+msgid "Converts line breaks into HTML (i.e. &lt;br&gt; and &lt;p&gt; tags)."
+msgstr "將換行符號轉換為 HTML（例如 &lt;br&gt; 和 &lt;p&gt; 標籤）。"
+
+#: modules/filter/filter.module:617
+msgid "Turns web and e-mail addresses into clickable links."
+msgstr "將網址與電子郵件位址轉為連結。"
+
+#: modules/filter/filter.module:619
+msgid "Corrects faulty and chopped off HTML in postings."
+msgstr "修正文章裡錯誤的 HTML 標籤。"
+
+#: modules/filter/filter.module:664
+msgid "Filter HTML tags"
+msgstr "過濾 HTML 標籤"
+
+#: modules/filter/filter.module:666
+msgid "Strip disallowed tags"
+msgstr "濾掉不允許的標籤"
+
+#: modules/filter/filter.module:666
+msgid "Escape all tags"
+msgstr "使用所有HTML標籤"
+
+#: modules/filter/filter.module:667
+msgid ""
+"How to deal with HTML tags in user-contributed content. If set to \"Strip "
+"disallowed tags\", dangerous tags are removed (see below). If set to "
+"\"Escape tags\", all HTML is escaped and presented as it was typed."
+msgstr ""
+"如何處理使用者提供內容裡的 HTML 標籤。如果設定為 \"過濾不允許的標籤\"，有危險"
+"的標籤可以被移除（見下文）。如果設定為\"使用所有HTML標籤\"，所有 HTML 標籤將"
+"會依其輸入的樣子來顯示。"
+
+#: modules/filter/filter.module:675
+msgid ""
+"If \"Strip disallowed tags\" is selected, optionally specify tags which "
+"should not be stripped. JavaScript event attributes are always stripped."
+msgstr ""
+"如果選擇了 \"過濾不允許的標籤\"，還可指定不用被過濾的標籤。但是 Javascript 事"
+"件屬性一定會被移除。"
+
+#: modules/filter/filter.module:679
+msgid "Display HTML help"
+msgstr "顯示 HTML 說明"
+
+#: modules/filter/filter.module:681
+msgid ""
+"If enabled, Drupal will display some basic HTML help in the long filter tips."
+msgstr ""
+"如果啟用此功能， Drupal 將在完整的過濾提示裡，顯示一些基本的 HTML 說明。"
+
+#: modules/filter/filter.module:685
+msgid "Spam link deterrent"
+msgstr "抑制垃圾廣告連結"
+
+#: modules/filter/filter.module:687
+msgid ""
+"If enabled, Drupal will add rel=\"nofollow\" to all links, as a measure to "
+"reduce the effectiveness of spam links. Note: this will also prevent valid "
+"links from being followed by search engines, therefore it is likely most "
+"effective when enabled for anonymous users."
+msgstr ""
+"如果啟用此功能，Drupal 將為所有連結加上 rel=\"nofollow\"，這可以降低垃圾廣告"
+"連結的效用。請注意：這同樣也會妨礙合法連結被搜尋引擎連結的效果，因此，最好是"
+"只對匿名使用者啟用此功能。"
+
+#: modules/filter/filter.module:724
+msgid "Maximum link text length"
+msgstr "連結文字的最大長度"
+
+#: modules/filter/filter.module:727
+msgid ""
+"URLs longer than this number of characters will be truncated to prevent long "
+"strings that break formatting. The link itself will be retained; just the "
+"text portion of the link will be truncated."
+msgstr ""
+"比這個數值還要長的網址將會被截斷，以免過長的字串破壞格式。這個連結本身會被保"
+"留，只有顯示的文字會被截斷。"
+
+#: modules/filter/filter.module:157
+msgid "administer filters"
+msgstr "管理過濾器"
+
+#: modules/filter/filter.module:71
+msgid "Input formats"
+msgstr "輸入格式"
+
+#: modules/filter/filter.module:72
+msgid ""
+"Configure how content input by users is filtered, including allowed HTML "
+"tags. Also allows enabling of module-provided filters."
+msgstr ""
+"設定如何過濾使用者所輸入的內容，包括允許的 HTML 標籤。也可以啟用各模組所提供"
+"的過濾器。"
+
+#: modules/filter/filter.module:91
+msgid "Delete input format"
+msgstr "刪除輸入格式"
+
+#: modules/filter/filter.module:99
+msgid "Compose tips"
+msgstr "撰寫提示"
+
+#: modules/filter/filter.module:131
+msgid "Rearrange"
+msgstr "重新排列"
+
+#: modules/filter/filter.module:0
+msgid "filter"
+msgstr "過濾器"
+
+#: modules/filter/filter.install:9
+msgid ""
+"Table that maps filters (HTML corrector) to input formats (Filtered HTML)."
+msgstr "對應過濾器（HTML 修正器）到輸入格式（過濾 HTML）的表格。"
+
+#: modules/filter/filter.install:14
+msgid "Primary Key: Auto-incrementing filter ID."
+msgstr "Primary Key: Auto-incrementing filter ID."
+
+#: modules/filter/filter.install:20
+msgid ""
+"Foreign key: The {filter_formats}.format to which this filter is assigned."
+msgstr ""
+"Foreign key: The {filter_formats}.format to which this filter is assigned."
+
+#: modules/filter/filter.install:27
+msgid "The origin module of the filter."
+msgstr "提供此過濾器的模組。"
+
+#: modules/filter/filter.install:34
+msgid "ID to identify which filter within module is being referenced."
+msgstr "ID to identify which filter within module is being referenced."
+
+#: modules/filter/filter.install:41
+msgid "Weight of filter within format."
+msgstr "輸入格式裡的過濾器的順序。"
+
+#: modules/filter/filter.install:53
+msgid ""
+"Stores input formats: custom groupings of filters, such as Filtered HTML."
+msgstr "儲存輸入格式：自訂過濾器群組，例如過濾 HTML。"
+
+#: modules/filter/filter.install:58
+msgid "Primary Key: Unique ID for format."
+msgstr "Primary Key: Unique ID for format."
+
+#: modules/filter/filter.install:65
+msgid "Name of the input format (Filtered HTML)."
+msgstr "輸入格式（過濾 HTML）的名稱。"
+
+#: modules/filter/filter.install:72
+msgid "A comma-separated string of roles; references {role}.rid."
+msgstr "逗號分隔的角色；references {role}.rid。"
+
+#: modules/filter/filter.install:79
+msgid ""
+"Flag to indicate whether format is cachable. (1 = cachable, 0 = not cachable)"
+msgstr "用來表示該過濾格式是否可以被快取的標記。（1 代表可以，0 代表不可以）"
+
+#: modules/filter/filter.install:87
+msgid ""
+"Cache table for the Filter module to store already filtered pieces of text, "
+"identified by input format and md5 hash of the text."
+msgstr ""
+"讓過濾器模組儲存已經過濾過的文字內容的快取資料表，以輸入格式和文字的 md5 "
+"hash 來做識別。"
+
+#: modules/filter/filter.module:38
+msgid ""
+"Filters are executed from top-to-bottom. To change the order of the filters, "
+"modify the values in the <em>Weight</em> column or grab a drag-and-drop "
+"handle under the <em>Name</em> column and drag filters to new locations in "
+"the list. (Grab a handle by clicking and holding the mouse while hovering "
+"over a handle icon.) Remember that your changes will not be saved until you "
+"click the <em>Save configuration</em> button at the bottom of the page."
+msgstr ""
+"過濾器是由上到下依序執行，你可以調整順序欄位的值來重新調整過濾器的順序，或是"
+"拖拉<strong>名稱</strong>欄位的標題到新的位置上。請注意，除非你按下儲存設定按"
+"鈕，不然你所作的改變不會被儲存。"

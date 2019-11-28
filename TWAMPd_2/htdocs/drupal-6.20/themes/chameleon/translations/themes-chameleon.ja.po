@@ -1,0 +1,22 @@
+# -----------------------------------------------------------------------------
+# Japanese translation of Drupal (themes-chameleon)
+#
+# Copyright (c) 2006-2010  Drupal Japan  ( http://drupal.jp/ )  /
+#                          Takafumi      ( jp.drupal@imagine **reverse order**)
+#
+# Generated from file: chameleon.theme,v 1.76.2.1 2009/04/30 00:13:31 goba
+#
+# -----------------------------------------------------------------------------
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2010-06-03 15:15+0900\n"
+"Last-Translator: Takafumi <jp.drupal@imagine **reverse order**>\n"
+"Language-Team: Drupal Japan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: themes/chameleon/chameleon.theme:135;158
+msgid "By !author at @date"
+msgstr "投稿者：!author 投稿日時：@date"

@@ -1,0 +1,345 @@
+# Chinese, Traditional translation of drupal (6.2)
+# Copyright (c) 2008 by the Chinese, Traditional translation team
+# Generated from files:
+#  search.admin.inc,v 1.4 2008/01/08 10:35:42 goba
+#  search.pages.inc,v 1.4 2007/12/06 09:51:01 goba
+#  search.module,v 1.250.2.2 2008/04/09 21:11:49 goba
+#  search.install,v 1.14 2007/12/28 10:53:27 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.x)\n"
+"POT-Creation-Date: 2008-05-14 13:25+0800\n"
+"PO-Revision-Date: 2009-08-20 00:23+0800\n"
+"Language-Team: Drupal Taiwan <info@drupaltaiwan.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: charlesc <charles@netivism.com.tw>\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: TAIWAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+
+#: modules/search/search.admin.inc:13
+msgid "Are you sure you want to re-index the site?"
+msgstr "你確定要為網站重新建立索引嗎？"
+
+#: modules/search/search.admin.inc:14
+msgid ""
+" The search index is not cleared but systematically updated to reflect the "
+"new settings. Searching will continue to work but new content won't be "
+"indexed until all existing content has been re-indexed. This action cannot "
+"be undone."
+msgstr ""
+"搜尋索引不會被清除，但會持續地更新以反應新的設定。搜尋將會繼續運作，但新的內"
+"容不會被加入，直到所有內容都被重新建立索引。此操作無法復原！"
+
+#: modules/search/search.admin.inc:14,52,76
+msgid "Re-index site"
+msgstr "重建網站索引"
+
+#: modules/search/search.admin.inc:23,82
+msgid "The index will be rebuilt."
+msgstr "索引將被重建。"
+
+#: modules/search/search.admin.inc:49
+msgid "%percentage of the site has been indexed."
+msgstr "%percentage 的網站內容已經建立了索引。"
+
+#: modules/search/search.admin.inc:50
+msgid "Indexing status"
+msgstr "索引狀態"
+
+#: modules/search/search.admin.inc:57
+msgid "Indexing throttle"
+msgstr "索引負荷管制"
+
+#: modules/search/search.admin.inc:58
+msgid "Number of items to index per cron run"
+msgstr "每次執行 cron 時的索引數量"
+
+#: modules/search/search.admin.inc:58
+msgid ""
+"The maximum number of items indexed in each pass of a <a href=\"@cron\">cron "
+"maintenance task</a>. If necessary, reduce the number of items to prevent "
+"timeouts and memory errors while indexing."
+msgstr ""
+"每次 <a href=\"@cron\"> cron維護作業</a> 所包含的最大索引量。若有需要，請視情"
+"況降低索引的數量，以避免發生記憶體錯誤和索引時間過長而造成回應逾時的問題。"
+
+#: modules/search/search.admin.inc:60
+msgid "Indexing settings"
+msgstr "索引設定"
+
+#: modules/search/search.admin.inc:61
+msgid ""
+"<p><em>Changing the settings below will cause the site index to be rebuilt. "
+"The search index is not cleared but systematically updated to reflect the "
+"new settings. Searching will continue to work but new content won't be "
+"indexed until all existing content has been re-indexed.</em></p><p><em>The "
+"default settings should be appropriate for the majority of sites.</em></p>"
+msgstr ""
+"<p><em>變更下列設定後，必須重建網站索引。它不會清除現有的索引，但會不斷更新，"
+"以反應新的設定。搜尋將會繼續運作，但新的內容不會被加入索引，直到所有現有的內"
+"容都被重新建立索引。"
+
+#: modules/search/search.admin.inc:62
+msgid "Minimum word length to index"
+msgstr "建立索引的最少字數"
+
+#: modules/search/search.admin.inc:62
+msgid ""
+"The number of characters a word has to be to be indexed. A lower setting "
+"means better search result ranking, but also a larger database. Each search "
+"query must contain at least one keyword that is this size (or longer)."
+msgstr ""
+"設定建立索引時，每個關鍵字應包含的最少字數。設定值愈小，則搜尋結果愈精確，但"
+"資料庫也會愈大。每次搜尋時，必須輸入至少一個符合該數值（或更多）字量的關鍵"
+"字。"
+
+#: modules/search/search.admin.inc:63
+msgid "Simple CJK handling"
+msgstr "簡單的CJK（中日韓）處理"
+
+#: modules/search/search.admin.inc:63
+msgid ""
+"Whether to apply a simple Chinese/Japanese/Korean tokenizer based on "
+"overlapping sequences. Turn this off if you want to use an external "
+"preprocessor for this instead. Does not affect other languages."
+msgstr ""
+"是否啟用簡單的CJK（中日韓）分析器。如果你想要使用外部的預先處理器，可將此選項"
+"關閉。此設定不會影響其他語言。"
+
+#: modules/search/search.admin.inc:47
+msgid "There is 1 item left to index."
+msgid_plural "There are @count items left to index."
+msgstr[0] "尚有 1 項目需要索引。"
+msgstr[1] "尚有 @count 項目需要索引。"
+
+#: modules/search/search.pages.inc:29
+msgid "results"
+msgstr "結果"
+
+#: modules/search/search.pages.inc:35
+msgid "Search results"
+msgstr "搜尋結果"
+
+#: modules/search/search.pages.inc:38
+msgid "Your search yielded no results"
+msgstr "沒有任何搜尋結果"
+
+#: modules/search/search.pages.inc:123
+msgid "Please enter some keywords."
+msgstr "請輸入一些關鍵字。"
+
+#: modules/search/search.pages.inc:29
+msgid "%keys (@type)."
+msgstr "搜尋： %keys (%type)。"
+
+#: modules/search/search.module:99
+msgid ""
+"The search module adds the ability to search for content by keywords. Search "
+"is often the only practical way to find content on a large site, and is "
+"useful for finding both users and posts."
+msgstr ""
+"搜尋模組提供依關鍵字搜尋網站內容的功能。搜尋功能經常是在大型網站上唯一可被用"
+"來尋找內容的方法，而且對於尋找使用者與文章也很有用。"
+
+#: modules/search/search.module:100
+msgid ""
+"To provide keyword searching, the search engine maintains an index of words "
+"found in your site's content. To build and maintain this index, a correctly "
+"configured <a href=\"@cron\">cron maintenance task</a> is required. Indexing "
+"behavior can be adjusted using the <a href=\"@searchsettings\">search "
+"settings page</a>; for example, the <em>Number of items to index per cron "
+"run</em> sets the maximum number of items indexed in each pass of a <a href="
+"\"@cron\">cron maintenance task</a>. If necessary, reduce this number to "
+"prevent timeouts and memory errors when indexing."
+msgstr ""
+"為了提供關鍵字搜尋的功能,搜尋引擎將維護一組從您的網站內容中找出的文字索引。您"
+"必須正確的設定 <a href=\"@cron\">cron 維護作業</a> 才能建立和更新此索引。索引"
+"的運作方式可以經由<a  href=\"@searchsettings\">搜尋設定頁面</a> 進行調整。舉"
+"例說明,<em>每次執行 cron 時的索引數量</em> 設定每次 <a href=\"@cron\"> 執行 "
+"cron 作業 </a> 所包含的最大索引量。若有需要，請視情況降低索引的數量，以避免發"
+"生記憶體錯誤和索引時間過長而造成回應逾時的問題。"
+
+#: modules/search/search.module:101
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@search"
+"\">Search module</a>."
+msgstr "更多資訊，請見 <a href=\"@search\">搜尋模組</a> 線上手冊。"
+
+#: modules/search/search.module:104
+msgid ""
+"The search engine maintains an index of words found in your site's content. "
+"To build and maintain this index, a correctly configured <a href=\"@cron"
+"\">cron maintenance task</a> is required. Indexing behavior can be adjusted "
+"using the settings below."
+msgstr ""
+"搜尋引擎維護一組從您的網站內容中所找到的字組索引。為建置與更新此索引，正確的"
+"設置 <a href=\"@cron\">cron 維護作業</a> 是必須的。所以的運行方式可經由調整下"
+"列設定來達成。"
+
+#: modules/search/search.module:106
+msgid ""
+"<ul>\n"
+"<li>Check if your spelling is correct.</li>\n"
+"<li>Remove quotes around phrases to match each word individually: <em>\"blue "
+"smurf\"</em> will match less than <em>blue smurf</em>.</li>\n"
+"<li>Consider loosening your query with <em>OR</em>: <em>blue smurf</em> will "
+"match less than <em>blue OR smurf</em>.</li>\n"
+"</ul>"
+msgstr ""
+"<ul>\n"
+"<li>請檢查你是否有打錯字。</li>\n"
+"<li>去掉句子外面的引號，單獨搜尋每個關鍵字：<em>\"電腦 網路\"</em> 的搜尋結果"
+"會比 <em>電腦 網路</em> 少。</li>\n"
+"<li>試著使用 <em>OR</em> 來擴大你的搜尋范圍： <em>電腦 網路</em> 的搜尋結果會"
+"比 <em>電腦 OR 網路</em> 少。</li>\n"
+"</ul>"
+
+#: modules/search/search.module:152
+msgid "Search form"
+msgstr "搜尋表單"
+
+#: modules/search/search.module:918
+msgid ""
+"You must include at least one positive keyword with @count characters or "
+"more."
+msgstr "你必須輸入一個至少包含 @count 個字以上的完整關鍵字。"
+
+#: modules/search/search.module:922
+msgid ""
+"Search for either of the two terms with uppercase <strong>OR</strong>. For "
+"example, <strong>cats OR dogs</strong>."
+msgstr ""
+"搜尋時,在兩個關鍵字之間插入大寫的 <strong>OR</strong> ,例如, <strong>猫 OR 狗"
+"</strong>。"
+
+#: modules/search/search.module:1029
+msgid "Enter your keywords"
+msgstr "輸入關鍵字"
+
+#: modules/search/search.module:1063
+msgid "Search this site"
+msgstr "搜尋本站"
+
+#: modules/search/search.module:1067
+msgid "Enter the terms you wish to search for."
+msgstr "輸入你想要搜尋的關鍵字。"
+
+#: modules/search/search.module:144
+msgid "search content"
+msgstr "搜尋內容"
+
+#: modules/search/search.module:144
+msgid "use advanced search"
+msgstr "使用進階搜尋"
+
+#: modules/search/search.module:144
+msgid "administer search"
+msgstr "管理搜尋"
+
+#: modules/search/search.module:176
+msgid "Search settings"
+msgstr "搜尋設定"
+
+#: modules/search/search.module:177
+msgid "Configure relevance settings for search and other indexing options"
+msgstr "設定搜尋及索引的相關配置選項"
+
+#: modules/search/search.module:185
+msgid "Clear index"
+msgstr "清除索引"
+
+#: modules/search/search.module:193
+msgid "Top search phrases"
+msgstr "熱門搜尋關鍵字"
+
+#: modules/search/search.module:194
+msgid "View most popular search phrases."
+msgstr "檢視最熱門的搜尋詞匯。"
+
+#: modules/search/search.install:29
+msgid "Stores items that will be searched."
+msgstr "將被列入搜尋的儲存項目。"
+
+#: modules/search/search.install:36
+msgid "Search item ID, e.g. node ID for nodes."
+msgstr "搜尋 ID 項目,例如,節點的節點 ID ( node ID)。"
+
+#: modules/search/search.install:42
+msgid "Type of item, e.g. node."
+msgstr "項目類別,例如,節點 ( node )。"
+
+#: modules/search/search.install:48
+msgid "List of space-separated words from the item."
+msgstr "從項目中列示用空白格分隔的字組。"
+
+#: modules/search/search.install:55
+msgid "Set to force node reindexing."
+msgstr "設定為強制節點 ( node ) 重新索引。 "
+
+#: modules/search/search.install:62
+msgid "Stores the search index, associating words, items and scores."
+msgstr "儲存搜尋索引,關聯字,項目和分數。"
+
+#: modules/search/search.install:69
+msgid "The {search_total}.word that is associated with the search item."
+msgstr "{search_total}.word 是與搜尋項目相關聯的。 "
+
+#: modules/search/search.install:76
+msgid ""
+"The {search_dataset}.sid of the searchable item to which the word belongs."
+msgstr "{search_dataset}.sid 的可搜尋項目所應該置放的字組。"
+
+#: modules/search/search.install:82
+msgid ""
+"The {search_dataset}.type of the searchable item to which the word belongs."
+msgstr "{search_dataset}.type 的可搜尋項目所應該置放的字組。"
+
+#: modules/search/search.install:87
+msgid "The numeric score of the word, higher being more important."
+msgstr "字組的分數,較高者較為重要。"
+
+#: modules/search/search.install:98
+msgid "Stores search totals for words."
+msgstr "字組的總搜尋儲存量。"
+
+#: modules/search/search.install:101
+msgid "Primary Key: Unique word in the search index."
+msgstr "主要鍵值: 搜尋索引中的唯一字。"
+
+#: modules/search/search.install:108
+msgid ""
+"The count of the word in the index using Zipf's law to equalize the "
+"probability distribution."
+msgstr "在索引中的文字計數是使用 Zipf's law 來等化分配機率。"
+
+#: modules/search/search.install:138
+msgid "The {node}.nid that this item links to."
+msgstr "此項目鏈結到 {node}.nid。"
+
+#: modules/search/search.install:144
+msgid "The text used to link to the {node}.nid."
+msgstr "用於鏈結到 {node}.nid 的文字。"
+
+#: modules/search/search.install:117
+msgid ""
+"Stores items (like nodes) that link to other nodes, used to improve search "
+"scores for nodes that are frequently linked to."
+msgstr ""
+"鏈結到其他節點的儲存項目 ( 如節點 ),將用於提高經常被鏈結的節點的搜尋分數。"
+
+#: modules/search/search.install:124
+msgid ""
+"The {search_dataset}.sid of the searchable item containing the link to the "
+"node."
+msgstr "{search_dataset}.sid 的可搜尋項目包含至節點 ( node ) 的鍵結。"
+
+#: modules/search/search.install:131
+msgid ""
+"The {search_dataset}.type of the searchable item containing the link to the "
+"node."
+msgstr "{search_dataset}.type 的可搜尋項目包含至節點 ( node ) 的鍵結。"

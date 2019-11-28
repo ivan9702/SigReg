@@ -1,0 +1,314 @@
+# Chinese, Traditional translation of drupal (6.2)
+# Copyright (c) 2008 by the Chinese, Traditional translation team
+# Generated from files:
+#  upload.admin.inc,v 1.7 2008/01/10 20:22:57 goba
+#  upload.module,v 1.197.2.1 2008/02/11 15:08:09 goba
+#  upload.install,v 1.6.2.1 2008/02/08 18:01:14 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.x)\n"
+"POT-Creation-Date: 2008-05-14 13:25+0800\n"
+"PO-Revision-Date: 2009-08-20 00:23+0800\n"
+"Language-Team: Drupal Taiwan <info@drupaltaiwan.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: charlesc <charles@netivism.com.tw>\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: TAIWAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+
+#: modules/upload/upload.admin.inc:10
+msgid ""
+"The maximum allowed image size expressed as WIDTHxHEIGHT (e.g. 640x480). Set "
+"to 0 for no restriction."
+msgstr ""
+"圖片檔案的最大解析度：寬度x高度（例如：640x480）。設為 0 代表沒有限制。"
+
+#: modules/upload/upload.admin.inc:17,110
+msgid "Your PHP settings limit the maximum file size per upload to %size."
+msgstr "你的 PHP 設定限制了每次上傳的最大檔案大小為 %size。"
+
+#: modules/upload/upload.admin.inc:18
+msgid ""
+"Depending on your server environment, these settings may be changed in the "
+"system-wide php.ini file, a php.ini file in your Drupal root directory, in "
+"your Drupal site's settings.php file, or in the .htaccess file in your "
+"Drupal root directory."
+msgstr ""
+"根據你的伺服器環境，這些設定可能會在系統裡的 php.ini 、Drupal 根目錄的 php."
+"ini 、Drupal 網站的 settings.php 、或是 Drupal 根目錄裡的 .htaccess 裡進行修"
+"改。"
+
+#: modules/upload/upload.admin.inc:21,24,39,42
+msgid "The %role file size limit must be a number and greater than zero."
+msgstr "%role 檔案大小限制必須是一個大於 0 的整數。"
+
+#: modules/upload/upload.admin.inc:21,24,31
+msgid "default"
+msgstr "預設"
+
+#: modules/upload/upload.admin.inc:31,49
+msgid ""
+"The %role maximum file size per upload is greater than the total file size "
+"allowed per user"
+msgstr "%role 每次上傳的檔案大小，大於每個使用者所允許的總檔案大小。"
+
+#: modules/upload/upload.admin.inc:64
+msgid "General settings"
+msgstr "一般設定"
+
+#: modules/upload/upload.admin.inc:69
+msgid "Maximum resolution for uploaded images"
+msgstr "上傳圖片的最大尺寸"
+
+#: modules/upload/upload.admin.inc:73
+msgid ""
+"The maximum allowed image size (e.g. 640x480). Set to 0 for no restriction. "
+"If an <a href=\"!image-toolkit-link\">image toolkit</a> is installed, files "
+"exceeding this value will be scaled down to fit."
+msgstr ""
+"所允許的最大圖片解析度（例如 640x480）。設定 0 代表沒有限制。如果有安裝<a "
+"href=\"!image-toolkit-link\">圖片工具</a>，超過此解析度的檔案會被縮放到允許的"
+"大小。"
+
+#: modules/upload/upload.admin.inc:74
+msgid "WIDTHxHEIGHT"
+msgstr "寬 x 高"
+
+#: modules/upload/upload.admin.inc:78
+msgid "List files by default"
+msgstr "預設為列出檔案"
+
+#: modules/upload/upload.admin.inc:81
+msgid "Display attached files when viewing a post."
+msgstr "在檢視文章時顯示附加檔案。"
+
+#: modules/upload/upload.admin.inc:86
+msgid "Default permitted file extensions"
+msgstr "允許上傳的延伸檔名"
+
+#: modules/upload/upload.admin.inc:89
+msgid ""
+"Default extensions that users can upload. Separate extensions with a space "
+"and do not include the leading dot."
+msgstr "允許使用者上傳的檔案的延伸名稱。用空格隔開，不要加上前面的「.」。"
+
+#: modules/upload/upload.admin.inc:93
+msgid "Default maximum file size per upload"
+msgstr "每次上傳的最大檔案大小"
+
+#: modules/upload/upload.admin.inc:97
+msgid ""
+"The default maximum file size a user can upload. If an image is uploaded and "
+"a maximum resolution is set, the size will be checked after the file has "
+"been resized."
+msgstr ""
+"使用者預設可以上傳的檔案大小。如果設定了上傳圖片的最大的解析度，在調整了解析"
+"度之後，會檢查檔案的大小。"
+
+#: modules/upload/upload.admin.inc:102
+msgid "Default total file size per user"
+msgstr "每個使用者可上傳的總檔案大小"
+
+#: modules/upload/upload.admin.inc:106
+msgid "The default maximum size of all files a user can have on the site."
+msgstr "每個使用者可以上傳的檔案的總容量。"
+
+#: modules/upload/upload.admin.inc:118
+msgid "Settings for @role"
+msgstr "@role 的設定"
+
+#: modules/upload/upload.admin.inc:124
+msgid "Permitted file extensions"
+msgstr "允許上傳的延伸檔名"
+
+#: modules/upload/upload.admin.inc:127
+msgid ""
+"Extensions that users in this role can upload. Separate extensions with a "
+"space and do not include the leading dot."
+msgstr ""
+"允許該角色的使用者上傳的檔案的延伸名稱。用空格隔開，不要加上前面的「.」。"
+
+#: modules/upload/upload.admin.inc:131
+msgid "Maximum file size per upload"
+msgstr "每次上傳的最大檔案大小"
+
+#: modules/upload/upload.admin.inc:135
+msgid ""
+"The maximum size of a file a user can upload. If an image is uploaded and a "
+"maximum resolution is set, the size will be checked after the file has been "
+"resized."
+msgstr ""
+"使用者可以上傳的單一檔案的最大容量。如果是上傳圖檔，並且有設定圖檔的最大解析"
+"度，檔案的大小會在圖檔被縮小後進行檢查。"
+
+#: modules/upload/upload.admin.inc:140
+msgid "Total file size per user"
+msgstr "每個使用者可上傳的總檔案大小"
+
+#: modules/upload/upload.admin.inc:144
+msgid "The maximum size of all files a user can have on the site."
+msgstr "每個使用者可以上傳的所有檔案的總容量。"
+
+#: modules/upload/upload.module:16
+msgid ""
+"The upload module allows users to upload files to the site. The ability to "
+"upload files is important for members of a community who want to share work. "
+"It is also useful to administrators who want to keep uploaded files "
+"connected to posts."
+msgstr ""
+"上傳模組讓使用者可以上傳檔案到網站。對於有分享需求的社群網站來說，能夠讓使用"
+"者上傳檔案到網站，是非常重要的一個功能。對於管理者來說，將上傳的檔案與某個內"
+"容節點或頁面有所關聯，也是非常有用的。"
+
+#: modules/upload/upload.module:17
+msgid ""
+"Users with the upload files permission can upload attachments to posts. "
+"Uploads may be enabled for specific content types on the content types "
+"settings page. Each user role can be customized to limit or control the file "
+"size of uploads, or the maximum dimension of image files."
+msgstr ""
+"擁有上傳檔案權限的使用者，可以在文章裡上傳附加檔案。你可以在內容類型的設定頁"
+"面裡，啟用此功能。對於不同的使用者角色，可以設定不同的上傳檔案大小，以及圖片"
+"檔案的尺寸。"
+
+#: modules/upload/upload.module:18
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@upload"
+"\">Upload module</a>."
+msgstr "更多資訊，請參考<a href=\"@upload\">上傳模組</a>的線上說明。"
+
+#: modules/upload/upload.module:21
+msgid ""
+"Users with the <a href=\"@permissions\">upload files permission</a> can "
+"upload attachments. Users with the <a href=\"@permissions\">view uploaded "
+"files permission</a> can view uploaded attachments. You can choose which "
+"post types can take attachments on the <a href=\"@types\">content types "
+"settings</a> page."
+msgstr ""
+"擁有 <a href=\"@permissions\">上傳檔案權限</a> 的使用者，可以上傳附件。擁有 "
+"<a href=\"@permissions\">瀏覽上傳檔案權限</a> 的使用者，可以瀏覽附件。你可以"
+"在 <a href=\"@types\">內容類型設定</a> 裡，選擇可以上傳附件的內容類型。"
+
+#: modules/upload/upload.module:67
+msgid "Read full article to view attachments."
+msgstr "閱讀全文以檢視附加檔案。"
+
+#: modules/upload/upload.module:212
+msgid "Attachments"
+msgstr "附加檔案"
+
+#: modules/upload/upload.module:225
+msgid "File attachments"
+msgstr "附加檔案"
+
+#: modules/upload/upload.module:228
+msgid ""
+"Changes made to the attachments are not permanent until you save this post. "
+"The first \"listed\" file will be included in RSS feeds."
+msgstr ""
+"在你儲存此文章之前，對附加檔案所作的改變並不會被儲存。第一個 \"列出\" 的檔"
+"案，也會列在 RSS feed 裡。"
+
+#: modules/upload/upload.module:246
+msgid ""
+"File attachments are disabled. The file directories have not been properly "
+"configured."
+msgstr "附加檔案功能已關閉。沒有正確地設定檔案目錄。"
+
+#: modules/upload/upload.module:248
+msgid ""
+"Please visit the <a href=\"@admin-file-system\">file system configuration "
+"page</a>."
+msgstr "請造訪  <a href=\"@admin-file-system\">f檔案系統設定頁</a>。"
+
+#: modules/upload/upload.module:251
+msgid "Please contact the site administrator."
+msgstr "請與網站管理者聯絡。"
+
+#: modules/upload/upload.module:353
+msgid "Attachment"
+msgstr "附加檔案"
+
+#: modules/upload/upload.module:353,530
+msgid "Size"
+msgstr "大小"
+
+#: modules/upload/upload.module:502
+msgid "Attach new file"
+msgstr "附加新檔案"
+
+#: modules/upload/upload.module:504
+msgid "Images are larger than %resolution will be resized. "
+msgstr "大於解析度 %resolution 的圖檔會被縮小。"
+
+#: modules/upload/upload.module:504
+msgid ""
+"The maximum upload size is %filesize. Only files with the following "
+"extensions may be uploaded: %extensions. "
+msgstr "檔案上傳的最大容量是 %filesize。只能上傳以下格式的檔案：%extensions。"
+
+#: modules/upload/upload.module:508
+msgid "Attach"
+msgstr "上傳"
+
+#: modules/upload/upload.module:513
+msgid "Please wait..."
+msgstr "請稍等..."
+
+#: modules/upload/upload.module:65,318
+msgid "1 attachment"
+msgid_plural "@count attachments"
+msgstr[0] "1 個附加檔案"
+msgstr[1] "@count 個附加檔案"
+
+#: modules/upload/upload.module:46
+msgid "upload files"
+msgstr "上傳檔案"
+
+#: modules/upload/upload.module:46
+msgid "view uploaded files"
+msgstr "檢視上傳檔案"
+
+#: modules/upload/upload.module:86
+msgid "File uploads"
+msgstr "檔案上傳"
+
+#: modules/upload/upload.module:87
+msgid "Control how files may be attached to content."
+msgstr "控制如何附加檔案到內容裡。"
+
+#: modules/upload/upload.module:0
+msgid "upload"
+msgstr "上傳"
+
+#: modules/upload/upload.install:29
+msgid "Stores uploaded file information and table associations."
+msgstr "儲存上傳的檔案的資訊以及表格關聯。"
+
+#: modules/upload/upload.install:36
+msgid "Primary Key: The {files}.fid."
+msgstr "Primary Key: The {files}.fid."
+
+#: modules/upload/upload.install:43
+msgid "The {node}.nid associated with the uploaded file."
+msgstr "The {node}.nid associated with the uploaded file."
+
+#: modules/upload/upload.install:50
+msgid "Primary Key: The {node}.vid associated with the uploaded file."
+msgstr "Primary Key: The {node}.vid associated with the uploaded file."
+
+#: modules/upload/upload.install:57
+msgid "Description of the uploaded file."
+msgstr "上傳檔案的說明。"
+
+#: modules/upload/upload.install:65
+msgid "Whether the file should be visibly listed on the node: yes(1) or no(0)."
+msgstr "檔案是否會顯示在文章裡：是(1)或否(0)。"
+
+#: modules/upload/upload.install:72
+msgid "Weight of this upload in relation to other uploads in this node."
+msgstr "文章裡此上傳檔案與其他檔案相比的的順序值。"

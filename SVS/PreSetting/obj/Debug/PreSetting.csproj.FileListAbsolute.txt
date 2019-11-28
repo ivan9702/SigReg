@@ -1,0 +1,5 @@
+D:\Source\SigReg\SVS\PreSetting\bin\Debug\PreSetting.exe
+D:\Source\SigReg\SVS\PreSetting\bin\Debug\PreSetting.pdb
+D:\Source\SigReg\SVS\PreSetting\obj\Debug\PreSetting.csprojAssemblyReference.cache
+D:\Source\SigReg\SVS\PreSetting\obj\Debug\PreSetting.exe
+D:\Source\SigReg\SVS\PreSetting\obj\Debug\PreSetting.pdb

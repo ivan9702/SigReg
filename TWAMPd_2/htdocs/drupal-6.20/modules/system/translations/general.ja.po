@@ -1,0 +1,1578 @@
+# -----------------------------------------------------------------------------
+# Japanese translation of Drupal (general)
+#
+# Copyright (c) 2006-2010  Drupal Japan  ( http://drupal.jp/ )  /
+#                          Takafumi      ( jp.drupal@imagine **reverse order**)
+#
+# Generated from file:
+#  actions.inc,v 1.8.2.12 2010/05/28 15:08:22 goba
+#  trigger.admin.inc,v 1.5 2008/01/08 10:35:43 goba
+#  common.inc,v 1.756.2.88 2010/06/02 18:52:32 goba
+#  system.admin.inc,v 1.63.2.14 2010/03/01 10:20:28 goba
+#  blogapi.module,v 1.115.2.5 2008/10/08 20:12:17 goba
+#  upload.admin.inc,v 1.7 2008/01/10 20:22:57 goba
+#  dblog.admin.inc,v 1.6.2.1 2008/09/17 05:47:53 goba
+#  system.module,v 1.585.2.52 2010/06/02 18:52:32 goba
+#  update.report.inc,v 1.10.2.6 2009/11/06 07:26:21 goba
+#  file.inc,v 1.121.2.12 2010/05/11 09:49:58 goba
+#  system.install,v 1.238.2.23 2010/05/28 11:51:20 goba
+#  user.pages.inc,v 1.11.2.3 2010/06/02 12:03:07 goba
+#  user.module,v 1.892.2.25 2010/06/02 12:47:58 goba
+#  form.inc,v 1.265.2.33 2010/05/19 15:02:32 goba
+#  upload.module,v 1.197.2.6 2010/05/19 14:43:56 goba
+#  filter.module,v 1.204.2.15 2010/05/28 14:40:02 goba
+#  node.admin.inc,v 1.19.2.3 2009/06/08 16:45:34 goba
+#  locale.inc,v 1.174.2.13 2010/05/28 13:07:27 goba
+#  filter.admin.inc,v 1.8.2.1 2008/02/12 14:25:34 goba
+#  menu.admin.inc,v 1.26.2.7 2010/06/02 12:56:20 goba
+#  profile.admin.inc,v 1.8.2.2 2010/03/01 10:20:28 goba
+#  aggregator.admin.inc,v 1.7.2.1 2008/04/25 21:11:57 goba
+#  book.admin.inc,v 1.8.2.3 2008/10/22 19:26:01 goba
+#  comment.admin.inc,v 1.4.2.3 2010/01/28 10:15:11 goba
+#  comment.module,v 1.617.2.16 2010/05/28 16:23:15 goba
+#  contact.admin.inc,v 1.3.2.1 2009/12/16 20:47:10 goba
+#  content_types.inc,v 1.50.2.3 2009/09/14 11:51:23 goba
+#  path.admin.inc,v 1.7.2.1 2008/11/22 10:49:15 dries
+#  taxonomy.admin.inc,v 1.22.2.4 2010/05/28 16:16:45 goba
+#  translation.pages.inc,v 1.2.2.1 2008/09/30 10:50:43 goba
+#  user.admin.inc,v 1.18.2.2 2010/03/01 11:15:38 goba
+#  block.admin.inc,v 1.14.2.5 2008/11/24 06:00:02 dries
+#  node.pages.inc,v 1.28.2.4 2009/04/27 11:35:01 goba
+#  locale.module,v 1.212.2.10 2010/03/04 00:15:28 goba
+#  statistics.admin.inc,v 1.6.2.2 2010/06/02 12:14:48 goba
+#  block-admin-display-form.tpl.php,v 1.3 2008/01/16 22:57:26 goba
+#  book.module,v 1.454.2.6 2009/02/25 11:47:37 goba
+#  forum.admin.inc,v 1.8.2.1 2009/05/26 08:13:00 goba
+#  menu.module,v 1.157.2.6 2009/04/27 12:50:13 goba
+#  node.module,v 1.947.2.24 2010/06/02 12:11:07 goba
+#  openid.pages.inc,v 1.5.2.2 2009/09/16 19:34:14 goba
+#  statistics.pages.inc,v 1.2.2.1 2009/04/27 12:08:29 goba
+#  search.admin.inc,v 1.4 2008/01/08 10:35:42 goba
+#  forum-submitted.tpl.php,v 1.3 2007/08/07 08:39:35 goba
+#  search.module,v 1.250.2.10 2010/05/28 15:20:35 goba
+#  search.info,v 1.4 2007/06/08 05:50:55 dries
+#  mail.inc,v 1.8.2.8 2010/06/02 12:07:24 goba
+#  contact.pages.inc,v 1.6.2.2 2009/04/27 14:48:21 goba
+#  menu.inc,v 1.255.2.34 2010/02/01 18:00:49 goba
+#  blog.module,v 1.297.2.4 2009/02/25 12:21:53 goba
+#  comment.pages.inc,v 1.2.2.2 2009/07/01 20:51:55 goba
+#  forum.module,v 1.448.2.8 2010/03/01 11:32:00 goba
+#  maintenance-page.tpl.php,v 1.2.2.1 2009/04/30 00:13:31 goba
+#  page.tpl.php,v 1.11.2.1 2009/04/30 00:13:31 goba
+#  taxonomy.pages.inc,v 1.9.2.1 2009/04/27 11:49:05 goba
+#  page.tpl.php,v 1.28.2.1 2009/04/30 00:13:31 goba
+#  chameleon.theme,v 1.76.2.1 2009/04/30 00:13:31 goba
+#  page.tpl.php,v 1.25.2.2 2009/04/30 00:13:31 goba
+#  pager.inc,v 1.63.2.1 2009/07/01 20:51:55 goba
+#  book-navigation.tpl.php,v 1.1 2007/11/04 14:29:09 goba
+#  theme.inc,v 1.415.2.27 2010/03/01 10:02:01 goba
+#  aggregator.pages.inc,v 1.12.2.1 2008/08/16 21:13:48 dries
+#  profile.module,v 1.236.2.3 2009/01/12 10:09:19 goba
+#  update.fetch.inc,v 1.7.2.7 2009/07/21 08:59:12 goba
+#  aggregator.module,v 1.374.2.6 2010/05/28 16:06:59 goba
+#  contact.module,v 1.103.2.2 2009/11/06 07:36:34 goba
+#  block.module,v 1.299.2.4 2009/10/06 12:13:01 goba
+#  path.module,v 1.138.2.3 2008/11/22 10:49:15 dries
+#  taxonomy.module,v 1.414.2.14 2010/05/11 10:19:04 goba
+#  update.module,v 1.17.2.6 2009/12/16 17:30:00 goba
+#  aggregator.info,v 1.4 2007/06/08 05:50:53 dries
+#  blog.info,v 1.5 2007/06/08 05:50:53 dries
+#  blogapi.info,v 1.4 2007/06/08 05:50:53 dries
+#  book.info,v 1.5 2007/07/30 18:20:21 dries
+#  color.info,v 1.3 2007/06/08 05:50:54 dries
+#  comment.info,v 1.4 2007/06/08 05:50:54 dries
+#  contact.info,v 1.4 2007/06/08 05:50:54 dries
+#  dblog.info,v 1.2 2007/06/08 05:50:54 dries
+#  forum.info,v 1.6 2007/06/08 05:50:54 dries
+#  help.info,v 1.4 2007/06/08 05:50:54 dries
+#  locale.info,v 1.6 2007/11/05 08:43:48 goba
+#  menu.info,v 1.4 2007/06/08 05:50:55 dries
+#  openid.info,v 1.2 2007/06/22 22:26:43 unconed
+#  path.info,v 1.4 2007/06/08 05:50:55 dries
+#  php.info,v 1.2 2007/06/08 05:50:55 dries
+#  ping.info,v 1.4 2007/06/08 05:50:55 dries
+#  poll.info,v 1.4 2007/06/08 05:50:55 dries
+#  profile.info,v 1.4 2007/06/08 05:50:55 dries
+#  statistics.info,v 1.4 2007/06/08 05:50:56 dries
+#  syslog.info,v 1.2 2007/06/08 05:50:56 dries
+#  taxonomy.info,v 1.4 2007/06/08 05:50:56 dries
+#  throttle.info,v 1.4 2007/06/08 05:50:57 dries
+#  tracker.info,v 1.5 2007/07/04 10:54:26 goba
+#  translation.info,v 1.1 2007/06/15 18:40:14 goba
+#  trigger.info,v 1.1 2007/09/11 14:50:05 goba
+#  update.info,v 1.1 2007/07/11 15:15:40 dries
+#  upload.info,v 1.4 2007/06/08 05:50:57 dries
+#  block.info,v 1.4 2007/06/08 05:50:53 dries
+#  throttle.module,v 1.83 2007/12/14 18:08:49 goba
+#  statistics.module,v 1.272.2.2 2010/06/02 12:14:48 goba
+#  filter.info,v 1.4 2007/06/08 05:50:54 dries
+#  node.info,v 1.4 2007/06/08 05:50:55 dries
+#  system.info,v 1.4 2007/06/08 05:50:56 dries
+#  user.info,v 1.4 2007/06/08 05:50:57 dries
+#  color.module,v 1.39.2.2 2009/05/16 16:09:21 dries
+#  update.settings.inc,v 1.3.2.1 2009/04/29 17:17:21 goba
+#  tracker.pages.inc,v 1.5 2007/11/28 10:29:20 dries
+#  openid.module,v 1.19.2.9 2009/12/07 12:52:22 goba
+#  trigger.module,v 1.13.2.3 2009/06/08 16:34:57 goba
+#  template.php,v 1.16.2.3 2010/05/11 09:41:22 goba
+#  dblog.module,v 1.21.2.3 2010/03/01 10:26:48 goba
+#  forum-list.tpl.php,v 1.4 2007/08/30 18:58:12 goba
+#  help.module,v 1.78.2.1 2008/04/09 21:11:48 goba
+#  menu.install,v 1.9.2.1 2009/01/06 15:46:37 goba
+#  poll.module,v 1.263.2.5 2010/05/11 12:40:43 goba
+#  poll.pages.inc,v 1.4 2007/12/14 09:50:41 goba
+#  tracker.module,v 1.154.2.1 2008/04/09 21:11:51 goba
+#  syslog.module,v 1.14.2.2 2008/07/24 06:52:43 dries
+#  chameleon.info,v 1.4 2007/07/01 23:27:31 goba
+#  marvin.info,v 1.4 2007/06/08 05:50:57 dries
+#  bluemarine.info,v 1.4 2007/06/08 05:50:57 dries
+#  color.inc,v 1.4 2007/12/14 17:00:14 goba
+#  garland.info,v 1.5 2007/07/01 23:27:32 goba
+#  minnelli.info,v 1.7 2007/12/04 20:58:44 goba
+#  pushbutton.info,v 1.4 2007/06/08 05:50:58 dries
+#
+# -----------------------------------------------------------------------------
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2010-06-03 15:15+0900\n"
+"Last-Translator: Takafumi <jp.drupal@imagine **reverse order**>\n"
+"Language-Team: Drupal Japan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: includes/actions.inc:85;331;353;388;396
+#: modules/trigger/trigger.admin.inc:87
+msgid "actions"
+msgstr "アクション"
+
+#: includes/common.inc:361 modules/system/system.admin.inc:1651
+msgid ""
+"@site is currently under maintenance. We should be back shortly. Thank you "
+"for your patience."
+msgstr ""
+"誠に申し訳ございませんが、@siteは現在メンテナンス中です。 恐れ入りますが暫く"
+"経ってから再度アクセスしていただきますよう、お願い申し上げます。"
+
+#: includes/common.inc:1255 modules/blogapi/blogapi.module:739;749
+#: modules/upload/upload.admin.inc:98;107;136;145
+msgid "MB"
+msgstr "MB"
+
+#: includes/common.inc:3630 modules/dblog/dblog.admin.inc:41;41
+msgid "emergency"
+msgstr "緊急"
+
+#: includes/common.inc:3631 modules/dblog/dblog.admin.inc:40;40
+msgid "alert"
+msgstr "警戒"
+
+#: includes/common.inc:3632 modules/dblog/dblog.admin.inc:39;39
+msgid "critical"
+msgstr "致命的"
+
+#: includes/common.inc:3633 modules/dblog/dblog.admin.inc:38;38
+#: modules/system/system.module:1725;1759
+#: modules/update/update.report.inc:59;59
+msgid "error"
+msgstr "エラー"
+
+#: includes/common.inc:3634 modules/dblog/dblog.admin.inc:37;37
+#: modules/update/update.report.inc:53;53;65;65
+msgid "warning"
+msgstr "警告"
+
+#: (duplicate) includes/file.inc:109 modules/system/system.install:198
+msgid "The directory %directory does not exist."
+msgstr "ディレクトリ %directory が存在しません。"
+
+#: includes/file.inc:122;234 modules/system/system.module:1291
+msgid "file system"
+msgstr "ファイルシステム"
+
+#: includes/file.inc:136 modules/user/user.pages.inc:278;347
+#: modules/user/user.module:1839;2352
+msgid "security"
+msgstr "セキュリティ"
+
+#: includes/form.inc:582 modules/upload/upload.module:574
+msgid ""
+"Validation error, please try again. If this error persists, please contact "
+"the site administrator."
+msgstr ""
+"検証エラーが発生しましたので再試行してください。<br />このエラーが繰り返し発"
+"生する場合は、お手数ですがサイト管理者までご連絡ください。"
+
+#: includes/form.inc:1605 modules/user/user.module:670;1285
+msgid "Password"
+msgstr "パスワード"
+
+#: (duplicate) includes/form.inc:705 ;711 modules/filter/filter.module:546
+msgid ""
+"An illegal choice has been detected. Please contact the site administrator."
+msgstr ""
+"不正な選択肢が検出されました。 お手数ですが、サイト管理者までご連絡ください。"
+
+#: (duplicate) includes/form.inc:2457 modules/node/node.admin.inc:357
+msgid "Processing"
+msgstr "処理中"
+
+#: includes/form.inc:706;712 modules/filter/filter.module:547
+msgid "form"
+msgstr "フォーム"
+
+#: includes/form.inc:712 modules/filter/filter.module:547
+msgid "Illegal choice %choice in %name element."
+msgstr "%name 要素で不正な選択肢 %choice が検出されました。"
+
+#: includes/locale.inc:61 modules/filter/filter.admin.inc:155;351
+#: modules/menu/menu.admin.inc:51 modules/profile/profile.admin.inc:44
+#: modules/system/system.admin.inc:259;283;771
+#: modules/system/system.module:1073
+msgid "Save configuration"
+msgstr "設定の保存"
+
+#: includes/locale.inc:89;2076 modules/aggregator/aggregator.admin.inc:30;41
+#: modules/book/book.admin.inc:237 modules/comment/comment.admin.inc:71
+#: modules/comment/comment.module:830;841 modules/contact/contact.admin.inc:16
+#: modules/menu/menu.admin.inc:98 modules/node/content_types.inc:28
+#: modules/node/node.admin.inc:496 modules/path/path.admin.inc:44
+#: modules/profile/profile.admin.inc:30
+#: modules/taxonomy/taxonomy.admin.inc:203;207;401;769;773
+#: modules/translation/translation.pages.inc:38
+#: modules/user/user.admin.inc:194;899 modules/user/user.module:1451;2374
+msgid "edit"
+msgstr "編集"
+
+#: includes/locale.inc:89;2077 modules/block/block.admin.inc:85
+#: modules/book/book.admin.inc:238 modules/comment/comment.module:826
+#: modules/contact/contact.admin.inc:16 modules/filter/filter.admin.inc:35
+#: modules/menu/menu.admin.inc:101 modules/node/content_types.inc:32
+#: modules/node/node.pages.inc:560 modules/path/path.admin.inc:44
+#: modules/profile/profile.admin.inc:31 modules/system/system.module:1393
+#: modules/user/user.admin.inc:899
+msgid "delete"
+msgstr "削除"
+
+#: (duplicate) includes/locale.inc:93 modules/comment/comment.module:553
+#: modules/locale/locale.module:264 modules/menu/menu.admin.inc:177;294
+#: modules/statistics/statistics.admin.inc:185
+#: modules/system/system.admin.inc:1300;1332;1340;1516;1669;2024;2213
+#: modules/system/system.install:282 modules/upload/upload.module:218
+#: modules/user/user.admin.inc:421;439
+msgid "Enabled"
+msgstr "有効"
+
+#: includes/locale.inc:93 modules/filter/filter.admin.inc:69
+#: modules/system/system.admin.inc:2213
+msgid "Default"
+msgstr "デフォルト"
+
+#: includes/locale.inc:93 modules/block/block-admin-display-form.tpl.php:43
+#: modules/book/book.admin.inc:218 modules/book/book.module:387
+#: modules/contact/contact.admin.inc:58 modules/filter/filter.admin.inc:362
+#: modules/forum/forum.admin.inc:52;134 modules/menu/menu.admin.inc:179;321
+#: modules/menu/menu.module:417 modules/node/node.module:1331
+#: modules/profile/profile.admin.inc:150;265
+#: modules/taxonomy/taxonomy.admin.inc:90;171;705
+#: modules/upload/upload.module:520
+msgid "Weight"
+msgstr "ウェイト"
+
+#: includes/locale.inc:93;2062 modules/aggregator/aggregator.admin.inc:27;38
+#: modules/block/block-admin-display-form.tpl.php:47
+#: modules/book/book.admin.inc:17;218 modules/comment/comment.admin.inc:58
+#: modules/contact/contact.admin.inc:18 modules/dblog/dblog.admin.inc:62;170
+#: modules/filter/filter.admin.inc:69 modules/menu/menu.admin.inc:180
+#: modules/node/content_types.inc:15 modules/node/node.admin.inc:561
+#: modules/node/node.pages.inc:530 modules/openid/openid.pages.inc:42
+#: modules/path/path.admin.inc:32 modules/profile/profile.admin.inc:152
+#: modules/statistics/statistics.admin.inc:17;82
+#: modules/statistics/statistics.pages.inc:16;48
+#: modules/system/system.admin.inc:2213 modules/system/system.module:1384
+#: modules/taxonomy/taxonomy.admin.inc:93;612
+#: modules/translation/translation.pages.inc:27
+#: modules/user/user.admin.inc:139;894;921;958
+msgid "Operations"
+msgstr "操作"
+
+#: includes/locale.inc:169 modules/locale/locale.module:88
+msgid "Add language"
+msgstr "言語の追加"
+
+#: includes/locale.inc:417;941
+#: modules/aggregator/aggregator.admin.inc:102;142;275;306
+#: modules/block/block.admin.inc:334 modules/comment/comment.admin.inc:247
+#: modules/contact/contact.admin.inc:138 modules/filter/filter.admin.inc:252
+#: modules/forum/forum.admin.inc:10;60;148;168
+#: modules/menu/menu.admin.inc:266;402;469 modules/node/content_types.inc:393
+#: modules/node/node.admin.inc:120 modules/node/node.pages.inc:250;508;594
+#: modules/node/node.module:1515;1545 modules/openid/openid.pages.inc:47
+#: modules/profile/profile.admin.inc:375 modules/system/system.module:1584
+#: modules/taxonomy/taxonomy.admin.inc:187;220;720;749;842;877
+#: modules/upload/upload.module:520 modules/user/user.admin.inc:878
+#: modules/user/user.pages.inc:261;328 modules/user/user.module:1081
+msgid "Delete"
+msgstr "削除"
+
+#: includes/locale.inc:417;941 modules/aggregator/aggregator.admin.inc:191
+#: modules/block/block.admin.inc:334 modules/comment/comment.admin.inc:189;248
+#: modules/contact/contact.admin.inc:138 modules/filter/filter.admin.inc:252
+#: modules/forum/forum.admin.inc:168 modules/node/node.admin.inc:73;613
+#: modules/node/node.pages.inc:509;574;594
+#: modules/profile/profile.admin.inc:375 modules/search/search.admin.inc:14
+#: modules/system/system.admin.inc:848;1089
+#: modules/system/system.module:1202;1584
+#: modules/taxonomy/taxonomy.admin.inc:843;878;913
+#: modules/trigger/trigger.admin.inc:77 modules/user/user.admin.inc:879
+#: modules/user/user.pages.inc:328 modules/user/user.module:1920
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: includes/locale.inc:472 modules/comment/comment.module:1633
+msgid "Save settings"
+msgstr "設定の保存"
+
+#: includes/locale.inc:503;576;2062 modules/locale/locale.module:230;249;276
+#: modules/node/node.admin.inc:559 modules/path/path.admin.inc:36
+#: modules/translation/translation.pages.inc:27
+msgid "Language"
+msgstr "言語"
+
+#: includes/locale.inc:517 modules/blogapi/blogapi.module:259
+#: modules/filter/filter.module:466 modules/forum/forum-submitted.tpl.php:27
+#: modules/translation/translation.pages.inc:48
+msgid "n/a"
+msgstr "N/A"
+
+#: includes/locale.inc:565;592 modules/locale/locale.module:132
+#: modules/search/search.module:159;1053;1073;169 modules/search/search.info:0
+msgid "Search"
+msgstr "検索"
+
+#: includes/locale.inc:578 modules/locale/locale.module:250
+msgid "All languages"
+msgstr "すべての言語"
+
+#: includes/locale.inc:655 modules/locale/locale.module:140
+msgid "Import"
+msgstr "インポート"
+
+#: includes/locale.inc:739;758 modules/locale/locale.module:148
+msgid "Export"
+msgstr "エクスポート"
+
+#: includes/locale.inc:2062 modules/locale/locale.module:592;76
+msgid "Languages"
+msgstr "言語"
+
+#: includes/mail.inc:134 modules/contact/contact.admin.inc:115;121;148
+#: modules/contact/contact.pages.inc:146;231
+msgid "mail"
+msgstr "メール"
+
+#: includes/menu.inc:1535 modules/blog/blog.module:109
+#: modules/book/book.module:625 modules/comment/comment.pages.inc:53
+#: modules/forum/forum.module:198;647
+#: modules/system/maintenance-page.tpl.php:34;35;42
+#: modules/system/page.tpl.php:95;96;103
+#: modules/taxonomy/taxonomy.pages.inc:40
+#: themes/bluemarine/page.tpl.php:19;19;20
+#: themes/chameleon/chameleon.theme:42;42
+#: themes/pushbutton/page.tpl.php:21;21;27
+msgid "Home"
+msgstr "ホーム"
+
+#: includes/pager.inc:396 modules/book/book-navigation.tpl.php:40
+msgid "Go to previous page"
+msgstr "前のページへ"
+
+#: includes/pager.inc:397 modules/book/book-navigation.tpl.php:46
+msgid "Go to next page"
+msgstr "次のページへ"
+
+#: includes/theme.inc:1482 modules/comment/comment.module:1694;1719
+msgid "new"
+msgstr "新着"
+
+#: includes/theme.inc:1660 modules/user/user.module:832
+msgid "View user profile."
+msgstr "ユーザプロフィールの表示"
+
+#: includes/theme.inc:1681 modules/comment/comment.module:1345;1354;1456
+#: modules/node/node.pages.inc:186 modules/system/system.admin.inc:1169
+#: modules/system/system.module:1827 modules/user/user.module:829
+msgid "Anonymous"
+msgstr "匿名ユーザ"
+
+#: modules/aggregator/aggregator.admin.inc:27;38;63;263
+#: modules/book/book.admin.inc:218 modules/filter/filter.module:220
+#: modules/menu/menu.admin.inc:422 modules/node/content_types.inc:58
+#: modules/node/node.admin.inc:557 modules/node/node.module:590
+#: modules/profile/profile.admin.inc:147;221
+#: modules/statistics/statistics.admin.inc:150
+#: modules/translation/translation.pages.inc:27
+msgid "Title"
+msgstr "タイトル"
+
+#: modules/aggregator/aggregator.admin.inc:30
+#: modules/aggregator/aggregator.pages.inc:482
+#: modules/comment/comment.module:396
+#: modules/statistics/statistics.admin.inc:125 modules/user/user.admin.inc:193
+msgid "@time ago"
+msgstr "@time前"
+
+#: modules/aggregator/aggregator.admin.inc:30;30
+#: modules/aggregator/aggregator.pages.inc:485 modules/user/user.admin.inc:193
+msgid "never"
+msgstr "N/A"
+
+#: modules/aggregator/aggregator.admin.inc:70
+#: modules/profile/profile.module:42;550
+#: modules/statistics/statistics.admin.inc:144
+#: modules/system/system.module:1883
+msgid "URL"
+msgstr "URL"
+
+#: modules/aggregator/aggregator.admin.inc:99;113;272;286
+#: modules/comment/comment.module:1392;1393
+#: modules/contact/contact.admin.inc:72 modules/forum/forum.admin.inc:58;145
+#: modules/menu/menu.admin.inc:326;433 modules/node/node.pages.inc:237
+#: modules/system/system.module:1533
+#: modules/taxonomy/taxonomy.admin.inc:37;185;414;715;760
+#: modules/user/user.pages.inc:257
+msgid "Save"
+msgstr "保存"
+
+#: modules/aggregator/aggregator.admin.inc:174;338
+#: modules/blogapi/blogapi.module:238;300 modules/book/book.admin.inc:130;236
+#: modules/comment/comment.admin.inc:110
+#: modules/comment/comment.module:708;771
+#: modules/contact/contact.admin.inc:115;121
+#: modules/node/content_types.inc:335 modules/node/node.pages.inc:457
+#: modules/profile/profile.admin.inc:346;388
+#: modules/update/update.fetch.inc:82;85
+msgid "view"
+msgstr "表示"
+
+#: modules/aggregator/aggregator.admin.inc:189
+#: modules/comment/comment.admin.inc:188 modules/contact/contact.admin.inc:138
+#: modules/menu/menu.admin.inc:468 modules/node/content_types.inc:391
+#: modules/node/node.admin.inc:612 modules/node/node.pages.inc:507;594
+#: modules/system/system.module:1193 modules/user/user.admin.inc:877
+#: modules/user/user.module:1919
+msgid "This action cannot be undone."
+msgstr ""
+"この操作は元に戻すことができませんので、十分に注意して実行してください。"
+
+#: modules/aggregator/aggregator.admin.inc:224
+#: modules/block/block.admin.inc:39 modules/book/book.module:412
+#: modules/system/system.admin.inc:1288
+#: modules/taxonomy/taxonomy.admin.inc:696
+msgid "none"
+msgstr "なし"
+
+#: modules/aggregator/aggregator.admin.inc:228
+#: modules/filter/filter.module:687
+msgid "Allowed HTML tags"
+msgstr "使用できるHTMLタグ"
+
+#: modules/aggregator/aggregator.admin.inc:269
+#: modules/forum/forum.admin.inc:45;126 modules/menu/menu.admin.inc:287;428
+#: modules/node/content_types.inc:15;103
+#: modules/system/system.admin.inc:1757;2030;2114
+#: modules/system/system.module:1383;1504
+#: modules/taxonomy/taxonomy.admin.inc:129;670
+#: modules/upload/upload.module:520
+msgid "Description"
+msgstr "説明"
+
+# 「全文を表示」の方が仕様に合うが……
+#: modules/aggregator/aggregator.pages.inc:363 modules/node/node.module:1724
+msgid "read more"
+msgstr "続きを読む"
+
+#: modules/aggregator/aggregator.module:99 modules/contact/contact.module:59
+msgid "Add category"
+msgstr "カテゴリの追加"
+
+#: modules/aggregator/aggregator.module:124 modules/block/block.module:128
+#: modules/book/book.module:86 modules/contact/contact.module:53
+#: modules/filter/filter.module:79 modules/forum/forum.module:101
+#: modules/locale/locale.module:83 modules/node/node.module:1428;1459
+#: modules/path/path.module:62 modules/system/system.module:284;322;326
+#: modules/taxonomy/taxonomy.module:121;179 modules/update/update.module:137
+#: modules/upload/upload.module:520 modules/user/user.module:968;1020
+msgid "List"
+msgstr "リスト"
+
+# 「設定」でもよいが……
+#: modules/aggregator/aggregator.module:129 modules/book/book.module:90
+#: modules/contact/contact.module:84 modules/forum/forum.module:124
+#: modules/menu/menu.module:71 modules/taxonomy/taxonomy.admin.inc:152
+#: modules/update/update.module:144
+msgid "Settings"
+msgstr "環境設定"
+
+#: modules/aggregator/aggregator.module:157 modules/node/node.module:1485
+msgid "RSS feed"
+msgstr "RSSフィード"
+
+#: modules/aggregator/aggregator.module:180;209 modules/node/node.module:1531
+#: modules/user/user.module:1075
+msgid "View"
+msgstr "表示"
+
+# 「環境設定」でもよいが……
+#: modules/aggregator/aggregator.module:193;222
+#: modules/filter/filter.module:122 modules/locale/locale.module:96
+#: modules/system/system.module:290
+msgid "Configure"
+msgstr "設定"
+
+#: modules/aggregator/aggregator.info:0
+msgid "Aggregator"
+msgstr "アグリゲータ"
+
+#: modules/aggregator/aggregator.info:0
+msgid "Aggregates syndicated content (RSS, RDF, and Atom feeds)."
+msgstr ""
+"他サイトからRSS/RDF/Atomフィードで配信されるコンテンツを収集します。 [<a "
+"href=\"?q=admin/help/aggregator\" title=\"より詳細なヘルプを読む\" target="
+"\"_blank\">?</a>]"
+
+#: modules/aggregator/aggregator.info:0 modules/blog/blog.info:0
+#: modules/blogapi/blogapi.info:0 modules/book/book.info:0
+#: modules/color/color.info:0 modules/comment/comment.info:0
+#: modules/contact/contact.info:0 modules/dblog/dblog.info:0
+#: modules/forum/forum.info:0 modules/help/help.info:0
+#: modules/locale/locale.info:0 modules/menu/menu.info:0
+#: modules/openid/openid.info:0 modules/path/path.info:0
+#: modules/php/php.info:0 modules/ping/ping.info:0 modules/poll/poll.info:0
+#: modules/profile/profile.info:0 modules/search/search.info:0
+#: modules/statistics/statistics.info:0 modules/syslog/syslog.info:0
+#: modules/taxonomy/taxonomy.info:0 modules/throttle/throttle.info:0
+#: modules/tracker/tracker.info:0 modules/translation/translation.info:0
+#: modules/trigger/trigger.info:0 modules/update/update.info:0
+#: modules/upload/upload.info:0
+msgid "Core - optional"
+msgstr "コア - 任意"
+
+#: modules/block/block-admin-display-form.tpl.php:41
+#: modules/block/block.info:0
+msgid "Block"
+msgstr "ブロック"
+
+#: modules/block/block-admin-display-form.tpl.php:45
+#: modules/system/system.admin.inc:2026 modules/throttle/throttle.module:11
+#: modules/throttle/throttle.info:0
+msgid "Throttle"
+msgstr "スロットル"
+
+#: modules/block/block.admin.inc:83 modules/filter/filter.admin.inc:34
+#: modules/system/system.admin.inc:225 modules/system/system.module:1392
+msgid "configure"
+msgstr "設定"
+
+#: (duplicate) modules/block/block.admin.inc:363
+#: modules/comment/comment.module:501;553;585 modules/locale/locale.module:264
+#: modules/statistics/statistics.admin.inc:185
+#: modules/statistics/statistics.module:257
+#: modules/system/system.admin.inc:1283;1300;1314;1332;1340;1516;1669
+#: modules/system/system.install:60 modules/upload/upload.module:218
+#: modules/user/user.admin.inc:421;439
+msgid "Disabled"
+msgstr "無効"
+
+#: modules/block/block.info:0
+msgid "Controls the boxes that are displayed around the main content."
+msgstr ""
+"メインコンテンツの周囲に表示されるボックスを管理します。 [<a href=\"?q=admin/"
+"help/block\" title=\"より詳細なヘルプを読む\" target=\"_blank\">?</a>]"
+
+#: modules/block/block.info:0 modules/filter/filter.info:0
+#: modules/node/node.info:0 modules/system/system.info:0
+#: modules/user/user.info:0
+msgid "Core - required"
+msgstr "コア - 必須"
+
+#: modules/blog/blog.module:51 modules/blog/blog.info:0
+msgid "Blog"
+msgstr "ブログ"
+
+# あえてシンプルに
+#: modules/blog/blog.info:0
+msgid "Enables keeping easily and regularly updated user web pages or blogs."
+msgstr ""
+"簡単にブログをつけられるようにします。 [<a href=\"?q=admin/help/blog\" title="
+"\"より詳細なヘルプを読む\" target=\"_blank\">?</a>]"
+
+#: modules/blogapi/blogapi.module:726 modules/upload/upload.admin.inc:86
+msgid "Default permitted file extensions"
+msgstr "許可されるファイル拡張子（デフォルト）"
+
+#: modules/blogapi/blogapi.module:729 modules/upload/upload.admin.inc:89
+msgid ""
+"Default extensions that users can upload. Separate extensions with a space "
+"and do not include the leading dot."
+msgstr ""
+"ユーザがアップロードすることのできる、デフォルトのファイル拡張子を入力してく"
+"ださい。  拡張子には先頭のドットを含めず、空白文字で区切って指定してくださ"
+"い。 例： jpg png gif pdf doc zip"
+
+#: modules/blogapi/blogapi.module:734 modules/upload/upload.admin.inc:93
+msgid "Default maximum file size per upload"
+msgstr "アップロード単位の最大ファイルサイズ（デフォルト）"
+
+#: modules/blogapi/blogapi.module:744 modules/upload/upload.admin.inc:102
+msgid "Default total file size per user"
+msgstr "ユーザ単位の合計ファイルサイズ（デフォルト）"
+
+#: modules/blogapi/blogapi.module:748 modules/upload/upload.admin.inc:106
+msgid "The default maximum size of all files a user can have on the site."
+msgstr ""
+"ユーザがサイトに保存しておくことのできる、デフォルトの全ファイルの最大合計サ"
+"イズを入力してください。"
+
+#: modules/blogapi/blogapi.module:752 modules/upload/upload.admin.inc:17;110
+msgid "Your PHP settings limit the maximum file size per upload to %size."
+msgstr ""
+"このサーバのPHPの設定により、アップロード単位の最大ファイルサイズが %size に"
+"制限されます。"
+
+#: modules/blogapi/blogapi.module:760 modules/upload/upload.admin.inc:118
+msgid "Settings for @role"
+msgstr "@role用の設定"
+
+#: modules/blogapi/blogapi.module:766 modules/upload/upload.admin.inc:124
+msgid "Permitted file extensions"
+msgstr "許可されるファイルの拡張子"
+
+#: modules/blogapi/blogapi.module:769 modules/upload/upload.admin.inc:127
+msgid ""
+"Extensions that users in this role can upload. Separate extensions with a "
+"space and do not include the leading dot."
+msgstr ""
+"ユーザがアップロードすることのできる、ファイル拡張子を入力してください。 拡張"
+"子には先頭のドットを含めず、空白文字で区切って指定してください。 例： jpg "
+"png gif pdf doc zip"
+
+#: modules/blogapi/blogapi.module:773 modules/upload/upload.admin.inc:131
+msgid "Maximum file size per upload"
+msgstr "アップロード単位の最大ファイルサイズ"
+
+#: modules/blogapi/blogapi.module:781 modules/upload/upload.admin.inc:140
+msgid "Total file size per user"
+msgstr "ユーザ単位の合計ファイルサイズ"
+
+#: modules/blogapi/blogapi.module:238;300 modules/book/book.admin.inc:130
+#: modules/comment/comment.admin.inc:110;279;285
+#: modules/comment/comment.module:708;771;793
+#: modules/forum/forum.admin.inc:177
+#: modules/node/node.pages.inc:462;466;587;601 modules/node/node.module:983
+msgid "content"
+msgstr "コンテンツ"
+
+#: modules/blogapi/blogapi.module:800 modules/blogapi/blogapi.info:0
+msgid "Blog API"
+msgstr "ブログAPI"
+
+#: modules/blogapi/blogapi.info:0
+msgid ""
+"Allows users to post content using applications that support XML-RPC blog "
+"APIs."
+msgstr ""
+"XML-RPC APIをサポートする外部アプリケーションから、コンテンツを投稿できるよう"
+"にします。 [<a href=\"?q=admin/help/blogapi\" title=\"より詳細なヘルプを読む"
+"\" target=\"_blank\">?</a>]"
+
+#: modules/book/book.admin.inc:17 modules/book/book.module:418
+#: modules/book/book.info:0
+msgid "Book"
+msgstr "ブック"
+
+#: modules/book/book.admin.inc:218 modules/forum/forum.admin.inc:50;131
+msgid "Parent"
+msgstr "上位"
+
+#: modules/book/book.module:349 modules/menu/menu.admin.inc:313
+#: modules/menu/menu.module:407
+msgid "Parent item"
+msgstr "上位の項目"
+
+#: modules/book/book.info:0
+msgid "Allows users to structure site pages in a hierarchy or outline."
+msgstr ""
+"サイトページを階層やアウトラインで構成できるようにします。 [<a href=\"?"
+"q=admin/help/book\" title=\"より詳細なヘルプを読む\" target=\"_blank\">?</a>]"
+
+#: modules/color/color.module:230 modules/comment/comment.pages.inc:60
+#: modules/comment/comment.module:1392;1396;1399
+#: modules/node/node.pages.inc:243;405
+msgid "Preview"
+msgstr "プレビュー"
+
+#: modules/color/color.module:286
+#: modules/node/content_types.inc:208;279;306;325
+#: modules/system/system.admin.inc:263;554
+#: modules/system/system.module:1074;1097;1107
+#: modules/update/update.settings.inc:94
+msgid "Reset to defaults"
+msgstr "デフォルトに戻す"
+
+#: modules/color/color.info:0
+msgid "Color"
+msgstr "色"
+
+#: modules/color/color.info:0
+msgid "Allows the user to change the color scheme of certain themes."
+msgstr ""
+"特定のテーマの配色を変更できるようにします。 [<a href=\"?q=admin/help/color"
+"\" title=\"より詳細なヘルプを読む\" target=\"_blank\">?</a>]"
+
+#: modules/comment/comment.admin.inc:40 modules/node/node.admin.inc:464
+#: modules/user/user.admin.inc:158
+msgid "Update options"
+msgstr "更新オプション"
+
+#: modules/comment/comment.admin.inc:48 modules/node/node.admin.inc:479
+#: modules/user/user.admin.inc:114;173
+msgid "Update"
+msgstr "更新"
+
+#: modules/comment/comment.admin.inc:54 modules/comment/comment.module:1362
+#: modules/contact/contact.pages.inc:55;187 modules/forum/forum.module:305
+#: modules/system/system.module:1654
+#: modules/user/user.admin.inc:266;286;306;326;351;376;401
+msgid "Subject"
+msgstr "件名"
+
+#: modules/comment/comment.admin.inc:55 modules/node/node.admin.inc:557
+#: modules/tracker/tracker.pages.inc:65
+msgid "Author"
+msgstr "投稿者"
+
+#: modules/comment/comment.admin.inc:57
+#: modules/statistics/statistics.pages.inc:13
+msgid "Time"
+msgstr "時間"
+
+#: modules/comment/comment.admin.inc:114 modules/node/node.admin.inc:372;424
+#: modules/user/user.admin.inc:223
+msgid "The update has been performed."
+msgstr "更新が実行されました。"
+
+#: modules/comment/comment.module:560 modules/node/node.admin.inc:54
+msgid "Optional"
+msgstr "任意"
+
+#: modules/comment/comment.module:560 modules/node/node.admin.inc:54
+#: modules/taxonomy/taxonomy.admin.inc:166
+msgid "Required"
+msgstr "必須"
+
+#: modules/comment/comment.module:1193 modules/node/node.module:809
+msgid "You have to specify a valid date."
+msgstr "有効な日付を指定する必要があります。"
+
+#: modules/comment/comment.module:1293;1309 modules/node/node.pages.inc:181
+msgid "Authored by"
+msgstr "投稿者"
+
+#: modules/comment/comment.module:1317;1348;1356
+#: modules/user/user.admin.inc:754;810
+msgid "E-mail"
+msgstr "メール"
+
+#: modules/comment/comment.module:1321;1348;1356
+#: modules/profile/profile.module:341
+msgid ""
+"The content of this field is kept private and will not be shown publicly."
+msgstr "このフィールドの内容は非公開にされ、公表されることはありません。"
+
+#: modules/comment/comment.module:1333 modules/node/node.pages.inc:190
+msgid "Authored on"
+msgstr "投稿日時"
+
+#: modules/comment/comment.module:1335 modules/node/node.admin.inc:557
+#: modules/translation/translation.pages.inc:27
+#: modules/user/user.admin.inc:135;917 modules/user/user.module:1517
+msgid "Status"
+msgstr "状態"
+
+#: modules/comment/comment.module:1335 modules/node/content_types.inc:157
+#: modules/node/node.pages.inc:210
+#: modules/translation/translation.pages.inc:40
+msgid "Published"
+msgstr "掲載"
+
+#: modules/comment/comment.module:1335
+#: modules/translation/translation.pages.inc:40
+msgid "Not published"
+msgstr "非掲載"
+
+#: modules/comment/comment.module:1339;1345;1354
+#: modules/contact/contact.pages.inc:43
+msgid "Your name"
+msgstr "あなたのお名前"
+
+#: modules/comment/comment.module:1374 modules/comment/comment.info:0
+msgid "Comment"
+msgstr "コメント"
+
+#: modules/comment/comment.module:1669 modules/openid/openid.module:442
+#: modules/user/user.module:1447;2368
+msgid "Error saving user account."
+msgstr "ユーザアカウントの保存中にエラーが発生しました。"
+
+#: modules/comment/comment.module:1871 modules/forum/forum.admin.inc:204
+msgid "Date - newest first"
+msgstr "日付の新しい順"
+
+#: modules/comment/comment.module:1872 modules/forum/forum.admin.inc:204
+msgid "Date - oldest first"
+msgstr "日付の古い順"
+
+#: modules/comment/comment.module:2142 modules/node/node.module:2743
+msgid "Keywords"
+msgstr "キーワード"
+
+#: modules/comment/comment.module:2083;2106;2127
+#: modules/node/node.module:2624;2633;2642;2651;2660;2669;2678;2688;2768
+#: modules/system/system.module:1756 modules/user/user.module:2310;2320
+msgid "action"
+msgstr "アクション"
+
+#: modules/comment/comment.module:419;625 modules/node/node.module:144
+msgid "1 comment"
+msgid_plural "@count comments"
+msgstr[0] "コメント(1)"
+msgstr[1] "コメント(@count)"
+
+#: modules/comment/comment.module:198 modules/trigger/trigger.module:67
+#: themes/garland/template.php:57
+msgid "Comments"
+msgstr "コメント"
+
+#: modules/comment/comment.info:0
+msgid "Allows users to comment on and discuss published content."
+msgstr ""
+"掲載されたコンテンツにユーザがコメントを付けられるようにします。 [<a href=\"?"
+"q=admin/help/comment\" title=\"より詳細なヘルプを読む\" target=\"_blank\">?</"
+"a>]"
+
+#: modules/contact/contact.admin.inc:16;64 modules/upload/upload.admin.inc:80
+#: modules/user/user.module:2234
+msgid "Yes"
+msgstr "はい"
+
+#: modules/contact/contact.admin.inc:16;64 modules/upload/upload.admin.inc:80
+#: modules/user/user.module:2235
+msgid "No"
+msgstr "いいえ"
+
+#: modules/contact/contact.admin.inc:18;40
+#: modules/contact/contact.pages.inc:67
+#: modules/profile/profile.admin.inc:149;214
+msgid "Category"
+msgstr "カテゴリ"
+
+#: modules/contact/contact.admin.inc:18;63
+#: modules/system/system.admin.inc:2155
+msgid "Selected"
+msgstr "選択済み"
+
+#: modules/contact/contact.admin.inc:83 modules/profile/profile.admin.inc:302
+msgid "You must enter a category."
+msgstr "カテゴリの入力は必須です。"
+
+#: modules/contact/contact.pages.inc:63 modules/forum/forum.module:387
+#: modules/taxonomy/taxonomy.module:436
+msgid "- Please choose -"
+msgstr "- 選択してください -"
+
+#: modules/contact/contact.pages.inc:81;192
+#: modules/dblog/dblog.admin.inc:60;108;158
+#: modules/system/system.module:1661;1807
+msgid "Message"
+msgstr "メッセージ"
+
+#: modules/contact/contact.pages.inc:95;200 modules/system/system.module:1336
+msgid "Send e-mail"
+msgstr "メールの送信"
+
+#: modules/contact/contact.module:93;100 modules/contact/contact.info:0
+msgid "Contact"
+msgstr "コンタクト"
+
+#: modules/contact/contact.info:0
+msgid "Enables the use of both personal and site-wide contact forms."
+msgstr ""
+"個人用とサイト用のコンタクトフォームを利用できるようにします。 [<a href=\"?"
+"q=admin/help/contact\" title=\"より詳細なヘルプを読む\" target=\"_blank\">?</"
+"a>]"
+
+#: modules/dblog/dblog.admin.inc:58;138;223
+#: modules/node/content_types.inc:15;81;95 modules/node/node.admin.inc:557
+#: modules/profile/profile.admin.inc:147
+#: modules/taxonomy/taxonomy.admin.inc:88 modules/tracker/tracker.pages.inc:65
+msgid "Type"
+msgstr "タイプ"
+
+#: modules/dblog/dblog.admin.inc:59;142
+#: modules/statistics/statistics.admin.inc:158
+msgid "Date"
+msgstr "日付"
+
+#: modules/dblog/dblog.admin.inc:61;146
+#: modules/statistics/statistics.admin.inc:16;162
+#: modules/statistics/statistics.pages.inc:15 modules/user/user.info:0
+msgid "User"
+msgstr "ユーザ"
+
+#: modules/dblog/dblog.admin.inc:154
+#: modules/statistics/statistics.admin.inc:154
+#: modules/statistics/statistics.pages.inc:14
+msgid "Referrer"
+msgstr "リファラ"
+
+#: modules/dblog/dblog.admin.inc:166
+#: modules/statistics/statistics.admin.inc:166 modules/user/user.admin.inc:821
+msgid "Hostname"
+msgstr "ホスト名"
+
+#: modules/dblog/dblog.admin.inc:290;306;318 modules/filter/filter.info:0
+#: modules/node/node.admin.inc:247;312 modules/path/path.admin.inc:206
+#: modules/user/user.admin.inc:73;98
+msgid "Filter"
+msgstr "フィルタ"
+
+#: modules/dblog/dblog.admin.inc:295;325 modules/menu/menu.admin.inc:593
+#: modules/node/node.admin.inc:250;328 modules/path/path.admin.inc:212
+#: modules/user/user.admin.inc:82;111
+msgid "Reset"
+msgstr "リセット"
+
+#: modules/dblog/dblog.module:46 modules/dblog/dblog.info:0
+msgid "Database logging"
+msgstr "Database logging"
+
+#: modules/dblog/dblog.module:79 modules/statistics/statistics.module:127
+msgid "Details"
+msgstr "詳細"
+
+#: modules/dblog/dblog.info:0
+msgid "Logs and records system events to the database."
+msgstr ""
+"システムイベントをデータベースに記録します。 [<a href=\"?q=admin/help/dblog"
+"\" title=\"より詳細なヘルプを読む\" target=\"_blank\">?</a>]"
+
+#: modules/filter/filter.admin.inc:69;102;362
+#: modules/node/content_types.inc:15;72 modules/profile/profile.admin.inc:147
+#: modules/system/system.admin.inc:1136;2028;2113;2155;2213
+#: modules/taxonomy/taxonomy.admin.inc:88;612
+#: modules/trigger/trigger.admin.inc:238 modules/user/user.admin.inc:958
+msgid "Name"
+msgstr "名前"
+
+#: modules/filter/filter.admin.inc:69;110 modules/user/user.admin.inc:136;918
+#: modules/user/user.module:1542;998
+msgid "Roles"
+msgstr "ロール"
+
+# 「コンテンツ作成のヒント」ページでの<h1>～<h6>タグの説明では「見出し」としたいが……
+#: modules/filter/filter.module:220;221;222;223;224;225
+#: modules/system/system.module:0
+msgid "Header"
+msgstr "ヘッダ"
+
+#: modules/filter/filter.module:116 modules/node/node.module:1511;1535
+#: modules/user/user.module:1091
+msgid "Edit"
+msgstr "編集"
+
+#: modules/filter/filter.info:0
+msgid "Handles the filtering of content in preparation for display."
+msgstr ""
+"コンテンツの表示前にさまざまなフィルタリング処理をします。 [<a href=\"?"
+"q=admin/help/filter\" title=\"より詳細なヘルプを読む\" target=\"_blank\">?</"
+"a>]"
+
+#: modules/forum/forum-list.tpl.php:37 modules/forum/forum.info:0
+msgid "Forum"
+msgstr "フォーラム"
+
+#: modules/forum/forum.admin.inc:276 modules/taxonomy/taxonomy.admin.inc:695
+msgid "root"
+msgstr "最上位"
+
+#: modules/forum/forum.module:560 modules/tracker/tracker.pages.inc:65
+msgid "Replies"
+msgstr "返信"
+
+#: modules/forum/forum.module:761;823 modules/tracker/tracker.pages.inc:48
+msgid "1 new"
+msgid_plural "@count new"
+msgstr[0] "新着(1)"
+msgstr[1] "新着(@count)"
+
+#: modules/forum/forum.info:0
+msgid "Enables threaded discussions about general topics."
+msgstr ""
+"さまざまな話題についてスレッド形式で議論できるようにします。 [<a href=\"?"
+"q=admin/help/forum\" title=\"より詳細なヘルプを読む\" target=\"_blank\">?</"
+"a>]"
+
+#: modules/help/help.module:14 modules/help/help.info:0
+msgid "Help"
+msgstr "ヘルプ"
+
+#: modules/help/help.info:0
+msgid "Manages the display of online help."
+msgstr ""
+"オンラインヘルプの表示を管理します。 [<a href=\"?q=admin/help/help\" title="
+"\"より詳細なヘルプを読む\" target=\"_blank\">?</a>]"
+
+#: modules/locale/locale.module:278 modules/node/node.admin.inc:159;224;494
+msgid "Language neutral"
+msgstr "言語ニュートラル"
+
+#: modules/locale/locale.module:111 modules/system/system.module:1214
+msgid "Confirm"
+msgstr "確認"
+
+#: modules/locale/locale.module:0;0 modules/system/system.admin.inc:1524
+msgid "Thursday"
+msgstr "木曜日"
+
+#: modules/locale/locale.module:0 modules/system/system.admin.inc:1524
+msgid "Friday"
+msgstr "金曜日"
+
+#: modules/locale/locale.module:0 modules/system/system.admin.inc:1524
+msgid "Saturday"
+msgstr "土曜日"
+
+#: modules/locale/locale.module:0 modules/system/system.admin.inc:1524
+msgid "Sunday"
+msgstr "日曜日"
+
+#: modules/locale/locale.module:0 modules/system/system.admin.inc:1524
+msgid "Monday"
+msgstr "月曜日"
+
+#: modules/locale/locale.module:0 modules/system/system.admin.inc:1524
+msgid "Tuesday"
+msgstr "火曜日"
+
+#: modules/locale/locale.module:0 modules/system/system.admin.inc:1524
+msgid "Wednesday"
+msgstr "水曜日"
+
+#: modules/locale/locale.info:0
+msgid "Locale"
+msgstr "ロケール"
+
+#: modules/locale/locale.info:0
+msgid ""
+"Adds language handling functionality and enables the translation of the user "
+"interface to languages other than English."
+msgstr ""
+"言語処理の機能性を加え、ユーザインターフェイスを英語以外の言語へ翻訳できるよ"
+"うにします。 [<a href=\"?q=admin/help/locale\" title=\"より詳細なヘルプを読む"
+"\" target=\"_blank\">?</a>]"
+
+#: modules/menu/menu.admin.inc:259;275 modules/path/path.info:0
+msgid "Path"
+msgstr "パス"
+
+#: modules/menu/menu.admin.inc:339 modules/system/system.admin.inc:1199
+msgid ""
+"The menu system stores system paths only, but will use the URL alias for "
+"display. %link_path has been stored as %normal_path"
+msgstr ""
+"メニューシステムはシステムパスのみを格納しますが、表示にはURLエイリアスを使用"
+"します。 %link_path は %normal_path として格納されました。"
+
+#: modules/menu/menu.admin.inc:363 modules/path/path.admin.inc:143
+msgid ""
+"The path '@link_path' is either invalid or you do not have access to it."
+msgstr "パス '@link_path' は無効、あるいはアクセスできません。"
+
+#: modules/menu/menu.admin.inc:502;584 modules/node/content_types.inc:404
+msgid "menu"
+msgstr "メニュー"
+
+#: (duplicate) modules/menu/menu.install:12 modules/user/user.module:698;748
+msgid "Navigation"
+msgstr "ナビゲーション"
+
+#: (duplicate) modules/menu/menu.install:13
+#: modules/system/system.admin.inc:392
+msgid "Primary links"
+msgstr "プライマリリンク"
+
+#: (duplicate) modules/menu/menu.install:14
+#: modules/system/system.admin.inc:393
+msgid "Secondary links"
+msgstr "セカンダリリンク"
+
+#: modules/menu/menu.info:0
+msgid "Menu"
+msgstr "メニュー"
+
+#: modules/menu/menu.info:0
+msgid "Allows administrators to customize the site navigation menu."
+msgstr ""
+"管理者がサイトのナビゲーションメニューをカスタマイズできるようにします。 [<a "
+"href=\"?q=admin/help/menu\" title=\"より詳細なヘルプを読む\" target=\"_blank"
+"\">?</a>]"
+
+#: modules/node/content_types.inc:59 modules/node/node.module:597
+#: modules/user/user.admin.inc:272;292;312;332;357;382;407
+msgid "Body"
+msgstr "本文"
+
+# コンテンツタイプの識別情報なので
+#: modules/node/content_types.inc:69
+#: modules/taxonomy/taxonomy.admin.inc:118;658
+msgid "Identification"
+msgstr "識別情報"
+
+#: modules/node/node.admin.inc:35 modules/poll/poll.module:250
+msgid "Unlimited"
+msgstr "無制限"
+
+#: modules/node/node.admin.inc:133 modules/user/user.module:2029
+msgid "status"
+msgstr "状態"
+
+#: modules/node/node.admin.inc:247;313 modules/user/user.admin.inc:73;98
+msgid "Refine"
+msgstr "絞り込む"
+
+#: modules/node/node.admin.inc:249;325 modules/user/user.admin.inc:78;108
+msgid "Undo"
+msgstr "元に戻す"
+
+#: modules/node/node.admin.inc:286 modules/user/user.admin.inc:1002
+msgid "and"
+msgstr "さらに"
+
+#: modules/node/node.admin.inc:286 modules/user/user.admin.inc:1002
+msgid "where"
+msgstr "その"
+
+#: modules/node/node.admin.inc:292 modules/user/user.admin.inc:1008
+msgid "is"
+msgstr "が"
+
+#: modules/node/node.admin.inc:582 modules/tracker/tracker.pages.inc:62
+msgid "No posts available."
+msgstr "投稿はありません。"
+
+#: modules/node/node.admin.inc:613 modules/user/user.module:1920
+msgid "Delete all"
+msgstr "すべてを削除"
+
+#: modules/node/node.module:1148;1419;1472 modules/system/system.module:0
+#: modules/trigger/trigger.module:49
+msgid "Content"
+msgstr "コンテンツ"
+
+#: modules/node/node.module:2708;2717
+#: modules/user/user.admin.inc:134;754;799;916
+#: modules/user/user.module:664;1277;1486
+msgid "Username"
+msgstr "ユーザ名"
+
+#: modules/node/node.module:1452 modules/taxonomy/taxonomy.admin.inc:141;145
+msgid "Content types"
+msgstr "コンテンツタイプ"
+
+#: modules/node/node.info:0
+msgid "Node"
+msgstr "ノード"
+
+#: modules/node/node.info:0
+msgid "Allows content to be submitted to the site and displayed on pages."
+msgstr ""
+"コンテンツの投稿や表示など、Drupalの核となる処理をします。 [<a href=\"?"
+"q=admin/help/node\" title=\"より詳細なヘルプを読む\" target=\"_blank\">?</a>]"
+
+#: modules/openid/openid.pages.inc:42;64 modules/openid/openid.info:0
+msgid "OpenID"
+msgstr "OpenID"
+
+#: modules/openid/openid.module:450 modules/user/user.admin.inc:243
+msgid "Only site administrators can create new user accounts."
+msgstr "サイト管理者のみが新規アカウントを作成できる"
+
+#: modules/openid/openid.info:0
+msgid "Allows users to log into your site using OpenID."
+msgstr ""
+"OpenID を使用してサイトへのログインができるようになります。 [<a href=\"?"
+"q=admin/help/openid\" title=\"より詳細なヘルプを読む\" target=\"_blank\">?</"
+"a>]"
+
+#: modules/path/path.admin.inc:31 modules/system/system.info:0
+msgid "System"
+msgstr "システム"
+
+#: modules/path/path.info:0
+msgid "Allows users to rename URLs."
+msgstr ""
+"URLのエイリアス（別名）を定義できるようにします。 [<a href=\"?q=admin/help/"
+"path\" title=\"より詳細なヘルプを読む\" target=\"_blank\">?</a>]"
+
+#: modules/php/php.info:0
+msgid "PHP filter"
+msgstr "PHP filter"
+
+#: modules/php/php.info:0
+msgid "Allows embedded PHP code/snippets to be evaluated."
+msgstr ""
+"埋め込まれたPHPコードやスニペットが評価（実行）されるようにします。 [<a href="
+"\"?q=admin/help/php\" title=\"より詳細なヘルプを読む\" target=\"_blank\">?</"
+"a>]"
+
+#: modules/ping/ping.info:0
+msgid "Ping"
+msgstr "Ping"
+
+#: modules/ping/ping.info:0
+msgid "Alerts other sites when your site has been updated."
+msgstr ""
+"サイトが更新された際に他のサイトへ通知するようにします。 [<a href=\"?q=admin/"
+"help/ping\" title=\"より詳細なヘルプを読む\" target=\"_blank\">?</a>]"
+
+#: modules/poll/poll.pages.inc:34 modules/statistics/statistics.admin.inc:80
+msgid "Visitor"
+msgstr "訪問者"
+
+#: modules/poll/poll.module:147;172 modules/poll/poll.info:0
+msgid "Poll"
+msgstr "投票"
+
+#: modules/poll/poll.module:251 modules/user/user.module:1519
+msgid "Active"
+msgstr "アクティブ"
+
+#: modules/poll/poll.info:0
+msgid ""
+"Allows your site to capture votes on different topics in the form of "
+"multiple choice questions."
+msgstr ""
+"さまざまな話題について、多肢選択の質問形式で投票ができるようにします。 [<a "
+"href=\"?q=admin/help/poll\" title=\"より詳細なヘルプを読む\" target=\"_blank"
+"\">?</a>]"
+
+#: modules/profile/profile.info:0
+msgid "Profile"
+msgstr "プロフィール"
+
+#: modules/profile/profile.info:0
+msgid "Supports configurable user profiles."
+msgstr ""
+"設定可能なユーザプロフィールをサポートします。 [<a href=\"?q=admin/help/"
+"profile\" title=\"より詳細なヘルプを読む\" target=\"_blank\">?</a>]"
+
+#: modules/search/search.info:0
+msgid "Enables site-wide keyword searching."
+msgstr ""
+"サイト全体からキーワード検索ができるようにします。 [<a href=\"?q=admin/help/"
+"search\" title=\"より詳細なヘルプを読む\" target=\"_blank\">?</a>]"
+
+# トラックにすべきか？
+#: modules/statistics/statistics.module:155 modules/tracker/tracker.module:46
+msgid "Track"
+msgstr "軌跡"
+
+#: modules/statistics/statistics.info:0
+msgid "Statistics"
+msgstr "統計"
+
+#: modules/statistics/statistics.info:0
+msgid "Logs access statistics for your site."
+msgstr ""
+"サイトアクセスの統計情報を記録して、さまざまな形式で表示できるようにします。 "
+"[<a href=\"?q=admin/help/statistics\" title=\"より詳細なヘルプを読む\" "
+"target=\"_blank\">?</a>]"
+
+#: modules/syslog/syslog.module:31 modules/syslog/syslog.info:0
+msgid "Syslog"
+msgstr "Syslog"
+
+#: modules/syslog/syslog.info:0
+msgid "Logs and records system events to syslog."
+msgstr ""
+"システムイベントをsyslogに記録します。 [<a href=\"?q=admin/help/syslog\" "
+"title=\"より詳細なヘルプを読む\" target=\"_blank\">?</a>]"
+
+#: modules/system/system.admin.inc:702 modules/update/update.report.inc:192
+msgid "Depends on: !dependencies"
+msgstr "次に依存： !dependencies"
+
+#: modules/system/system.admin.inc:725 modules/update/update.report.inc:202
+msgid "Required by: !required"
+msgstr "次に必須： !required"
+
+#: modules/system/system.admin.inc:1143 modules/user/user.module:1494
+msgid "E-mail address"
+msgstr "メールアドレス"
+
+#: modules/system/system.module:603 modules/user/user.module:2226
+msgid "Medium"
+msgstr "中程度"
+
+#: modules/system/system.module:1598 modules/user/user.pages.inc:75;113;149
+#: modules/user/user.module:1382;1397;1451;1648;2374
+msgid "user"
+msgstr "ユーザ"
+
+#: modules/system/system.module:276 modules/update/update.report.inc:221
+msgid "Themes"
+msgstr "テーマ"
+
+#: modules/system/system.module:314 modules/update/update.report.inc:220
+msgid "Modules"
+msgstr "モジュール"
+
+#: modules/system/system.module:0 themes/chameleon/chameleon.info:0
+#: themes/chameleon/marvin/marvin.info:0
+msgid "Left sidebar"
+msgstr "左サイドバー"
+
+#: modules/system/system.module:0 themes/chameleon/chameleon.info:0
+#: themes/chameleon/marvin/marvin.info:0
+msgid "Right sidebar"
+msgstr "右サイドバー"
+
+#: (duplicate) modules/system/system.install:232
+#: modules/update/update.report.inc:84 modules/update/update.module:284
+msgid "Up to date"
+msgstr "最新"
+
+#: (duplicate) modules/system/system.install:242
+#: modules/update/update.module:274
+msgid "Out of date"
+msgstr "旧式"
+
+#: modules/system/system.info:0
+msgid "Handles general site configuration for administrators."
+msgstr ""
+"管理者用の全般的なサイト設定を処理します。 [<a href=\"?q=admin/help/system\" "
+"title=\"より詳細なヘルプを読む\" target=\"_blank\">?</a>]"
+
+#: modules/taxonomy/taxonomy.module:112 modules/taxonomy/taxonomy.info:0
+#: modules/trigger/trigger.module:76
+msgid "Taxonomy"
+msgstr "タクソノミー"
+
+#: modules/taxonomy/taxonomy.info:0
+msgid "Enables the categorization of content."
+msgstr ""
+"コンテンツをさまざまなカテゴリに分類できるようにします。 [<a href=\"?q=admin/"
+"help/taxonomy\" title=\"より詳細なヘルプを読む\" target=\"_blank\">?</a>]"
+
+#: modules/throttle/throttle.module:104 modules/user/user.module:789;792
+msgid "1 user"
+msgid_plural "@count users"
+msgstr[0] "認証ユーザ 1 人"
+msgstr[1] "認証ユーザ @count 人"
+
+#: modules/throttle/throttle.info:0
+msgid "Handles the auto-throttling mechanism, to control site congestion."
+msgstr ""
+"サイトの混雑を制御するための自動スロットルメカニズムを処理します。 [<a href="
+"\"?q=admin/help/throttle\" title=\"より詳細なヘルプを読む\" target=\"_blank"
+"\">?</a>]"
+
+#: modules/tracker/tracker.info:0
+msgid "Tracker"
+msgstr "トラッカー"
+
+#: modules/tracker/tracker.info:0
+msgid "Enables tracking of recent posts for users."
+msgstr ""
+"ユーザが最近の投稿を手早く知ることができるようにします。 [<a href=\"?q=admin/"
+"help/tracker\" title=\"より詳細なヘルプを読む\" target=\"_blank\">?</a>]"
+
+#: modules/translation/translation.info:0
+msgid "Content translation"
+msgstr "Content translation"
+
+#: modules/translation/translation.info:0
+msgid "Allows content to be translated into different languages."
+msgstr ""
+"コンテンツを異なる言語に翻訳できるようにします。 [<a href=\"?q=admin/help/"
+"translation\" title=\"より詳細なヘルプを読む\" target=\"_blank\">?</a>]"
+
+#: modules/trigger/trigger.module:58 modules/user/user.module:579;960
+msgid "Users"
+msgstr "ユーザ"
+
+#: modules/trigger/trigger.info:0
+msgid "Trigger"
+msgstr "Trigger"
+
+#: modules/trigger/trigger.info:0
+msgid ""
+"Enables actions to be fired on certain system events, such as when new "
+"content is created."
+msgstr ""
+"特定のシステムイベント（「新規コンテンツの作成時」のような）をトリガとして、"
+"任意の行動を起こせるようにします。 [<a href=\"?q=admin/help/trigger\" title="
+"\"より詳細なヘルプを読む\" target=\"_blank\">?</a>]"
+
+#: modules/update/update.info:0
+msgid "Update status"
+msgstr "Update status"
+
+#: modules/update/update.info:0
+msgid ""
+"Checks the status of available updates for Drupal and your installed modules "
+"and themes."
+msgstr ""
+"Drupalやインストール済みのモジュールやテーマのアップデート状況を確認します。 "
+"[<a href=\"?q=admin/help/update\" title=\"より詳細なヘルプを読む\" target="
+"\"_blank\">?</a>]"
+
+#: modules/upload/upload.info:0
+msgid "Upload"
+msgstr "アップロード"
+
+#: modules/upload/upload.info:0
+msgid "Allows users to upload and attach files to content."
+msgstr ""
+"ユーザがファイルのアップロードとコンテンツへの添付ができるようにします。 [<a "
+"href=\"?q=admin/help/upload\" title=\"より詳細なヘルプを読む\" target="
+"\"_blank\">?</a>]"
+
+#: modules/user/user.info:0
+msgid "Manages the user registration and login system."
+msgstr ""
+"ユーザ登録やログインシステムの管理をします。 [<a href=\"?q=admin/help/user\" "
+"title=\"より詳細なヘルプを読む\" target=\"_blank\">?</a>]"
+
+#: themes/bluemarine/bluemarine.info:0 themes/garland/color/color.inc:12
+#: themes/garland/minnelli/color/color.inc:12
+msgid "Bluemarine"
+msgstr "Bluemarine"
+
+#: themes/bluemarine/bluemarine.info:0
+msgid "Table-based multi-column theme with a marine and ash color scheme."
+msgstr ""
+"マリンとアッシュカラーで配色されたテーブルベースのマルチカラムテーマです。"
+
+#: themes/chameleon/chameleon.info:0
+msgid "Chameleon"
+msgstr "Chameleon"
+
+#: themes/chameleon/chameleon.info:0
+msgid "Minimalist tabled theme with light colors."
+msgstr "テーブルを最小限に抑えたライトカラーのテーマです。"
+
+#: themes/chameleon/marvin/marvin.info:0
+msgid "Marvin"
+msgstr "Marvin"
+
+#: themes/chameleon/marvin/marvin.info:0
+msgid "Boxy tabled theme in all grays."
+msgstr "グレーで統一された箱形テーブルのテーマです。"
+
+#: themes/garland/garland.info:0
+msgid "Garland"
+msgstr "Garland"
+
+#: themes/garland/garland.info:0
+msgid "Tableless, recolorable, multi-column, fluid width theme (default)."
+msgstr ""
+"テーブルなし、配色変更可能、マルチカラム、横幅可変のテーマです。（デフォル"
+"ト）"
+
+#: themes/garland/color/color.inc:8 themes/garland/minnelli/color/color.inc:8
+msgid "Blue Lagoon (Default)"
+msgstr "Blue Lagoon （デフォルト）"
+
+#: themes/garland/color/color.inc:9 themes/garland/minnelli/color/color.inc:9
+msgid "Ash"
+msgstr "Ash"
+
+#: themes/garland/color/color.inc:10
+#: themes/garland/minnelli/color/color.inc:10
+msgid "Aquamarine"
+msgstr "Aquamarine"
+
+#: themes/garland/color/color.inc:11
+#: themes/garland/minnelli/color/color.inc:11
+msgid "Belgian Chocolate"
+msgstr "Belgian Chocolate"
+
+#: themes/garland/color/color.inc:13
+#: themes/garland/minnelli/color/color.inc:13
+msgid "Citrus Blast"
+msgstr "Citrus Blast"
+
+#: themes/garland/color/color.inc:14
+#: themes/garland/minnelli/color/color.inc:14
+msgid "Cold Day"
+msgstr "Cold Day"
+
+#: themes/garland/color/color.inc:15
+#: themes/garland/minnelli/color/color.inc:15
+msgid "Greenbeam"
+msgstr "Greenbeam"
+
+#: themes/garland/color/color.inc:16
+#: themes/garland/minnelli/color/color.inc:16
+msgid "Mediterrano"
+msgstr "Mediterrano"
+
+#: themes/garland/color/color.inc:17
+#: themes/garland/minnelli/color/color.inc:17
+msgid "Mercury"
+msgstr "Mercury"
+
+#: themes/garland/color/color.inc:18
+#: themes/garland/minnelli/color/color.inc:18
+msgid "Nocturnal"
+msgstr "Nocturnal"
+
+#: themes/garland/color/color.inc:19
+#: themes/garland/minnelli/color/color.inc:19
+msgid "Olivia"
+msgstr "Olivia"
+
+#: themes/garland/color/color.inc:20
+#: themes/garland/minnelli/color/color.inc:20
+msgid "Pink Plastic"
+msgstr "Pink Plastic"
+
+#: themes/garland/color/color.inc:21
+#: themes/garland/minnelli/color/color.inc:21
+msgid "Shiny Tomato"
+msgstr "Shiny Tomato"
+
+#: themes/garland/color/color.inc:22
+#: themes/garland/minnelli/color/color.inc:22
+msgid "Teal Top"
+msgstr "Teal Top"
+
+#: themes/garland/minnelli/minnelli.info:0
+msgid "Minnelli"
+msgstr "Minnelli"
+
+#: themes/garland/minnelli/minnelli.info:0
+msgid "Tableless, recolorable, multi-column, fixed width theme."
+msgstr "テーブルなし、配色変更可能、マルチカラム、横幅固定のテーマです。"
+
+#: themes/pushbutton/pushbutton.info:0
+msgid "Pushbutton"
+msgstr "Pushbutton"
+
+#: themes/pushbutton/pushbutton.info:0
+msgid "Tabled, multi-column theme in blue and orange tones."
+msgstr ""
+"ブルーとオレンジのトーンを基調としたテーブル使用のマルチカラムテーマです。"

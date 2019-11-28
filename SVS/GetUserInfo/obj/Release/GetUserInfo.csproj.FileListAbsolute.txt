@@ -1,0 +1,10 @@
+D:\SVN\Digitizer\branches\Developing\SigReg\SVS\GetUserInfo\bin\Release\GetUserInfo.exe
+D:\SVN\Digitizer\branches\Developing\SigReg\SVS\GetUserInfo\bin\Release\GetUserInfo.pdb
+D:\SVN\Digitizer\branches\Developing\SigReg\SVS\GetUserInfo\obj\Release\GetUserInfo.csprojResolveAssemblyReference.cache
+D:\SVN\Digitizer\branches\Developing\SigReg\SVS\GetUserInfo\obj\Release\GetUserInfo.exe
+D:\SVN\Digitizer\branches\Developing\SigReg\SVS\GetUserInfo\obj\Release\GetUserInfo.pdb
+D:\Source\SigReg\SVS\GetUserInfo\bin\Release\GetUserInfo.exe
+D:\Source\SigReg\SVS\GetUserInfo\bin\Release\GetUserInfo.pdb
+D:\Source\SigReg\SVS\GetUserInfo\obj\Release\GetUserInfo.csprojAssemblyReference.cache
+D:\Source\SigReg\SVS\GetUserInfo\obj\Release\GetUserInfo.exe
+D:\Source\SigReg\SVS\GetUserInfo\obj\Release\GetUserInfo.pdb

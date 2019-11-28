@@ -1,0 +1,382 @@
+# Chinese, Traditional translation of drupal (6.2)
+# Copyright (c) 2008 by the Chinese, Traditional translation team
+# Generated from files:
+#  menu.admin.inc,v 1.26.2.3 2008/02/11 15:12:53 goba
+#  menu.module,v 1.157.2.2 2008/04/09 21:11:48 goba
+#  menu.install,v 1.9 2008/01/30 20:27:28 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.x)\n"
+"POT-Creation-Date: 2008-05-14 13:25+0800\n"
+"PO-Revision-Date: 2009-08-20 00:23+0800\n"
+"Language-Team: Drupal Taiwan <info@drupaltaiwan.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: charlesc <charles@netivism.com.tw>\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: TAIWAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+
+#: modules/menu/menu.admin.inc:54
+msgid "There are no menu items yet."
+msgstr "還沒有任何選單項目"
+
+#: modules/menu/menu.admin.inc:104
+msgid "reset"
+msgstr "重設"
+
+#: modules/menu/menu.admin.inc:175
+msgid "Menu item"
+msgstr "選單項目"
+
+#: modules/menu/menu.admin.inc:177,299
+msgid "Expanded"
+msgstr "展開"
+
+#: modules/menu/menu.admin.inc:260
+msgid ""
+"The path this menu item links to. This can be an internal Drupal path such "
+"as %add-node or an external URL such as %drupal. Enter %front to link to the "
+"front page."
+msgstr ""
+"此選單項目連結到的路徑。路徑可以是 Drupal的內部連結，像是 %add-node ，也可以"
+"是外部網址，像是 %drupal。或者可以輸入 %front，連結到網站首頁。"
+
+#: modules/menu/menu.admin.inc:281
+msgid ""
+"The link text corresponding to this item that should appear in the menu."
+msgstr "應該顯示在選單中對應這個項目的連結文字。"
+
+#: modules/menu/menu.admin.inc:289
+msgid "The description displayed when hovering over a menu item."
+msgstr "當滑鼠指標停在選單項目上時，所顯示的說明。"
+
+#: modules/menu/menu.admin.inc:295
+msgid "Menu items that are not enabled will not be listed in any menu."
+msgstr "沒有被啟用的選單項目不會被列在任何選單中。"
+
+#: modules/menu/menu.admin.inc:301
+msgid ""
+"If selected and this menu item has children, the menu will always appear "
+"expanded."
+msgstr "如果選擇了展開，並且該選單項目還有下層選單，此選單將以展開的方式顯示。"
+
+#: modules/menu/menu.admin.inc:403
+msgid "Menu name"
+msgstr "選單名稱"
+
+#: modules/menu/menu.admin.inc:405
+msgid ""
+"The machine-readable name of this menu. This text will be used for "
+"constructing the URL of the <em>menu overview</em> page for this menu. This "
+"name must contain only lowercase letters, numbers, and hyphens, and must be "
+"unique."
+msgstr ""
+"這個選單的可機讀名稱。這個文字會被用來當做或者構成這個選單在 <em>選單一覽</"
+"em>頁面中的網址。"
+
+#: modules/menu/menu.admin.inc:460
+msgid "Are you sure you want to delete the custom menu %title?"
+msgstr "你確定你要刪除這個自訂的選單 %title？"
+
+#: modules/menu/menu.admin.inc:492
+msgid "The custom menu %title has been deleted."
+msgstr "自訂選單 %title 已經被刪除了。"
+
+#: modules/menu/menu.admin.inc:502
+msgid ""
+"The menu name may only consist of lowercase letters, numbers, and hyphens."
+msgstr "選單的名稱只能由小寫字母、數字和連字號所組成。"
+
+#: modules/menu/menu.admin.inc:512
+msgid "The menu already exists."
+msgstr "這個選單已經存在了。"
+
+#: modules/menu/menu.admin.inc:564
+msgid "Are you sure you want to delete the custom menu item %item?"
+msgstr "你真的要刪除自訂的選單項目 %item 嗎？"
+
+#: modules/menu/menu.admin.inc:574
+msgid "The menu item %title has been deleted."
+msgstr "刪除了選單項目 %title 。"
+
+#: modules/menu/menu.admin.inc:584
+msgid "Are you sure you want to reset the item %item to its default values?"
+msgstr "你真的要將 %item 重設為預設值嗎？"
+
+#: modules/menu/menu.admin.inc:584
+msgid "Any customizations will be lost. This action cannot be undone."
+msgstr "任何自訂的改變將會消失。此動作無法回復！"
+
+#: modules/menu/menu.admin.inc:593
+msgid "The menu item was reset to its default settings."
+msgstr "對選單項目的設定已重設為預設值。"
+
+#: modules/menu/menu.admin.inc:603
+msgid ""
+"The menu module allows on-the-fly creation of menu links in the content "
+"authoring forms. The following option sets the default menu in which a new "
+"link will be added."
+msgstr ""
+"menu模組允許在內容寫作表單建立選單連結。下列的選項設定一個新連結會被加入的預"
+"設選單。"
+
+#: modules/menu/menu.admin.inc:609
+msgid "Default menu for content"
+msgstr "預設的選單或者內容"
+
+#: modules/menu/menu.admin.inc:612
+msgid ""
+"Choose the menu to be the default in the menu options in the content "
+"authoring form."
+msgstr "選擇選單做為內容寫作表單中的預設選單選項"
+
+#: modules/menu/menu.admin.inc:629
+msgid "Source for the secondary links"
+msgstr "次要連結的的來源"
+
+#: modules/menu/menu.admin.inc:493
+msgid "Deleted custom menu %title and all its menu items."
+msgstr "刪除掉自訂的選單 %title 以及其所有的選單項目。"
+
+#: modules/menu/menu.admin.inc:575
+msgid "Deleted menu item %title."
+msgstr "刪除了選單項目 %title。"
+
+#: modules/menu/menu.admin.inc:457
+msgid ""
+"<strong>Warning:</strong> There is currently 1 menu item in %title. It will "
+"be deleted (system-defined items will be reset)."
+msgid_plural ""
+"<strong>Warning:</strong> There are currently @count menu items in %title. "
+"They will be deleted (system-defined items will be reset)."
+msgstr[0] ""
+"<strong>警告：</strong>目前 %title之中有一個選單項目。此項目將會被刪除掉(系統"
+"指定的項目將會被重設)。"
+msgstr[1] ""
+"<strong>警告：</strong>目前 %title之中有@count個選單項目。此項目將會被刪除掉"
+"(系統指定的項目將會被重設)。"
+
+#: modules/menu/menu.admin.inc:505
+msgid "The menu name can't be longer than 1 character."
+msgid_plural "The menu name can't be longer than @count characters."
+msgstr[0] "選單名稱不能超過 1 個字元。"
+msgstr[1] "選單名稱不能超過 @count 個字元。"
+
+#: modules/menu/menu.module:21
+msgid ""
+"The menu module provides an interface to control and customize Drupal's "
+"powerful menu system. Menus are a hierarchical collection of links, or menu "
+"items, used to navigate a website, and are positioned and displayed using "
+"Drupal's flexible block system. By default, three menus are created during "
+"installation: <em>Navigation</em>, <em>Primary links</em>, and <em>Secondary "
+"links</em>. The <em>Navigation</em> menu contains most links necessary for "
+"working with and navigating your site, and is often displayed in either the "
+"left or right sidebar. Most Drupal themes also provide support for "
+"<em>Primary links</em> and <em>Secondary links</em>, by displaying them in "
+"either the header or footer of each page. By default, <em>Primary links</em> "
+"and <em>Secondary links</em> contain no menu items but may be configured to "
+"contain custom menu items specific to your site."
+msgstr ""
+"menu模組提供了一個介面進行控制與自訂Drupal的強大選單系統。選單是一個階層性的"
+"連結或者選單項目集合，用來瀏覽一個網站，而且可以使用Druapl的彈性區塊系統來定"
+"位與顯示。根據預設，在安裝時就會建立3個選單：<em>導覽</em>, <em>主要連結</"
+"em>,與 <em>次要連結</em>。<em>導覽</em>選單含有您網站上工作和導覽所需的大部分"
+"必要連結，經常顯示在左欄或者右欄。大部分的Drupal版型也支持 <em>主要連結</em>"
+"和<em>次要連結</em>，顯示在每頁標頭或者註腳區。<em>主要連結</em>和<em>次要連"
+"結</em> 預設沒有包含任何選單項目，不過可以被設定具有選單項目以配合你的網站。"
+
+#: modules/menu/menu.module:22
+msgid ""
+"The <a href=\"@menu\">menus page</a> displays all menus currently available "
+"on your site. Select a menu from this list to add or edit a menu item, or to "
+"rearrange items within the menu. Create new menus using the <a href=\"@add-"
+"menu\">add menu page</a> (the block containing a new menu must also be "
+"enabled on the <a href=\"@blocks\">blocks administration page</a>)."
+msgstr ""
+"<a href=\"@menu\">選單頁面</a> 顯示了目前你網站上的所有選單。從這裡選擇一個選"
+"單以加入或編輯一個選單項目，或者重新排列它們在選單中的順序。請使用<a href="
+"\"@add-menu\">增加選單頁面</a>來建立新的選單。 (也要在 <a href=\"@blocks\">b"
+"區塊管理頁面</a>中啟用包含一個新選單的區塊)."
+
+#: modules/menu/menu.module:23
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@menu"
+"\">Menu module</a>."
+msgstr "更多資訊，請見線上手冊項目： <a href=\"@menu\">Menu 模組</a>."
+
+#: modules/menu/menu.module:26
+msgid ""
+"Menus are a collection of links (menu items) used to navigate a website. The "
+"menus currently available on your site are displayed below. Select a menu "
+"from this list to manage its menu items."
+msgstr ""
+"選單是連結(選單項目)的集合，用來導覽一個網站。您網站上所有可用的選單都列在下"
+"面。從這個清單中選擇一個選單來管理其選項。"
+
+#: modules/menu/menu.module:28
+msgid ""
+"Enter the name for your new menu. Remember to enable the newly created block "
+"in the <a href=\"@blocks\">blocks administration page</a>."
+msgstr ""
+"輸入新選單的名稱。記得要在 <a href=\"@blocks\">區塊管理頁</a> 裡啟用新增的區"
+"塊。"
+
+#: modules/menu/menu.module:30
+msgid ""
+"To rearrange menu items, grab a drag-and-drop handle under the <em>Menu "
+"item</em> column and drag the items (or group of items) to a new location in "
+"the list. (Grab a handle by clicking and holding the mouse while hovering "
+"over a handle icon.) Remember that your changes will not be saved until you "
+"click the <em>Save configuration</em> button at the bottom of the page."
+msgstr ""
+"要重新排列選單項目，請在<em>選單項目</em>中拖出一列並且放把該項目拖放到選單中"
+"的一個新位置。(點擊滑鼠開始抓取一個項目，並在懸停一個項目圖示時按住滑鼠不"
+"放。)請記住你的變更是不會被儲存的，除非你按下這個頁面底下的<em>儲存設定</em>"
+"按鈕。"
+
+#: modules/menu/menu.module:32
+msgid "Enter the title and path for your new menu item."
+msgstr "為你的新選單項目輸入標題和路徑。"
+
+#: modules/menu/menu.module:380
+msgid "Delete this menu item."
+msgstr "刪除這個選單項目。"
+
+#: modules/menu/menu.module:395
+msgid ""
+"The link text corresponding to this item that should appear in the menu. "
+"Leave blank if you do not wish to add this post to the menu."
+msgstr ""
+"這個連結文字對應著應該要顯示在選單中的項目。如果你不希望把這篇文章加入選單"
+"中，請保持空白。"
+
+#: modules/menu/menu.module:40
+msgid "administer menu"
+msgstr "管理選單"
+
+#: modules/menu/menu.module:48
+msgid "Menus"
+msgstr "選單"
+
+#: modules/menu/menu.module:49
+msgid ""
+"Control your site's navigation menu, primary links and secondary links. as "
+"well as rename and reorganize menu items."
+msgstr "控制你的網站導覽選單、主選單與次選單。也可重新命名與重組選單項目。"
+
+#: modules/menu/menu.module:57
+msgid "List menus"
+msgstr "列出選單"
+
+#: modules/menu/menu.module:63
+msgid "Add menu"
+msgstr "增加選單"
+
+#: modules/menu/menu.module:80
+msgid "Customize menu"
+msgstr "自訂選單"
+
+#: modules/menu/menu.module:90
+msgid "List items"
+msgstr "列出項目"
+
+#: modules/menu/menu.module:96
+msgid "Add item"
+msgstr "新增選單項目"
+
+#: modules/menu/menu.module:104
+msgid "Edit menu"
+msgstr "編輯選單"
+
+#: modules/menu/menu.module:112
+msgid "Delete menu"
+msgstr "刪除選單"
+
+#: modules/menu/menu.module:120
+msgid "Edit menu item"
+msgstr "編輯選單項目"
+
+#: modules/menu/menu.module:128
+msgid "Reset menu item"
+msgstr "重設選單項目"
+
+#: modules/menu/menu.module:136
+msgid "Delete menu item"
+msgstr "刪除選單項目"
+
+#: modules/menu/menu.install:31
+msgid ""
+"Holds definitions for top-level custom menus (for example, Primary Links)."
+msgstr "為上層自訂選單保留設定(比方說，主要連結)。"
+
+#: modules/menu/menu.install:38
+msgid ""
+"Primary Key: Unique key for menu. This is used as a block delta so length is "
+"32."
+msgstr "Primary Key: 選單的獨特識別碼。這被用做一個區塊delta，所以長度為 32。"
+
+#: modules/menu/menu.install:45
+msgid "Menu title; displayed at top of block."
+msgstr "選單標題；會顯示在區塊的頂端。"
+
+#: modules/menu/menu.install:50
+msgid "Menu description."
+msgstr "選單說明。"
+
+#: modules/menu/menu.admin.inc:616
+msgid "No primary links"
+msgstr "沒有主選單"
+
+#: modules/menu/menu.admin.inc:619
+msgid "Source for the primary links"
+msgstr "主選單的來源"
+
+#: modules/menu/menu.admin.inc:623
+msgid "Select what should be displayed as the primary links."
+msgstr "選擇哪個項目應該被顯示為主選單。"
+
+#: modules/menu/menu.admin.inc:626
+msgid "No secondary links"
+msgstr "沒有次導覽列連結"
+
+#: modules/menu/menu.admin.inc:633
+msgid ""
+"Select what should be displayed as the secondary links. You can choose the "
+"same menu for secondary links as for primary links (currently %primary). If "
+"you do this, the children of the active primary menu link will be displayed "
+"as secondary links."
+msgstr ""
+"選擇什麼項目應該被顯示為次要連結。你可以選擇主要連結做為次要連結的相同選單(目"
+"前是 %primary)。如果你這麼做的話，正在使用的主選單連結會以次要連結的方式顯示"
+"出來。"
+
+#: modules/menu/menu.install:12
+msgid ""
+"The navigation menu is provided by Drupal and is the main interactive menu "
+"for any site. It is usually the only menu that contains personalized links "
+"for authenticated users, and is often not even visible to anonymous users."
+msgstr ""
+"導覽選單是由Drupal所提供，並且可以是任何網站的主要介面選單。它通常是含有授權"
+"使用者個人化連結的唯一選單，而匿名訪客可能經常看不到這個選單。"
+
+#: modules/menu/menu.install:13
+msgid ""
+"Primary links are often used at the theme layer to show the major sections "
+"of a site. A typical representation for primary links would be tabs along "
+"the top."
+msgstr ""
+"主選單通常是顯示在版型上，引導使用者到網站的主要單元。一個主選單的典型呈現方"
+"式，是在網站上方的頁簽式連結。"
+
+#: modules/menu/menu.install:14
+msgid ""
+"Secondary links are often used for pages like legal notices, contact "
+"details, and other secondary navigation items that play a lesser role than "
+"primary links"
+msgstr ""
+"次要連結經常被用作像是法律條款、連絡細節以及其他次要導覽項目等頁面，扮演比主"
+"要選單來講較為不重要的角色。"

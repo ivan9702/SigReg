@@ -1,0 +1,503 @@
+# -----------------------------------------------------------------------------
+# Japanese translation of Drupal (modules-update)
+#
+# Copyright (c) 2006-2010  Drupal Japan  ( http://drupal.jp/ )  /
+#                          Takafumi      ( jp.drupal@imagine **reverse order**)
+#
+# Generated from file:
+#  update.compare.inc,v 1.8.2.9 2010/03/05 09:10:49 goba
+#  update.fetch.inc,v 1.7.2.7 2009/07/21 08:59:12 goba
+#  update.report.inc,v 1.10.2.6 2009/11/06 07:26:21 goba
+#  update.module,v 1.17.2.6 2009/12/16 17:30:00 goba
+#  update.settings.inc,v 1.3.2.1 2009/04/29 17:17:21 goba
+#
+# -----------------------------------------------------------------------------
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2010-06-03 15:15+0900\n"
+"Last-Translator: Takafumi <jp.drupal@imagine **reverse order**>\n"
+"Language-Team: Drupal Japan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/update/update.compare.inc:207
+msgid "Unknown"
+msgstr "不明"
+
+#: modules/update/update.compare.inc:320
+msgid "Project not secure"
+msgstr "安全ではないプロジェクト"
+
+#: modules/update/update.compare.inc:321
+msgid ""
+"This project has been labeled insecure by the Drupal security team, and is "
+"no longer available for download. Immediately disabling everything included "
+"by this project is strongly recommended!"
+msgstr ""
+"このプロジェクトはDrupalセキュリティチームによって安全でないと標示され、もは"
+"やダウンロードはできません。 このプロジェクトに含まれたすべてを早急に無効にす"
+"ることを、強く推奨します！"
+
+#: modules/update/update.compare.inc:332
+msgid "Project revoked"
+msgstr "廃止されたプロジェクト"
+
+#: modules/update/update.compare.inc:333
+msgid ""
+"This project has been revoked, and is no longer available for download. "
+"Disabling everything included by this project is strongly recommended!"
+msgstr ""
+"このプロジェクトは廃止され、もはやダウンロードはできません。 このプロジェクト"
+"に含まれたすべてを無効にすることを、強く推奨します！"
+
+#: modules/update/update.compare.inc:343
+msgid "Project not supported"
+msgstr "サポートされていないプロジェクト"
+
+#: modules/update/update.compare.inc:344
+msgid ""
+"This project is no longer supported, and is no longer available for "
+"download. Disabling everything included by this project is strongly "
+"recommended!"
+msgstr ""
+"このプロジェクトはもはやサポートされず、もはやダウンロードはできません。 この"
+"プロジェクトに含まれたすべてを無効にすることを、強く推奨します！"
+
+#: modules/update/update.compare.inc:349
+msgid "Failed to fetch available update data"
+msgstr "入手可能な最新版データの取得に失敗しました"
+
+#: modules/update/update.compare.inc:415;564;613
+msgid "No available releases found"
+msgstr "入手可能なリリースが見つかりません"
+
+#: modules/update/update.compare.inc:432
+msgid "Release revoked"
+msgstr "廃止されたリリース"
+
+#: modules/update/update.compare.inc:433
+msgid ""
+"Your currently installed release has been revoked, and is no longer "
+"available for download. Disabling everything included in this release or "
+"upgrading is strongly recommended!"
+msgstr ""
+"現在インストールされているリリースは廃止され、もはやダウンロードはできませ"
+"ん。 このリリースに含まれたすべてを無効にするか、アップグレードすることを強く"
+"推奨します！"
+
+#: modules/update/update.compare.inc:444
+msgid "Release not supported"
+msgstr "サポートされていないリリース"
+
+#: modules/update/update.compare.inc:445
+msgid ""
+"Your currently installed release is now unsupported, and is no longer "
+"available for download. Disabling everything included in this release or "
+"upgrading is strongly recommended!"
+msgstr ""
+"現在インストールされているリリースはサポートされず、もはやダウンロードはでき"
+"ません。 このリリースに含まれたすべてを無効にするか、アップグレードすることを"
+"強く推奨します！"
+
+#: modules/update/update.compare.inc:596
+msgid "Unknown release date"
+msgstr "未知のリリース日付"
+
+#: modules/update/update.compare.inc:608
+msgid "Invalid info"
+msgstr "無効な情報"
+
+#: modules/update/update.fetch.inc:14;82
+msgid ""
+"Attempted to fetch information about all available new releases and updates."
+msgstr ""
+"すべての入手可能な新しいリリースと最新版に関する情報の取得を試みました。"
+
+#: modules/update/update.fetch.inc:17;85
+msgid ""
+"Unable to fetch any information about available new releases and updates."
+msgstr "入手可能な新しいリリースと最新版に関する情報が取得できませんでした。"
+
+# ログに使用されるため、敢えて「更新」とせず
+#: modules/update/update.fetch.inc:82;85
+msgid "update"
+msgstr "アップデート"
+
+#: modules/update/update.report.inc:30
+msgid "Last checked: @time ago"
+msgstr "前回の確認： @time前"
+
+#: modules/update/update.report.inc:30
+msgid "Last checked: never"
+msgstr "前回の確認： 未実行"
+
+#: modules/update/update.report.inc:31
+msgid "Check manually"
+msgstr "手動で確認"
+
+#: modules/update/update.report.inc:48;48
+msgid "ok"
+msgstr "OK"
+
+#: modules/update/update.report.inc:72
+msgid "Security update required!"
+msgstr "セキュリティアップデートが必須です！"
+
+#: modules/update/update.report.inc:75 modules/update/update.module:268
+msgid "Revoked!"
+msgstr "廃止されました！"
+
+#: modules/update/update.report.inc:78
+msgid "Not supported!"
+msgstr "サポートされません！"
+
+#: modules/update/update.report.inc:81
+msgid "Update available"
+msgstr "最新版を入手できます"
+
+#: modules/update/update.report.inc:139
+msgid "Recommended version:"
+msgstr "推奨バージョン："
+
+#: modules/update/update.report.inc:145
+msgid "Security update:"
+msgstr "セキュリティアップデート："
+
+#: modules/update/update.report.inc:151
+msgid "Latest version:"
+msgstr "最新バージョン："
+
+#: modules/update/update.report.inc:157
+msgid "Development version:"
+msgstr "開発バージョン："
+
+#: modules/update/update.report.inc:163
+msgid "Also available:"
+msgstr "同じく入手可能："
+
+#: modules/update/update.report.inc:183
+msgid "Includes: %includes"
+msgstr "次を含みます： %includes"
+
+#: modules/update/update.report.inc:219
+msgid "Drupal core"
+msgstr "Drupalコア"
+
+#: modules/update/update.report.inc:222
+msgid "Disabled modules"
+msgstr "無効化モジュール"
+
+#: modules/update/update.report.inc:223
+msgid "Disabled themes"
+msgstr "無効化テーマ"
+
+#: modules/update/update.report.inc:253
+msgid "Download"
+msgstr "ダウンロード"
+
+#: modules/update/update.report.inc:257
+msgid "Release notes"
+msgstr "リリースノート"
+
+#: modules/update/update.settings.inc:18
+msgid "E-mail addresses to notify when updates are available"
+msgstr "最新版が入手可能な際に通知するメールアドレス"
+
+#: modules/update/update.settings.inc:21
+msgid ""
+"Whenever your site checks for available updates and finds new releases, it "
+"can notify a list of users via e-mail. Put each address on a separate line. "
+"If blank, no e-mails will be sent."
+msgstr ""
+"最新版が入手可能な際に通知するメールアドレスを、行単位で入力してください。 サ"
+"イトで利用できる最新版を確認し見つかった場合、入力されたユーザリストにメール"
+"で通知されます。 空欄の場合は送信されません。"
+
+#: modules/update/update.settings.inc:26
+msgid "Check for updates"
+msgstr "最新版の確認"
+
+#: modules/update/update.settings.inc:29
+msgid "Daily"
+msgstr "毎日"
+
+#: modules/update/update.settings.inc:30
+msgid "Weekly"
+msgstr "毎週"
+
+#: modules/update/update.settings.inc:32
+msgid ""
+"Select how frequently you want to automatically check for new releases of "
+"your currently installed modules and themes."
+msgstr ""
+"更新を確認する頻度を指定してください。 現在インストールされているモジュールや"
+"テーマの新しいリリースを、選択された頻度で自動的に確認します。"
+
+#: modules/update/update.settings.inc:37
+msgid "E-mail notification threshold"
+msgstr "メール通知のしきい値"
+
+#: modules/update/update.settings.inc:40
+msgid "All newer versions"
+msgstr "すべての最新バージョン"
+
+#: modules/update/update.settings.inc:41
+msgid "Only security updates"
+msgstr "セキュリティアップデートのみ"
+
+#: modules/update/update.settings.inc:43
+msgid ""
+"You can choose to send e-mail only if a security update is available, or to "
+"be notified about all newer versions. If there are updates available of "
+"Drupal core or any of your installed modules and themes, your site will "
+"always print a message on the <a href=\"@status_report\">status report</a> "
+"page, and will also display an error message on administration pages if "
+"there is a security update."
+msgstr ""
+"セキュリティアップデートが入手できる場合にのみメール通知を行うか、すべての最"
+"新バージョンについての通知を行うかを選択してください。 Drupalコアや、インス"
+"トール済みのモジュールやテーマの最新版が入手できる場合は、常に<a href="
+"\"@status_report\">現状報告</a>ページでメッセージが表示され、セキュリティアッ"
+"プデートがある場合は管理ページでエラーメッセージが表示されます。"
+
+#: modules/update/update.settings.inc:80
+msgid "%email is not a valid e-mail address."
+msgstr "%email は有効なメールアドレスではありません。"
+
+#: modules/update/update.settings.inc:83
+msgid "%emails are not valid e-mail addresses."
+msgstr "%emails は有効なメールアドレスではありません。"
+
+#: modules/update/update.module:70
+msgid ""
+"Here you can find information about available updates for your installed "
+"modules and themes. Note that each module or theme is part of a \"project\", "
+"which may or may not have the same name, and might include multiple modules "
+"or themes within it."
+msgstr ""
+"インストール済みモジュールやテーマの入手可能な最新版に関する情報を、ここで確"
+"認することができます。 それぞれのモジュールやテーマは、名前が重複する場合や、"
+"複数のモジュールやテーマを含むこともある、「プロジェクト」の一部であることに"
+"注意してください。"
+
+#: modules/update/update.module:71
+msgid ""
+"To extend the functionality or to change the look of your site, a number of "
+"contributed <a href=\"@modules\">modules</a> and <a href=\"@themes\">themes</"
+"a> are available."
+msgstr ""
+"サイトの機能性の拡張や外観の変更をするために、多くの寄与された<a href="
+"\"@modules\">モジュール</a>や<a href=\"@themes\">テーマ</a>が利用できます。"
+
+#: modules/update/update.module:88
+msgid ""
+"See the <a href=\"@available_updates\">available updates</a> page for "
+"information on installed modules and themes with new versions released."
+msgstr ""
+"インストールされたモジュールとテーマの情報と新しいバージョンのリリースに関し"
+"て、<a href=\"@available_updates\">入手可能なアップデート</a>ページを参照して"
+"ください。"
+
+#: modules/update/update.module:96
+msgid ""
+"The Update status module periodically checks for new versions of your site's "
+"software (including contributed modules and themes), and alerts you to "
+"available updates."
+msgstr ""
+"Update status（更新状況）モジュールは、定期的にサイトのソフトウェア（寄与され"
+"たモジュールやテーマを含む）の新しいバージョンを確認し、入手可能な最新版への"
+"注意を呼びかけます。"
+
+#: modules/update/update.module:97
+msgid ""
+"The <a href=\"@update-report\">report of available updates</a> will alert "
+"you when new releases are available for download. You may configure options "
+"for update checking frequency and notifications at the <a href=\"@update-"
+"settings\">Update status module settings page</a>."
+msgstr ""
+"新しいリリースがダウンロードできるようになった際、<a href=\"@update-report\">"
+"入手可能な最新版の報告</a>で警告されます。 アップデート確認の更新頻度と通知の"
+"設定を、<a href=\"@update-settings\">更新状況モジュールの設定ページ</a>で設定"
+"することができます。"
+
+#: modules/update/update.module:98
+msgid ""
+"Please note that in order to provide this information, anonymous usage "
+"statistics are sent to drupal.org. If desired, you may disable the Update "
+"status module from the <a href=\"@modules\">module administration page</a>."
+msgstr ""
+"この情報を提供するために、匿名の利用統計がdrupal.orgに送信されることに注意し"
+"てください。 これを望まない場合、<a href=\"@modules\">モジュールの管理ページ"
+"</a>でUpdate statusモジュールを無効化することができます。"
+
+#: modules/update/update.module:99
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@update"
+"\">Update status module</a>."
+msgstr ""
+"より詳しい情報は、オンラインハンドブックの<a href=\"@update\">Update status "
+"module（英文）</a>エントリを参照するか、日本サイトの<a href=\"http://drupal."
+"jp/\">&nbsp;≡ Drupal Japan ≡&nbsp;</a>を訪れてみてください。"
+
+#: modules/update/update.module:220;252
+msgid "Drupal core update status"
+msgstr "Drupalコアの更新状況"
+
+#: modules/update/update.module:221
+msgid "No update data available"
+msgstr "更新データがありません"
+
+#: modules/update/update.module:255
+msgid "Module and theme update status"
+msgstr "モジュールとテーマの更新状況"
+
+# 安全ではない≒危険 なので
+#: modules/update/update.module:265
+msgid "Not secure!"
+msgstr "安全ではありません！"
+
+#: modules/update/update.module:271
+msgid "Unsupported release"
+msgstr "サポートされていないリリース"
+
+#: modules/update/update.module:280
+msgid "Can not determine status"
+msgstr "状況を確定できません"
+
+#: modules/update/update.module:287
+msgid "(version @version available)"
+msgstr "（バージョン @version が入手可能）"
+
+#: modules/update/update.module:326
+msgid ""
+"No information is available about potential new releases for currently "
+"installed modules and themes. To check for updates, you may need to <a href="
+"\"@run_cron\">run cron</a> or you can <a href=\"@check_manually\">check "
+"manually</a>. Please note that checking for available updates can take a "
+"long time, so please be patient."
+msgstr ""
+"現在インストールされているモジュールやテーマ用の、新しいリリースに関する情報"
+"がありません。 最新版を確認するには定期的な<a href=\"@run_cron\">cronの実行</"
+"a>か、または<a href=\"@check_manually\">手動で確認</a>できます。 利用可能な最"
+"新版の確認には時間がかかる場合もありますが、しばらくお待ちください。"
+
+# メールの件名
+#: modules/update/update.module:408
+msgid "New release(s) available for !site_name"
+msgstr "!site_name で利用可能な新しいリリース"
+
+# メール本文
+#: modules/update/update.module:412
+msgid "See the available updates page for more information:"
+msgstr "より詳細な情報は「入手可能な最新版」ページを参照してください："
+
+#: modules/update/update.module:441
+msgid ""
+"There is a security update available for your version of Drupal. To ensure "
+"the security of your server, you should update immediately!"
+msgstr ""
+"利用中のDrupalバージョンのセキュリティアップデートが入手可能です。 サーバの安"
+"全性を確保するために、早急に更新するべきです！"
+
+#: modules/update/update.module:444
+msgid ""
+"There are security updates available for one or more of your modules or "
+"themes. To ensure the security of your server, you should update immediately!"
+msgstr ""
+"利用中のモジュールやテーマのセキュリティアップデートが入手可能です。 サーバの"
+"安全性を確保するために、早急に更新するべきです！"
+
+#: modules/update/update.module:450
+msgid ""
+"Your version of Drupal has been revoked and is no longer available for "
+"download. Upgrading is strongly recommended!"
+msgstr ""
+"利用中のDrupalバージョンは廃止され、もはやダウンロードはできません。 アップグ"
+"レードすることを強く推奨します！"
+
+#: modules/update/update.module:453
+msgid ""
+"The installed version of at least one of your modules or themes has been "
+"revoked and is no longer available for download. Upgrading or disabling is "
+"strongly recommended!"
+msgstr ""
+"少なくとも1つのモジュールやテーマのインストール済みバージョンは廃止され、もは"
+"やダウンロードはできません。 アップグレードするか、無効にすることを強く推奨し"
+"ます！"
+
+#: modules/update/update.module:459
+msgid ""
+"Your version of Drupal is no longer supported. Upgrading is strongly "
+"recommended!"
+msgstr ""
+"利用中のDrupalバージョンは、もはやサポートされていません。 アップグレードする"
+"ことを強く推奨します！"
+
+#: modules/update/update.module:462
+msgid ""
+"The installed version of at least one of your modules or themes is no longer "
+"supported. Upgrading or disabling is strongly recommended! Please see the "
+"project homepage for more details."
+msgstr ""
+"少なくとも1つのモジュールやテーマのインストール済みバージョンは、もはやサポー"
+"トされていません。 アップグレードするか、無効にすることを強く推奨します！ 詳"
+"細はプロジェクトのホームページを参照してください。"
+
+#: modules/update/update.module:468
+msgid ""
+"There are updates available for your version of Drupal. To ensure the proper "
+"functioning of your site, you should update as soon as possible."
+msgstr ""
+"利用中のDrupalバージョンの最新版が入手可能です。 サイトを適切に機能させ続ける"
+"ために、できるだけ早く更新するべきです。"
+
+#: modules/update/update.module:471
+msgid ""
+"There are updates available for one or more of your modules or themes. To "
+"ensure the proper functioning of your site, you should update as soon as "
+"possible."
+msgstr ""
+"利用中の1つ以上のモジュールやテーマの最新版が入手可能です。 サイトを適切に機"
+"能させ続けるために、できるだけ早く更新するべきです。"
+
+#: modules/update/update.module:479
+msgid ""
+"There was a problem determining the status of available updates for your "
+"version of Drupal."
+msgstr ""
+"利用中のDrupalバージョンの、入手可能な最新版の状況を確定中に問題がありまし"
+"た。"
+
+#: modules/update/update.module:482
+msgid ""
+"There was a problem determining the status of available updates for one or "
+"more of your modules or themes."
+msgstr ""
+"1つ以上のモジュールやテーマの、入手可能な最新版の状況を確定中に問題がありまし"
+"た。"
+
+#: modules/update/update.module:488
+msgid ""
+"See the <a href=\"@available_updates\">available updates</a> page for more "
+"information."
+msgstr ""
+"より詳しい情報は<a href=\"@available_updates\">入手可能な最新版</a>ページを参"
+"照してください。"
+
+#: modules/update/update.module:129
+msgid "Available updates"
+msgstr "入手可能な最新版"
+
+#: modules/update/update.module:130
+msgid ""
+"Get a status report about available updates for your installed modules and "
+"themes."
+msgstr ""
+"インストール済みモジュールとテーマの、入手可能な最新版に関する状況報告を取得"
+"します。"
+
+#: modules/update/update.module:152
+msgid "Manual update check"
+msgstr "手動更新確認"

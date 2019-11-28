@@ -1,0 +1,217 @@
+# Chinese, Traditional translation of drupal (6.2)
+# Copyright (c) 2008 by the Chinese, Traditional translation team
+# Generated from files:
+#  translation.pages.inc,v 1.2 2008/01/07 13:18:40 goba
+#  translation.module,v 1.23 2008/01/28 11:38:58 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.x)\n"
+"POT-Creation-Date: 2008-05-14 13:25+0800\n"
+"PO-Revision-Date: 2009-08-20 00:23+0800\n"
+"Language-Team: Drupal Taiwan <info@drupaltaiwan.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: charlesc <charles@netivism.com.tw>\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: TAIWAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+
+#: modules/translation/translation.pages.inc:41
+msgid "outdated"
+msgstr "過時的"
+
+#: modules/translation/translation.pages.inc:50
+msgid "add translation"
+msgstr "新增翻譯"
+
+#: modules/translation/translation.pages.inc:52
+msgid "Not translated"
+msgstr "未翻譯"
+
+#: modules/translation/translation.pages.inc:57
+msgid "Translations of %title"
+msgstr "%title的翻譯"
+
+#: modules/translation/translation.module:34
+msgid ""
+"The content translation module allows content to be translated into "
+"different languages. Working with the <a href=\"@locale\">locale module</a> "
+"(which manages enabled languages and provides translation for the site "
+"interface), the content translation module is key to creating and "
+"maintaining translated site content."
+msgstr ""
+"內容翻譯模組可以把內容翻譯成不同的語言，能夠與負責管理語系、翻譯網站介面的<a "
+"href=\"@locale\">語系模組</a>並用，成為建置多語內容網站的重要工具。"
+
+#: modules/translation/translation.module:35
+msgid "Configuring content translation and translation-enabled content types:"
+msgstr "設定內容翻譯與啟用翻譯功能的內容類型："
+
+#: modules/translation/translation.module:36
+msgid ""
+"Assign the <em>translate content</em> permission to the appropriate user "
+"roles at the <a href=\"@permissions\">Permissions configuration page</a>."
+msgstr ""
+"在<a href=\"@permissions\">權限設定</a>裡指派<strong>翻譯內容</strong>權限給"
+"適當的使用者。"
+
+#: modules/translation/translation.module:37
+msgid ""
+"Add and enable desired languages at the <a href=\"@languages\">Languages "
+"configuration page</a>."
+msgstr "在<a href=\"@languages\">語系設定頁</a>新增並啟用想要使用的語系。"
+
+#: modules/translation/translation.module:38
+msgid ""
+"Determine which <a href=\"@content-types\">content types</a> should support "
+"translation features. To enable translation support for a content type, edit "
+"the type and at the <em>Multilingual support</em> drop down, select "
+"<em>Enabled, with translation</em>. (<em>Multilingual support</em> is "
+"located within <em>Workflow settings</em>.) Be sure to save each content "
+"type after enabling multilingual support."
+msgstr ""
+"判定哪些<a href=\"@content-types\">內容類型</a>應該支援翻譯功能。要啟用某個內"
+"容類型的翻譯支援，可編輯該類型，並在<strong>多語系支援</strong>下拉選單裡，選"
+"擇<strong>啟用翻譯功能</strong>。（<strong>多語系支援</strong>位在<strong>流"
+"程設定</strong>下方。）要記得在啟用多語系支援後儲存每個內容類型。"
+
+#: modules/translation/translation.module:39
+msgid "Working with translation-enabled content types:"
+msgstr "與啟用翻譯功能的內容類型一同運作："
+
+#: modules/translation/translation.module:40
+msgid ""
+"Use the <em>Language</em> drop down to select the appropriate language when "
+"creating or editing posts."
+msgstr ""
+"在新增或編輯文章時，使用<strong>語系</strong>下拉選單來選擇適當的語系。"
+
+#: modules/translation/translation.module:41
+msgid ""
+"Provide new or edit current translations for existing posts via the "
+"<em>Translation</em> tab. Only visible while viewing a post as a user with "
+"the <em>translate content</em> permission, this tab allows translations to "
+"be added or edited using a specialized editing form that also displays the "
+"content being translated."
+msgstr ""
+"透過<strong>翻譯</strong>頁籤，為現有的文章提供新的或編輯現有的翻譯。擁有"
+"<strong>翻譯內容</strong>權限的使用者在瀏覽文章時，此功能才會顯示出來，透過一"
+"個特殊的編輯表單，針對內容進行翻譯的新增或編輯。"
+
+#: modules/translation/translation.module:42
+msgid ""
+"Update translations as needed, so that they accurately reflect changes in "
+"the content of the original post. The translation status flag provides a "
+"simple method for tracking outdated translations. After editing a post, for "
+"example, select the <em>Flag translations as outdated</em> check box to mark "
+"all of its translations as outdated and in need of revision. Individual "
+"translations may be marked for revision by selecting the <em>This "
+"translation needs to be updated</em> check box on the translation editing "
+"form."
+msgstr ""
+"在需要時得更新翻譯內容，以精確地反應原始內容的改變。翻譯狀態標記提供一個簡單"
+"的方法，可以追蹤過時的翻譯。舉例來說，在編輯一篇文章過後，選擇<strong>標記為"
+"過時的翻譯</strong>勾選框，可以把所有翻譯都標記為過時、需要修改的。在翻譯編輯"
+"表單裡選擇<strong>此翻譯需要更新</strong>的勾選框，則可以將個別的翻譯標記為需"
+"要修改。"
+
+#: modules/translation/translation.module:43
+msgid ""
+"The <a href=\"@content-node\">Content management administration page</a> "
+"displays the language of each post, and also allows filtering by language or "
+"translation status."
+msgstr ""
+"<a href=\"@content-node\">內容管理頁</a>會顯示每篇文章的語系，也可以根據語系"
+"或翻譯狀態來過濾文章。"
+
+#: modules/translation/translation.module:44
+msgid ""
+"Use the <a href=\"@blocks\">language switcher block</a> provided by locale "
+"module to allow users to select a language. If available, both the site "
+"interface and site content are presented in the language selected."
+msgstr ""
+"使用語系模組所提供的<a href=\"@blocks\">語系切換區塊</a>，可以讓使用者選擇語"
+"系。如果有適當的設定的話，網站介面和網站內容都會使用所選擇的語系來呈現。"
+
+#: modules/translation/translation.module:45
+msgid ""
+"For more information, see the online handbook entry for <a href="
+"\"@translation\">Translation module</a>."
+msgstr "更多資訊，請參考<a href=\"@translation\">翻譯模組</a>的線上說明。"
+
+#: modules/translation/translation.module:48
+msgid ""
+"Translations of a piece of content are managed with translation sets. Each "
+"translation set has one source post and any number of translations in any of "
+"the <a href=\"!languages\">enabled languages</a>. All translations are "
+"tracked to be up to date or outdated based on whether the source post was "
+"modified significantly."
+msgstr ""
+"內容的翻譯可透過翻譯組來管理。每一個翻譯組有一篇原始文章和任意數量的<a href="
+"\"!languages\">已啟用的語系</a>。所有翻譯都會根據原始文章的修改狀況，追蹤其更"
+"新或過時的狀態。"
+
+#: modules/translation/translation.module:102
+msgid "Enabled, with translation"
+msgstr "已啟用翻譯功能"
+
+#: modules/translation/translation.module:104
+msgid ""
+"Enable multilingual support for this content type. If enabled, a language "
+"selection field will be added to the editing form, allowing you to select "
+"from one of the <a href=\"!languages\">enabled languages</a>. You can also "
+"turn on translation for this content type, which lets you have content "
+"translated to any of the enabled languages. If disabled, new posts are saved "
+"with the default language. Existing content will not be affected by changing "
+"this option."
+msgstr ""
+"啟用內容類型的多語支援。啟用後，會在編輯表單裡出現一個語系選擇欄位，讓你可以"
+"從<a href=\"!languages\">已啟用的語系</a>裡選擇。你也可以開啟此內容類型的翻"
+"譯，讓你可以把文章翻譯為任何語言。如果關閉此功能，新文章會以預設語系來儲存，"
+"舊文章並不會被影響。"
+
+#: modules/translation/translation.module:127
+msgid "Translation settings"
+msgstr "翻譯設定"
+
+#: modules/translation/translation.module:138
+msgid "Flag translations as outdated"
+msgstr "標記翻譯為過時的"
+
+#: modules/translation/translation.module:140
+msgid ""
+"If you made a significant change, which means translations should be "
+"updated, you can flag all translations of this post as outdated. This will "
+"not change any other property of those posts, like whether they are "
+"published or not."
+msgstr ""
+"如果你進行重大的修改，代表需要更新翻譯內容，你就可以把這篇文章的所有翻譯都標"
+"記為過時的。這不會改變文章的其他部份，不論文章是否已出版。"
+
+#: modules/translation/translation.module:147
+msgid "This translation needs to be updated"
+msgstr "此翻譯需要更新"
+
+#: modules/translation/translation.module:149
+msgid ""
+"When this option is checked, this translation needs to be updated because "
+"the source post has changed. Uncheck when the translation is up to date "
+"again."
+msgstr ""
+"如果勾選此項，則需要更新此翻譯內容，因為原始文章已經改變了。如果翻譯更新了，"
+"則可以取消勾選。"
+
+#: modules/translation/translation.module:89
+msgid "translate content"
+msgstr "翻譯內容"
+
+#: modules/translation/translation.module:59
+msgid "Translate"
+msgstr "翻譯"
+
+#: modules/translation/translation.module:0
+msgid "translation"
+msgstr "翻譯"

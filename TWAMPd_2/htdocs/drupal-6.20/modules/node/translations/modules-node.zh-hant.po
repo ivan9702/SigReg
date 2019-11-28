@@ -1,0 +1,1257 @@
+# Chinese, Traditional translation of drupal (6.2)
+# Copyright (c) 2008 by the Chinese, Traditional translation team
+# Generated from files:
+#  node.module,v 1.947.2.6 2008/04/09 21:11:48 goba
+#  node.pages.inc,v 1.28.2.1 2008/02/27 19:44:44 goba
+#  content_types.inc,v 1.50.2.1 2008/02/13 11:23:28 goba
+#  node.admin.inc,v 1.19.2.1 2008/03/21 22:01:05 goba
+#  node.install,v 1.4 2007/12/18 12:59:21 dries
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.x)\n"
+"POT-Creation-Date: 2008-05-14 13:25+0800\n"
+"PO-Revision-Date: 2009-08-20 00:23+0800\n"
+"Language-Team: Drupal Taiwan <info@drupaltaiwan.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: charlesc <charles@netivism.com.tw>\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: TAIWAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+
+#: modules/node/node.module:1348
+msgid "Read more"
+msgstr "閱讀全文"
+
+#: modules/node/node.pages.inc:501
+msgid "Are you sure you want to delete %title?"
+msgstr "您真的要刪除 %title 嗎?"
+
+#: modules/node/content_types.inc:42
+msgid "No content types available."
+msgstr "沒有可用的內容類型。"
+
+#: modules/node/content_types.inc:86
+msgid ""
+"The machine-readable name of this content type. This text will be used for "
+"constructing the URL of the <em>create content</em> page for this content "
+"type. This name must contain only lowercase letters, numbers, and "
+"underscores. Underscores will be converted into hyphens when constructing "
+"the URL of the <em>create content</em> page. This name must be unique."
+msgstr ""
+"此內容類型可供機器理解的名稱。此名稱會用來構成<em>建立內容</em>裡該內容類型的"
+"網址。此名稱應該只包含小寫字母、數字和底線。在構成<em>建立內容</em>裡的網址"
+"時，底線會被轉換為 \"-\"。這個名稱必須是獨一無二的內容類型名稱。"
+
+#: modules/node/content_types.inc:98
+msgid ""
+"The machine-readable name of this content type. This field cannot be "
+"modified for system-defined content types."
+msgstr "可供機器理解的內容類型名稱。若是系統預設的內容類型就無法修改此欄位。"
+
+#: modules/node/content_types.inc:106
+msgid ""
+"A brief description of this content type. This text will be displayed as "
+"part of the list on the <em>create content</em> page."
+msgstr "此內容類型的簡要說明。此段文字會顯示在<em>建立內容</em> 頁面裡。"
+
+#: modules/node/content_types.inc:111
+msgid "Submission form settings"
+msgstr "發佈表單設定"
+
+#: modules/node/content_types.inc:116
+msgid "Title field label"
+msgstr "標題欄位標籤"
+
+#: modules/node/content_types.inc:125
+msgid "This content type does not have a title field."
+msgstr "此內容類型沒有標題欄位。"
+
+#: modules/node/content_types.inc:129
+msgid "Body field label"
+msgstr "內容欄位標籤"
+
+#: modules/node/content_types.inc:132
+msgid ""
+"To omit the body field for this content type, remove any text and leave this "
+"field blank."
+msgstr "要讓此內容類型略過此欄位，移除欄位裡的任何文字。"
+
+#: modules/node/content_types.inc:136
+msgid "Minimum number of words"
+msgstr "最少字數"
+
+#: modules/node/content_types.inc:139
+msgid ""
+"The minimum number of words for the body field to be considered valid for "
+"this content type. This can be useful to rule out submissions that do not "
+"meet the site's standards, such as short test posts."
+msgstr ""
+"此內容類型文章裡所必需包含的最少字數。這可以用來避免不符合網站標準的文章，例"
+"如很短的測試貼文。"
+
+#: modules/node/content_types.inc:143
+msgid "Explanation or submission guidelines"
+msgstr "解釋或送出說明"
+
+#: modules/node/content_types.inc:145
+msgid ""
+"This text will be displayed at the top of the submission form for this "
+"content type. It is useful for helping or instructing your users."
+msgstr ""
+"這些文字將顯示在此內容類型的編輯表單的上方，可用來幫助或指引你的使用者。"
+
+#: modules/node/content_types.inc:149
+msgid "Workflow settings"
+msgstr "工作流程設定"
+
+#: modules/node/content_types.inc:154
+msgid "Default options"
+msgstr "預設選項"
+
+#: modules/node/content_types.inc:162
+msgid ""
+"Users with the <em>administer nodes</em> permission will be able to override "
+"these options."
+msgstr "有 <em>管理節點</em>權限的使用者，不受此選項影響。"
+
+#: modules/node/content_types.inc:192
+msgid "Save content type"
+msgstr "儲存內容類型"
+
+#: modules/node/content_types.inc:200,282
+msgid "Delete content type"
+msgstr "刪除內容類型"
+
+#: modules/node/content_types.inc:231
+msgid "The machine-readable name %type is already taken."
+msgstr "此供機器理解的名稱 %type 已經被使用。"
+
+#: modules/node/content_types.inc:234
+msgid ""
+"The machine-readable name must contain only lowercase letters, numbers, and "
+"underscores."
+msgstr "可機讀名稱必須由小寫字母、數字和底線構成。"
+
+#: modules/node/content_types.inc:246
+msgid "The human-readable name %name is already taken."
+msgstr "此供使用者理解的名稱 %type 已經被使用。"
+
+#: modules/node/content_types.inc:326
+msgid "The content type %name has been reset to its default values."
+msgstr "內容類型 %name 已被還原至預設值。"
+
+#: modules/node/content_types.inc:331
+msgid "The content type %name has been updated."
+msgstr "已更新內容類型 %name 。"
+
+#: modules/node/content_types.inc:334
+msgid "The content type %name has been added."
+msgstr "已新增內容類型 %name。"
+
+#: modules/node/content_types.inc:383
+msgid "Are you sure you want to delete the content type %type?"
+msgstr "你真的要刪除內容類型 %type 嗎？"
+
+#: modules/node/content_types.inc:403
+msgid "The content type %name has been deleted."
+msgstr "已刪除內容類型 %name。"
+
+#: modules/node/content_types.inc:335
+msgid "Added content type %name."
+msgstr "新增 %name 內容類型。"
+
+#: modules/node/content_types.inc:404
+msgid "Deleted content type %name."
+msgstr "刪除內容類型 %name。"
+
+#: modules/node/content_types.inc:350
+msgid "Changed the content type of 1 post from %old-type to %type."
+msgid_plural ""
+"Changed the content type of @count posts from %old-type to %type."
+msgstr[0] "變更一篇文章的文章類型，從 %old-type 變更為 %type."
+msgstr[1] "變更@count篇文章的文章類型，從 %old-type 變更為 %type."
+
+#: modules/node/content_types.inc:388
+msgid ""
+"<strong>Warning:</strong> there is currently 1 %type post on your site. It "
+"may not be able to be displayed or edited correctly, once you have removed "
+"this content type."
+msgid_plural ""
+"<strong>Warning:</strong> there are currently @count %type posts on your "
+"site. They may not be able to be displayed or edited correctly, once you "
+"have removed this content type."
+msgstr[0] ""
+"<strong>警告：</strong> 您的網站上目前有一篇 %type類型的文章。一但您移除掉這"
+"個內容類型，這篇文章可能就會無法顯示或者無法被正確編輯。"
+msgstr[1] ""
+"<strong>警告：</strong> 您的網站上目前有 @count篇 %type類型的文章。一但您移除"
+"掉這個內容類型，這些文章可能就會無法顯示或者無法被正確編輯。"
+
+#: modules/node/node.admin.inc:17
+msgid ""
+"If the site is experiencing problems with permissions to content, you may "
+"have to rebuild the permissions cache. Possible causes for permission "
+"problems are disabling modules or configuration changes to permissions. "
+"Rebuilding will remove all privileges to posts, and replace them with "
+"permissions based on the current modules and settings."
+msgstr ""
+"如果這個網站正遇到內容存取權限方面的問題，你也許必須重建權限快取"
+"（permissions cache）。造成權限問題的可能原因，包括了停用模組、或是變更了權限"
+"設定。重建權限快取會移除文章的所有權限，並根據目前的模組與設定來設定權限。"
+
+#: modules/node/node.admin.inc:18
+msgid ""
+"Rebuilding may take some time if there is a lot of content or complex "
+"permission settings. After rebuilding has completed posts will automatically "
+"use the new permissions."
+msgstr ""
+"如果有很多文章、或是有很複雜的權限設定，重建權限快取可能要花一點時間。重建完"
+"成之後，文章會自動使用新的權限。"
+
+#: modules/node/node.admin.inc:22
+msgid "Node access status"
+msgstr "節點存取狀態"
+
+#: modules/node/node.admin.inc:32
+msgid "Number of posts on main page"
+msgstr "首頁上的文章數量"
+
+#: modules/node/node.admin.inc:34
+msgid ""
+"The default maximum number of posts to display per page on overview pages "
+"such as the main page."
+msgstr "在首頁這種總覽頁面上，預設顯示的文章數量上限。"
+
+#: modules/node/node.admin.inc:37
+msgid "Length of trimmed posts"
+msgstr "摘要長度"
+
+#: modules/node/node.admin.inc:40
+msgid "200 characters"
+msgstr "100字（200字元）"
+
+#: modules/node/node.admin.inc:41
+msgid "400 characters"
+msgstr "200字（400字元）"
+
+#: modules/node/node.admin.inc:42
+msgid "600 characters"
+msgstr "300字（600字元）"
+
+#: modules/node/node.admin.inc:43
+msgid "800 characters"
+msgstr "400字（800字元）"
+
+#: modules/node/node.admin.inc:44
+msgid "1000 characters"
+msgstr "500字（1000字元）"
+
+#: modules/node/node.admin.inc:45
+msgid "1200 characters"
+msgstr "600字（1200字元）"
+
+#: modules/node/node.admin.inc:46
+msgid "1400 characters"
+msgstr "700字（1400字元）"
+
+#: modules/node/node.admin.inc:47
+msgid "1600 characters"
+msgstr "800字（1600字元）"
+
+#: modules/node/node.admin.inc:48
+msgid "1800 characters"
+msgstr "900字（1800字元）"
+
+#: modules/node/node.admin.inc:49
+msgid "2000 characters"
+msgstr "1000字（2000字元）"
+
+#: modules/node/node.admin.inc:51
+msgid ""
+"The maximum number of characters used in the trimmed version of a post. "
+"Drupal will use this setting to determine at which offset long posts should "
+"be trimmed. The trimmed version of a post is typically used as a teaser when "
+"displaying the post on the main page, in XML feeds, etc. To disable teasers, "
+"set to 'Unlimited'. Note that this setting will only affect new or updated "
+"content and will not affect existing teasers."
+msgstr ""
+"文章摘要部份所顯示的字數。Drupal將使用這個設定值，來決定要截取的長度。摘要通"
+"常是用在首頁文章列表、XML feed 裡。要取消摘要的使用，可設定為「無限制」。請注"
+"意，這個設定只會影響新發表或更新的內容，不會影響現有的內容。"
+
+#: modules/node/node.admin.inc:56
+msgid "Preview post"
+msgstr "預覽文章"
+
+#: modules/node/node.admin.inc:59
+msgid "Must users preview posts before submitting?"
+msgstr "使用者在發表文章前一定要先預覽？"
+
+#: modules/node/node.admin.inc:80
+msgid "Are you sure you want to rebuild the permissions on site content?"
+msgstr "你確定你要重建網站內容的權限？"
+
+#: modules/node/node.admin.inc:81
+msgid ""
+"This action rebuilds all permissions on site content, and may be a lengthy "
+"process. This action cannot be undone."
+msgstr ""
+"這個動作為重建網站內容的所有權限，而且可能會花很長的時間。這個動作無法復原。"
+
+#: modules/node/node.admin.inc:99
+msgid "Publish"
+msgstr "發表"
+
+#: modules/node/node.admin.inc:104
+msgid "Unpublish"
+msgstr "不發表"
+
+#: modules/node/node.admin.inc:109
+msgid "Promote to front page"
+msgstr "推薦到首頁"
+
+#: modules/node/node.admin.inc:114
+msgid "Demote from front page"
+msgstr "從首頁移除"
+
+#: modules/node/node.admin.inc:119
+msgid "Make sticky"
+msgstr "置頂"
+
+#: modules/node/node.admin.inc:124
+msgid "Remove stickiness"
+msgstr "取消置頂"
+
+#: modules/node/node.admin.inc:144,501
+msgid "published"
+msgstr "已發表"
+
+#: modules/node/node.admin.inc:145,501
+msgid "not published"
+msgstr "未發表"
+
+#: modules/node/node.admin.inc:146
+msgid "promoted"
+msgstr "已推薦到首頁"
+
+#: modules/node/node.admin.inc:147
+msgid "not promoted"
+msgstr "未推薦到首頁"
+
+#: modules/node/node.admin.inc:148
+msgid "sticky"
+msgstr "置頂"
+
+#: modules/node/node.admin.inc:149
+msgid "not sticky"
+msgstr "未置頂"
+
+#: modules/node/node.admin.inc:160
+msgid "type"
+msgstr "類型"
+
+#: modules/node/node.admin.inc:164
+msgid "category"
+msgstr "分類"
+
+#: modules/node/node.admin.inc:169
+msgid "language"
+msgstr "語言"
+
+#: modules/node/node.admin.inc:221
+msgid "Show only items where"
+msgstr "只顯示符合以下條件的項目："
+
+#: modules/node/node.admin.inc:239
+msgid "<em>and</em> where <strong>%a</strong> is <strong>%b</strong>"
+msgstr "<em>以及</em><strong>%a</strong>是<strong>%b</strong>"
+
+#: modules/node/node.admin.inc:242
+msgid "<strong>%a</strong> is <strong>%b</strong>"
+msgstr "<strong>%a</strong> 是 <strong>%b</strong>"
+
+#: modules/node/node.admin.inc:522
+msgid "No items selected."
+msgstr "沒有選擇任何項目。"
+
+#: modules/node/node.admin.inc:370
+msgid "The update has encountered an error."
+msgstr "更新時發生錯誤"
+
+#: modules/node/node.admin.inc:436
+msgid "An error occurred and processing did not complete."
+msgstr "發生一個錯誤而無法完成工作"
+
+#: modules/node/node.admin.inc:620
+msgid "Are you sure you want to delete these items?"
+msgstr "你真的要刪除這些項目？"
+
+#: modules/node/node.admin.inc:630
+msgid "The items have been deleted."
+msgstr "項目已被刪除。"
+
+#: modules/node/node.admin.inc:437
+msgid "1 item successfully processed:"
+msgid_plural "@count items successfully processed:"
+msgstr[0] "已成功執行一個項目"
+msgstr[1] "已成功執行@count 個項目"
+
+#: modules/node/node.pages.inc:57
+msgid "Create @name"
+msgstr "建立@name"
+
+#: modules/node/node.pages.inc:147
+msgid "Revision information"
+msgstr "修訂版本資訊"
+
+#: modules/node/node.pages.inc:161
+msgid "Log message"
+msgstr "日誌訊息"
+
+#: modules/node/node.pages.inc:163
+msgid ""
+"An explanation of the additions or updates being made to help other authors "
+"understand your motivations."
+msgstr "增加或修改的說明，以幫助其他作者瞭解你修改的原因。"
+
+#: modules/node/node.pages.inc:171
+msgid "Authoring information"
+msgstr "作者資訊"
+
+#: modules/node/node.pages.inc:183
+msgid "Leave blank for %anonymous."
+msgstr "留空白會代表 %anonymous。"
+
+#: modules/node/node.pages.inc:189
+msgid "Format: %time. Leave blank to use the time of form submission."
+msgstr "格式： %time 。不填則代表使用表單送出的時間。"
+
+#: modules/node/node.pages.inc:200
+msgid "Publishing options"
+msgstr "發佈選項"
+
+#: modules/node/node.pages.inc:280
+msgid "Show summary in full view"
+msgstr "在完整檢視裡顯示摘要"
+
+#: modules/node/node.pages.inc:433
+msgid ""
+"The trimmed version of your post shows what your post looks like when "
+"promoted to the main page or when exported for syndication.<span class=\"no-"
+"js\"> You can insert the delimiter \"&lt;!--break--&gt;\" (without the "
+"quotes) to fine-tune where your post gets split.</span>"
+msgstr ""
+"你的文章的摘要版本，會顯示在網站首頁或是 RSS 資訊源裡。<span class=\"no-js\">"
+"你可以插入 \"&lt;!--break--&gt;\" (不含引號) 來標示你的摘要內容。</span>"
+
+#: modules/node/node.pages.inc:434
+msgid "Preview trimmed version"
+msgstr "預覽摘要版本"
+
+#: modules/node/node.pages.inc:436
+msgid "Preview full version"
+msgstr "預覽全文版本"
+
+#: modules/node/node.pages.inc:459
+msgid "@type %title has been created."
+msgstr "已經建立@type %title"
+
+#: modules/node/node.pages.inc:463
+msgid "@type %title has been updated."
+msgstr "已更新 @type %title。"
+
+#: modules/node/node.pages.inc:473
+msgid "The post could not be saved."
+msgstr "無法儲存文章。"
+
+#: modules/node/node.pages.inc:524
+msgid "Revisions for %title"
+msgstr "%title 的修訂版本"
+
+#: modules/node/node.pages.inc:526
+msgid "Revision"
+msgstr "修訂版本"
+
+#: modules/node/node.pages.inc:544,550
+msgid "!date by !username"
+msgstr "於 !date 由 !username 發表"
+
+#: modules/node/node.pages.inc:547
+msgid "current revision"
+msgstr "目前的修訂版本"
+
+#: modules/node/node.pages.inc:553
+msgid "revert"
+msgstr "還原"
+
+#: modules/node/node.pages.inc:570
+msgid "Are you sure you want to revert to the revision from %revision-date?"
+msgstr "你真的要從 %revision-date 回復修訂版本嗎？"
+
+#: modules/node/node.pages.inc:570
+msgid "Revert"
+msgstr "還原"
+
+#: modules/node/node.pages.inc:576
+msgid "Copy of the revision from %date."
+msgstr "從 %date 複製修訂版本。"
+
+#: modules/node/node.pages.inc:584
+msgid ""
+"@type %title has been reverted back to the revision from %revision-date."
+msgstr "@type %title 已還原到 %revision-date 的版本。"
+
+#: modules/node/node.pages.inc:590
+msgid "Are you sure you want to delete the revision from %revision-date?"
+msgstr "你確定你要刪除掉%revision-date的修定版本？"
+
+#: modules/node/node.pages.inc:598
+msgid "Revision from %revision-date of @type %title has been deleted."
+msgstr "@type %title 的修訂版本 %revision-date 已被刪除。"
+
+#: modules/node/node.pages.inc:458
+msgid "@type: added %title."
+msgstr "@type：加入了 %title。"
+
+#: modules/node/node.pages.inc:462
+msgid "@type: updated %title."
+msgstr "@type： 更新了 %title。"
+
+#: modules/node/node.pages.inc:583
+msgid "@type: reverted %title revision %revision."
+msgstr "@type：還原 %title 的修訂版本到  %revision。"
+
+#: modules/node/node.pages.inc:597
+msgid "@type: deleted %title revision %revision."
+msgstr "@type：刪除 %title 的修訂版本 %revision 。"
+
+#: modules/node/node.module:29
+msgid "The content access permissions need to be rebuilt."
+msgstr "需要重建內容的存取權限。"
+
+#: modules/node/node.module:32
+msgid ""
+"The content access permissions need to be rebuilt. Please visit <a href="
+"\"@node_access_rebuild\">this page</a>."
+msgstr ""
+"需要重建內容存取權限。詳情請見 <a href=\"@node_access_rebuild\">這個頁面</"
+"a>。"
+
+#: modules/node/node.module:39
+msgid ""
+"The node module manages content on your site, and stores all posts "
+"(regardless of type) as a \"node\". In addition to basic publishing "
+"settings, including whether the post has been published, promoted to the "
+"site front page, or should remain present (or sticky) at the top of lists, "
+"the node module also records basic information about the author of a post. "
+"Optional revision control over edits is available. For additional "
+"functionality, the node module is often extended by other modules."
+msgstr ""
+"節點模組(node)負責管理你的網站的內容，並把所有文章（不論任何類型）都儲存為節"
+"點(node)。除了基本的發佈選項之外（包括發表或未發表、推薦到首頁、置頂），節點"
+"模組也會紀錄關於文章作者的基本資訊。此外，也可以選用版本控制功能。如果要想其"
+"他額外的功能，則可以透過其他模組來實現。"
+
+#: modules/node/node.module:40
+msgid ""
+"Though each post on your site is a node, each post is also of a particular "
+"<a href=\"@content-type\">content type</a>. <a href=\"@content-type"
+"\">Content types</a> are used to define the characteristics of a post, "
+"including the title and description of the fields displayed on its add and "
+"edit pages. Each content type may have different default settings for "
+"<em>Publishing options</em> and other workflow controls. By default, the two "
+"content types in a standard Drupal installation are <em>Page</em> and "
+"<em>Story</em>. Use the <a href=\"@content-type\">content types page</a> to "
+"add new or edit existing content types. Additional content types also become "
+"available as you enable additional core, contributed and custom modules."
+msgstr ""
+"你的網站裡的每一篇文章都是一個節點，也都屬於一個特定的<a href=\"@content-type"
+"\">內容類型</a>。<a href=\"@content-type\">內容類型</a>可用來定義一篇文章的特"
+"性，包括新增與編輯頁面時的欄位的標題和說明。每一個內容類型都可以有不同的、預"
+"設的<em>發佈選項</em>和其他流程控制。根據預設值，標準的 Drupal 網站裡會有兩種"
+"內容類型，<em>網頁(Page)</em>和<em>一般文章(Story)</em>。你可以在<a href="
+"\"@content-type\">內容類型管理</a>裡新增或編輯內容類型。當你啟用一些核心模組"
+"或客製化模組時，也會出現額外的內容類型。"
+
+#: modules/node/node.module:41
+msgid ""
+"The administrative <a href=\"@content\">content page</a> allows you to "
+"review and manage your site content. The <a href=\"@post-settings\">post "
+"settings page</a> sets certain options for the display of posts. The node "
+"module makes a number of permissions available for each content type, which "
+"may be set by role on the <a href=\"@permissions\">permissions page</a>."
+msgstr ""
+"管理介面裡的<a href=\"@content\">內容管理</a>，讓你可以檢視並管理的的網站內"
+"容。<a href=\"@post-settings\">文章發表設定</a>則可以設定文章顯示的一些選項。"
+"內容節點模組(node)對於每一種內容類型都提供了許多權限控制，可以在<a href="
+"\"@permissions\">權限控制</a>裡依據角色進行管理。"
+
+#: modules/node/node.module:42
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@node"
+"\">Node module</a>."
+msgstr "更多資訊，請參考<a href=\"@node\">內容節點模組</a>的線上說明。"
+
+#: modules/node/node.module:47
+msgid ""
+"Below is a list of all the content types on your site. All posts that exist "
+"on your site are instances of one of these content types."
+msgstr ""
+"以下列出網站裡所有的內容類型。網站裡發表的所有文章，都屬於這些內容類型。"
+
+#: modules/node/node.module:49
+msgid ""
+"To create a new content type, enter the human-readable name, the machine-"
+"readable name, and all other relevant fields that are on this page. Once "
+"created, users of your site will be able to create posts that are instances "
+"of this content type."
+msgstr ""
+"要增加一個新的內容類型，請輸入一個使用者可理解的名稱、供系統使用的名稱，以及"
+"本頁中所有其他的相關欄位資料。一旦成功新增，網站上的使用者就可以發表屬於這個"
+"內容類型的文章。"
+
+#: modules/node/node.module:51
+msgid ""
+"The revisions let you track differences between multiple versions of a post."
+msgstr "修訂版本可以讓你追蹤文章的多個版本的不同之處。"
+
+#: modules/node/node.module:260
+msgid ""
+"You specified that the summary should not be shown when this post is "
+"displayed in full view. This setting is ignored when the summary is empty."
+msgstr "你設定當文章以全文檢視時，不出現摘要。如果沒有摘要，會忽略此設定。"
+
+#: modules/node/node.module:264
+msgid ""
+"You specified that the summary should not be shown when this post is "
+"displayed in full view. This setting has been ignored since you have not "
+"defined a summary for the post. (To define a summary, insert the delimiter "
+"\"&lt;!--break--&gt;\" (without the quotes) in the Body of the post to "
+"indicate the end of the summary and the start of the main content.)"
+msgstr ""
+"你設定當文章以全文檢視時，不出現摘要。此設定已被忽略，因為你沒有為這篇文章指"
+"定摘要。（若想要定義摘要，可在文章裡插入 \"&lt;!--break--&gt;\"，來指定摘要的"
+"結束位置以及文章的起始位置。）"
+
+#: modules/node/node.module:785
+msgid "The body of your @type is too short. You need at least %words words."
+msgstr "@type 內容過短。至少需要 %words 字。"
+
+#: modules/node/node.module:789
+msgid ""
+"This content has been modified by another user, changes cannot be saved."
+msgstr "此內容已被另一使用者修改，無法儲存您的修改。"
+
+#: modules/node/node.module:798
+msgid "The username %name does not exist."
+msgstr "使用者 %name 不存在。"
+
+#: modules/node/node.module:981
+msgid "@type %title has been deleted."
+msgstr "@type %title 已被刪除。"
+
+#: modules/node/node.module:1096
+msgid "Revision of %title from %date"
+msgstr "%title 於 %date 的修訂版本"
+
+#: modules/node/node.module:1116
+msgid "Log"
+msgstr "紀錄"
+
+#: modules/node/node.module:1161
+msgid "Content ranking"
+msgstr "內容排序"
+
+#: modules/node/node.module:1165
+msgid ""
+"The following numbers control which properties the content search should "
+"favor when ordering the results. Higher numbers mean more influence, zero "
+"means the property is ignored. Changing these numbers does not require the "
+"search index to be rebuilt. Changes take effect immediately."
+msgstr ""
+"下面的數字，控制了在排序搜尋結果時，哪種屬性更為重要。 比較大的數字代表比較重"
+"要，0 則表示該屬性會被忽略。改變這些數字，不需要重新建立索引。改變所帶來的影"
+"響是立即的。"
+
+#: modules/node/node.module:1168
+msgid "Keyword relevance"
+msgstr "關鍵字相關度"
+
+#: modules/node/node.module:1169
+msgid "Recently posted"
+msgstr "最近發表的內容"
+
+#: modules/node/node.module:1171
+msgid "Number of comments"
+msgstr "回應數量"
+
+#: modules/node/node.module:1174
+msgid "Number of views"
+msgstr "瀏覽次數"
+
+#: modules/node/node.module:1314
+msgid "Factor"
+msgstr "因數"
+
+#: modules/node/node.module:1352
+msgid "Read the rest of !title."
+msgstr "閱讀 !title 的完整內容。"
+
+#: modules/node/node.module:1615,1621,1622
+msgid "Syndicate"
+msgstr "訂閱"
+
+#: modules/node/node.module:1736
+msgid "RSS"
+msgstr "RSS"
+
+#: modules/node/node.module:1740
+msgid ""
+"<h1 class=\"title\">Welcome to your new Drupal website!</h1><p>Please follow "
+"these steps to set up and start using your website:</p>"
+msgstr ""
+"<h1 class=\"title\">歡迎來到你的 Drupal網站！</h1><p>請依照下列步驟進行設定，"
+"並且開始使用你的網站：</p>"
+
+#: modules/node/node.module:1743
+msgid ""
+"<strong>Configure your website</strong> Once logged in, visit the <a href="
+"\"@admin\">administration section</a>, where you can <a href=\"@config"
+"\">customize and configure</a> all aspects of your website."
+msgstr ""
+"<strong>管理你的網站</strong>在登入網站後，請到<a href=\"@admin\">網站管理區"
+"</a>，你能夠在此<a href=\"@config\">自訂並設定</a>本網站的所有功能。"
+
+#: modules/node/node.module:1744
+msgid ""
+"<strong>Enable additional functionality</strong> Next, visit the <a href="
+"\"@modules\">module list</a> and enable features which suit your specific "
+"needs. You can find additional modules in the <a href=\"@download_modules"
+"\">Drupal modules download section</a>."
+msgstr ""
+"<strong>啟用額外功能</strong>接下來，請到<a href=\"@modules\">模組列表</a>啟"
+"用符合你的需求的模組。你能夠在<a href=\"@download_modules\">Drupal模組下載頁"
+"</a>，找到更多的模組。"
+
+#: modules/node/node.module:1745
+msgid ""
+"<strong>Customize your website design</strong> To change the \"look and feel"
+"\" of your website, visit the <a href=\"@themes\">themes section</a>. You "
+"may choose from one of the included themes or download additional themes "
+"from the <a href=\"@download_themes\">Drupal themes download section</a>."
+msgstr ""
+"<strong>自訂你的網站設計</strong>要變更這個網站的外觀，請到<a href=\"@themes"
+"\">版型管理</a>。你可以選擇一種版型，或是到<a href=\"@download_themes"
+"\">Drupal版型下載區</a>，下載更多的版型。"
+
+#: modules/node/node.module:1746
+msgid ""
+"<strong>Start posting content</strong> Finally, you can <a href=\"@content"
+"\">create content</a> for your website. This message will disappear once you "
+"have promoted a post to the front page."
+msgstr ""
+"<strong>開始發表文章</strong> 最後，你可以開始<a href=\"@content\">建立內容</"
+"a>。當你推薦一篇文章到首頁之後，你現在所看到的這些說明訊息就會消失。"
+
+#: modules/node/node.module:1748
+msgid ""
+"For more information, please refer to the <a href=\"@help\">help section</"
+"a>, or the <a href=\"@handbook\">online Drupal handbooks</a>. You may also "
+"post at the <a href=\"@forum\">Drupal forum</a>, or view the wide range of "
+"<a href=\"@support\">other support options</a> available."
+msgstr ""
+"更多的訊息，請見<a href=\"@help\">網站說明</a>，或參考<a href=\"@handbook"
+"\">Drupal 使用說明</a>。你也可以在 <a href=\"@forum\">Drupal討論區</a>發表文"
+"章，或是瀏覽<a href=\"@support\">其他支援項目</a>。<strong>繁體中文的使用者，"
+"可以參考 <a href=\"http://drupaltaiwan.org\">Drupal Taiwan 繁體中文支援站</"
+"a>。</strong>"
+
+#: modules/node/node.module:1820,1872
+msgid "Advanced search"
+msgstr "進階搜尋"
+
+#: modules/node/node.module:1831
+msgid "Containing any of the words"
+msgstr "包含任何一個字詞"
+
+#: modules/node/node.module:1837
+msgid "Containing the phrase"
+msgstr "包含整個句子"
+
+#: modules/node/node.module:1843
+msgid "Containing none of the words"
+msgstr "不包含這些關鍵字"
+
+#: modules/node/node.module:1852
+msgid "Only in the category(s)"
+msgstr "只搜尋這些分類"
+
+#: modules/node/node.module:1865
+msgid "Only of the type(s)"
+msgstr "只搜尋這些內容類型"
+
+#: modules/node/node.module:2287
+msgid "Rebuilding content access permissions"
+msgstr "正在重建內容存取權限"
+
+#: modules/node/node.module:2317
+msgid "Content permissions have been rebuilt."
+msgstr "內容權限已經重建完成。"
+
+#: modules/node/node.module:2363
+msgid "The content access permissions have been rebuilt."
+msgstr "內容存取權限已經重建完成。"
+
+#: modules/node/node.module:2367
+msgid "The content access permissions have not been properly rebuilt."
+msgstr "內容存取權限尚未被加以重建。"
+
+#: modules/node/node.module:2455
+msgid "Submitted by !username on @datetime"
+msgstr "由 !username 在 @datetime 發表"
+
+#: modules/node/node.module:2470
+msgid "When either saving a new post or updating an existing post"
+msgstr "當儲存新文章或更新舊文章時"
+
+#: modules/node/node.module:2473
+msgid "After saving a new post"
+msgstr "在儲存新文章之後"
+
+#: modules/node/node.module:2476
+msgid "After saving an updated post"
+msgstr "在儲存舊文章之後"
+
+#: modules/node/node.module:2479
+msgid "After deleting a post"
+msgstr "在刪除一篇文章之後"
+
+#: modules/node/node.module:2482
+msgid "When content is viewed by an authenticated user"
+msgstr "在內容被註冊使用者檢視之後"
+
+#: modules/node/node.module:2496
+msgid "Publish post"
+msgstr "發表文章"
+
+#: modules/node/node.module:2506
+msgid "Unpublish post"
+msgstr "更新文章"
+
+#: modules/node/node.module:2516
+msgid "Make post sticky"
+msgstr "文章置頂"
+
+#: modules/node/node.module:2526
+msgid "Make post unsticky"
+msgstr "取消文章置頂"
+
+#: modules/node/node.module:2536
+msgid "Promote post to front page"
+msgstr "將文章推薦到首頁"
+
+#: modules/node/node.module:2546
+msgid "Remove post from front page"
+msgstr "取消推薦文章到首頁"
+
+#: modules/node/node.module:2556
+msgid "Change the author of a post"
+msgstr "變更文章作者"
+
+#: modules/node/node.module:2567
+msgid "Save post"
+msgstr "儲存文章"
+
+#: modules/node/node.module:2575
+msgid "Unpublish post containing keyword(s)"
+msgstr "取消發表含有關鍵字的文章"
+
+#: modules/node/node.module:2658
+msgid "The username of the user to which you would like to assign ownership."
+msgstr "你想要指派為文章作者的使用者帳號名稱。"
+
+#: modules/node/node.module:2697
+msgid "Please enter a valid username."
+msgstr "請輸入一個有效的使用者名稱。"
+
+#: modules/node/node.module:2711
+msgid ""
+"The post will be unpublished if it contains any of the character sequences "
+"above. Use a comma-separated list of character sequences. Example: funny, "
+"bungee jumping, \"Company, Inc.\". Character sequences are case-sensitive."
+msgstr ""
+"如果這篇文章含有上面所列的字串，它將不會被發表。請使用逗號分隔多個字串。例"
+"如：有趣, 高空彈跳, \"股份有限公司\"。字串有分大小寫。"
+
+#: modules/node/node.module:980
+msgid "@type: deleted %title."
+msgstr "@type：刪除了 %title。"
+
+#: modules/node/node.module:2590
+msgid "Set @type %title to published."
+msgstr "將 @type %title設定為發表"
+
+#: modules/node/node.module:2599,2734
+msgid "Set @type %title to unpublished."
+msgstr "將 @type %title 設定為不發表"
+
+#: modules/node/node.module:2608
+msgid "Set @type %title to sticky."
+msgstr "將@type %title 設定為置頂。"
+
+#: modules/node/node.module:2617
+msgid "Set @type %title to unsticky."
+msgstr "將@type %title 設定為取消置頂。"
+
+#: modules/node/node.module:2626
+msgid "Promoted @type %title to front page."
+msgstr "推薦 @type %title 到首頁。"
+
+#: modules/node/node.module:2635
+msgid "Removed @type %title from front page."
+msgstr "取消推薦@type %title 到首頁。"
+
+#: modules/node/node.module:2644
+msgid "Saved @type %title"
+msgstr "儲存 @type %title"
+
+#: modules/node/node.module:2654
+msgid "Changed owner of @type %title to uid %name."
+msgstr "變更 @type %title 的作者為 uid %name."
+
+#: modules/node/node.module:1122
+msgid "administer content types"
+msgstr "管理內容類型"
+
+#: modules/node/node.module:1122
+msgid "administer nodes"
+msgstr "管理內容節點"
+
+#: modules/node/node.module:1122
+msgid "access content"
+msgstr "存取內容"
+
+#: modules/node/node.module:1122
+msgid "view revisions"
+msgstr "檢視修訂版本"
+
+#: modules/node/node.module:1122
+msgid "revert revisions"
+msgstr "還原修訂版本"
+
+#: modules/node/node.module:1403
+msgid "View, edit, and delete your site's content."
+msgstr "檢視、編輯和刪除你的網站的內容。"
+
+#: modules/node/node.module:1417
+msgid "Post settings"
+msgstr "文章發表設定"
+
+#: modules/node/node.module:1418
+msgid ""
+"Control posting behavior, such as teaser length, requiring previews before "
+"posting, and the number of posts on the front page."
+msgstr "控制發佈選項，例如摘要長度、發表前是否需要預覽，以及首頁的文章數量。"
+
+#: modules/node/node.module:1436
+msgid ""
+"Manage posts by content type, including default status, front page "
+"promotion, etc."
+msgstr "依據內容類型管理文章，包括預設狀態、首頁推薦等等。"
+
+#: modules/node/node.module:1447
+msgid "Add content type"
+msgstr "增加內容類型"
+
+#: modules/node/node.module:1461
+msgid "Create content"
+msgstr "建立內容"
+
+#: modules/node/node.module:1537,1547
+msgid "Revisions"
+msgstr "修訂版本"
+
+#: modules/node/node.module:1556
+msgid "Revert to earlier revision"
+msgstr "回覆到之前的修定版本"
+
+#: modules/node/node.module:1566
+msgid "Delete earlier revision"
+msgstr "刪除掉之前的修定版本"
+
+#: modules/node/node.install:9
+msgid "The base table for nodes."
+msgstr "節點的基本表格"
+
+#: modules/node/node.install:12
+msgid "The primary identifier for a node."
+msgstr "節點的主要識別碼"
+
+#: modules/node/node.install:17
+msgid "The current {node_revisions}.vid version identifier."
+msgstr "目前的 {node_revisions}.vid 版本識別碼。"
+
+#: modules/node/node.install:23
+msgid "The {node_type}.type of this node."
+msgstr "這個節點的{node_type}.type"
+
+#: modules/node/node.install:29
+msgid "The {languages}.language of this node."
+msgstr "這個節點的{languages}.language"
+
+#: modules/node/node.install:35
+msgid "The title of this node, always treated a non-markup plain text."
+msgstr "這個節點的標題，只能輸入純文字。"
+
+#: modules/node/node.install:41
+msgid ""
+"The {users}.uid that owns this node; initially, this is the user that "
+"created it."
+msgstr "這個節點的作者的{users}.uid；一開始會被設定為建立節點的使用者。"
+
+#: modules/node/node.install:46
+msgid ""
+"Boolean indicating whether the node is published (visible to non-"
+"administrators)."
+msgstr "節點是否發表的布林標記(非管理人員可以看到)"
+
+#: modules/node/node.install:51
+msgid "The Unix timestamp when the node was created."
+msgstr "建立節點時間的Unix時計。"
+
+#: modules/node/node.install:56
+msgid "The Unix timestamp when the node was most recently saved."
+msgstr "節點最近被儲存時間的Unix時計。"
+
+#: modules/node/node.install:61
+msgid ""
+"Whether comments are allowed on this node: 0 = no, 1 = read only, 2 = read/"
+"write."
+msgstr "這個節點是否允許回應: 0 = 否，1 = 唯讀， 2 = 可讀寫。"
+
+#: modules/node/node.install:66
+msgid "Boolean indicating whether the node should displayed on the front page."
+msgstr "此節點是否應該在首頁顯示的布爾值。"
+
+#: modules/node/node.install:71
+msgid ""
+"Previously, a boolean indicating whether the node was \"in moderation\"; "
+"mostly no longer used."
+msgstr ""
+"之前的作法是，布爾值是在指示節點是否為\"修訂中\"；而幾乎已經沒有人這樣用了。"
+
+#: modules/node/node.install:76
+msgid ""
+"Boolean indicating whether the node should be displayed at the top of lists "
+"in which it appears."
+msgstr "此節點是否應該顯示在文章列表之頂端的布爾值。"
+
+#: modules/node/node.install:81
+msgid ""
+"The translation set id for this node, which equals the node id of the source "
+"post in each set."
+msgstr "這個節點的翻譯設定識別碼，等於來源文章的node id。"
+
+#: modules/node/node.install:87
+msgid "A boolean indicating whether this translation page needs to be updated."
+msgstr "指出這個翻譯頁面是否需要被更新的布爾值。"
+
+#: modules/node/node.install:111
+msgid ""
+"Identifies which realm/grant pairs a user must possess in order to view, "
+"update, or delete specific nodes."
+msgstr "指定使用者一定要擁有的範圍/授權組合，才能檢視、更新或刪除特定節點。"
+
+#: modules/node/node.install:114
+msgid "The {node}.nid this record affects."
+msgstr "這個記錄影響到的{node}.nid"
+
+#: modules/node/node.install:120
+msgid ""
+"The grant ID a user must possess in the specified realm to gain this row's "
+"privileges on the node."
+msgstr "使用者必須在特定場域裡擁有的 grant ID，才可以取得該節點的權限。"
+
+#: modules/node/node.install:126
+msgid ""
+"The realm in which the user must possess the grant ID. Each node access node "
+"can define one or more realms."
+msgstr "使用者必須擁有授權ID的領域。每個節點存取節點都可以定義一個以上的領域。"
+
+#: modules/node/node.install:132
+msgid ""
+"Boolean indicating whether a user with the realm/grant pair can view this "
+"node."
+msgstr "指出擁有領域/授權組合的使用者是否能夠檢視這個節點的布爾值。"
+
+#: modules/node/node.install:139
+msgid ""
+"Boolean indicating whether a user with the realm/grant pair can edit this "
+"node."
+msgstr "指出擁有領域/授權組合的使用者是否能夠編輯這個節點的布爾值。"
+
+#: modules/node/node.install:146
+msgid ""
+"Boolean indicating whether a user with the realm/grant pair can delete this "
+"node."
+msgstr "指出擁有領域/授權組合的使用者是否能夠刪除這個節點的布爾值。"
+
+#: modules/node/node.install:157
+msgid "Access statistics for {node}s."
+msgstr "{node} 的存取統計"
+
+#: modules/node/node.install:160
+msgid "The {node}.nid for these statistics."
+msgstr "這些統計資料的{node}.nid"
+
+#: modules/node/node.install:165
+msgid "The total number of times the {node} has been viewed."
+msgstr "{node} 被檢視過的總次數。"
+
+#: modules/node/node.install:172
+msgid "The total number of times the {node} has been viewed today."
+msgstr "{node} 今天被檢視過的總次數。"
+
+#: modules/node/node.install:179
+msgid "The most recent time the {node} has been viewed."
+msgstr "{node} 最近被檢視過的次數。"
+
+#: modules/node/node.install:189
+msgid "Stores information about each saved version of a {node}."
+msgstr "一篇 {node} 在每個儲存版本中所儲存的訊息。"
+
+#: modules/node/node.install:192
+msgid "The {node} this version belongs to."
+msgstr "這個修定版本所屬的{node}。"
+
+#: modules/node/node.install:198
+msgid "The primary identifier for this version."
+msgstr "這個修定版本的主要識別碼。"
+
+#: modules/node/node.install:203
+msgid "The {users}.uid that created this version."
+msgstr "建立這個修定版本的{users}.uid"
+
+#: modules/node/node.install:208
+msgid "The title of this version."
+msgstr "這個修定版本的標題"
+
+#: modules/node/node.install:214
+msgid "The body of this version."
+msgstr "這個修訂版本的正文"
+
+#: modules/node/node.install:219
+msgid "The teaser of this version."
+msgstr "這個修訂版本的摘要"
+
+#: modules/node/node.install:224
+msgid "The log entry explaining the changes in this version."
+msgstr "說明這個修訂版本變更歷史的記錄檔"
+
+#: modules/node/node.install:229
+msgid "A Unix timestamp indicating when this version was created."
+msgstr "指出這個修訂版本建立時間的Unix時計。"
+
+#: modules/node/node.install:234
+msgid "The input format used by this version's body."
+msgstr "這個修訂版本之正文所使用的輸入格式。"
+
+#: modules/node/node.install:247
+msgid "Stores information about all defined {node} types."
+msgstr "有關所有既定{node}類型的儲存資訊。"
+
+#: modules/node/node.install:250
+msgid "The machine-readable name of this type."
+msgstr "這個類型的可機讀名稱。"
+
+#: modules/node/node.install:255
+msgid "The human-readable name of this type."
+msgstr "這個類型的人類可讀名稱。"
+
+#: modules/node/node.install:261
+msgid "The module that implements this type."
+msgstr "產生這個類型的模組。"
+
+#: modules/node/node.install:266
+msgid "A brief description of this type."
+msgstr "這個類型的簡介"
+
+#: modules/node/node.install:271
+msgid "Help information shown to the user when creating a {node} of this type."
+msgstr "在建立這個類型的一個{node}時顯示給使用者看到的協助資訊。"
+
+#: modules/node/node.install:276
+msgid "Boolean indicating whether this type uses the {node}.title field."
+msgstr "指出這個類型是否使用{node}.title欄位的布爾值。"
+
+#: modules/node/node.install:282
+msgid "The label displayed for the title field on the edit form."
+msgstr "在編輯表單裡顯示於標題欄位的標籤。"
+
+#: modules/node/node.install:288
+msgid ""
+"Boolean indicating whether this type uses the {node_revisions}.body field."
+msgstr "指出這個類型是否使用 {node_revisions}.body欄位的布爾值。"
+
+#: modules/node/node.install:294
+msgid "The label displayed for the body field on the edit form."
+msgstr "在編輯表單裡顯示於內容欄位的標籤。"
+
+#: modules/node/node.install:300
+msgid "The minimum number of words the body must contain."
+msgstr "內容必須包含的最少字數。"
+
+#: modules/node/node.install:306
+msgid ""
+"A boolean indicating whether this type is defined by a module (FALSE) or by "
+"a user via a module like the Content Construction Kit (TRUE)."
+msgstr ""
+"指示這個類型是否為某個模組所指定 (FALSE)或者是一個使用者透過類似cck模組所指定"
+"(TRUE)的布爾值。"
+
+#: modules/node/node.install:312
+msgid ""
+"A boolean indicating whether this type has been modified by an "
+"administrator; currently not used in any way."
+msgstr "指定此類型是否由管理者修改過的布林邏輯。目前並未使用。"
+
+#: modules/node/node.install:318
+msgid ""
+"A boolean indicating whether the administrator can change the machine name "
+"of this type."
+msgstr "指示管理員是否能夠變更這個類型的可機讀名稱的布爾值。"
+
+#: modules/node/node.install:324
+msgid ""
+"The original machine-readable name of this node type. This may be different "
+"from the current type name if the locked field is 0."
+msgstr ""
+"這個節點類型的原始可機讀名稱。如果鎖定欄位為0的話，表示目前的類型名稱可以有別"
+"於原始名稱。"
+
+#: modules/node/content_types.inc:75
+msgid ""
+"The human-readable name of this content type. This text will be displayed as "
+"part of the list on the <em>create content</em> page. It is recommended that "
+"this name begin with a capital letter and contain only letters, numbers, and "
+"<strong>spaces</strong>. This name must be unique."
+msgstr ""
+"此內容類型可供使用者理解的名稱。此名稱會顯示在<em>建立內容</em>的頁面上。建議"
+"此名稱是用大寫字母開頭，並且僅使用字母、數字和空格。這個名稱必須是獨一無二的"
+"內容類型名稱。"
+
+#: modules/node/content_types.inc:239
+msgid "Invalid machine-readable name. Please enter a name other than %invalid."
+msgstr "無效的可機讀名稱。請輸入一個並非 %invalid的名稱。"
+
+#: modules/node/node.admin.inc:155
+msgid "Up to date translation"
+msgstr "最新翻譯"
+
+#: modules/node/node.admin.inc:156
+msgid "Outdated translation"
+msgstr "過時翻譯"

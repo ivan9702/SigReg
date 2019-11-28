@@ -1,0 +1,233 @@
+# Chinese, Traditional translation of drupal (6.2)
+# Copyright (c) 2008 by the Chinese, Traditional translation team
+# Generated from files:
+#  openid.inc,v 1.8 2008/01/30 22:11:22 goba
+#  openid.pages.inc,v 1.5 2008/01/30 22:11:22 goba
+#  openid.module,v 1.19.2.1 2008/04/09 21:11:48 goba
+#  openid.install,v 1.3 2007/10/10 11:39:33 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.x)\n"
+"POT-Creation-Date: 2008-05-14 13:25+0800\n"
+"PO-Revision-Date: 2009-08-20 00:23+0800\n"
+"Language-Team: Drupal Taiwan <info@drupaltaiwan.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: charlesc <charles@netivism.com.tw>\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: TAIWAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+
+#: modules/openid/openid.inc:44
+msgid "OpenID redirect"
+msgstr "OpenID重新導向"
+
+#: modules/openid/openid.inc:67
+msgid "Send"
+msgstr "寄出"
+
+#: modules/openid/openid.pages.inc:18
+msgid "OpenID login failed."
+msgstr "OpenID登入失敗"
+
+#: modules/openid/openid.pages.inc:21
+msgid "OpenID login cancelled."
+msgstr "OpenID登入取消"
+
+#: modules/openid/openid.pages.inc:39
+msgid "Successfully added %identity"
+msgstr "成功加入 %identity"
+
+#: modules/openid/openid.pages.inc:66
+msgid "Add an OpenID"
+msgstr "加入一個OpenID"
+
+#: modules/openid/openid.pages.inc:74
+msgid "That OpenID is already in use on this site."
+msgstr "這個OpenID已經在這個網站上使用了"
+
+#: modules/openid/openid.pages.inc:88
+msgid "OpenID deleted."
+msgstr "OpenID已被刪除"
+
+#: modules/openid/openid.module:48
+msgid ""
+"This site supports <a href=\"@openid-net\">OpenID</a>, a secure way to log "
+"into many websites using a single username and password. OpenID can reduce "
+"the necessity of managing many usernames and passwords for many websites."
+msgstr ""
+"這個網站支援 <a href=\"@openid-net\">OpenID</a>，一種用一組帳號密碼登入多個網"
+"站的安全方式。OpenID可以減少管理許多網站登入之帳號密碼的必要手續。"
+
+#: modules/openid/openid.module:49
+msgid ""
+"To use OpenID you must first establish an identity on a public or private "
+"OpenID server. If you do not have an OpenID and would like one, look into "
+"one of the <a href=\"@openid-providers\">free public providers</a>. You can "
+"find out more about OpenID at <a href=\"@openid-net\">this website</a>."
+msgstr ""
+"要使用OpenID ，首先你必須在一個公開的或者私人的OpenID 伺服器上面建立一個身"
+"份。如果你沒有OpenID 而又想要一個，請訪問<a href=\"@openid-providers\">free "
+"public providers</a>來取得。你可以在 <a href=\"@openid-net\">這個網站</a>獲得"
+"更多的OpenID 資訊。"
+
+#: modules/openid/openid.module:50
+msgid ""
+"If you already have an OpenID, enter the URL to your OpenID server below (e."
+"g. myusername.openidprovider.com). Next time you login, you will be able to "
+"use this URL instead of a regular username and password. You can have "
+"multiple OpenID servers if you like; just keep adding them here."
+msgstr ""
+"如果你已經有了一個OpenID ，請在下面輸入你的OpenID 伺服器網址(例如，"
+"myusername.openidprovider.com)。下一次你登入的時候，你就可以使用這個網址來代"
+"替一般的使用者帳號和密碼。如果你高興的話，你可以有多個OpenID伺服器，全都可以"
+"在這裡加入。"
+
+#: modules/openid/openid.module:54
+msgid ""
+"OpenID is a secure method for logging into many websites with a single "
+"username and password. It does not require special software, and it does not "
+"share passwords with any site to which it is associated; including your site."
+msgstr ""
+"OpenID是一個安全的方式以一組帳號密碼登入許多網站。它並不需要特定的軟體，而且"
+"不和任何網站共用所需的密碼，包括你的網站。"
+
+#: modules/openid/openid.module:55
+msgid ""
+"Users can create accounts using their OpenID, assign one or more OpenIDs to "
+"an existing account, and log in using an OpenID. This lowers the barrier to "
+"registration, which is good for the site, and offers convenience and "
+"security to the users. OpenID is not a trust system, so email verification "
+"is still necessary. The benefit stems from the fact that users can have a "
+"single password that they can use on many websites. This means they can "
+"easily update their single password from a centralized location, rather than "
+"having to change dozens of passwords individually."
+msgstr ""
+"使用者可以用他們的OpenID建立帳號，指定一個或更多的OpenID當做一個現有的帳號，"
+"並且使用一個OpenID來登入。這可以減少註冊的負擔，對網站來說很好、也為使用者增"
+"加了便利與安全。OpenID並不是一個信託系統，所以仍有必要進行電子郵件驗證。它的"
+"好處來自於使用者可以有一組他們在多個網站上都可使用的密碼。這意味著他們可以很"
+"容易從一個中控位置來更新他們的密碼，而不用改變一個個地更新一打以上的密碼。"
+
+#: modules/openid/openid.module:56
+msgid ""
+"The basic concept is as follows: A user has an account on an OpenID server. "
+"This account provides them with a unique URL (such as myusername."
+"openidprovider.com). When the user comes to your site, they are presented "
+"with the option of entering this URL. Your site then communicates with the "
+"OpenID server, asking it to verify the identity of the user. If the user is "
+"logged into their OpenID server, the server communicates back to your site, "
+"verifying the user. If they are not logged in, the OpenID server will ask "
+"the user for their password. At no point does your site record, or need to "
+"record the user's password."
+msgstr ""
+"基本的概念是這樣的：一個使用者會在OpenID伺服器上擁有一個帳號。這個帳號提供他"
+"們一個獨特的網址(像是 myusername.openidprovider.com)。當使用者來到你的網站"
+"時，他們會看到輸入這個網址的選項。你的網站接下來就與OpenID伺服器進行溝通、請"
+"它驗證使用者的身份。如果使用者登入他們的OpenID伺服器，伺服器會回頭連絡你的網"
+"站，驗證該使用者。如果他們沒有登入的話，OpenID伺服器會要求使用者輸入他們的密"
+"碼。在所有的情況下，你的網站都沒有記錄或者不需要記錄使用者的密碼。"
+
+#: modules/openid/openid.module:57
+msgid ""
+"More information on OpenID is available at <a href=\"@openid-net\">OpenID."
+"net</a>."
+msgstr "更多關於OpenID的資訊，請見<a href=\"@openid-net\">OpenID.net</a>。"
+
+#: modules/openid/openid.module:58
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@handbook"
+"\">OpenID module</a>."
+msgstr "更多資訊，請見線上手冊項目：<a href=\"@handbook\">OpenID模組</a>."
+
+#: modules/openid/openid.module:70
+msgid "Once you have verified your email address, you may log in via OpenID."
+msgstr "一但你已經驗證過你的電子郵件地址，你就可以用OpenID登入了。"
+
+#: modules/openid/openid.module:92,109
+msgid "Log in using OpenID"
+msgstr "使用OpenID登入"
+
+#: modules/openid/openid.module:96
+msgid "Cancel OpenID login"
+msgstr "取消OpenID登入"
+
+#: modules/openid/openid.module:113
+msgid "What is OpenID?"
+msgstr "什麼是OpenID？"
+
+#: modules/openid/openid.module:162
+msgid ""
+"Sorry, that is not a valid OpenID. Please ensure you have spelled your ID "
+"correctly."
+msgstr "抱歉，這並非使用OpenID。請確定你有正確拼對你的ID。"
+
+#: modules/openid/openid.module:397
+msgid ""
+"You must validate your email address for this account before logging in via "
+"OpenID"
+msgstr "你必須為這個帳號驗證你的電子郵件地址才能透過OpenID登入。"
+
+#: modules/openid/openid.module:415
+msgid ""
+"OpenID registration failed for the reasons listed. You may register now, or "
+"if you already have an account you can <a href=\"@login\">log in</a> now and "
+"add your OpenID under \"My Account\""
+msgstr ""
+"由於這些理由，OpenID註冊失敗。你可以現在註冊，或者如果你已經有了一個帳號的"
+"話，你現在就可以<a href=\"@login\">登入</a>並且在\"我的帳號\"加入你的OpenID。"
+
+#: modules/openid/openid.module:14
+msgid "OpenID Login"
+msgstr "OpenID登入"
+
+#: modules/openid/openid.module:21
+msgid "OpenID identities"
+msgstr "OpenID 認證"
+
+#: modules/openid/openid.module:30
+msgid "Delete OpenID"
+msgstr "刪除OpenID"
+
+#: modules/openid/openid.module:0
+msgid "openid"
+msgstr "openid"
+
+#: modules/openid/openid.install:25
+msgid ""
+"Stores temporary shared key association information for OpenID "
+"authentication."
+msgstr "為OpenID權限儲存暫時共用的主要關聯資訊"
+
+#: modules/openid/openid.install:30
+msgid "URI of the OpenID Provider endpoint."
+msgstr "OpenID供應商終端網址"
+
+#: modules/openid/openid.install:36
+msgid "Primary Key: Used to refer to this association in subsequent messages."
+msgstr "Primary Key: 用來在後續的訊息中指明這個關聯。"
+
+#: modules/openid/openid.install:41
+msgid "The signature algorithm used: one of HMAC-SHA1 or HMAC-SHA256."
+msgstr "簽證演算使用： HMAC-SHA1 或 HMAC-SHA256 其中之一."
+
+#: modules/openid/openid.install:46
+msgid ""
+"Valid association session types: \"no-encryption\", \"DH-SHA1\", and \"DH-"
+"SHA256\"."
+msgstr "有效的關聯會話類型: \"無加密\", \"DH-SHA1\", 與\"DH-SHA256\"."
+
+#: modules/openid/openid.install:51
+msgid "The MAC key (shared secret) for this association."
+msgstr "這個關聯的 MAC key (共享權限)。"
+
+#: modules/openid/openid.install:57
+msgid "UNIX timestamp for when the association was created."
+msgstr "建立這個關聯時間的Unix時計。"
+
+#: modules/openid/openid.install:63
+msgid "The lifetime, in seconds, of this association."
+msgstr "這個關聯的使用期限，以秒計。"

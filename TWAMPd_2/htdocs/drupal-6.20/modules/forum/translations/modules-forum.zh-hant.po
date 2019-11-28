@@ -1,0 +1,438 @@
+# Chinese, Traditional translation of drupal (6.2)
+# Copyright (c) 2008 by the Chinese, Traditional translation team
+# Generated from files:
+#  forum-list.tpl.php,v 1.4 2007/08/30 18:58:12 goba
+#  forum-submitted.tpl.php,v 1.3 2007/08/07 08:39:35 goba
+#  forum-topic-navigation.tpl.php,v 1.2 2007/08/07 08:39:35 goba
+#  forum.admin.inc,v 1.8 2008/01/30 10:14:42 goba
+#  forum.module,v 1.448.2.3 2008/04/09 21:11:47 goba
+#  forum.install,v 1.16 2007/12/31 16:58:34 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.x)\n"
+"POT-Creation-Date: 2008-05-14 13:25+0800\n"
+"PO-Revision-Date: 2009-08-20 00:23+0800\n"
+"Language-Team: Drupal Taiwan <info@drupaltaiwan.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: charlesc <charles@netivism.com.tw>\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: TAIWAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+
+#: modules/forum/forum-list.tpl.php:39
+msgid "Posts"
+msgstr "文章"
+
+#: modules/forum/forum-list.tpl.php:38
+msgid "Topics"
+msgstr "主題"
+
+#: modules/forum/forum-list.tpl.php:40
+msgid "Last post"
+msgstr "最新文章"
+
+#: modules/forum/forum-submitted.tpl.php:21
+msgid "@time ago<br />by !author"
+msgstr "於 @time 之前 <br /> 由 !author 發表"
+
+#: modules/forum/forum-topic-navigation.tpl.php:29
+msgid "Go to previous forum topic"
+msgstr "到上一篇討論主題"
+
+#: modules/forum/forum-topic-navigation.tpl.php:32
+msgid "Go to next forum topic"
+msgstr "到下一篇討論主題"
+
+#: modules/forum/forum.admin.inc:38
+msgid "Forum name"
+msgstr "討論版名稱"
+
+#: modules/forum/forum.admin.inc:41
+msgid "Short but meaningful name for this collection of threaded discussions."
+msgstr "簡短但有意義的名稱，用來代表這些討論文章。"
+
+#: modules/forum/forum.admin.inc:47
+msgid "Description and guidelines for discussions within this forum."
+msgstr "關於這個討論版的說明與指南。"
+
+#: modules/forum/forum.admin.inc:54
+msgid ""
+"Forums are displayed in ascending order by weight (forums with equal weights "
+"are displayed alphabetically)."
+msgstr ""
+"討論版會按其順序值由小（輕）到大（重）排列。相同順序值的討論版，會按字母順序"
+"排列。"
+
+#: modules/forum/forum.admin.inc:75
+msgid "forum container"
+msgstr "討論分區"
+
+#: modules/forum/forum.admin.inc:90
+msgid "Created new @type %term."
+msgstr "建立新的 @type %term 。"
+
+#: modules/forum/forum.admin.inc:93
+msgid "The @type %term has been updated."
+msgstr "已更新 @type %title。"
+
+#: modules/forum/forum.admin.inc:116
+msgid "Container name"
+msgstr "分區名稱"
+
+#: modules/forum/forum.admin.inc:120
+msgid "Short but meaningful name for this collection of related forums."
+msgstr "簡短但有意義的名稱，用來代表這些相關的討論版。"
+
+#: modules/forum/forum.admin.inc:128
+msgid "Description and guidelines for forums within this container."
+msgstr "關於在此討論分區裡的討論版的說明。"
+
+#: modules/forum/forum.admin.inc:136
+msgid ""
+"Containers are displayed in ascending order by weight (containers with equal "
+"weights are displayed alphabetically)."
+msgstr ""
+"討論區會按其順序值由小（輕）到大（重）排列。相同順序值的討論區，會按字母順序"
+"排列。"
+
+#: modules/forum/forum.admin.inc:168
+msgid "Are you sure you want to delete the forum %name?"
+msgstr "你真的要刪除 %name 討論版嗎？"
+
+#: modules/forum/forum.admin.inc:168
+msgid ""
+"Deleting a forum or container will also delete its sub-forums, if any. To "
+"delete posts in this forum, visit <a href=\"@content\">content "
+"administration</a> first. This action cannot be undone."
+msgstr ""
+"刪除討論版或討論分區時，會同時刪除其下的討論版。如果要刪除此討論版裡的文章，"
+"請到<a href=\"@content\">內容管理</a>。此操作無法回復！"
+
+#: modules/forum/forum.admin.inc:176
+msgid ""
+"The forum %term and all sub-forums and associated posts have been deleted."
+msgstr "%term討論版和所有子討論版、以及相關的文章，都已經被刪除。"
+
+#: modules/forum/forum.admin.inc:192
+msgid "Hot topic threshold"
+msgstr "熱門主題門檻"
+
+#: modules/forum/forum.admin.inc:195
+msgid "The number of posts a topic must have to be considered \"hot\"."
+msgstr "一篇討論主題必須包含多少篇回應，才可稱之為熱門主題。"
+
+#: modules/forum/forum.admin.inc:199
+msgid "Topics per page"
+msgstr "每頁主題數"
+
+#: modules/forum/forum.admin.inc:202
+msgid "Default number of forum topics displayed per page."
+msgstr "每頁預設要顯示的討論文章的數量。"
+
+#: modules/forum/forum.admin.inc:204
+msgid "Posts - most active first"
+msgstr "討論文章—活躍主題優先"
+
+#: modules/forum/forum.admin.inc:204
+msgid "Posts - least active first"
+msgstr "討論文章—冷門主題優先"
+
+#: modules/forum/forum.admin.inc:206
+msgid "Default order"
+msgstr "預設順序"
+
+#: modules/forum/forum.admin.inc:209
+msgid "Default display order for topics."
+msgstr "預設的討論主題顯示順序。"
+
+#: modules/forum/forum.admin.inc:230
+msgid "edit container"
+msgstr "編輯分區"
+
+#: modules/forum/forum.admin.inc:233
+msgid "edit forum"
+msgstr "編輯討論版"
+
+#: modules/forum/forum.admin.inc:245
+msgid ""
+"There are no existing containers or forums. Containers and forums may be "
+"added using the <a href=\"@container\">add container</a> and <a href=\"@forum"
+"\">add forum</a> pages."
+msgstr ""
+"目前沒有討論分區和討論版。你可以在<a href=\"@container\">增加討論分區</a>或"
+"<a href=\"@forum\">增加討論版</a>裡新增。"
+
+#: modules/forum/forum.admin.inc:286
+msgid ""
+"Containers are usually placed at the top (root) level, but may also be "
+"placed inside another container or forum."
+msgstr ""
+"討論分區通常是放在討論版的上層（根目錄），但也可以放在其他分區或討論版裡面。"
+
+#: modules/forum/forum.admin.inc:289
+msgid ""
+"Forums may be placed at the top (root) level, or inside another container or "
+"forum."
+msgstr "討論版可以放在討論版的上層（根目錄），或是在其他分區或討論版裡面。"
+
+#: modules/forum/forum.admin.inc:177
+msgid "forum: deleted %term and all its sub-forums and associated posts."
+msgstr "討論版：刪除 %term 以及所有子討論版和相關文章。"
+
+#: modules/forum/forum.module:15
+msgid ""
+"The forum module lets you create threaded discussion forums with "
+"functionality similar to other message board systems. Forums are useful "
+"because they allow community members to discuss topics with one another "
+"while ensuring those conversations are archived for later reference. The <a "
+"href=\"@create-topic\">forum topic</a> menu item (under <em>Create content</"
+"em> on the Navigation menu) creates the initial post of a new threaded "
+"discussion, or thread."
+msgstr ""
+"討論區模組提供了其他類似討論區系統所包含的功能。討論區是一個非常有用的功能，"
+"讓社群成員能夠交流討論，而這些討論可以保留下來，以便將來引用或查詢。導覽選單"
+"裡的建立內容裡的<a href=\"@create-topic\">討論主題</a>這個選單項目，可以用來"
+"新增討論主題。"
+
+#: modules/forum/forum.module:16
+msgid ""
+"A threaded discussion occurs as people leave comments on a forum topic (or "
+"on other comments within that topic). A forum topic is contained within a "
+"forum, which may hold many similar or related forum topics. Forums are "
+"(optionally) nested within a container, which may hold many similar or "
+"related forums. Both containers and forums may be nested within other "
+"containers and forums, and provide structure for your message board. By "
+"carefully planning this structure, you make it easier for users to find and "
+"comment on a specific forum topic."
+msgstr ""
+"討論區讓使用者可以針對討論主題（或主題裡的其他留言）進行留言討論。討論主題包"
+"含在一個討論版裡，討論版裡包刮了許多類似或相關的主題。討論版可能會包含在一個"
+"討論分區裡，在分區裡有許多類似或相關的討論版。討論分區和討論版都可以被包含在"
+"其他討論分區和討論版裡，建立起你的討論區的樹狀架構。仔細地規劃此架構，將讓你"
+"的使用者很容易地就能找到感興趣的主題。"
+
+#: modules/forum/forum.module:17
+msgid "When administering a forum, note that:"
+msgstr "在管理討論區時，請注意："
+
+#: modules/forum/forum.module:18
+msgid ""
+"a forum topic (and all of its comments) may be moved between forums by "
+"selecting a different forum while editing a forum topic."
+msgstr "在編輯討論主題時，可以把它（和所有留言）移到不同的討論版裡。"
+
+#: modules/forum/forum.module:19
+msgid ""
+"when moving a forum topic between forums, the <em>Leave shadow copy</em> "
+"option creates a link in the original forum pointing to the new location."
+msgstr ""
+"在移動討論主題時，<strong>留下副本</strong>選項會在原本的討論版留下一個導到新"
+"討論版的連結。"
+
+#: modules/forum/forum.module:20
+msgid ""
+"selecting <em>Read only</em> under <em>Comment settings</em> while editing a "
+"forum topic will lock (prevent new comments) on the thread."
+msgstr ""
+"在編輯討論主題時，在<strong>留言設定</strong>裡選擇<strong>唯讀</strong>，可"
+"以鎖住該主題，無法增加新留言。"
+
+#: modules/forum/forum.module:21
+msgid ""
+"selecting <em>Disabled</em> under <em>Comment settings</em> while editing a "
+"forum topic will hide all existing comments on the thread, and prevent new "
+"ones."
+msgstr ""
+"在編輯討論主題時，在<strong>留言設定</strong>裡選擇<strong>關閉</strong>，可"
+"以隱藏該主題的所有留言，並且禁止留言。"
+
+#: modules/forum/forum.module:22
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@forum"
+"\">Forum module</a>."
+msgstr "更多資訊，請參考<a href=\"@forum\">討論區模組</a>的線上說明。"
+
+#: modules/forum/forum.module:25
+msgid ""
+"This page displays a list of existing forums and containers. Containers "
+"(optionally) hold forums, and forums hold forum topics (a forum topic is the "
+"initial post to a threaded discussion). To provide structure, both "
+"containers and forums may be placed inside other containers and forums. To "
+"rearrange forums and containers, grab a drag-and-drop handle under the "
+"<em>Name</em> column and drag the forum or container to a new location in "
+"the list. (Grab a handle by clicking and holding the mouse while hovering "
+"over a handle icon.) Remember that your changes will not be saved until you "
+"click the <em>Save</em> button at the bottom of the page."
+msgstr ""
+"這是一個目前的討論分區和討論版的列表。討論分區內含有討論版，討論版內則含有討"
+"論主題。討論分區和討論版都可以被放置在其他討論分區或討論版之中。要重新排列討"
+"論分區和討論版的位置，可以使用拖放功能把它們拉到新的位置。請記得，你必須按下"
+"儲存按鈕才能夠保存你所作的調整。"
+
+#: modules/forum/forum.module:27
+msgid ""
+"By grouping related or similar forums, containers help organize forums. For "
+"example, a container named \"Food\" may hold two forums named \"Fruit\" and "
+"\"Vegetables\", respectively."
+msgstr ""
+"藉由把相關或類似的討論版整合在一起，討論分區可以幫助你更好地組織討論區。例"
+"如，\"食物\"討論分區可以包含兩個討論版，\"水果\"和\"蔬菜\"。"
+
+#: modules/forum/forum.module:29
+msgid ""
+"A forum holds related or similar forum topics (a forum topic is the initial "
+"post to a threaded discussion). For example, a forum named \"Fruit\" may "
+"contain forum topics titled \"Apples\" and \"Bananas\", respectively."
+msgstr ""
+"討論版裡包括了相關或類似的討論主題。例如，\"水果\"討論版可能包括\"蘋果\"、"
+"\"香蕉\"這樣的主題。"
+
+#: modules/forum/forum.module:31
+msgid ""
+"These settings allow you to adjust the display of your forum topics. The "
+"content types available for use within a forum may be selected by editing "
+"the <em>Content types</em> on the <a href=\"@forum-vocabulary\">forum "
+"vocabulary page</a>."
+msgstr ""
+"這些設定讓你可以調整討論主題的顯示方式。討論區裡可以使用的內容類型，可以在<a "
+"href=\"@forum-vocabulary\">討論區分類頁</a>裡編輯<strong>內容類型</strong>。"
+
+#: modules/forum/forum.module:236
+msgid ""
+"The item %forum is only a container for forums. Please select one of the "
+"forums below it."
+msgstr "%forum 是一個討論分區。請在該分區裡選擇一個討論版。"
+
+#: modules/forum/forum.module:302
+msgid "Forum topic"
+msgstr "討論版主題"
+
+#: modules/forum/forum.module:304
+msgid ""
+"A <em>forum topic</em> is the initial post to a new discussion thread within "
+"a forum."
+msgstr "討論主題是討論版裡發起新討論的文章。"
+
+#: modules/forum/forum.module:367
+msgid ""
+"This is the designated forum vocabulary. Some of the normal vocabulary "
+"options have been removed."
+msgstr "這是特別設計的討論區主分類。一些一般的主分類選項已經被移除。"
+
+#: modules/forum/forum.module:409,425
+msgid "Active forum topics"
+msgstr "活躍的討論版主題"
+
+#: modules/forum/forum.module:410,432
+msgid "New forum topics"
+msgstr "新的討論版主題"
+
+#: modules/forum/forum.module:414
+msgid "Number of topics"
+msgstr "主題數量"
+
+#: modules/forum/forum.module:441
+msgid "Read the latest forum topics."
+msgstr "閱讀最新的討論版主題。"
+
+#: modules/forum/forum.module:460
+msgid "Leave shadow copy"
+msgstr "保留副本"
+
+#: modules/forum/forum.module:460
+msgid ""
+"If you move this topic, you can leave a link in the old forum to the new "
+"forum."
+msgstr "如果你移動此主題，可以在舊討論版留下一個連結到新討論版。"
+
+#: modules/forum/forum.module:567
+msgid "Topic"
+msgstr "主題"
+
+#: modules/forum/forum.module:569
+msgid "Created"
+msgstr "已建立"
+
+#: modules/forum/forum.module:570
+msgid "Last reply"
+msgstr "最新回應"
+
+#: modules/forum/forum.module:683
+msgid "Post new @node_type"
+msgstr "張貼新的@node_type"
+
+#: modules/forum/forum.module:690
+msgid "You are not allowed to post new content in forum."
+msgstr "您沒有在此討論版發表新文章的權限。"
+
+#: modules/forum/forum.module:694
+msgid "<a href=\"@login\">Login</a> to post new content in forum."
+msgstr "在發表新的討論主題之前，請先<a href=\"@login\">登入</a>。"
+
+#: modules/forum/forum.module:732
+msgid "No forums defined"
+msgstr "沒有設定討論區"
+
+#: modules/forum/forum.module:818
+msgid "This topic has been moved"
+msgstr "此主題已被移動"
+
+#: modules/forum/forum.module:328
+msgid "create forum topics"
+msgstr "建立討論版主題"
+
+#: modules/forum/forum.module:328
+msgid "delete own forum topics"
+msgstr "刪除自己的討論版主題"
+
+#: modules/forum/forum.module:328
+msgid "delete any forum topic"
+msgstr "刪除任何討論版主題"
+
+#: modules/forum/forum.module:328
+msgid "edit own forum topics"
+msgstr "編輯自己的討論版主題"
+
+#: modules/forum/forum.module:328
+msgid "edit any forum topic"
+msgstr "編輯任何討論版主題"
+
+#: modules/forum/forum.module:328
+msgid "administer forums"
+msgstr "管理討論區"
+
+#: modules/forum/forum.module:94
+msgid "Control forums and their hierarchy and change forum settings."
+msgstr "控制討論區以及其階層，並可修改討論區的設定。"
+
+#: modules/forum/forum.module:106
+msgid "Add container"
+msgstr "增加討論分區"
+
+#: modules/forum/forum.module:115
+msgid "Add forum"
+msgstr "增加討論版"
+
+#: modules/forum/forum.module:140
+msgid "Edit container"
+msgstr "編輯討論分區"
+
+#: modules/forum/forum.module:148
+msgid "Edit forum"
+msgstr "編輯討論版"
+
+#: modules/forum/forum.install:69
+msgid "Stores the relationship of nodes to forum terms."
+msgstr "儲存文章與討論分類的關係。"
+
+#: modules/forum/forum.install:76
+msgid "The {node}.nid of the node."
+msgstr "The {node}.nid of the node."
+
+#: modules/forum/forum.install:90
+msgid "The {term_data}.tid of the forum term assigned to the node."
+msgstr "The {term_data}.tid of the forum term assigned to the node."

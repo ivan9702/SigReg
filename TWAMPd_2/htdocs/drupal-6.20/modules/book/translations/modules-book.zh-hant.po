@@ -1,0 +1,381 @@
+# Chinese, Traditional translation of drupal (6.2)
+# Copyright (c) 2008 by the Chinese, Traditional translation team
+# Generated from files:
+#  book.pages.inc,v 1.5 2007/12/22 23:24:24 goba
+#  book-navigation.tpl.php,v 1.1 2007/11/04 14:29:09 goba
+#  book.admin.inc,v 1.8 2008/01/08 10:35:41 goba
+#  book.module,v 1.454.2.3 2008/03/25 14:03:02 goba
+#  book.install,v 1.20 2008/01/10 18:13:42 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.x)\n"
+"POT-Creation-Date: 2008-05-14 13:25+0800\n"
+"PO-Revision-Date: 2009-08-20 00:23+0800\n"
+"Language-Team: Drupal Taiwan <info@drupaltaiwan.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: charlesc <charles@netivism.com.tw>\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: TAIWAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+
+#: modules/book/book.pages.inc:199
+msgid "Remove"
+msgstr "移除"
+
+#: modules/book/book-navigation.tpl.php:40
+msgid "‹ "
+msgstr "<"
+
+#: modules/book/book-navigation.tpl.php:43
+msgid "Go to parent page"
+msgstr "前往父頁面"
+
+#: modules/book/book-navigation.tpl.php:43
+msgid "up"
+msgstr "上一層"
+
+#: modules/book/book-navigation.tpl.php:46
+msgid " ›"
+msgstr " >"
+
+#: modules/book/book.admin.inc:15
+msgid "edit order and titles"
+msgstr "編輯次序和標題"
+
+#: modules/book/book.admin.inc:33
+msgid "Allowed book outline types"
+msgstr "所有自己的手冊大綱類型"
+
+#: modules/book/book.admin.inc:36
+msgid ""
+"Select content types which users with the %add-perm permission will be "
+"allowed to add to the book hierarchy. Users with the %outline-perm "
+"permission can add all content types."
+msgstr ""
+"選擇讓擁有%add-perm權限的使用者可以加入手冊階層的內容類型。具有 %outline-perm"
+"權限的使用者可以加入所有的內容類型。"
+
+#: modules/book/book.admin.inc:41
+msgid "Default child page type"
+msgstr "預設的子頁面類型"
+
+#: modules/book/book.admin.inc:44,60
+msgid ""
+"The content type for the %add-child link must be one of those selected as an "
+"allowed book outline type."
+msgstr ""
+" %add-child連結的內容類型一定要是那些被選取允許加入內容大綱的內容類型。"
+
+#: modules/book/book.admin.inc:78
+msgid "Save book pages"
+msgstr "儲存手冊頁面"
+
+#: modules/book/book.admin.inc:116
+msgid "Title changed from %original to %current."
+msgstr "標題從 %original改成%current."
+
+#: modules/book/book.admin.inc:123
+msgid "Updated book %title."
+msgstr "更新手冊頁面 %title 。"
+
+#: modules/book/book.admin.inc:118
+msgid "book: updated %title."
+msgstr "手冊：更新了%title."
+
+#: modules/book/book.pages.inc:52
+msgid "Unknown export format."
+msgstr "未知的匯出格式。"
+
+#: modules/book/book.pages.inc:126
+msgid "Update book outline"
+msgstr "更新手冊大綱"
+
+#: modules/book/book.pages.inc:126
+msgid "Add to book outline"
+msgstr "加到手冊大綱"
+
+#: modules/book/book.pages.inc:132
+msgid "Remove from book outline"
+msgstr "從手冊大綱裡移除"
+
+#: modules/book/book.pages.inc:160
+msgid "No changes were made"
+msgstr "沒有做出任何改變"
+
+#: modules/book/book.pages.inc:169
+msgid ""
+"The post has been added to the selected book. You may now position it "
+"relative to other pages."
+msgstr ""
+"這篇文章已經被加入所選的手冊裡了。你現在可以設定它相對於其他頁面的位置。"
+
+#: modules/book/book.pages.inc:173
+msgid "The book outline has been updated."
+msgstr "手冊大綱已更新。"
+
+#: modules/book/book.pages.inc:177
+msgid "There was an error adding the post to the book."
+msgstr "在把這篇文章加入手冊裡面的時候發生一個錯誤。"
+
+#: modules/book/book.pages.inc:193
+msgid ""
+"%title has associated child pages, which will be relocated automatically to "
+"maintain their connection to the book. To recreate the hierarchy (as it was "
+"before removing this page), %title may be added again using the Outline tab, "
+"and each of its former child pages will need to be relocated manually."
+msgstr ""
+"%title 已經連結到子頁面，會自動地關聯起來維持它們與手冊之間的關系。要重新建立"
+"階層關系(如同之前移除這個頁面)，可以使用「大綱」標簽再次加入%title ，而它前面"
+"的子頁面都得手動地重新加以定位。"
+
+#: modules/book/book.pages.inc:196
+msgid "%title may be added to hierarchy again using the Outline tab."
+msgstr "可以使用「大綱」標簽再次將%title加入階層之中。"
+
+#: modules/book/book.pages.inc:199
+msgid "Are you sure you want to remove %title from the book hierarchy?"
+msgstr "你確定你要將%title移出這個手冊階層中？"
+
+#: modules/book/book.pages.inc:213
+msgid "The post has been removed from the book."
+msgstr "文章已從手冊裡移除。"
+
+#: modules/book/book.module:64
+msgid "Printer-friendly version"
+msgstr "友善列印版本"
+
+#: modules/book/book.module:66
+msgid "Show a printer-friendly version of this book page and its sub-pages."
+msgstr "顯示該手冊及其子頁面的友善列印版本。"
+
+#: modules/book/book.module:180,189
+msgid "Book navigation"
+msgstr "手冊導覽"
+
+#: modules/book/book.module:223
+msgid "Show block on all pages"
+msgstr "在所有的頁面中顯示區塊"
+
+#: modules/book/book.module:224
+msgid "Show block only on book pages"
+msgstr "只有在手冊頁面中顯示 區塊"
+
+#: modules/book/book.module:228
+msgid "Book navigation block display"
+msgstr "手冊導覽區塊顯示選項"
+
+#: modules/book/book.module:231
+msgid ""
+"If <em>Show block on all pages</em> is selected, the block will contain the "
+"automatically generated menus for all of the site's books. If <em>Show block "
+"only on book pages</em> is selected, the block will contain only the one "
+"menu corresponding to the current page's book. In this case, if the current "
+"page is not in a book, no block will be displayed. The <em>Page specific "
+"visibility settings</em> or other visibility settings can be used in "
+"addition to selectively display this block."
+msgstr ""
+"如果選擇<em>在所有頁面中顯示區塊</em>，這個區塊會含有替此網站所有手冊自動產生"
+"的選單。如果選擇<em>只在手冊頁面顯示區塊</em>這個 區塊就只會包含相應於目前頁"
+"面之手冊的選單。在這個情況裡，如果目前的頁面並不屬於一個手冊，就不會顯示任何"
+"的區塊。可以用<em>頁面指定顯示設定</em>或者其他的顯示設定，來選擇性地呈現這個"
+"區塊。"
+
+#: modules/book/book.module:302
+msgid "Change book (update list of parents)"
+msgstr "變更手冊(更新上層列表)"
+
+#: modules/book/book.module:337
+msgid "This is the top-level page in this book."
+msgstr "這是本手設的最上面一層"
+
+#: modules/book/book.module:340
+msgid "This will be the top-level page in this book."
+msgstr "這會成為這份手冊的上層頁面。"
+
+#: modules/book/book.module:344
+msgid "No book selected."
+msgstr "沒有選擇任何的手冊."
+
+#: modules/book/book.module:351
+msgid ""
+"The parent page in the book. The maximum depth for a book and all child "
+"pages is !maxdepth. Some pages in the selected book may not be available as "
+"parents if selecting them would exceed this limit."
+msgstr ""
+"這份手冊中的父頁面。一份手冊與所有子頁面的最大深度為!maxdepth。如果超過了這個"
+"上限，所選手冊中的某些頁面可能會沒有父層。"
+
+#: modules/book/book.module:369
+msgid "Book outline"
+msgstr "手冊大綱"
+
+#: modules/book/book.module:391
+msgid "Pages at a given level are ordered first by weight and then by title."
+msgstr "同一層的手冊頁面，將先按順序值排序，然後按標題排序。"
+
+#: modules/book/book.module:408
+msgid "create a new book"
+msgstr "建立一分新的手冊"
+
+#: modules/book/book.module:422
+msgid "Your page will be a part of the selected book."
+msgstr "你的頁面會變成所選手冊的一部分"
+
+#: modules/book/book.module:763
+msgid ""
+"%title is part of a book outline, and has associated child pages. If you "
+"proceed with deletion, the child pages will be relocated automatically."
+msgstr ""
+"%title是一份手冊大綱的一部分，並且具有相關的子頁面。如果你執行刪除的動作，這"
+"些子頁面會被自動重新定位。"
+
+#: modules/book/book.module:1006
+msgid ""
+"The book module is suited for creating structured, multi-page hypertexts "
+"such as site resource guides, manuals, and Frequently Asked Questions "
+"(FAQs). It permits a document to have chapters, sections, subsections, etc. "
+"Authors with suitable permissions can add pages to a collaborative book, "
+"placing them into the existing document by adding them to a table of "
+"contents menu."
+msgstr ""
+"book 模組適合用來建立結構性的、多頁超連結文件，像是網站資源指導，使用手冊以及"
+"常見問題等等。它可以讓一份文件具有章節、文件類型、子類型等等。有恰當權限的作"
+"者可以將頁面加入共同協作的手冊中，透過把它們加到內容選單的表格裡，而將它們納"
+"到既有的文件中。"
+
+#: modules/book/book.module:1007
+msgid ""
+"Pages in the book hierarchy have navigation elements at the bottom of the "
+"page for moving through the text. These links lead to the previous and next "
+"pages in the book, and to the level above the current page in the book's "
+"structure. More comprehensive navigation may be provided by enabling the "
+"<em>book navigation block</em> on the <a href=\"@admin-block\">blocks "
+"administration page</a>."
+msgstr ""
+"手冊階層中的頁面會在該頁的底部具備導覽元素，在文件之間移動。這些連結可以移動"
+"到手冊的上一頁和下一頁，並且可以移動到手冊結構中的上一層。可以在<a href="
+"\"@admin-block\"> 區塊設定頁面</a>啟動<em> 手冊導覽區塊</em>，取得更方便的導"
+"覽工具。"
+
+#: modules/book/book.module:1008
+msgid ""
+"Users can select the <em>printer-friendly version</em> link visible at the "
+"bottom of a book page to generate a printer-friendly display of the page and "
+"all of its subsections. "
+msgstr ""
+"使用者可以選擇手冊頁面下方的 <em>友善列印版本</em> 連結，產成一份包含了該頁面"
+"及其子頁面的友善列印文件。"
+
+#: modules/book/book.module:1009
+msgid ""
+"Users with the <em>administer book outlines</em> permission can add a post "
+"of any content type to a book, by selecting the appropriate book while "
+"editing the post or by using the interface available on the post's "
+"<em>outline</em> tab."
+msgstr ""
+"具有<em> 管理手冊大綱</em>權限的使用者可以將任何的 內容類型加入到一份手冊中，"
+"只要在編輯文章時選擇適合的手冊或者使用在<em>大綱</em>標簽中的介面。"
+
+#: modules/book/book.module:1010
+msgid ""
+"Administrators can view a list of all books on the <a href=\"@admin-node-book"
+"\">book administration page</a>. The <em>Outline</em> page for each book "
+"allows section titles to be edited or rearranged."
+msgstr ""
+"管理者可以在<a href=\"@admin-node-book\"> 手冊管理頁面</a>中檢視所有的手冊清"
+"單。同時每份手冊的<em>大綱</em>頁面可以編輯與重新排列所選的區段標題。"
+
+#: modules/book/book.module:1011
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@book"
+"\">Book module</a>."
+msgstr "更多資訊，請見<a href=\"@book\"> Book模組</a>的線上手冊條目。"
+
+#: modules/book/book.module:1014
+msgid ""
+"The book module offers a means to organize a collection of related posts, "
+"collectively known as a book. When viewed, these posts automatically display "
+"links to adjacent book pages, providing a simple navigation system for "
+"creating and reviewing structured content."
+msgstr ""
+"book模組提供了一個組織相關文章的方法，就像一本手冊一樣。在檢視手冊時，這些文"
+"章會自動地顯示連結到相鄰的手冊頁面，並提供簡單的導覽系統來建立和檢視結構性的"
+"內容。"
+
+#: modules/book/book.module:1016
+msgid ""
+"The outline feature allows you to include posts in the <a href=\"@book"
+"\">book hierarchy</a>, as well as move them within the hierarchy or to <a "
+"href=\"@book-admin\">reorder an entire book</a>."
+msgstr ""
+"大綱功能可以讓你在<a href=\"@book\">手冊階層</a>中納入文章，也可以將它們自階"
+"層中移除或者<a href=\"@book-admin\">重新排列整個手冊</a>。"
+
+#: modules/book/book.module:43
+msgid "create new books"
+msgstr "建立新的手冊"
+
+#: modules/book/book.module:43
+msgid "access printer-friendly version"
+msgstr "檢視友善列印版本"
+
+#: modules/book/book.module:79,108
+msgid "Books"
+msgstr "手冊"
+
+#: modules/book/book.module:80
+msgid "Manage your site's book outlines."
+msgstr "管理你的網站手冊大綱"
+
+#: modules/book/book.module:99
+msgid "Re-order book pages and change titles"
+msgstr "重新排列手冊頁面以及變更標題"
+
+#: modules/book/book.module:122
+msgid "Outline"
+msgstr "手冊大綱"
+
+#: modules/book/book.module:132
+msgid "Remove from outline"
+msgstr "自大綱中移除"
+
+#: modules/book/book.module:0
+msgid "book"
+msgstr "手冊"
+
+#: modules/book/book.install:29
+msgid "Book page"
+msgstr "手冊頁面"
+
+#: modules/book/book.install:31
+msgid ""
+"A <em>book page</em> is a page of content, organized into a collection of "
+"related entries collectively known as a <em>book</em>. A <em>book page</em> "
+"automatically displays links to adjacent pages, providing a simple "
+"navigation system for organizing and reviewing structured content."
+msgstr ""
+"一個<em>手冊頁面</em> 是一個內容頁面，被組織進入一個像一本<em> 手冊</em>一樣"
+"的關聯條目裡面。一個<em>手冊頁面</em>會自動顯示連結到相鄰的頁面，並且有一個簡"
+"單的導覽系統來組織和檢視結構性的內容。"
+
+#: modules/book/book.install:254
+msgid ""
+"Stores book outline information. Uniquely connects each node in the outline "
+"to a link in {menu_links}"
+msgstr "儲存手冊大綱資訊。在大綱中獨特地連結文章到{menu_links}之中的連結。"
+
+#: modules/book/book.install:261
+msgid "The book page's {menu_links}.mlid."
+msgstr "手冊頁面的{menu_links}.mlid."
+
+#: modules/book/book.install:268
+msgid "The book page's {node}.nid."
+msgstr "手冊頁面的{node}.nid."
+
+#: modules/book/book.install:275
+msgid "The book ID is the {book}.nid of the top-level page."
+msgstr "book ID 就是上層頁面的{book}.nid"

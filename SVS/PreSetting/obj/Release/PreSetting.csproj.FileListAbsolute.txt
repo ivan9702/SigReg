@@ -1,0 +1,4 @@
+D:\Source\SigReg\SVS\PreSetting\bin\Release\PreSetting.exe
+D:\Source\SigReg\SVS\PreSetting\bin\Release\PreSetting.pdb
+D:\Source\SigReg\SVS\PreSetting\obj\Release\PreSetting.exe
+D:\Source\SigReg\SVS\PreSetting\obj\Release\PreSetting.pdb

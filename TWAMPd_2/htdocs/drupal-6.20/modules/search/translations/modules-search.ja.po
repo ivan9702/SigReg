@@ -1,0 +1,295 @@
+# -----------------------------------------------------------------------------
+# Japanese translation of Drupal (modules-search)
+#
+# Copyright (c) 2006-2010  Drupal Japan  ( http://drupal.jp/ )  /
+#                          Takafumi      ( jp.drupal@imagine **reverse order**)
+#
+# Generated from file:
+#  search.admin.inc,v 1.4 2008/01/08 10:35:42 goba
+#  search.pages.inc,v 1.4 2007/12/06 09:51:01 goba
+#  search.module,v 1.250.2.10 2010/05/28 15:20:35 goba
+#
+# -----------------------------------------------------------------------------
+msgid ""
+msgstr ""
+"POT-Creation-Date: 2010-06-03 15:15+0900\n"
+"Last-Translator: Takafumi <jp.drupal@imagine **reverse order**>\n"
+"Language-Team: Drupal Japan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: modules/search/search.admin.inc:13
+msgid "Are you sure you want to re-index the site?"
+msgstr "本当に、サイト内のインデックスを再構築しますか？"
+
+#: modules/search/search.admin.inc:14
+msgid ""
+" The search index is not cleared but systematically updated to reflect the "
+"new settings. Searching will continue to work but new content won't be "
+"indexed until all existing content has been re-indexed. This action cannot "
+"be undone."
+msgstr ""
+"この操作によって検索用インデックスはクリアされませんが、新しい設定を反映する"
+"ためのシステム内部での更新が行われます。 このため、検索は機能し続けますが、す"
+"べての既存コンテンツの再インデックス付けが終わるまで、新規コンテンツのイン"
+"デックス付けは行われません。 この操作は元に戻すことができませんので、十分に注"
+"意して実行してください。"
+
+#: modules/search/search.admin.inc:14;52;76
+msgid "Re-index site"
+msgstr "サイトインデックスの再構築"
+
+#: modules/search/search.admin.inc:23;82
+msgid "The index will be rebuilt."
+msgstr "インデックスは再構築されます。"
+
+#: modules/search/search.admin.inc:49
+msgid "%percentage of the site has been indexed."
+msgstr "サイトの %percentage がインデックス付けされました。"
+
+#: modules/search/search.admin.inc:50
+msgid "Indexing status"
+msgstr "インデックス付けの状況"
+
+# スロットル機能と混同されないため
+#: modules/search/search.admin.inc:57
+msgid "Indexing throttle"
+msgstr "インデックス付け処理の抑制"
+
+#: modules/search/search.admin.inc:58
+msgid "Number of items to index per cron run"
+msgstr "cron実行ごとのインデックス付けアイテム数"
+
+#: modules/search/search.admin.inc:58
+msgid ""
+"The maximum number of items indexed in each pass of a <a href=\"@cron\">cron "
+"maintenance task</a>. If necessary, reduce the number of items to prevent "
+"timeouts and memory errors while indexing."
+msgstr ""
+"1回の<a href=\"@cron\">cronメンテナンスタスク</a>でインデックス付けをする、最"
+"大アイテム数を指定してください。 インデックス付け中のタイムアウトやメモリエ"
+"ラーを防ぐために、必要に応じてアイテム数を減らしてください。"
+
+#: modules/search/search.admin.inc:60
+msgid "Indexing settings"
+msgstr "インデックス付けの設定"
+
+#: modules/search/search.admin.inc:61
+msgid ""
+"<p><em>Changing the settings below will cause the site index to be rebuilt. "
+"The search index is not cleared but systematically updated to reflect the "
+"new settings. Searching will continue to work but new content won't be "
+"indexed until all existing content has been re-indexed.</em></p><p><em>The "
+"default settings should be appropriate for the majority of sites.</em></p>"
+msgstr ""
+"<p><em>以下の設定を変更するとサイトのインデックスが再構築されます。 これに"
+"よって検索用インデックスはクリアされませんが、新しい設定を反映するためのシス"
+"テム内部での更新が行われます。 このため、検索は機能し続けますが、すべての既存"
+"コンテンツの再インデックス付けが終わるまで、新規コンテンツのインデックス付け"
+"は行われません。 </em></p><p><em>デフォルトの設定はほとんどのサイトに適してい"
+"ます。</em></p>"
+
+#: modules/search/search.admin.inc:62
+msgid "Minimum word length to index"
+msgstr "インデックス付けをする単語の最小文字数"
+
+# to be x2 typo
+#: modules/search/search.admin.inc:62
+msgid ""
+"The number of characters a word has to be to be indexed. A lower setting "
+"means better search result ranking, but also a larger database. Each search "
+"query must contain at least one keyword that is this size (or longer)."
+msgstr ""
+"インデックス付けをする単語に必要な最小文字数を入力してください。 文字数が少な"
+"いほど検索キーワードのヒット率は上がりますが、それに比例してデータベースの使"
+"用量が増大します。 また、この文字数は検索可能なキーワードの最小文字数にもなり"
+"ます。 例えば <b>5</b> を指定した場合、検索する際のキーワードに最低でも1つ"
+"は、5文字以上のものを含むことが必須となります"
+
+#: modules/search/search.admin.inc:63
+msgid "Simple CJK handling"
+msgstr "簡易CJK処理"
+
+# ここまでの説明は不要？
+#: modules/search/search.admin.inc:63
+msgid ""
+"Whether to apply a simple Chinese/Japanese/Korean tokenizer based on "
+"overlapping sequences. Turn this off if you want to use an external "
+"preprocessor for this instead. Does not affect other languages."
+msgstr ""
+"日本語・中国語・韓国語（CJK）に対して、簡易的な文字列の分割処理を行うかどうか"
+"を指定してください。 チェックを入れると、インデックス付けの際にこれらの言語で"
+"書かれた文章を連続して重なり合う文字列へ分割し、それらを1つの単語と見なすよう"
+"に処理します。 例えば、上の「単語の最少文字数」設定が <b>3</b> の場合、「こん"
+"にちは」という文章は「こんに」「んにち」「にちは」のように分割され、インデッ"
+"クス付けされます。 この処理は英語のように空白文字による単語の分かち書きを行わ"
+"ない、日中韓国語への補助的な対応です。 これらへの対応に外部のプリプロセッサ"
+"（前処理プログラム）を使用する場合、この機能を使用しないようにチェックを外し"
+"てください。 なお、この機能は他の言語には影響を与えません。"
+
+#: modules/search/search.admin.inc:47
+msgid "There is 1 item left to index."
+msgid_plural "There are @count items left to index."
+msgstr[0] "1 アイテムがインデックス付けされていません。"
+msgstr[1] "@count アイテムがインデックス付けされていません。"
+
+#: modules/search/search.pages.inc:29
+msgid "results"
+msgstr "結果"
+
+#: modules/search/search.pages.inc:35
+msgid "Search results"
+msgstr "検索結果"
+
+#: modules/search/search.pages.inc:38
+msgid "Your search yielded no results"
+msgstr "キーワードに該当するページは見つかりませんでした"
+
+#: modules/search/search.pages.inc:123
+msgid "Please enter some keywords."
+msgstr "いくつかのキーワードを入力してください。"
+
+#: modules/search/search.pages.inc:29
+msgid "search"
+msgstr "検索"
+
+#: modules/search/search.pages.inc:29
+msgid "%keys (@type)."
+msgstr "%keys (@type)"
+
+#: modules/search/search.module:99
+msgid ""
+"The search module adds the ability to search for content by keywords. Search "
+"is often the only practical way to find content on a large site, and is "
+"useful for finding both users and posts."
+msgstr ""
+"Search（検索）モジュールは、キーワードでコンテンツを検索できるようにします。 "
+"検索は多くの場合、大きなサイト上でコンテンツを見つけ出す唯一実用的な方法で、"
+"ユーザと投稿を見つけ出すのに役立ちます。"
+
+#: modules/search/search.module:100
+msgid ""
+"To provide keyword searching, the search engine maintains an index of words "
+"found in your site's content. To build and maintain this index, a correctly "
+"configured <a href=\"@cron\">cron maintenance task</a> is required. Indexing "
+"behavior can be adjusted using the <a href=\"@searchsettings\">search "
+"settings page</a>; for example, the <em>Number of items to index per cron "
+"run</em> sets the maximum number of items indexed in each pass of a <a href="
+"\"@cron\">cron maintenance task</a>. If necessary, reduce this number to "
+"prevent timeouts and memory errors when indexing."
+msgstr ""
+"検索エンジンはキーワードによる検索ができるように、サイトコンテンツから見つ"
+"かったワードのインデックスを保守します。 このインデックスの構築と保守を行うた"
+"めに、正しく設定された<a href=\"@cron\">cronメンテナンスタスク</a>を必要とし"
+"ます。 インデックス付けの挙動は<a href=\"@searchsettings\">検索の設定ページ</"
+"a>で調整することができます。 例えば、「cron実行ごとのインデックス付けアイテム"
+"数」は、1回の<a href=\"@cron\">cronメンテナンスタスク</a>でインデックス付けを"
+"する最大アイテム数の設定ができ、必要に応じて数値を減らすことでインデックス付"
+"け中のタイムアウトやメモリエラーを防ぐことができます。"
+
+#: modules/search/search.module:101
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@search"
+"\">Search module</a>."
+msgstr ""
+"より詳しい情報は、オンラインハンドブックの<a href=\"@search\">Search module"
+"（英文）</a>エントリを参照するか、日本サイトの<a href=\"http://drupal.jp/"
+"\">&nbsp;≡ Drupal Japan ≡&nbsp;</a>を訪れてみてください。"
+
+#: modules/search/search.module:104
+msgid ""
+"The search engine maintains an index of words found in your site's content. "
+"To build and maintain this index, a correctly configured <a href=\"@cron"
+"\">cron maintenance task</a> is required. Indexing behavior can be adjusted "
+"using the settings below."
+msgstr ""
+"検索エンジンはサイトコンテンツから見つかったワードのインデックスを保守しま"
+"す。 このインデックスの構築と保守を行うために、正しく設定された<a href="
+"\"@cron\">cronメンテナンスタスク</a>を必要とします。 以下でインデックス付けの"
+"挙動を調整することができます。"
+
+#: modules/search/search.module:106
+msgid ""
+"<ul>\n"
+"<li>Check if your spelling is correct.</li>\n"
+"<li>Remove quotes around phrases to match each word individually: <em>\"blue "
+"smurf\"</em> will match less than <em>blue smurf</em>.</li>\n"
+"<li>Consider loosening your query with <em>OR</em>: <em>blue smurf</em> will "
+"match less than <em>blue OR smurf</em>.</li>\n"
+"</ul>"
+msgstr ""
+"<ul>\n"
+"<li>キーワードに誤字や脱字がないかを確かめてください。</li>\n"
+"<li>各単語が個別にマッチするように、フレーズを囲んでいる引用符を削除してみて"
+"ください。 例えば、<em><b>\"</b>Drupal Japan<b>\"</b></em> ではなく "
+"<em>Drupal Japan</em> で検索するとキーワードのヒット率がより高くなります。</"
+"li>\n"
+"<li>各単語のいずれかにマッチするように、単語を <em>OR</em> で区切ってみてくだ"
+"さい。 例えば、<em>Drupal Japan</em> ではなく <em>Drupal <b>OR</b> Japan</"
+"em> で検索するとキーワードのヒット率がより高くなります。</li>\n"
+"</ul>"
+
+#: modules/search/search.module:152
+msgid "Search form"
+msgstr "検索フォーム"
+
+#: modules/search/search.module:922
+msgid ""
+"You must include at least one positive keyword with @count characters or "
+"more."
+msgstr "@count文字以上のキーワードを、最低でも1つは入力してください。"
+
+#: modules/search/search.module:926
+msgid ""
+"Search for either of the two terms with uppercase <strong>OR</strong>. For "
+"example, <strong>cats OR dogs</strong>."
+msgstr ""
+"2つのキーワードのいずれかを検索するには、大文字の <strong>OR</strong> を使用"
+"してください。<br />例： <strong>動物園 OR 水族館</strong>"
+
+#: modules/search/search.module:1033
+msgid "Enter your keywords"
+msgstr "検索キーワードを入力してください"
+
+#: modules/search/search.module:1067
+msgid "Search this site"
+msgstr "サイト内を検索"
+
+#: modules/search/search.module:1071
+msgid "Enter the terms you wish to search for."
+msgstr "検索したいキーワードを入力してください"
+
+#: modules/search/search.module:144
+msgid "search content"
+msgstr "コンテンツの検索"
+
+#: modules/search/search.module:144
+msgid "use advanced search"
+msgstr "高度な検索の使用"
+
+#: modules/search/search.module:144
+msgid "administer search"
+msgstr "検索の管理"
+
+#: modules/search/search.module:176
+msgid "Search settings"
+msgstr "検索の設定"
+
+#: modules/search/search.module:177
+msgid "Configure relevance settings for search and other indexing options"
+msgstr "検索の適合率の設定とインデックス付けのオプションを設定します。"
+
+#: modules/search/search.module:185
+msgid "Clear index"
+msgstr "インデックスのクリア"
+
+# メニュー項目が見やすいようにあえて「上位」を後方へ
+#: modules/search/search.module:193
+msgid "Top search phrases"
+msgstr "検索フレーズの上位"
+
+#: modules/search/search.module:194
+msgid "View most popular search phrases."
+msgstr "最も人気のある検索フレーズを表示します。"

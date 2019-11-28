@@ -1,0 +1,210 @@
+# Chinese, Traditional translation of drupal (6.2)
+# Copyright (c) 2008 by the Chinese, Traditional translation team
+# Generated from file: blogapi.module,v 1.115.2.1 2008/02/07 20:11:02 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.x)\n"
+"POT-Creation-Date: 2008-05-14 13:25+0800\n"
+"PO-Revision-Date: 2009-08-20 00:27+0800\n"
+"Language-Team: Drupal Taiwan <info@drupaltaiwan.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: charlesc <charles@netivism.com.tw>\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: TAIWAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+
+#: modules/blogapi/blogapi.module:541
+msgid "Wrong username or password."
+msgstr "不正確的使用者名稱或密碼。"
+
+#: modules/blogapi/blogapi.module:15
+msgid ""
+"The Blog API module allows your site's users to access and post to their "
+"blogs from external blogging clients. External blogging clients are "
+"available for a wide range of desktop operating systems, and generally "
+"provide a feature-rich graphical environment for creating and editing posts."
+msgstr ""
+"Blog API模組，可以讓你的網站的使用者透過外部的部落格軟體來使用與發表他們的部"
+"落格。有非常多的桌面軟體可以用做外部的部落格軟體，通常會提供豐富的圖形環境介"
+"面來發表與編輯文章。"
+
+#: modules/blogapi/blogapi.module:16
+msgid ""
+"<a href=\"@ecto-link\">Ecto</a>, a blogging client available for both Mac OS "
+"X and Microsoft Windows, can be used with Blog API. Blog API also supports "
+"<a href=\"@blogger-api\">Blogger API</a>, <a href=\"@metaweblog-api"
+"\">MetaWeblog API</a>, and most of the <a href=\"@movabletype-api\">Movable "
+"Type API</a>. Blogging clients and other services (e.g. <a href=\"@flickr"
+"\">Flickr's</a> \"post to blog\") that support these APIs may also be "
+"compatible."
+msgstr ""
+"<a href=\"@ecto-link\">Ecto</a>，是一個部落格軟體，可以讓Mac OS X 以及"
+"Microsoft Windows使用，同時可以與 Blog API 搭配使用。Blog API 也支持<a href="
+"\"@blogger-api\">Blogger API</a>、<a href=\"@metaweblog-api\">MetaWeblog "
+"API</a>以及大部分的 <a href=\"@movabletype-api\">Movable Type API</a>。支持上"
+"述這些 API 的部落格軟體與其他的服務(例如 <a href=\"@flickr\">Flickr</a> 的 "
+"\"post to blog\")，也可能可以用在這裡。"
+
+#: modules/blogapi/blogapi.module:17
+msgid ""
+"Select the content types available to external clients on the <a href="
+"\"@blogapi-settings\">Blog API settings page</a>. If supported and "
+"available, each content type will be displayed as a separate \"blog\" by the "
+"external client."
+msgstr ""
+"請在<a href=\"@blogapi-settings\">Blog API設定頁面</a>選擇外部客戶端可用的內"
+"容類型。如果可供支援，每種內容類型都會被外部客戶端顯示為不同的\"blog\"。"
+
+#: modules/blogapi/blogapi.module:18
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@blogapi"
+"\">Blog API module</a>."
+msgstr "更多資訊，請見線上手冊項目：<a href=\"@blogapi\">Blog API模組</a>."
+
+#: modules/blogapi/blogapi.module:39
+msgid "Returns a list of blogs to which an author has posting privileges."
+msgstr "傳回作者有發表權限的部落格清單。"
+
+#: modules/blogapi/blogapi.module:44
+msgid "Returns information about an author in the system."
+msgstr "傳回系統裡關於作者的資訊。"
+
+#: modules/blogapi/blogapi.module:49,74
+msgid "Creates a new post, and optionally publishes it."
+msgstr "建立新的文章，並選擇是否發表。"
+
+#: modules/blogapi/blogapi.module:54
+msgid "Updates the information about an existing post."
+msgstr "更新關於一篇現有文章的資訊。"
+
+#: modules/blogapi/blogapi.module:59,84
+msgid "Returns information about a specific post."
+msgstr "傳回關於某篇特定文章的資訊。"
+
+#: modules/blogapi/blogapi.module:64
+msgid "Deletes a post."
+msgstr "刪除一篇文章。"
+
+#: modules/blogapi/blogapi.module:69,99
+msgid "Returns a list of the most recent posts in the system."
+msgstr "傳回系統裡最新文章的列表。"
+
+#: modules/blogapi/blogapi.module:79
+msgid "Updates information about an existing post."
+msgstr "更新關於一篇現有文章的資訊。"
+
+#: modules/blogapi/blogapi.module:89
+msgid "Uploads a file to your webserver."
+msgstr "上傳檔站到你的網站伺服器。"
+
+#: modules/blogapi/blogapi.module:94,114
+msgid "Returns a list of all categories to which the post is assigned."
+msgstr "傳回該篇文章所屬的所有分類列表。"
+
+#: modules/blogapi/blogapi.module:104
+msgid ""
+"Returns a bandwidth-friendly list of the most recent posts in the system."
+msgstr "傳回系統裡最新文章的列表（窄頻模式）。"
+
+#: modules/blogapi/blogapi.module:109
+msgid "Returns a list of all categories defined in the blog."
+msgstr "傳回這個部落格中指定之所有類別的清單。"
+
+#: modules/blogapi/blogapi.module:119
+msgid "Sets the categories for a post."
+msgstr "設定文章的分類。"
+
+#: modules/blogapi/blogapi.module:124
+msgid "Retrieve information about the XML-RPC methods supported by the server."
+msgstr "取得伺服器所支援的 XML-RPC 模式的資訊。"
+
+#: modules/blogapi/blogapi.module:129
+msgid ""
+"Retrieve information about the text formatting plugins supported by the "
+"server."
+msgstr "傳回伺服器所支援的文字格式外掛的資訊。"
+
+#: modules/blogapi/blogapi.module:134
+msgid ""
+"Publish (rebuild) all of the static files related to an entry from your "
+"blog. Equivalent to saving an entry in the system (but without the ping)."
+msgstr ""
+"發表(重建)與你的部落格某一篇文章相關的所有統計資料。這等於是在系統中儲存一篇"
+"文章(但不會透過ping)。"
+
+#: modules/blogapi/blogapi.module:216
+msgid "You do not have permission to create this type of post."
+msgstr "你沒有建立這個文章類型的權限。"
+
+#: modules/blogapi/blogapi.module:238,293
+msgid "Error storing post."
+msgstr "儲存文章時出現錯誤。"
+
+#: modules/blogapi/blogapi.module:260,502
+msgid "You do not have permission to update this post."
+msgstr "你沒有權限更新此篇文章。"
+
+#: modules/blogapi/blogapi.module:378
+msgid "No file sent."
+msgstr "未送出檔案。"
+
+#: modules/blogapi/blogapi.module:382
+msgid "Error storing file."
+msgstr "儲存檔案時發生錯誤。"
+
+#: modules/blogapi/blogapi.module:497
+msgid "Invalid post."
+msgstr "無效的文章。"
+
+#: modules/blogapi/blogapi.module:537
+msgid "You do not have permission to edit this blog."
+msgstr "你沒有編輯這個部落格的權限。"
+
+#: modules/blogapi/blogapi.module:564
+msgid "Enable for external blogging clients"
+msgstr "啟用外部的部落格軟體。"
+
+#: modules/blogapi/blogapi.module:568
+msgid ""
+"Select the content types available to external blogging clients via Blog "
+"API. If supported, each enabled content type will be displayed as a separate "
+"\"blog\" by the external client."
+msgstr ""
+"選擇外部客戶端通過Blog API可使用的內容類型。如果有支持的話，每個啟用的內容類"
+"型都會被外部客戶端顯示為不同的\"blog\"。"
+
+#: modules/blogapi/blogapi.module:597,576
+msgid "RSD"
+msgstr "RSD"
+
+#: modules/blogapi/blogapi.module:233
+msgid "@type: added %title using blog API."
+msgstr "@type: 使用 blog API 加入 %title。"
+
+#: modules/blogapi/blogapi.module:289
+msgid "@type: updated %title using Blog API."
+msgstr "@type: 使用Blog API更新 %title。"
+
+#: modules/blogapi/blogapi.module:27
+msgid "administer content with blog api"
+msgstr "透過blog api來管理內容"
+
+#: modules/blogapi/blogapi.module:583
+msgid "Configure the content types available to external blogging clients."
+msgstr "設定外部客戶端可用的內容類型。"
+
+#: modules/blogapi/blogapi.module:0
+msgid "blogapi"
+msgstr "blogapi"
+
+#: modules/blogapi/blogapi.module:715
+msgid ""
+"Blog API module is not configured to support the %type content type, or you "
+"don't have sufficient permissions to post this type of content."
+msgstr ""
+"Blog API 模組並沒有被設定去支持 %type 的內容類型，或者你並沒有足夠的權限發佈"
+"這個內容類型。"

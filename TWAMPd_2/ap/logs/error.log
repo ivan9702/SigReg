@@ -1,0 +1,586 @@
+[Wed Jan 27 14:18:36 2016] [notice] Apache/2.2.17 (Win32) mod_ssl/2.2.17 OpenSSL/0.9.8q PHP/5.2.17 configured -- resuming normal operations
+[Wed Jan 27 14:18:36 2016] [notice] Server built: Oct 18 2010 01:58:12
+[Wed Jan 27 14:18:36 2016] [notice] Parent: Created child process 4076
+[Wed Jan 27 14:18:45 2016] [notice] Child 4076: Child process is running
+[Wed Jan 27 14:18:45 2016] [notice] Child 4076: Acquired the start mutex.
+[Wed Jan 27 14:18:45 2016] [notice] Child 4076: Starting 64 worker threads.
+[Wed Jan 27 14:18:45 2016] [notice] Child 4076: Starting thread to listen on port 443.
+[Wed Jan 27 14:18:45 2016] [notice] Child 4076: Starting thread to listen on port 80.
+[Wed Jan 27 14:19:06 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/favicon.ico, referer: http://localhost/
+[Wed Jan 27 14:19:17 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/favicon.ico, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=install&d6=install
+[Wed Jan 27 14:20:01 2016] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jan 27 14:20:01 2016] [notice] Child 4076: Exit event signaled. Child process is ending.
+[Wed Jan 27 14:20:02 2016] [notice] Child 4076: Released the start mutex
+[Wed Jan 27 14:20:03 2016] [notice] Child 4076: All worker threads have exited.
+[Wed Jan 27 14:20:03 2016] [notice] Child 4076: Child process is exiting
+[Wed Jan 27 14:20:13 2016] [warn] pid file D:\\TWAMPd\\ap/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jan 27 14:20:16 2016] [notice] Apache/2.2.17 (Win32) mod_ssl/2.2.17 OpenSSL/0.9.8q PHP/5.2.17 configured -- resuming normal operations
+[Wed Jan 27 14:20:16 2016] [notice] Server built: Oct 18 2010 01:58:12
+[Wed Jan 27 14:20:16 2016] [notice] Parent: Created child process 8124
+[Wed Jan 27 14:20:24 2016] [notice] Child 8124: Child process is running
+[Wed Jan 27 14:20:24 2016] [notice] Child 8124: Acquired the start mutex.
+[Wed Jan 27 14:20:24 2016] [notice] Child 8124: Starting 64 worker threads.
+[Wed Jan 27 14:20:24 2016] [notice] Child 8124: Starting thread to listen on port 443.
+[Wed Jan 27 14:20:24 2016] [notice] Child 8124: Starting thread to listen on port 80.
+[Wed Jan 27 14:45:44 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:45:44 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:45:44 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:45:44 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:45:44 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:45:44 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:45:44 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:45:44 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:45:44 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/misc, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:45:55 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:45:55 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:45:55 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:45:55 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:45:55 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:45:55 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:45:55 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:45:55 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:46:36 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:46:36 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:46:36 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:46:36 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:46:36 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:46:36 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:46:36 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:46:37 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:46:50 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:46:50 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:46:50 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:46:50 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:46:50 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:46:50 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:46:50 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:46:50 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:46:51 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:46:51 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:46:51 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:46:51 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:46:51 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:46:51 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:46:51 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:46:51 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:03 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:03 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:03 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:03 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:03 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:03 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:03 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:03 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:04 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:04 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:04 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:04 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:04 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:04 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:04 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:04 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:05 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:05 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:05 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:05 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:05 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:05 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:05 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:05 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:08 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:08 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:08 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:08 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:08 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:08 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:08 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:08 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:21 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:21 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:21 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:21 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:21 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:21 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:21 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:21 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:45 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:45 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:45 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:45 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:45 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:45 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:45 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:48:45 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:04 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:04 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:04 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:04 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:04 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:04 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:04 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:04 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:05 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:05 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:05 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:05 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:05 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:05 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:05 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:05 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:05 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:05 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:05 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:05 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:05 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:05 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:05 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:05 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:06 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:06 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:06 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:06 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:06 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:06 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:06 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:06 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:06 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:06 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:06 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:06 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:06 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:06 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:06 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:06 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:06 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:06 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:06 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:06 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:06 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:06 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:06 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:06 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:07 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:07 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:07 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:07 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:07 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:07 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:07 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:49:07 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:51:22 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:51:22 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:51:22 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:51:22 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:51:22 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:51:22 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:51:22 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:51:22 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:51:23 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:51:23 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:51:23 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:51:23 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:51:23 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:51:23 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:51:23 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:51:23 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:06 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:06 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:06 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:06 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:06 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:06 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:06 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:06 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:07 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:07 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:07 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:07 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:07 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:07 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:07 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:07 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:14 2016] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Wed Jan 27 14:53:14 2016] [notice] Child 8124: Exit event signaled. Child process is ending.
+[Wed Jan 27 14:53:15 2016] [notice] Child 8124: Released the start mutex
+[Wed Jan 27 14:53:16 2016] [notice] Child 8124: All worker threads have exited.
+[Wed Jan 27 14:53:16 2016] [notice] Child 8124: Child process is exiting
+[Wed Jan 27 14:53:24 2016] [warn] pid file D:\\TWAMPd\\ap/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Jan 27 14:53:27 2016] [notice] Apache/2.2.17 (Win32) mod_ssl/2.2.17 OpenSSL/0.9.8q PHP/5.2.17 configured -- resuming normal operations
+[Wed Jan 27 14:53:27 2016] [notice] Server built: Oct 18 2010 01:58:12
+[Wed Jan 27 14:53:27 2016] [notice] Parent: Created child process 8724
+[Wed Jan 27 14:53:35 2016] [notice] Child 8724: Child process is running
+[Wed Jan 27 14:53:35 2016] [notice] Child 8724: Acquired the start mutex.
+[Wed Jan 27 14:53:35 2016] [notice] Child 8724: Starting 64 worker threads.
+[Wed Jan 27 14:53:35 2016] [notice] Child 8724: Starting thread to listen on port 443.
+[Wed Jan 27 14:53:35 2016] [notice] Child 8724: Starting thread to listen on port 80.
+[Wed Jan 27 14:53:36 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:36 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:36 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:36 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:36 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:36 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:36 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:36 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:56 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:56 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:56 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:56 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:56 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:56 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:56 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:56 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:57 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:57 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:57 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:57 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:57 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:57 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:57 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:57 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:57 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:57 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:58 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:58 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:58 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:58 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:58 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:58 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:58 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:58 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:58 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:58 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/modules, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:58 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:58 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:58 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 14:53:58 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/themes, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using
+[Wed Jan 27 15:49:53 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/localhost
+[Wed Jan 27 15:50:01 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/localhost
+[Wed Jan 27 19:07:24 2016] [error] [client 60.173.149.204] File does not exist: D:/TWAMPd/htdocs/invoker
+[Wed Jan 27 20:13:25 2016] [error] [client 123.249.12.100] File does not exist: D:/TWAMPd/htdocs/login.action
+[Wed Jan 27 21:00:24 2016] [error] [client 60.173.149.204] File does not exist: D:/TWAMPd/htdocs/uddiexplorer
+[Thu Jan 28 02:18:44 2016] [error] [client 104.43.13.64] (20024)The given path is misformatted or contained invalid characters: Cannot map GET /w00tw00t.at.blackhats.romanian.anti-sec:) HTTP/1.1 to file
+[Thu Jan 28 02:18:44 2016] [error] [client 104.43.13.64] script 'D:/TWAMPd/htdocs/phpMyAdmin/scripts/setup.php' not found or unable to stat
+[Thu Jan 28 02:18:45 2016] [error] [client 104.43.13.64] script 'D:/TWAMPd/htdocs/phpMyAdmin/scripts/setup.php' not found or unable to stat
+[Thu Jan 28 02:18:45 2016] [error] [client 104.43.13.64] File does not exist: D:/TWAMPd/htdocs/pma
+[Thu Jan 28 02:18:46 2016] [error] [client 104.43.13.64] File does not exist: D:/TWAMPd/htdocs/myadmin
+[Thu Jan 28 02:18:46 2016] [error] [client 104.43.13.64] File does not exist: D:/TWAMPd/htdocs/MyAdmin
+[Thu Jan 28 03:55:27 2016] [error] [client 104.148.71.34] script 'D:/TWAMPd/htdocs/av.php' not found or unable to stat
+[Thu Jan 28 06:45:44 2016] [error] [client 187.189.195.40] File does not exist: D:/TWAMPd/htdocs/a2billing
+[Thu Jan 28 08:03:45 2016] [error] [client 202.153.191.99] request failed: error reading the headers
+[Thu Jan 28 11:06:28 2016] [warn] pid file D:\\TWAMPd\\ap/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jan 28 11:06:30 2016] [notice] Apache/2.2.17 (Win32) mod_ssl/2.2.17 OpenSSL/0.9.8q PHP/5.2.17 configured -- resuming normal operations
+[Thu Jan 28 11:06:30 2016] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Jan 28 11:06:30 2016] [notice] Parent: Created child process 7428
+[Thu Jan 28 11:06:38 2016] [notice] Child 7428: Child process is running
+[Thu Jan 28 11:06:38 2016] [notice] Child 7428: Acquired the start mutex.
+[Thu Jan 28 11:06:38 2016] [notice] Child 7428: Starting 64 worker threads.
+[Thu Jan 28 11:06:38 2016] [notice] Child 7428: Starting thread to listen on port 443.
+[Thu Jan 28 11:06:38 2016] [notice] Child 7428: Starting thread to listen on port 80.
+[Thu Jan 28 11:14:26 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/favicon.ico, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using&d6=install
+[Thu Jan 28 17:46:40 2016] [warn] pid file D:\\TWAMPd\\ap/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Jan 28 17:46:45 2016] [notice] Apache/2.2.17 (Win32) mod_ssl/2.2.17 OpenSSL/0.9.8q PHP/5.2.17 configured -- resuming normal operations
+[Thu Jan 28 17:46:45 2016] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Jan 28 17:46:45 2016] [notice] Parent: Created child process 2356
+[Thu Jan 28 17:46:54 2016] [notice] Child 2356: Child process is running
+[Thu Jan 28 17:46:54 2016] [notice] Child 2356: Acquired the start mutex.
+[Thu Jan 28 17:46:54 2016] [notice] Child 2356: Starting 64 worker threads.
+[Thu Jan 28 17:46:54 2016] [notice] Child 2356: Starting thread to listen on port 443.
+[Thu Jan 28 17:46:54 2016] [notice] Child 2356: Starting thread to listen on port 80.
+[Thu Jan 28 17:46:55 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/favicon.ico, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using&d6=install
+[Fri Jan 29 11:51:43 2016] [error] [client 122.0.76.146] File does not exist: D:/TWAMPd/htdocs/manager
+[Fri Jan 29 11:57:45 2016] [error] [client 198.20.69.74] File does not exist: D:/TWAMPd/htdocs/robots.txt
+[Fri Jan 29 11:57:45 2016] [error] [client 198.20.69.74] File does not exist: D:/TWAMPd/htdocs/sitemap.xml
+[Fri Jan 29 18:57:21 2016] [error] [client 185.130.5.246] File does not exist: D:/TWAMPd/htdocs/muieblackcat
+[Fri Jan 29 18:57:22 2016] [error] [client 185.130.5.246] script 'D:/TWAMPd/htdocs/phpMyAdmin/scripts/setup.php' not found or unable to stat
+[Fri Jan 29 18:57:22 2016] [error] [client 185.130.5.246] script 'D:/TWAMPd/htdocs/phpMyAdmin/scripts/setup.php' not found or unable to stat
+[Fri Jan 29 18:57:23 2016] [error] [client 185.130.5.246] File does not exist: D:/TWAMPd/htdocs/pma
+[Fri Jan 29 18:57:23 2016] [error] [client 185.130.5.246] File does not exist: D:/TWAMPd/htdocs/myadmin
+[Fri Jan 29 18:57:24 2016] [error] [client 185.130.5.246] File does not exist: D:/TWAMPd/htdocs/MyAdmin
+[Fri Jan 29 20:56:29 2016] [error] [client 185.130.5.244] script 'D:/TWAMPd/htdocs/phpMyAdmin/scripts/setup.php' not found or unable to stat
+[Fri Jan 29 23:27:22 2016] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Fri Jan 29 23:27:22 2016] [notice] Child 2356: Exit event signaled. Child process is ending.
+[Fri Jan 29 23:27:23 2016] [notice] Child 2356: Released the start mutex
+[Fri Jan 29 23:27:24 2016] [notice] Child 2356: All worker threads have exited.
+[Fri Jan 29 23:27:24 2016] [notice] Child 2356: Child process is exiting
+[Mon Feb 01 09:59:07 2016] [warn] pid file D:\\TWAMPd\\ap/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Feb 01 09:59:11 2016] [notice] Apache/2.2.17 (Win32) mod_ssl/2.2.17 OpenSSL/0.9.8q PHP/5.2.17 configured -- resuming normal operations
+[Mon Feb 01 09:59:11 2016] [notice] Server built: Oct 18 2010 01:58:12
+[Mon Feb 01 09:59:11 2016] [notice] Parent: Created child process 5976
+[Mon Feb 01 09:59:18 2016] [notice] Child 5976: Child process is running
+[Mon Feb 01 09:59:18 2016] [notice] Child 5976: Acquired the start mutex.
+[Mon Feb 01 09:59:18 2016] [notice] Child 5976: Starting 64 worker threads.
+[Mon Feb 01 09:59:18 2016] [notice] Child 5976: Starting thread to listen on port 443.
+[Mon Feb 01 09:59:18 2016] [notice] Child 5976: Starting thread to listen on port 80.
+[Mon Feb 01 10:00:07 2016] [error] [client 127.0.0.1] File does not exist: D:/TWAMPd/htdocs/favicon.ico, referer: http://127.0.0.1/twconfig.php?lang=tw&d7=using&d6=install
+[Mon Feb 01 17:40:59 2016] [error] [client 208.52.154.243] File does not exist: D:/TWAMPd/htdocs/webadmin
+[Mon Feb 01 18:05:22 2016] [error] [client 41.141.234.25] Invalid URI in request c\xdf\x85k\x9f{0\xb3\xc50-+H\xb1rX>\x14\xe9\x9c\xd7\x88\xb0\xbb\x7fhK\x1c\xdb\x8f\xf7an+\xd5\xdd\xb5\xa7\xef\x06p\x06\x96\xb8\xe2\x03 \tgm\x93
+[Mon Feb 01 22:21:09 2016] [error] [client 61.49.45.44] File does not exist: D:/TWAMPd/htdocs/stats
+[Mon Feb 01 22:21:09 2016] [error] [client 61.49.45.44] File does not exist: D:/TWAMPd/htdocs/status
+[Mon Feb 01 22:21:09 2016] [error] [client 61.49.45.44] File does not exist: D:/TWAMPd/htdocs/IPMIdevicedesc.xml
+[Mon Feb 01 22:21:09 2016] [error] [client 61.49.45.44] File does not exist: D:/TWAMPd/htdocs/stauts
+[Mon Feb 01 22:21:09 2016] [error] [client 61.49.45.44] File does not exist: D:/TWAMPd/htdocs/PSBlock
+[Mon Feb 01 22:21:09 2016] [error] [client 61.49.45.44] File does not exist: D:/TWAMPd/htdocs/invoker
+[Mon Feb 01 22:21:09 2016] [error] [client 61.49.45.44] client sent HTTP/1.1 request without hostname (see RFC2616 section 14.23): /
+[Mon Feb 01 22:21:09 2016] [error] [client 61.49.45.44] File does not exist: D:/TWAMPd/htdocs/login.aspx
+[Tue Feb 02 06:51:41 2016] [error] [client 173.254.203.111] File does not exist: D:/TWAMPd/htdocs/ncsi.txt
+[Tue Feb 02 06:51:41 2016] [error] [client 173.254.203.111] File does not exist: D:/TWAMPd/htdocs/HNAP1
+[Tue Feb 02 18:32:07 2016] [error] [client 141.212.122.177] Invalid URI in request GET twconfig.php%3Flang= HTTP/1.1
+[Tue Feb 02 22:07:58 2016] [error] [client 112.198.102.191] Invalid URI in request \xd9\x80:\xc3\x83\xba\x9em\x16v\xbe&r\xe4\xdb!\xd8\x1222\x0c\xdd\x02\xc6\xc6\xd9\xd8\xf4\xfceM\x1f^h\xc9\x06@\x82\xd0\xc2\xc3\xfa\xa9\x01,)\x10\x80i'\xa0\x18}\xdd\xf1\xe2\x95\x87
+[Tue Feb 02 23:00:17 2016] [error] [client 169.229.3.91] request failed: error reading the headers
+[Wed Feb 03 06:26:58 2016] [error] [client 137.116.71.170] File does not exist: D:/TWAMPd/htdocs/robots.txt
+[Wed Feb 03 13:50:15 2016] [error] [client 82.81.241.186] Invalid URI in request 5v\xe6\x93-\x8bu>T\x9a\xbf j}[\xa0#q\xe0\x0e}\xebj\x0f\xa0=\x83\x015#[\xfe
+[Mon Feb 22 21:45:05 2016] [warn] pid file C:\\TWAMPd\\ap/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Feb 22 21:45:07 2016] [notice] Apache/2.2.17 (Win32) mod_ssl/2.2.17 OpenSSL/0.9.8q PHP/5.2.17 configured -- resuming normal operations
+[Mon Feb 22 21:45:07 2016] [notice] Server built: Oct 18 2010 01:58:12
+[Mon Feb 22 21:45:08 2016] [notice] Parent: Created child process 3972
+[Mon Feb 22 21:45:15 2016] [notice] Child 3972: Child process is running
+[Mon Feb 22 21:45:15 2016] [notice] Child 3972: Acquired the start mutex.
+[Mon Feb 22 21:45:15 2016] [notice] Child 3972: Starting 64 worker threads.
+[Mon Feb 22 21:45:15 2016] [notice] Child 3972: Starting thread to listen on port 80.
+[Mon Feb 22 21:45:15 2016] [notice] Child 3972: Starting thread to listen on port 443.
+[Mon Feb 22 21:45:27 2016] [error] [client 127.0.0.1] File does not exist: C:/TWAMPd/htdocs/favicon.ico, referer: https://127.0.0.1/twconfig.php?lang=tw&d7=using&d6=install
+[Mon Feb 22 22:10:05 2016] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Mon Feb 22 22:10:05 2016] [notice] Child 3972: Exit event signaled. Child process is ending.
+[Mon Feb 22 22:10:06 2016] [notice] Child 3972: Released the start mutex
+[Mon Feb 22 22:10:07 2016] [notice] Child 3972: All worker threads have exited.
+[Mon Feb 22 22:10:07 2016] [notice] Child 3972: Child process is exiting
+[Mon Feb 22 22:11:30 2016] [warn] pid file C:\\TWAMPd\\ap/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Feb 22 22:11:32 2016] [notice] Apache/2.2.17 (Win32) mod_ssl/2.2.17 OpenSSL/0.9.8q PHP/5.2.17 configured -- resuming normal operations
+[Mon Feb 22 22:11:32 2016] [notice] Server built: Oct 18 2010 01:58:12
+[Mon Feb 22 22:11:32 2016] [notice] Parent: Created child process 4856
+[Mon Feb 22 22:11:40 2016] [notice] Child 4856: Child process is running
+[Mon Feb 22 22:11:40 2016] [notice] Child 4856: Acquired the start mutex.
+[Mon Feb 22 22:11:40 2016] [notice] Child 4856: Starting 64 worker threads.
+[Mon Feb 22 22:11:40 2016] [notice] Child 4856: Starting thread to listen on port 80.
+[Mon Feb 22 22:11:40 2016] [notice] Child 4856: Starting thread to listen on port 443.
+[Mon Feb 22 22:11:40 2016] [error] [client 127.0.0.1] File does not exist: C:/TWAMPd/htdocs/favicon.ico, referer: https://127.0.0.1/twconfig.php?lang=tw&d7=using&d6=install
+[Mon Feb 22 22:20:30 2016] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Mon Feb 22 22:20:30 2016] [notice] Child 4856: Exit event signaled. Child process is ending.
+[Mon Feb 22 22:20:31 2016] [notice] Child 4856: Released the start mutex
+[Mon Feb 22 22:20:32 2016] [notice] Child 4856: All worker threads have exited.
+[Mon Feb 22 22:20:32 2016] [notice] Child 4856: Child process is exiting
+[Mon Feb 22 22:21:29 2016] [warn] pid file C:\\TWAMPd\\ap/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Feb 22 22:21:32 2016] [notice] Apache/2.2.17 (Win32) mod_ssl/2.2.17 OpenSSL/0.9.8q PHP/5.2.17 configured -- resuming normal operations
+[Mon Feb 22 22:21:32 2016] [notice] Server built: Oct 18 2010 01:58:12
+[Mon Feb 22 22:21:32 2016] [notice] Parent: Created child process 2796
+[Mon Feb 22 22:21:40 2016] [notice] Child 2796: Child process is running
+[Mon Feb 22 22:21:40 2016] [notice] Child 2796: Acquired the start mutex.
+[Mon Feb 22 22:21:40 2016] [notice] Child 2796: Starting 64 worker threads.
+[Mon Feb 22 22:21:40 2016] [notice] Child 2796: Starting thread to listen on port 443.
+[Mon Feb 22 22:21:40 2016] [notice] Child 2796: Starting thread to listen on port 80.
+[Mon Feb 22 22:21:40 2016] [error] [client 127.0.0.1] File does not exist: C:/TWAMPd/htdocs/favicon.ico, referer: https://127.0.0.1/twconfig.php?lang=tw&d7=using&d6=install
+[Tue Feb 23 00:21:17 2016] [notice] Parent: child process exited with status 1073807364 -- Restarting.
+[Wed Feb 24 16:04:03 2016] [warn] pid file C:\\TWAMPd\\ap/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed Feb 24 16:04:06 2016] [notice] Apache/2.2.17 (Win32) mod_ssl/2.2.17 OpenSSL/0.9.8q PHP/5.2.17 configured -- resuming normal operations
+[Wed Feb 24 16:04:06 2016] [notice] Server built: Oct 18 2010 01:58:12
+[Wed Feb 24 16:04:06 2016] [notice] Parent: Created child process 3784
+[Wed Feb 24 16:04:14 2016] [notice] Child 3784: Child process is running
+[Wed Feb 24 16:04:14 2016] [notice] Child 3784: Acquired the start mutex.
+[Wed Feb 24 16:04:14 2016] [notice] Child 3784: Starting 64 worker threads.
+[Wed Feb 24 16:04:14 2016] [notice] Child 3784: Starting thread to listen on port 443.
+[Wed Feb 24 16:04:14 2016] [notice] Child 3784: Starting thread to listen on port 80.
+[Wed Feb 24 16:04:33 2016] [error] [client 127.0.0.1] File does not exist: C:/TWAMPd/htdocs/favicon.ico, referer: https://127.0.0.1/twconfig.php?lang=tw&d7=using&d6=install
+[Wed Feb 24 22:47:18 2016] [notice] Parent: child process exited with status 1073807364 -- Restarting.
+[Thu Feb 25 17:58:50 2016] [warn] pid file C:\\TWAMPd\\ap/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Feb 25 17:58:58 2016] [notice] Apache/2.2.17 (Win32) mod_ssl/2.2.17 OpenSSL/0.9.8q PHP/5.2.17 configured -- resuming normal operations
+[Thu Feb 25 17:58:58 2016] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Feb 25 17:58:58 2016] [notice] Parent: Created child process 5900
+[Thu Feb 25 17:59:05 2016] [notice] Child 5900: Child process is running
+[Thu Feb 25 17:59:05 2016] [notice] Child 5900: Acquired the start mutex.
+[Thu Feb 25 17:59:05 2016] [notice] Child 5900: Starting 64 worker threads.
+[Thu Feb 25 17:59:05 2016] [notice] Child 5900: Starting thread to listen on port 443.
+[Thu Feb 25 17:59:05 2016] [notice] Child 5900: Starting thread to listen on port 80.
+[Thu Feb 25 17:59:07 2016] [error] [client 127.0.0.1] File does not exist: C:/TWAMPd/htdocs/favicon.ico, referer: https://127.0.0.1/twconfig.php?lang=tw&d7=using&d6=install
+[Thu Feb 25 19:38:54 2016] [error] [client 127.0.0.1] PHP Fatal error:  Class 'ZipArchive' not found in C:\\TWAMPd\\htdocs\\phpMyAdmin\\libraries\\PHPExcel\\PHPExcel\\Writer\\Excel2007.php on line 226, referer: https://127.0.0.1/phpMyAdmin/tbl_export.php?db=svs&table=account&printview=1&sql_query=SELECT+%2A+FROM+%60account%60&single_table=true&unlim_num_rows=5&token=d05d440c72ef893ce7c3a411af8ffc12
+[Thu Mar 17 15:12:48 2016] [warn] pid file C:\\TWAMPd\\ap/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Mar 17 15:12:52 2016] [notice] Apache/2.2.17 (Win32) mod_ssl/2.2.17 OpenSSL/0.9.8q PHP/5.2.17 configured -- resuming normal operations
+[Thu Mar 17 15:12:52 2016] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Mar 17 15:12:52 2016] [notice] Parent: Created child process 6936
+[Thu Mar 17 15:13:00 2016] [notice] Child 6936: Child process is running
+[Thu Mar 17 15:13:00 2016] [notice] Child 6936: Acquired the start mutex.
+[Thu Mar 17 15:13:00 2016] [notice] Child 6936: Starting 64 worker threads.
+[Thu Mar 17 15:13:00 2016] [notice] Child 6936: Starting thread to listen on port 443.
+[Thu Mar 17 15:13:00 2016] [notice] Child 6936: Starting thread to listen on port 80.
+[Thu Mar 17 15:14:05 2016] [error] [client 127.0.0.1] File does not exist: C:/TWAMPd/htdocs/favicon.ico, referer: https://127.0.0.1/twconfig.php?lang=tw&d7=using&d6=install
+[Thu Mar 17 21:14:15 2016] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Thu Mar 17 21:14:15 2016] [notice] Child 6936: Exit event signaled. Child process is ending.
+[Thu Mar 17 21:14:16 2016] [notice] Child 6936: Released the start mutex
+[Thu Mar 17 21:14:17 2016] [notice] Child 6936: All worker threads have exited.
+[Thu Mar 17 21:14:17 2016] [notice] Child 6936: Child process is exiting
+[Thu Mar 31 13:39:44 2016] [warn] pid file C:\\TWAMPd\\ap/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Mar 31 13:39:47 2016] [notice] Apache/2.2.17 (Win32) mod_ssl/2.2.17 OpenSSL/0.9.8q PHP/5.2.17 configured -- resuming normal operations
+[Thu Mar 31 13:39:47 2016] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Mar 31 13:39:47 2016] [notice] Parent: Created child process 1740
+[Thu Mar 31 13:39:55 2016] [notice] Child 1740: Child process is running
+[Thu Mar 31 13:39:55 2016] [notice] Child 1740: Acquired the start mutex.
+[Thu Mar 31 13:39:55 2016] [notice] Child 1740: Starting 64 worker threads.
+[Thu Mar 31 13:39:55 2016] [notice] Child 1740: Starting thread to listen on port 443.
+[Thu Mar 31 13:39:55 2016] [notice] Child 1740: Starting thread to listen on port 80.
+[Thu Mar 31 13:43:55 2016] [error] [client 127.0.0.1] File does not exist: C:/TWAMPd/htdocs/favicon.ico, referer: https://127.0.0.1/twconfig.php?lang=tw&d7=using&d6=install
+[Thu Mar 31 23:22:41 2016] [notice] Parent: child process exited with status 1073807364 -- Restarting.
+[Fri Apr 01 08:58:12 2016] [warn] pid file C:\\TWAMPd\\ap/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Apr 01 08:58:15 2016] [notice] Apache/2.2.17 (Win32) mod_ssl/2.2.17 OpenSSL/0.9.8q PHP/5.2.17 configured -- resuming normal operations
+[Fri Apr 01 08:58:15 2016] [notice] Server built: Oct 18 2010 01:58:12
+[Fri Apr 01 08:58:17 2016] [notice] Parent: Created child process 6428
+[Fri Apr 01 08:58:24 2016] [notice] Child 6428: Child process is running
+[Fri Apr 01 08:58:24 2016] [notice] Child 6428: Acquired the start mutex.
+[Fri Apr 01 08:58:24 2016] [notice] Child 6428: Starting 64 worker threads.
+[Fri Apr 01 08:58:24 2016] [notice] Child 6428: Starting thread to listen on port 443.
+[Fri Apr 01 08:58:24 2016] [notice] Child 6428: Starting thread to listen on port 80.
+[Fri Apr 01 10:23:45 2016] [notice] Parent: child process exited with status 1073807364 -- Restarting.
+[Fri Apr 01 14:03:39 2016] [warn] pid file C:\\TWAMPd\\ap/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Apr 01 14:03:43 2016] [notice] Apache/2.2.17 (Win32) mod_ssl/2.2.17 OpenSSL/0.9.8q PHP/5.2.17 configured -- resuming normal operations
+[Fri Apr 01 14:03:43 2016] [notice] Server built: Oct 18 2010 01:58:12
+[Fri Apr 01 14:03:43 2016] [notice] Parent: Created child process 4248
+[Fri Apr 01 14:03:51 2016] [notice] Child 4248: Child process is running
+[Fri Apr 01 14:03:51 2016] [notice] Child 4248: Acquired the start mutex.
+[Fri Apr 01 14:03:51 2016] [notice] Child 4248: Starting 64 worker threads.
+[Fri Apr 01 14:03:51 2016] [notice] Child 4248: Starting thread to listen on port 443.
+[Fri Apr 01 14:03:51 2016] [notice] Child 4248: Starting thread to listen on port 80.
+[Fri Apr 01 14:03:53 2016] [error] [client 127.0.0.1] File does not exist: C:/TWAMPd/htdocs/favicon.ico, referer: https://127.0.0.1/twconfig.php?lang=tw&d7=using&d6=install
+[Fri Apr 01 14:48:15 2016] [notice] Parent: child process exited with status 1073807364 -- Restarting.
+[Thu Apr 07 10:31:17 2016] [warn] pid file C:\\TWAMPd\\ap/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 07 10:31:18 2016] [notice] Apache/2.2.17 (Win32) mod_ssl/2.2.17 OpenSSL/0.9.8q PHP/5.2.17 configured -- resuming normal operations
+[Thu Apr 07 10:31:18 2016] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Apr 07 10:31:18 2016] [notice] Parent: Created child process 5608
+[Thu Apr 07 10:31:26 2016] [notice] Child 5608: Child process is running
+[Thu Apr 07 10:31:26 2016] [notice] Child 5608: Acquired the start mutex.
+[Thu Apr 07 10:31:26 2016] [notice] Child 5608: Starting 64 worker threads.
+[Thu Apr 07 10:31:26 2016] [notice] Child 5608: Starting thread to listen on port 443.
+[Thu Apr 07 10:31:26 2016] [notice] Child 5608: Starting thread to listen on port 80.
+[Thu Apr 07 23:50:49 2016] [notice] Parent: child process exited with status 1073807364 -- Restarting.
+[Sat Apr 09 11:14:34 2016] [warn] pid file C:\\TWAMPd\\ap/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Apr 09 11:14:36 2016] [notice] Apache/2.2.17 (Win32) mod_ssl/2.2.17 OpenSSL/0.9.8q PHP/5.2.17 configured -- resuming normal operations
+[Sat Apr 09 11:14:36 2016] [notice] Server built: Oct 18 2010 01:58:12
+[Sat Apr 09 11:14:36 2016] [notice] Parent: Created child process 1336
+[Sat Apr 09 11:14:44 2016] [notice] Child 1336: Child process is running
+[Sat Apr 09 11:14:44 2016] [notice] Child 1336: Acquired the start mutex.
+[Sat Apr 09 11:14:44 2016] [notice] Child 1336: Starting 64 worker threads.
+[Sat Apr 09 11:14:44 2016] [notice] Child 1336: Starting thread to listen on port 443.
+[Sat Apr 09 11:14:44 2016] [notice] Child 1336: Starting thread to listen on port 80.
+[Sat Apr 09 11:21:58 2016] [error] [client 127.0.0.1] File does not exist: C:/TWAMPd/htdocs/favicon.ico, referer: https://127.0.0.1/twconfig.php?lang=tw&d7=using&d6=install
+[Sat Apr 09 16:38:48 2016] [notice] Parent: child process exited with status 1073807364 -- Restarting.
+[Fri Apr 15 20:10:00 2016] [warn] pid file C:\\TWAMPd\\ap/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Fri Apr 15 20:10:04 2016] [notice] Apache/2.2.17 (Win32) mod_ssl/2.2.17 OpenSSL/0.9.8q PHP/5.2.17 configured -- resuming normal operations
+[Fri Apr 15 20:10:04 2016] [notice] Server built: Oct 18 2010 01:58:12
+[Fri Apr 15 20:10:04 2016] [notice] Parent: Created child process 4492
+[Fri Apr 15 20:10:15 2016] [notice] Child 4492: Child process is running
+[Fri Apr 15 20:10:15 2016] [notice] Child 4492: Acquired the start mutex.
+[Fri Apr 15 20:10:15 2016] [notice] Child 4492: Starting 64 worker threads.
+[Fri Apr 15 20:10:15 2016] [notice] Child 4492: Starting thread to listen on port 443.
+[Fri Apr 15 20:10:15 2016] [notice] Child 4492: Starting thread to listen on port 80.
+[Sat Apr 16 00:25:51 2016] [notice] Parent: child process exited with status 1073807364 -- Restarting.
+[Sat Apr 16 20:58:01 2016] [warn] pid file C:\\TWAMPd\\ap/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sat Apr 16 20:58:04 2016] [notice] Apache/2.2.17 (Win32) mod_ssl/2.2.17 OpenSSL/0.9.8q PHP/5.2.17 configured -- resuming normal operations
+[Sat Apr 16 20:58:04 2016] [notice] Server built: Oct 18 2010 01:58:12
+[Sat Apr 16 20:58:04 2016] [notice] Parent: Created child process 3972
+[Sat Apr 16 20:58:12 2016] [notice] Child 3972: Child process is running
+[Sat Apr 16 20:58:12 2016] [notice] Child 3972: Acquired the start mutex.
+[Sat Apr 16 20:58:12 2016] [notice] Child 3972: Starting 64 worker threads.
+[Sat Apr 16 20:58:12 2016] [notice] Child 3972: Starting thread to listen on port 80.
+[Sat Apr 16 20:58:12 2016] [notice] Child 3972: Starting thread to listen on port 443.
+[Sat Apr 16 22:32:20 2016] [notice] Parent: child process exited with status 1073807364 -- Restarting.
+[Mon Apr 18 14:01:04 2016] [warn] pid file C:\\TWAMPd\\ap/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon Apr 18 14:01:07 2016] [notice] Apache/2.2.17 (Win32) mod_ssl/2.2.17 OpenSSL/0.9.8q PHP/5.2.17 configured -- resuming normal operations
+[Mon Apr 18 14:01:07 2016] [notice] Server built: Oct 18 2010 01:58:12
+[Mon Apr 18 14:01:07 2016] [notice] Parent: Created child process 1988
+[Mon Apr 18 14:01:14 2016] [notice] Child 1988: Child process is running
+[Mon Apr 18 14:01:14 2016] [notice] Child 1988: Acquired the start mutex.
+[Mon Apr 18 14:01:14 2016] [notice] Child 1988: Starting 64 worker threads.
+[Mon Apr 18 14:01:14 2016] [notice] Child 1988: Starting thread to listen on port 443.
+[Mon Apr 18 14:01:14 2016] [notice] Child 1988: Starting thread to listen on port 80.
+[Mon Apr 18 14:01:26 2016] [error] [client 127.0.0.1] File does not exist: C:/TWAMPd/htdocs/favicon.ico, referer: https://127.0.0.1/twconfig.php?lang=tw&d7=using&d6=install
+[Tue Apr 19 00:20:56 2016] [notice] Parent: child process exited with status 1073807364 -- Restarting.
+[Thu Apr 28 23:17:17 2016] [warn] pid file C:\\TWAMPd\\ap/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu Apr 28 23:17:21 2016] [notice] Apache/2.2.17 (Win32) mod_ssl/2.2.17 OpenSSL/0.9.8q PHP/5.2.17 configured -- resuming normal operations
+[Thu Apr 28 23:17:21 2016] [notice] Server built: Oct 18 2010 01:58:12
+[Thu Apr 28 23:17:21 2016] [notice] Parent: Created child process 3504
+[Thu Apr 28 23:17:28 2016] [notice] Child 3504: Child process is running
+[Thu Apr 28 23:17:28 2016] [notice] Child 3504: Acquired the start mutex.
+[Thu Apr 28 23:17:28 2016] [notice] Child 3504: Starting 64 worker threads.
+[Thu Apr 28 23:17:28 2016] [notice] Child 3504: Starting thread to listen on port 443.
+[Thu Apr 28 23:17:28 2016] [notice] Child 3504: Starting thread to listen on port 80.
+[Thu Apr 28 23:23:03 2016] [error] [client 127.0.0.1] File does not exist: C:/TWAMPd/htdocs/favicon.ico, referer: https://127.0.0.1/twconfig.php?lang=tw&d7=using&d6=install
+[Fri Apr 29 01:12:32 2016] [notice] Parent: child process exited with status 1073807364 -- Restarting.
+[Thu May 12 18:15:34 2016] [warn] pid file C:\\TWAMPd\\ap/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Thu May 12 18:15:37 2016] [notice] Apache/2.2.17 (Win32) mod_ssl/2.2.17 OpenSSL/0.9.8q PHP/5.2.17 configured -- resuming normal operations
+[Thu May 12 18:15:37 2016] [notice] Server built: Oct 18 2010 01:58:12
+[Thu May 12 18:15:38 2016] [notice] Parent: Created child process 2872
+[Thu May 12 18:15:46 2016] [notice] Child 2872: Child process is running
+[Thu May 12 18:15:46 2016] [notice] Child 2872: Acquired the start mutex.
+[Thu May 12 18:15:46 2016] [notice] Child 2872: Starting 64 worker threads.
+[Thu May 12 18:15:46 2016] [notice] Child 2872: Starting thread to listen on port 443.
+[Thu May 12 18:15:46 2016] [notice] Child 2872: Starting thread to listen on port 80.
+[Thu May 12 18:15:54 2016] [error] [client 127.0.0.1] File does not exist: C:/TWAMPd/htdocs/favicon.ico, referer: https://127.0.0.1/twconfig.php?lang=tw&d7=using&d6=install
+[Thu May 12 20:51:56 2016] [notice] Parent: child process exited with status 1073807364 -- Restarting.
+[Mon May 16 17:26:21 2016] [warn] pid file C:\\TWAMPd\\ap/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon May 16 17:26:25 2016] [notice] Apache/2.2.17 (Win32) mod_ssl/2.2.17 OpenSSL/0.9.8q PHP/5.2.17 configured -- resuming normal operations
+[Mon May 16 17:26:25 2016] [notice] Server built: Oct 18 2010 01:58:12
+[Mon May 16 17:26:25 2016] [notice] Parent: Created child process 5988
+[Mon May 16 17:26:32 2016] [notice] Child 5988: Child process is running
+[Mon May 16 17:26:32 2016] [notice] Child 5988: Acquired the start mutex.
+[Mon May 16 17:26:32 2016] [notice] Child 5988: Starting 64 worker threads.
+[Mon May 16 17:26:32 2016] [notice] Child 5988: Starting thread to listen on port 443.
+[Mon May 16 17:26:32 2016] [notice] Child 5988: Starting thread to listen on port 80.
+[Mon May 16 18:01:16 2016] [notice] Parent: child process exited with status 1073807364 -- Restarting.
+[Mon May 16 21:10:36 2016] [warn] pid file C:\\TWAMPd\\ap/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Mon May 16 21:10:39 2016] [notice] Apache/2.2.17 (Win32) mod_ssl/2.2.17 OpenSSL/0.9.8q PHP/5.2.17 configured -- resuming normal operations
+[Mon May 16 21:10:39 2016] [notice] Server built: Oct 18 2010 01:58:12
+[Mon May 16 21:10:39 2016] [notice] Parent: Created child process 8068
+[Mon May 16 21:10:47 2016] [notice] Child 8068: Child process is running
+[Mon May 16 21:10:47 2016] [notice] Child 8068: Acquired the start mutex.
+[Mon May 16 21:10:47 2016] [notice] Child 8068: Starting 64 worker threads.
+[Mon May 16 21:10:47 2016] [notice] Child 8068: Starting thread to listen on port 80.
+[Mon May 16 21:10:47 2016] [notice] Child 8068: Starting thread to listen on port 443.
+[Mon May 16 23:23:30 2016] [notice] Parent: child process exited with status 1073807364 -- Restarting.
+[Wed May 18 11:15:29 2016] [warn] pid file C:\\TWAMPd\\ap/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 18 11:15:32 2016] [notice] Apache/2.2.17 (Win32) mod_ssl/2.2.17 OpenSSL/0.9.8q PHP/5.2.17 configured -- resuming normal operations
+[Wed May 18 11:15:32 2016] [notice] Server built: Oct 18 2010 01:58:12
+[Wed May 18 11:15:32 2016] [notice] Parent: Created child process 6384
+[Wed May 18 11:15:39 2016] [notice] Child 6384: Child process is running
+[Wed May 18 11:15:39 2016] [notice] Child 6384: Acquired the start mutex.
+[Wed May 18 11:15:39 2016] [notice] Child 6384: Starting 64 worker threads.
+[Wed May 18 11:15:39 2016] [notice] Child 6384: Starting thread to listen on port 443.
+[Wed May 18 11:15:39 2016] [notice] Child 6384: Starting thread to listen on port 80.
+[Wed May 18 14:17:40 2016] [warn] pid file C:\\TWAMPd_2\\ap/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 18 14:17:43 2016] [notice] Apache/2.2.17 (Win32) mod_ssl/2.2.17 OpenSSL/0.9.8q PHP/5.2.17 configured -- resuming normal operations
+[Wed May 18 14:17:43 2016] [notice] Server built: Oct 18 2010 01:58:12
+[Wed May 18 14:17:43 2016] [notice] Parent: Created child process 5608
+[Wed May 18 14:17:50 2016] [notice] Child 5608: Child process is running
+[Wed May 18 14:17:50 2016] [notice] Child 5608: Acquired the start mutex.
+[Wed May 18 14:17:50 2016] [notice] Child 5608: Starting 64 worker threads.
+[Wed May 18 14:17:50 2016] [notice] Child 5608: Starting thread to listen on port 443.
+[Wed May 18 14:17:50 2016] [notice] Child 5608: Starting thread to listen on port 80.
+[Wed May 18 14:17:55 2016] [error] [client 127.0.0.1] File does not exist: C:/TWAMPd_2/htdocs/favicon.ico, referer: https://127.0.0.1/twconfig.php?lang=tw&d7=using&d6=install
+[Wed May 18 14:24:29 2016] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Wed May 18 14:24:29 2016] [notice] Child 5608: Exit event signaled. Child process is ending.
+[Wed May 18 14:24:30 2016] [notice] Child 5608: Released the start mutex
+[Wed May 18 14:24:33 2016] [notice] Child 5608: All worker threads have exited.
+[Wed May 18 14:24:33 2016] [notice] Child 5608: Child process is exiting
+[Wed May 18 14:24:48 2016] [warn] pid file C:\\TWAMPd_2\\ap/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Wed May 18 14:24:50 2016] [notice] Apache/2.2.17 (Win32) mod_ssl/2.2.17 OpenSSL/0.9.8q PHP/5.2.17 configured -- resuming normal operations
+[Wed May 18 14:24:50 2016] [notice] Server built: Oct 18 2010 01:58:12
+[Wed May 18 14:24:50 2016] [notice] Parent: Created child process 9780
+[Wed May 18 14:24:57 2016] [notice] Child 9780: Child process is running
+[Wed May 18 14:24:57 2016] [notice] Child 9780: Acquired the start mutex.
+[Wed May 18 14:24:57 2016] [notice] Child 9780: Starting 64 worker threads.
+[Wed May 18 14:24:57 2016] [notice] Child 9780: Starting thread to listen on port 443.
+[Wed May 18 14:24:57 2016] [notice] Child 9780: Starting thread to listen on port 80.
+[Wed May 18 14:25:04 2016] [notice] Parent: Received shutdown signal -- Shutting down the server.
+[Wed May 18 14:25:04 2016] [notice] Child 9780: Exit event signaled. Child process is ending.
+[Wed May 18 14:25:05 2016] [notice] Child 9780: Released the start mutex
+[Wed May 18 14:25:06 2016] [notice] Child 9780: All worker threads have exited.
+[Wed May 18 14:25:06 2016] [notice] Child 9780: Child process is exiting
+[Wed May 18 14:25:07 2016] [notice] Parent: Child process exited successfully.
+[Thu May 19 15:03:06 2016] [notice] Apache/2.2.17 (Win32) mod_ssl/2.2.17 OpenSSL/0.9.8q PHP/5.2.17 configured -- resuming normal operations
+[Thu May 19 15:03:06 2016] [notice] Server built: Oct 18 2010 01:58:12
+[Thu May 19 15:03:06 2016] [notice] Parent: Created child process 4212
+[Thu May 19 15:03:13 2016] [notice] Child 4212: Child process is running
+[Thu May 19 15:03:13 2016] [notice] Child 4212: Acquired the start mutex.
+[Thu May 19 15:03:13 2016] [notice] Child 4212: Starting 64 worker threads.
+[Thu May 19 15:03:13 2016] [notice] Child 4212: Starting thread to listen on port 443.
+[Thu May 19 15:03:13 2016] [notice] Child 4212: Starting thread to listen on port 80.
+[Thu May 19 15:03:50 2016] [error] [client 127.0.0.1] File does not exist: C:/TWAMPd_2/htdocs/favicon.ico, referer: https://127.0.0.1/twconfig.php?lang=tw&d7=using&d6=install
+[Thu May 19 20:23:20 2016] [error] Init: Unable to read server certificate from file C:\\Users\\admin\\Desktop\\\xe7\xb0\xbd\xe5\x90\x8d\xe9\xa9\x97\xe8\xad\x89\xe7\xb3\xbb\xe7\xb5\xb1\\TWAMPd_2\\ap/conf/cert/server.crt
+[Thu May 19 20:23:20 2016] [error] SSL Library Error: 33558651 error:0200107B:system library:fopen:Unknown error
+[Thu May 19 20:23:20 2016] [error] SSL Library Error: 537317378 error:2006D002:BIO routines:BIO_new_file:system lib

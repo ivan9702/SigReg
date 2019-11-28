@@ -1,0 +1,508 @@
+# Chinese, Traditional translation of drupal (6.2)
+# Copyright (c) 2008 by the Chinese, Traditional translation team
+# Generated from files:
+#  block.admin.inc,v 1.14.2.1 2008/02/27 12:07:42 goba
+#  block-admin-display-form.tpl.php,v 1.3 2008/01/16 22:57:26 goba
+#  block.module,v 1.299.2.2 2008/04/09 21:11:45 goba
+#  block.install,v 1.8 2007/12/18 12:59:20 dries
+#  block.js,v 1.2 2007/12/16 10:36:53 goba
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: drupal (6.x)\n"
+"POT-Creation-Date: 2008-05-14 13:25+0800\n"
+"PO-Revision-Date: 2009-08-20 00:23+0800\n"
+"Language-Team: Drupal Taiwan <info@drupaltaiwan.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Last-Translator: charlesc <charles@netivism.com.tw>\n"
+"X-Poedit-Language: Chinese\n"
+"X-Poedit-Country: TAIWAN\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+
+#: modules/block/block.admin.inc:246
+msgid "Pages"
+msgstr "頁面"
+
+#: modules/block/block-admin-display-form.tpl.php:42
+msgid "Region"
+msgstr "區域"
+
+#: modules/block/block-admin-display-form.tpl.php:57
+msgid "No blocks in this region"
+msgstr "此區域中沒有任何區塊"
+
+#: modules/block/block.admin.inc:85
+msgid "Save blocks"
+msgstr "儲存區塊"
+
+#: modules/block/block.admin.inc:100
+msgid "The block settings have been updated."
+msgstr "已更新區塊設定。"
+
+#: modules/block/block.admin.inc:150
+msgid "Block specific settings"
+msgstr "區塊的特殊設定"
+
+#: modules/block/block.admin.inc:155
+msgid "Block title"
+msgstr "區塊標題"
+
+#: modules/block/block.admin.inc:157
+msgid "The title of the block as shown to the user."
+msgstr "顯示給使用者看的區塊標題。"
+
+#: modules/block/block.admin.inc:157
+msgid ""
+"Override the default title for the block. Use <em>&lt;none&gt;</em> to "
+"display no title, or leave blank to use the default block title."
+msgstr ""
+"覆蓋預設的區塊標題。使用<em>&lt;none&gt;</em> 則可以不顯示標題，若是不填寫就"
+"會使用預設的區塊標題。"
+
+#: modules/block/block.admin.inc:173
+msgid "'%name' block"
+msgstr "'%name' 區塊"
+
+#: modules/block/block.admin.inc:179
+msgid "User specific visibility settings"
+msgstr "使用者特定的顯示設定"
+
+#: modules/block/block.admin.inc:184
+msgid "Custom visibility settings"
+msgstr "自訂顯示設定"
+
+#: modules/block/block.admin.inc:186
+msgid "Users cannot control whether or not they see this block."
+msgstr "使用者不能控制是否要顯示此區塊。"
+
+#: modules/block/block.admin.inc:187
+msgid "Show this block by default, but let individual users hide it."
+msgstr "預設會顯示此區塊，但使用者可以選擇隱藏它。"
+
+#: modules/block/block.admin.inc:188
+msgid "Hide this block by default but let individual users show it."
+msgstr "預設隱藏此區塊，但使用者可以選擇顯示它。"
+
+#: modules/block/block.admin.inc:190
+msgid ""
+"Allow individual users to customize the visibility of this block in their "
+"account settings."
+msgstr "讓使用者可以在他們的帳號設定裡，自訂區塊的顯示狀態。"
+
+#: modules/block/block.admin.inc:207
+msgid "Role specific visibility settings"
+msgstr "特定角色的顯示設定"
+
+#: modules/block/block.admin.inc:212
+msgid "Show block for specific roles"
+msgstr "為特定角色顯示區塊"
+
+#: modules/block/block.admin.inc:215
+msgid ""
+"Show this block only for the selected role(s). If you select no roles, the "
+"block will be visible to all users."
+msgstr ""
+"只為所選擇的角色顯示此區塊。如果你沒有選擇角色，此區塊就會顯示給所有使用者。"
+
+#: modules/block/block.admin.inc:220
+msgid "Page specific visibility settings"
+msgstr "特定頁面的顯示設定"
+
+#: modules/block/block.admin.inc:231
+msgid "Show on every page except the listed pages."
+msgstr "在下列頁面之外的所有網頁裡，顯示此區塊。"
+
+#: modules/block/block.admin.inc:231
+msgid "Show on only the listed pages."
+msgstr "只在下列頁面裡，顯示此區塊。"
+
+#: modules/block/block.admin.inc:232
+msgid ""
+"Enter one page per line as Drupal paths. The '*' character is a wildcard. "
+"Example paths are %blog for the blog page and %blog-wildcard for every "
+"personal blog. %front is the front page."
+msgstr ""
+"每行輸入一個 Drupal 的網頁路徑。可以使用萬用字元 '*'。例如，部落格的路徑是%"
+"blog，而%blog-wildcard 則代表是每個使用者的個人部落格。%front 則代表網站首"
+"頁。"
+
+#: modules/block/block.admin.inc:235
+msgid ""
+"Show if the following PHP code returns <code>TRUE</code> (PHP-mode, experts "
+"only)."
+msgstr ""
+"如果以下的 PHP 程式碼傳回 <code>TRUE</code> 則顯示此區塊 (PHP-模式，新手勿用)"
+
+#: modules/block/block.admin.inc:236
+msgid ""
+"If the PHP-mode is chosen, enter PHP code between %php. Note that executing "
+"incorrect PHP-code can break your Drupal site."
+msgstr ""
+"如果選擇了 PHP 模式，請在 %php 之間輸入 PHP程式碼。請注意，執行不正確的 PHP程"
+"式碼，可能會破壞你的 Drupal 網站。"
+
+#: modules/block/block.admin.inc:240
+msgid "Show block on specific pages"
+msgstr "在特定頁面裡顯示區塊"
+
+#: modules/block/block.admin.inc:254
+msgid "Save block"
+msgstr "儲存區塊"
+
+#: modules/block/block.admin.inc:263,292
+msgid "Please ensure that each block description is unique."
+msgstr "請確認每個區塊的說明都是不同的。"
+
+#: modules/block/block.admin.inc:276
+msgid "The block configuration has been saved."
+msgstr "已儲存區塊設定。"
+
+#: modules/block/block.admin.inc:313
+msgid "The block has been created."
+msgstr "已建立區塊。"
+
+#: modules/block/block.admin.inc:328
+msgid "Are you sure you want to delete the block %name?"
+msgstr "你真的要刪除 %name 區塊嗎？"
+
+#: modules/block/block.admin.inc:337
+msgid "The block %name has been removed."
+msgstr "已刪除 %name 區塊。"
+
+#: modules/block/block.module:70
+msgid ""
+"Blocks are boxes of content rendered into an area, or region, of a web page. "
+"The default theme Garland, for example, implements the regions \"left sidebar"
+"\", \"right sidebar\", \"content\", \"header\", and \"footer\", and a block "
+"may appear in any one of these areas. The <a href=\"@blocks\">blocks "
+"administration page</a> provides a drag-and-drop interface for assigning a "
+"block to a region, and for controlling the order of blocks within regions."
+msgstr ""
+"區塊就是被放進網頁裡一個區域之中的內容容器。比方說，預設的版型 Garland 具有這"
+"些區域：左欄、右欄、內容、頁首以及頁尾，而區塊可以呈現在這些區域之中。 <a "
+"href=\"@blocks\">區塊管理頁面</a>提供了一個拖放介面來管理區域中的區塊，並且控"
+"制區域之中的區塊順序。"
+
+#: modules/block/block.module:71
+msgid ""
+"Although blocks are usually generated automatically by modules (like the "
+"<em>User login</em> block, for example), administrators can also define "
+"custom blocks. Custom blocks have a title, description, and body. The body "
+"of the block can be as long as necessary, and can contain content supported "
+"by any available <a href=\"@input-format\">input format</a>."
+msgstr ""
+"雖然區塊通常會由模組自動產生(比方說，就像<em>使用者登入</em>區塊), 管理者也可"
+"以定義客制化的區塊。自訂區塊會有一個標題、說明以及正文。這個區塊的正文可以很"
+"長，而且可以包含由<a href=\"@input-format\">輸入格式</a>所支持的內容。"
+
+#: modules/block/block.module:72
+msgid "When working with blocks, remember that:"
+msgstr "在設定區塊時，請記得："
+
+#: modules/block/block.module:73
+msgid ""
+"since not all themes implement the same regions, or display regions in the "
+"same way, blocks are positioned on a per-theme basis."
+msgstr ""
+"由於並非所有的版型都有同樣的區域或者以同樣的方式顯示區域，區塊的位置會依照每"
+"個版型而變動。"
+
+#: modules/block/block.module:74
+msgid "disabled blocks, or blocks not in a region, are never shown."
+msgstr "被停用的區塊或者沒有被放在一個區域中的區塊不會被顯示出來。"
+
+#: modules/block/block.module:75
+msgid ""
+"when throttle module is enabled, throttled blocks (blocks with the "
+"<em>Throttle</em> checkbox selected) are hidden during high server loads."
+msgstr ""
+"負荷管制模組已經啟用，在伺服器有高連線數時負荷區塊(被勾選<em> 負荷</em>欄位的"
+"區塊)會被隱藏起來。"
+
+#: modules/block/block.module:76
+msgid "blocks can be configured to be visible only on certain pages."
+msgstr "區塊可以被設定為只有在某些頁面才能被看到。"
+
+#: modules/block/block.module:77
+msgid ""
+"blocks can be configured to be visible only when specific conditions are "
+"true."
+msgstr "區塊可以被設定為當指定的條件為true時才能被看到。"
+
+#: modules/block/block.module:78
+msgid "blocks can be configured to be visible only for certain user roles."
+msgstr "區塊可以被設定成只有讓某些使用者角色看到。"
+
+#: modules/block/block.module:79
+msgid ""
+"when allowed by an administrator, specific blocks may be enabled or disabled "
+"on a per-user basis using the <em>My account</em> page."
+msgstr ""
+"管理者可以允許特定的區塊可以依照每個使用者使用<em>我的帳號</em> 頁面來啟用或"
+"停用。"
+
+#: modules/block/block.module:80
+msgid ""
+"some dynamic blocks, such as those generated by modules, will be displayed "
+"only on certain pages."
+msgstr "某些動態的區塊，像是由模組所產生的區塊，只會出現在某些頁面中。"
+
+#: modules/block/block.module:81
+msgid ""
+"For more information, see the online handbook entry for <a href=\"@block"
+"\">Block module</a>."
+msgstr "更多的資訊，請見<a href=\"@block\">區塊模組</a>的線上手冊項目。"
+
+#: modules/block/block.module:85
+msgid ""
+"This page provides a drag-and-drop interface for assigning a block to a "
+"region, and for controlling the order of blocks within regions. To change "
+"the region or order of a block, grab a drag-and-drop handle under the "
+"<em>Block</em> column and drag the block to a new location in the list. "
+"(Grab a handle by clicking and holding the mouse while hovering over a "
+"handle icon.) Since not all themes implement the same regions, or display "
+"regions in the same way, blocks are positioned on a per-theme basis. "
+"Remember that your changes will not be saved until you click the <em>Save "
+"blocks</em> button at the bottom of the page."
+msgstr ""
+"這個頁面提供了一個拖放的介面來把區塊放置到區域中，同時可以控制區域中區塊的順"
+"序。要變更一個區塊的區域或順序，抓起一個 <em>區塊</em>的拖放欄位並且把那個區"
+"塊放置到一個新的位置上。(按下滑鼠不放以抓起一個項目圖標)由於並非所有的版型都"
+"使用同樣的區域，或者以同樣的方式來顯示區域，這些區塊的位置會依照每個版型而有"
+"所不同。請記住，除非你按下本頁面底下那個<em>儲存區塊</em>按鈕，不然你做的任何"
+"變更都不會被儲存。"
+
+#: modules/block/block.module:87
+msgid ""
+"To reduce CPU usage, database traffic or bandwidth, blocks may be "
+"automatically disabled during high server loads by selecting their "
+"<em>Throttle</em> checkbox. Adjust throttle thresholds on the <a href="
+"\"@throttleconfig\">throttle configuration page</a>."
+msgstr ""
+"要減少cpu用量、資料庫流量或者頻寬，可以勾選區塊的<em> 負荷</em> 勾選框來設定"
+"在伺服器高連線狀態時自動停用這些區塊。同時可以在<a href=\"@throttleconfig\"> "
+"負荷管制頁面</a>來調整負荷的門檻。"
+
+#: modules/block/block.module:89
+msgid ""
+"Click the <em>configure</em> link next to each block to configure its "
+"specific title and visibility settings. Use the <a href=\"@add-block\">add "
+"block page</a> to create a custom block."
+msgstr ""
+"按下每個區塊旁邊的<em> 設定</em>連結來設定特別標題和可見性。可以用<a href="
+"\"@add-block\"> 加入區塊頁面</a>來建立一個自訂的 區塊。"
+
+#: modules/block/block.module:92
+msgid ""
+"Use this page to create a new custom block. New blocks are disabled by "
+"default, and must be moved to a region on the <a href=\"@blocks\">blocks "
+"administration page</a> to be visible."
+msgstr ""
+"使用這個頁面來建立一個新的自訂區塊。新的區塊預設是停用的而必須在<a href="
+"\"@blocks\"> 區塊設定頁面</a>中被移動到一個區域中才能被看到。"
+
+#: modules/block/block.module:315
+msgid "Block description"
+msgstr "區塊說明"
+
+#: modules/block/block.module:318
+msgid ""
+"A brief description of your block. Used on the <a href=\"@overview\">block "
+"overview page</a>."
+msgstr "區塊的簡要描述，用於 <a href=\"@overview\">區塊總覽</a> 頁面。"
+
+#: modules/block/block.module:325
+msgid "Block body"
+msgstr "區塊內容"
+
+#: modules/block/block.module:328
+msgid "The content of the block as shown to the user."
+msgstr "顯示給使用者看的區塊內容。"
+
+#: modules/block/block.module:361
+msgid "Block configuration"
+msgstr "區塊設定"
+
+#: modules/block/block.module:113
+msgid "administer blocks"
+msgstr "管理區塊"
+
+#: modules/block/block.module:113
+msgid "use PHP for block visibility"
+msgstr "使用 PHP 來控制區塊顯示"
+
+#: modules/block/block.module:121
+msgid "Blocks"
+msgstr "區塊"
+
+#: modules/block/block.module:122
+msgid ""
+"Configure what block content appears in your site's sidebars and other "
+"regions."
+msgstr "設定區塊內容出現在網站的邊欄或其他位置。"
+
+#: modules/block/block.module:133
+msgid "JavaScript List Form"
+msgstr "JavaScript清單表單"
+
+#: modules/block/block.module:140
+msgid "Configure block"
+msgstr "設定區塊"
+
+#: modules/block/block.module:148
+msgid "Delete block"
+msgstr "刪除區塊"
+
+#: modules/block/block.module:156
+msgid "Add block"
+msgstr "增加區塊"
+
+#: modules/block/block.module:0
+msgid "block"
+msgstr "區塊"
+
+#: modules/block/block.install:9
+msgid "Stores block settings, such as region and visibility settings."
+msgstr "儲存區塊的設定，像是區域和可見性設定。"
+
+#: modules/block/block.install:14
+msgid "Primary Key: Unique block ID."
+msgstr "Primary Key: 獨特的區塊ID。"
+
+#: modules/block/block.install:21
+msgid ""
+"The module from which the block originates; for example, 'user' for the "
+"Who's Online block, and 'block' for any custom blocks."
+msgstr ""
+"產生區塊的模組，比方說「使用者」模組產生「誰在線上」區塊，以及任何自訂的區"
+"塊。"
+
+#: modules/block/block.install:28
+msgid "Unique ID for block within a module."
+msgstr "模組產生之區塊的獨特識別碼。"
+
+#: modules/block/block.install:35
+msgid "The theme under which the block settings apply."
+msgstr "區塊設定生效的版型。"
+
+#: modules/block/block.install:42
+msgid "Block enabled status. (1 = enabled, 0 = disabled)"
+msgstr "區塊啟用狀態(1=啟用，0=停用)"
+
+#: modules/block/block.install:49
+msgid "Block weight within region."
+msgstr "區塊在區域中的權重。"
+
+#: modules/block/block.install:56
+msgid "Theme region within which the block is set."
+msgstr "這個區塊被設定出現的版型區域。."
+
+#: modules/block/block.install:63
+msgid ""
+"Flag to indicate how users may control visibility of the block. (0 = Users "
+"cannot control, 1 = On by default, but can be hidden, 2 = Hidden by default, "
+"but can be shown)"
+msgstr ""
+"指出使用可以怎麼樣控制區塊可見性的旗標(0=使用者不能控制，1=預設為啟動不過可以"
+"隱藏，2=預設為隱藏不過可以啟動)"
+
+#: modules/block/block.install:70
+msgid ""
+"Flag to indicate whether or not to remove block when website traffic is "
+"high. (1 = throttle, 0 = do not throttle)"
+msgstr "指出當網站為高負荷實是否要移除區塊的旗標。(1=負荷管制，0=不要管制)"
+
+#: modules/block/block.install:77
+msgid ""
+"Flag to indicate how to show blocks on pages. (0 = Show on all pages except "
+"listed pages, 1 = Show only on listed pages, 2 = Use custom PHP code to "
+"determine visibility)"
+msgstr ""
+"標示出要怎麼樣在頁面中顯示區塊(0=顯示在所有頁面中，除了列出來的頁面；1=只顯示"
+"在列出來的頁面中；2=使用自訂的php程式碼來決定可見性)"
+
+#: modules/block/block.install:82
+msgid ""
+"Contents of the \"Pages\" block; contains either a list of paths on which to "
+"include/exclude the block or PHP code, depending on \"visibility\" setting."
+msgstr ""
+"\"頁面\" 區塊的內容; 要嘛包含一個要包含或者排除這個區塊的路徑清單，要嘛包含"
+"php程式碼，取決於 \"visibility\" 的設定。"
+
+#: modules/block/block.install:89
+msgid ""
+"Custom title for the block. (Empty string will use block default title, "
+"<none> will remove the title, text will cause block to use specified title.)"
+msgstr ""
+"自訂區塊的標題(不填入字串將會以預設的標題顯示，填入<none>則會移除標題，填入文"
+"字則會讓區愧使用特定的標題)"
+
+#: modules/block/block.install:96
+msgid ""
+"Binary flag to indicate block cache mode. (-1: Do not cache, 1: Cache per "
+"role, 2: Cache per user, 4: Cache per page, 8: Block cache global) See "
+"BLOCK_CACHE_* constants in block.module for more detailed information."
+msgstr ""
+"指出區塊快取模式的二進位標志。(-1: 不要快取, 1: 依照角色快取, 2: 依照使用者快"
+"取, 4: 每頁快取, 8: 全域區塊快取) 見block.module中BLOCK_CACHE_* 常數以獲得更"
+"進一步的資訊。"
+
+#: modules/block/block.install:109
+msgid "Sets up access permissions for blocks based on user roles"
+msgstr "根據使用者角色設定區塊的存取權限"
+
+#: modules/block/block.install:115
+msgid "The block's origin module, from {blocks}.module."
+msgstr "這個區塊的來源模組是{blocks}.module."
+
+#: modules/block/block.install:121
+msgid "The block's unique delta within module, from {blocks}.delta."
+msgstr "這個區塊在模組中獨特的delta是 {blocks}.delta."
+
+#: modules/block/block.install:127
+msgid "The user's role ID from {users_roles}.rid."
+msgstr "使用者的角色識別碼來自於{users_roles}.rid."
+
+#: modules/block/block.install:141
+msgid "Stores contents of custom-made blocks."
+msgstr "自制區塊的儲存內容"
+
+#: modules/block/block.install:147
+msgid "The block's {blocks}.bid."
+msgstr "這個區塊的{blocks}.bid."
+
+#: modules/block/block.install:153
+msgid "Block contents."
+msgstr "區塊的內容"
+
+#: modules/block/block.install:160
+msgid "Block description."
+msgstr "區塊說明"
+
+#: modules/block/block.install:167
+msgid "Block body's {filter_formats}.format; for example, 1 = Filtered HTML."
+msgstr "區塊內文的{filter_formats}格式; 比方說, 1 = 過濾過的HTML"
+
+#: modules/block/block.install:175
+msgid ""
+"Cache table for the Block module to store already built blocks, identified "
+"by module, delta, and various contexts which may change the block, such as "
+"theme, locale, and caching mode defined for the block."
+msgstr ""
+"區塊模組的快取表格儲存了已經建立的區塊，透過模組、delta來識別，而且有很多情況"
+"會改變這個區塊，像是版型、語系以及區塊的快取模式設定。"
+
+#: modules/block/block.js:0
+msgid ""
+"The changes to these blocks will not be saved until the <em>Save blocks</em> "
+"button is clicked."
+msgstr "這些區塊的變更不會被儲存起來，除非您按下<em>儲存區塊</em> 的按鈕。"
+
+#: modules/block/block.module:276
+msgid ""
+"The block %info was assigned to the invalid region %region and has been "
+"disabled."
+msgstr "區塊 %info被指派到無效的區域 %region裡面，已經被停用了。"

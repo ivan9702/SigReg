@@ -1,0 +1,39 @@
+160127 14:18:28 [Note] Plugin 'InnoDB' is disabled.
+160127 14:18:29 [Note] Event Scheduler: Loaded 0 events
+160127 14:18:29 [Note] D:\TWAMPd\ap\mysqld.exe: ready for connections.
+Version: '5.1.49-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+160127 14:20:06 [Note] D:\TWAMPd\ap\mysqld.exe: Normal shutdown
+
+160127 14:20:06 [Note] Event Scheduler: Purging the queue. 0 events
+160127 14:20:06 [Note] D:\TWAMPd\ap\mysqld.exe: Shutdown complete
+
+160127 14:20:08 [Note] Plugin 'InnoDB' is disabled.
+160127 14:20:08 [Note] Event Scheduler: Loaded 0 events
+160127 14:20:08 [Note] D:\TWAMPd\ap\mysqld.exe: ready for connections.
+Version: '5.1.49-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+160127 14:53:19 [Note] D:\TWAMPd\ap\mysqld.exe: Normal shutdown
+
+160127 14:53:19 [Note] Event Scheduler: Purging the queue. 0 events
+160127 14:53:19 [Note] D:\TWAMPd\ap\mysqld.exe: Shutdown complete
+
+160127 14:53:19 [Note] Plugin 'InnoDB' is disabled.
+160127 14:53:19 [Note] Event Scheduler: Loaded 0 events
+160127 14:53:19 [Note] D:\TWAMPd\ap\mysqld.exe: ready for connections.
+Version: '5.1.49-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+160128 11:06:22 [Note] Plugin 'InnoDB' is disabled.
+160128 11:06:23 [Note] Event Scheduler: Loaded 0 events
+160128 11:06:23 [Note] D:\TWAMPd\ap\mysqld.exe: ready for connections.
+Version: '5.1.49-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+160128 17:46:36 [Note] Plugin 'InnoDB' is disabled.
+160128 17:46:36 [Note] Event Scheduler: Loaded 0 events
+160128 17:46:36 [Note] D:\TWAMPd\ap\mysqld.exe: ready for connections.
+Version: '5.1.49-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
+160129 23:27:28 [Note] D:\TWAMPd\ap\mysqld.exe: Normal shutdown
+
+160129 23:27:28 [Note] Event Scheduler: Purging the queue. 0 events
+160129 23:27:28 [Note] D:\TWAMPd\ap\mysqld.exe: Shutdown complete
+
+160201  9:59:02 [Note] Plugin 'InnoDB' is disabled.
+160201  9:59:02 [Note] Event Scheduler: Loaded 0 events
+160201  9:59:02 [Note] D:\TWAMPd\ap\mysqld.exe: ready for connections.
+Version: '5.1.49-community'  socket: ''  port: 3306  MySQL Community Server (GPL)
